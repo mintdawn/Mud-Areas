@@ -1,0 +1,549 @@
+#AREADATA
+Name        &@&l-&r{ &yBattles &r}&l-     &*&cDawn           &@&bThe &bL&ro&bo&rp&*                 ~
+Builders    none~
+VNUMs       14100 14199
+Recall      3001
+Security    2
+LEVELS      201 201
+Repop       &@&bTime &wto &@&rD&*&rI&@&rE&w!&*~
+Norecall    God has forsaken you.~
+Sname       &@&bThe &bL&ro&bo&rp&*~
+End
+
+
+#MOBILES
+#14100
+happy fun ball mbattle~
+&@&yH&la&yp&lp&yy &gFun &rBall &y:)&*~
+&@&rA happy rubber ball bounces around.&*
+~
+~
+8289 201861800 1000 S
+1200 0 0 0d0+0 0d0+0
+1000000 0
+0 0 0
+>fight_prog 25~
+mpecho &@&rThe ball bounces wildy off the walls!&*
+mpecho &@&yBOING!!!!!&*
+attack1
+attack2
+attack2
+~
+>fight_prog 35~
+smile $n
+bounce
+attack3
+attack3
+~
+>hitprcnt_prog 25~
+emote &@&wrolls over you!&*
+attack3
+attack3
+attack3
+~
+|
+#14101
+loopy battle cat hat mbattle~
+&@&wThe &rCat &win the &rH&wa&rt&*~
+&@&wThe Cat in the Hat comes back!&*
+~
+~
+8291 67633832 0 S
+1100 0 0 0d0+0 0d0+0
+2000000 0
+0 0 1
+>fight_prog 15~
+mpecho &@&wThe &rCat &win the &rH&wa&rt&* utters the words 'One fish, two fish, red fish, blue fish.'
+attack1
+attack2
+attack3
+bodyslam
+~
+>fight_prog 25~
+mpecho &@&wThe &rCat &win the &rH&wa&rt &woffers you some &gGreen eggs and ham&w...&*
+gore
+gore
+~
+>fight_prog 35~
+mpecho &@&wThe &rCat &win the &rH&wa&rt &wremoves his &rh&wa&rt&w...&*
+mpecho &@&rLittle cats A, B and C start in on the fight!&*
+claw
+claw
+bite
+claw
+~
+|
+#0
+
+
+#OBJECTS
+#14100
+loop hole~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+~
+27 0 0
+14109 0 0 0
+5 1000 0
+#14101
+loop hole~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+~
+27 0 0
+14114 0 0 0
+5 1000 0
+#14102
+loop hole~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+~
+27 0 0
+14119 0 0 0
+5 1000 0
+#14103
+loop hole~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+&@&b(&*&m(&@&l(&@&wA &bHOLE&@&l)&*&m)&@&b)&*~
+~
+27 0 0
+14124 0 0 0
+5 1000 0
+#0
+
+
+#ROOMS
+#14100
+&@&wThe &@&rA&*&rx&@&ri&*&rs&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14107
+D1
+~
+~
+0 0 14103
+D2
+~
+~
+0 0 14101
+D3
+~
+~
+0 0 14105
+D5
+~
+~
+0 0 14129
+S
+#14101
+&@&bHall of the &gSnake&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14100
+D2
+~
+~
+0 0 14102
+S
+#14102
+&@&wHall of the &gSnake&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14101
+S
+#14103
+&@&wHall of the &*&cWhale&*~
+~
+0 0 1
+D1
+~
+~
+0 0 14104
+D3
+~
+~
+0 0 14100
+S
+#14104
+&@&wHall of the &*&cWhale&*~
+~
+0 0 1
+D3
+~
+~
+0 0 14103
+S
+#14105
+&@&wHall of the &bSheep&*~
+~
+0 0 1
+D1
+~
+~
+0 0 14100
+D3
+~
+~
+0 0 14106
+S
+#14106
+&@&wHall of the &bSheep&*~
+~
+0 0 1
+D1
+~
+~
+0 0 14105
+S
+#14107
+&@&wHall of the &*&yHamster&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14108
+D2
+~
+~
+0 0 14100
+S
+#14108
+&@&wHall of the &*&yHamster&*~
+~
+0 0 1
+D2
+~
+~
+0 0 14107
+S
+#14109
+&@&bThe &yHabi&lT&yrail &bof &rD&*&re&@&ra&*&rt&@&rh&*~
+~
+0 0 1
+D1
+~
+~
+0 0 14110
+S
+#14110
+&@&bThe &yHabi&lT&yrail &bof &rD&*&re&@&ra&*&rt&@&rh&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14111
+D3
+~
+~
+0 0 14109
+T
+25
+&@&ySqueak! Squeak!&*
+~
+S
+#14111
+&@&bThe &yHabi&lT&yrail &bof &rD&*&re&@&ra&*&rt&@&rh&*~
+~
+0 0 1
+D0
+~
+~
+0 0 14112
+D2
+~
+~
+0 0 14110
+S
+#14112
+&@&bThe &yHabi&lT&yrail &bof &rD&*&re&@&ra&*&rt&@&rh&*~
+~
+0 0 1
+D1
+~
+~
+0 0 14113
+D2
+~
+~
+0 0 14111
+S
+#14113
+&@&bThe &yHabi&lT&yrail &bof &rD&*&re&@&ra&*&rt&@&rh&*~
+~
+0 0 1
+D3
+~
+~
+0 0 14112
+S
+#14114
+&@&bThe &rM&*&rurderou&@&rs &@&cA&*&cq&@&cu&*&ca&@&cr&*&ci&@&cu&*&cm&*
+~
+~
+0 0 6
+D0
+~
+~
+0 0 14115
+S
+#14115
+&@&bThe &rM&*&rurderou&@&rs &@&cA&*&cq&@&cu&*&ca&@&cr&*&ci&@&cu&*&cm&*
+~
+~
+0 0 6
+D1
+~
+~
+0 0 14116
+D2
+~
+~
+0 0 14114
+S
+#14116
+&@&bThe &rM&*&rurderou&@&rs &@&cA&*&cq&@&cu&*&ca&@&cr&*&ci&@&cu&*&cm&*
+~
+~
+0 0 6
+D1
+~
+~
+0 0 14117
+D3
+~
+~
+0 0 14115
+S
+#14117
+&@&bThe &rM&*&rurderou&@&rs &@&cA&*&cq&@&cu&*&ca&@&cr&*&ci&@&cu&*&cm&*
+~
+~
+0 0 6
+D0
+~
+~
+0 0 14118
+D3
+~
+~
+0 0 14116
+S
+#14118
+&@&bThe &rM&*&rurderou&@&rs &@&cA&*&cq&@&cu&*&ca&@&cr&*&ci&@&cu&*&cm&*
+~
+~
+0 0 6
+D2
+~
+~
+0 0 14117
+S
+#14119
+&@&bUnder &*&ma &yRock&*~
+~
+0 1 1
+D3
+~
+~
+0 0 14120
+S
+#14120
+&@&bUnder &*&ma &yRock&*~
+~
+0 1 1
+D1
+~
+~
+0 0 14119
+D2
+~
+~
+0 0 14121
+S
+#14121
+&@&bUnder &*&ma &yRock&*~
+~
+0 1 1
+D0
+~
+~
+0 0 14120
+D2
+~
+~
+0 0 14122
+S
+#14122
+&@&bUnder &*&ma &yRock&*~
+~
+0 1 1
+D0
+~
+~
+0 0 14121
+D3
+~
+~
+0 0 14123
+S
+#14123
+&@&bUnder &*&ma &yRock&*~
+~
+0 1 1
+D1
+~
+~
+0 0 14122
+S
+#14124
+&@&rB&*&rloo&@&rd&*&r-&@&rS&*&roake&@&rd &gG&*&gr&@&ya&gzing &*&yLands&*
+~
+~
+0 0 2
+D0
+~
+~
+0 0 14125
+S
+#14125
+&@&rB&*&rloo&@&rd&*&r-&@&rS&*&roake&@&rd &gG&*&gr&@&ya&gzing &*&yLands&*
+~
+~
+0 0 2
+D2
+~
+~
+0 0 14124
+D3
+~
+~
+0 0 14126
+T
+25
+&@&wBaaaaaah...&*
+~
+S
+#14126
+&@&rB&*&rloo&@&rd&*&r-&@&rS&*&roake&@&rd &gG&*&gr&@&ya&gzing &*&yLands&*
+~
+~
+0 0 2
+D1
+~
+~
+0 0 14125
+D3
+~
+~
+0 0 14127
+T
+25
+&@&r*&*&rSquish&@&r*&*
+~
+S
+#14127
+&@&rB&*&rloo&@&rd&*&r-&@&rS&*&roake&@&rd &gG&*&gr&@&ya&gzing &*&yLands&*
+~
+~
+0 0 2
+D0
+~
+~
+0 0 14128
+D1
+~
+~
+0 0 14126
+T
+25
+&@&wBaaaaaah...&*
+~
+S
+#14128
+&@&rB&*&rloo&@&rd&*&r-&@&rS&*&roake&@&rd &gG&*&gr&@&ya&gzing &*&yLands&*
+~
+~
+0 0 2
+D2
+~
+~
+0 0 14127
+T
+25
+&@&r*&*&rSquish&@&r*&*
+~
+S
+#14129
+&@&lSliding &cdown &wa &lF&cl&lu&cm&le &wof &lWater&*~
+~
+0 8704 0
+D5
+~
+~
+0 0 14130
+S
+#14130
+&@&lSliding &cdown &wa &lF&cl&lu&cm&le &wof &lWater&*~
+~
+0 8704 0
+D2
+~
+~
+0 0 14131
+S
+#14131
+&@&w*&c*&l*&wSplash&l*&c*&w*&*~
+~
+0 8704 0
+D5
+~
+~
+0 0 14132
+S
+#14132
+&@&wA &cC&lh&cu&lr&cn&li&cn&lg &cPool&*~
+&@&w*&c*&l*&wSplash&l*&c*&w*&*
+&@&cYou have landed in a shallow
+pool which churns wildly!&*
+~
+0 0 0
+S
+#0
+
+
+#RESETS
+O 0 14100 1 14108
+O 0 14101 1 14104
+O 0 14102 1 14102
+O 0 14103 1 14106
+O 0 14100 1 14128
+O 0 14101 1 14113
+O 0 14102 1 14118
+O 0 14103 1 14123
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 14100 spec_undead
+M 14101 spec_psi
+S
+
+
+
+#$
+

@@ -1,0 +1,1042 @@
+#AREADATA
+Name        &@&l-&r{ &yBattles &r}&l-     &*&cDawn           &@&rD&*&re&@&ra&*&rt&@&rh &bRooms&*              ~
+Builders    none~
+VNUMs       14000 14099
+Recall      3001
+Security    2
+LEVELS      201 201
+Repop       &@&bTime &wto &@&rD&*&rI&@&rE&w!&*~
+Norecall    &@&rW&*&rhat &@&band &rm&*&ri&@&rs&*&rs&@&b all the &rf&*&ru&@&rn&b?&*~
+Sname       &@&rD&*&re&@&ra&*&rt&@&rh &bRooms&*~
+End
+
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#14000
+battle heart portal~
+&@&bBattle &rH&*&re&@&ra&*&rr&@&rt &wPortal&*~
+&@&bBattle &rH&*&re&@&ra&*&rr&@&rt &wPortal&*~
+~
+27 0 0
+12008 0 0 0
+5 0 201
+#14001
+deathfield portal~
+&@&bDe&wat&bhf&wie&bld &rPortal&*~
+&@&bDe&wat&bhf&wie&bld &rPortal&*~
+~
+27 0 0
+13244 0 0 0
+5 0 201
+#14002
+closet portal~
+&@&bC&wl&bo&ws&be&wt &bof &rDeath&*~
+&@&bC&wl&bo&ws&be&wt &bof &rDeath&*~
+~
+27 0 0
+14003 0 0 0
+5 0 201
+#14003
+xanadu portal~
+&*&g %&@&c\&w*&c/&*&g%&@ &gX&wa&cn&ga&wd&cu &*&g%&@&c\&w*&c/&*&g%&*~
+&@&b A portal for &*&g %&@&c\&w*&c/&*&g%&@ &gX&wa&cn&ga&wd&cu &*&g%&@&c\&w*&c/&*&g% &@&bhovers above the ground.&*~
+~
+27 64 0
+14006 0 0 0
+5 0 0
+#14004
+paradox portal~
+&*&c<&@&c<&w*&c>&*&c>&@&lP&*&la&@&lr&*&wA&@&ld&*&lo&@&lX&*&c<&@&c<&w*&c>&*&c>&*~
+&@&b A portal for &*&c<&@&c<&w*&c>&*&c>&@&lP&*&la&@&lr&*&wA&@&ld&*&lo&@&lX&*&c<&@&c<&w*&c>&*&c>&* &@&bhovers above the~
+~
+27 64 0
+14007 0 0 0
+5 0 0
+#14005
+cavaliers portal~
+&*&y-=>&gC&@&ga&*&gv&@&ga&*&yl&@&gi&*&ge&@&gr&*&gs&y<=-&*~
+&@&b A portal for &*&y-=>&gC&@&ga&*&gv&@&ga&*&yl&@&gi&*&ge&@&gr&*&gs&y<=-&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14033 0 0 0
+5 0 0
+#14006
+outlaws portal~
+&@&r-&b>&*&w^&@&b/&r^&b<&*&wO&@&but&*&wl&@&baw&*&wS&@&b>&r^&b\&*&w^&@&b<&r-&*~
+&@&b A portal for &@&r-&b>&*&w^&@&b/&r^&b<&*&wO&@&but&*&wl&@&baw&*&wS&@&b>&r^&b\&*&w^&@&b<&r-&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14034 0 0 0
+5 0 0
+#14007
+quaestors portal~
+&@&l[&*&c>&@&w:&*&c<&@&l] &@&wQ&yu&*&ya&ce&@&ls&*&ct&yo&@&yr&wS &@&l[&*&c>&@&w:&*&c<&@&l]&*~
+&@&b A portal for &@&l[&*&c>&@&w:&*&c<&@&l] &@&wQ&yu&*&ya&ce&@&ls&*&ct&yo&@&yr&wS &@&l[&*&c>&@&w:&*&c<&@&l]&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14035 0 0 0
+5 0 0
+#14008
+heralds portal~
+&@&w.&r/&w^&r[&bH&we&rral&wd&bs&r]&w^&r\&w.&*~
+&@&b A portal for &@&w.&r/&w^&r[&bH&we&rral&wd&bs&r]&w^&r\&w.&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14009 0 0 0
+5 0 0
+#14009
+clan7 portal~
+&@&wClan 7&*~
+&@&b A portal for &@&wClan 7&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14036 0 0 0
+5 0 0
+#14010
+clan8 portal~
+&@&wClan 8&*~
+&@&b A portal for &@&wClan 8&* &@&bhovers above the ground.&*~
+~
+27 64 0
+14037 0 0 0
+5 0 0
+#0
+
+
+#ROOMS
+#14000
+&@&wThe &rR&*&ru&@&rm&*&rb&@&rl&*&re &@&bRoom&w!&*~
+~
+0 0 1
+D1
+~
+~
+0 -1 14001
+D3
+~
+~
+0 -1 14002
+S
+#14001
+&@&rT&*&ream &@&w1 &lPrep Room&*~
+~
+0 6561828 1
+D3
+~
+~
+0 -1 14000
+S
+#14002
+&@&rT&*&ream &@&w2 &lPrep Room&*~
+~
+0 6561828 1
+D1
+~
+~
+0 -1 14000
+S
+#14003
+&@&bC&wl&bo&ws&be&wt &bof &rDeath&*~
+~
+0 0 1
+S
+#14004
+&*&@&lClan Rumble Istruction Room&*~
+&@&rCLAN RUMBLE RULES
+&*
+&@&r1.) &wUnless informed by the &mImmortal&w running the battle,
+you may only use one character per battle, no alts will
+be allowed. You may change characters for different battles.
+&*
+&@&r2.)&w You may only use your own characters in the &lC&cla&ln &rBattles&w.
+&*
+&@&r3.) &wEach person will be dispelled upon entering the battle
+and there will be a time in which you and your &lc&cla&ln&w members
+may group and spell-up before the start of the &rbattle&w.
+&*
+&@&r4.)&w More rules may be added by the &mImmortal&w running the &rbattle&w.&*
+&*
+&@&r5.)&r E&yn&gj&lo&cy&w!!!!&*
+&*
+&@&rNOTE:&w It is the participants' duty to report anyone violating
+any of the above rules, and it is in your benefit to do so, obviously,
+as anyone violating the rules is also cheating to help their clan beat
+yours. :P Anyone caught violating the rules will automatically have all
+of their characters disqualified for that clan battle, and other
+disciplinary measures may be taken as well.&*
+~
+0 6562852 0
+D5
+~
+~
+0 -1 14005
+S
+#14005
+&@&wA Cleansing &*&yCavern&*~
+&@&wA steamy mist engulfs the room cleansing all within.&*
+~
+19 6562853 0
+D4
+~
+~
+0 -1 14004
+S
+#14006
+&*&g %&@&c\&w*&c/&*&g%&@ &gX&wa&cn&ga&wd&cu &*&g%&@&c\&w*&c/&*&g%&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D3
+~
+~
+0 -1 14008
+S
+#14007
+&*&c<&@&c<&w*&c>&*&c>&@&lP&*&la&@&lr&*&wA&@&ld&*&lo&@&lX&*&c<&@&c<&w*&c>&*&c>&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14008
+&*&@&rF&*&@&bi&*&@&rg&*&@&bh&*&@&rt T&*&@&bi&*&@&rm&*&@&be&*~
+~
+0 14950436 0
+S
+#14009
+&@&w.&r/&w^&r[&bH&we&rral&wd&bs&r]&w^&r\&w.&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14010
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<1-50> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<51-100> East
+&*
+~
+0 4 0
+D0
+~
+~
+0 -1 14011
+D1
+~
+~
+0 -1 14016
+D3
+~
+~
+0 -1 14015
+D5
+~
+~
+0 0 1407
+S
+#14011
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<101-150> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<151-200> East
+&*
+~
+0 0 0
+D0
+~
+~
+0 -1 14012
+D1
+~
+~
+0 -1 14018
+D2
+~
+~
+0 -1 14010
+D3
+~
+~
+0 -1 14017
+S
+#14012
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<201-250> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<251-300> East
+&*
+~
+0 0 0
+D0
+~
+~
+0 -1 14013
+D1
+~
+~
+0 -1 14020
+D2
+~
+~
+0 -1 14011
+D3
+~
+~
+0 -1 14019
+S
+#14013
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<301-350> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<351-400> East
+&*
+~
+0 0 0
+D1
+~
+~
+0 -1 14022
+D2
+~
+~
+0 -1 14012
+D3
+~
+~
+0 -1 14021
+D4
+~
+~
+0 -1 14014
+S
+#14014
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<401-450> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<451-500> East
+&*
+~
+0 0 0
+D0
+~
+~
+0 -1 14025
+D1
+~
+~
+0 -1 14024
+D3
+~
+~
+0 -1 14023
+D5
+~
+~
+0 -1 14013
+S
+#14015
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14010
+P
+0
+0 50
+&@&rYou are not the right level to enter.&*
+~
+S
+#14016
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14010
+P
+0
+51 100
+&@&rYou are not the right level to enter.&*
+~
+S
+#14017
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14011
+P
+0
+101 150
+&@&rYou are not the right level to enter.&*
+~
+S
+#14018
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14011
+P
+0
+151 200
+&@&rYou are not the right level to enter.&*
+~
+S
+#14019
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&c    ..&b\&w/    &*&y\ \
+&@&c   ... &b\     &*&y\ \
+&@&c  ...         &*&y\ \
+&@&c ...           &*&y\\\
+&@&c ..            &*&y(&@&y(&lO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14012
+P
+0
+201 250
+&@&rYou are not the right level to enter.&*
+~
+S
+#14020
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14012
+P
+0
+251 300
+&@&rYou are not the right level to enter.&*
+~
+S
+#14021
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14013
+P
+0
+301 350
+&@&rYou are not the right level to enter.&*
+~
+S
+#14022
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14013
+P
+0
+351 400
+&@&rYou are not the right level to enter.&*
+~
+S
+#14023
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14014
+P
+0
+401 450
+&@&rYou are not the right level to enter.&*
+~
+S
+#14024
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14014
+P
+0
+451 500
+&@&rYou are not the right level to enter.&*
+~
+S
+#14025
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<501-550> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<551-600> East
+&*
+~
+0 0 0
+D0
+~
+~
+0 -1 14028
+D1
+~
+~
+0 1 14026
+D2
+~
+~
+0 -1 14014
+D3
+~
+~
+0 -1 14027
+S
+#14026
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14025
+P
+0
+551 600
+&@&rYou are not the right level to enter.&*
+~
+S
+#14027
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14025
+P
+0
+501 550
+&@&rYou are not the right level to enter.&*
+~
+S
+#14028
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w<&*&w<&@&b-==|&w0   &gLevels &w<601-650> West
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<651-700> East
+&*
+~
+0 0 0
+D0
+~
+~
+0 -1 14031
+D1
+~
+~
+0 -1 14029
+D2
+~
+~
+0 -1 14025
+D3
+~
+~
+0 -1 14030
+S
+#14029
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D3
+~
+~
+0 -1 14028
+P
+0
+651 700
+&@&rYou are not the right level to enter.&*
+~
+S
+#14030
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D1
+~
+~
+0 -1 14028
+P
+0
+601 650
+&@&rYou are not the right level to enter.&*
+~
+S
+#14031
+&*&yThe &@&rSparring &bHall&*~
+&@&r  The sounds of battle echo through the halls
+the great fighters and spell casters of Chaos
+may hone their battle skills here in small duels.
+Just enter the Battle Chamber for your level range
+and be prepared for a fight. Fleeing or trying to
+recall during a battle may result in experience
+loss so be ready to stand your ground.&*
+
+&@&w0&b|==-&*&w>&@&w>   &gLevels &w<All> Up
+
+&*
+~
+0 0 0
+D2
+~
+~
+0 -1 14028
+D4
+~
+~
+0 -1 14032
+S
+#14032
+&@&rBattle &bChamber&*~
+&@&w                 __
+&@&w \ | /          &w/ /
+&*&y (&@&y<&g*&y>&*&y)         &@&w/ /
+&*&y   \\\        &@&w/ /
+&*&y    \ \      &@&w/ /
+&*&y     \ \    &@&w/ /
+&*&y      \ \  &@&w/ /
+&*&y       \ \&@&w/ /
+&*&y        \ \&@&w/
+&@&w        /&*&y\ \
+&@&w       / /&*&y\ \
+&@&b    \,&w/ /  &*&y\ \
+&@&r    ..&b\&w/    &*&y\ \
+&@&r   ... &b\     &*&y\ \
+&@&r  ...         &*&y\ \
+&@&r ...           &*&y\\\
+&@&r ..            &*&y(&@&y(&cO&y)&*&y)
+&*
+~
+0 14942256 0
+D5
+~
+~
+0 -1 14031
+S
+#14033
+&*&y-=>&gC&@&ga&*&gv&@&ga&*&yl&@&gi&*&ge&@&gr&*&gs&y<=-&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14034
+&@&r-&b>&*&w^&@&b/&r^&b<&*&wO&@&but&*&wl&@&baw&*&wS&@&b>&r^&b\&*&w^&@&b<&r-&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14035
+&@&l[&*&c>&@&w:&*&c<&@&l] &@&wQ&yu&*&ya&ce&@&ls&*&ct&yo&@&yr&wS &@&l[&*&c>&@&w:&*&c<&@&l]&* &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14036
+&@&wClan 7 &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#14037
+&@&wClan 8 &@&lPrep Room&*~
+&*&@&lPlease do not enter portal until it is time to fight!&*
+&*&@&lAlso please make sure you read &*&@&rHelp Clan Rumble&* &@&lif you havn't already
+&*&@&lto undersand how to play clan rumble&*
+~
+0 6561828 0
+D1
+~
+~
+0 -1 14008
+S
+#0
+
+
+#RESETS
+O 0 14003 0 14005
+O 0 14004 0 14005
+O 0 14005 0 14005
+O 0 14006 0 14005
+O 0 14007 0 14005
+O 0 14008 0 14005
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+S
+
+
+
+#$
+

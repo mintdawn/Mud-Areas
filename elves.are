@@ -1,0 +1,1486 @@
+#AREADATA
+Name        &@&l-&r{   &y1  &g30 &r}&l-     &*&cDawn/Piers     &*&yThe &@&gTown&* &yof &@&gL&*&ge&ya&@&gf&*         ~
+Builders    none~
+VNUMs       1300 1355
+Recall      1331
+Security    1
+LEVELS      1 30
+Repop       &@&gThe &cwind &*&yrustles &@&gthrough the &*&yt&gr&ye&ge&ys&@&g...&*~
+Norecall    God has forsaken you.~
+Sname       &*&yThe &@&gTown&* &yof &@&gL&*&ge&ya&@&gf&*~
+End
+
+
+#MOBILES
+#1300
+elven girl~
+an &@&ge&*&glven &@&wg&girl&*~
+A small elf girl skips through the streets.
+~
+~
+65 0 500 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 2
+#1301
+elven boy~
+an &@&ge&*&glven &@&wb&goy&*~
+A young elf plays with darts.
+~
+~
+65 0 -500 S
+12 0 0 0d0+0 0d0+0
+1200 0
+0 0 1
+#1302
+elven baby~
+an &@&ge&*&glven &@&wbaby&*~
+A baby elf crawls along the ground.
+~
+~
+65 0 1000 S
+5 0 0 0d0+0 0d0+0
+500 0
+0 0 2
+#1303
+elven archer~
+an &@&ge&*&glven &*&yarcher&*~
+An elf with a quiver on his back strolls by.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 1
+#1304
+elven archer~
+an &@&ge&*&glven &@&yarcher&*~
+A female elf readies her bow to shoot.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 2
+#1305
+elven elder~
+an &@&ge&*&glven &@&belder&*~
+An old elf recites complex chants.
+~
+~
+65 0 0 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 1
+#1306
+elven elder~
+&@&ge&*&glven &@&belder&*~
+An old woman mixes an elven brew.
+~
+~
+65 0 0 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 2
+#1307
+evil ogre~
+an &@&rE&*&rv&@&ri&*&rl &@&gOgre&*~
+An evil ogre is chained to the wall for trying to eat villagers.
+~
+~
+67 0 -1000 S
+30 0 0 0d0+0 0d0+0
+14750 0
+0 0 1
+#1308
+jailor~
+the &@&bJailor&*~
+A dark form stands watch over the jail cell and protects the village.
+~
+~
+67 128 1000 S
+28 0 0 0d0+0 0d0+0
+6950 0
+0 0 1
+#1309
+living tree~
+a &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTree&*~
+&@&gA huge oak spreads its branches to form the village walls.&*
+~
+~
+67 0 1000 S
+18 0 0 0d0+0 0d0+0
+1800 0
+0 0 0
+>greet_prog 15~
+emote &@&gthrows an &rapple &gat you!&*
+~
+|
+#1310
+giant owl~
+a &*&rgiant &@&bo&ww&*&yl&*~
+&*&rAn owl trained by the elves guards the village from intruders.&*
+~
+~
+67 0 1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#1311
+elven vender~
+an &@&ge&*&glven &@&gvendor&*~
+An elf tries to sell you something.
+~
+~
+67 168 0 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+>give_prog shopping list quest~
+if isrog ($n)
+tell $n Oh so you want to make a special weapon do you?
+tell $n I have just the thing, let me find it.
+mpoload 1302 
+mpnameit yellow yellow herb quest
+drop yellow
+mpforce $n get yellow
+else
+bonk $n
+endif
+~
+|
+#1312
+elven vendor~
+an &@&ge&*&glven &@&gvendor&*~
+An elf praises his goods.
+~
+~
+67 680 0 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+>give_prog mad love rose quartz vial~
+emote utters the words, 'esmolamnexai'.
+say Ahh, love.
+smile
+mpjunk love
+emote runs over to the vendor next door and returns with apples and almonds.
+emote crushes the apples and almonds into a fine paste.
+emote mixes them with spring water and holds the vial to the sky.
+mpecho Light shimmers through the vial and lands on the old elf's lips.
+emote softly kisses the vial and looks 100 years younger.
+mpecho The liquid in the vial swirls and becomes a maddening &@&mpink&*.
+say This will do.
+emote attempts to hand you the potion and spills some on himself...
+emote looks very strange for a second.
+flirt $n
+emote takes your hands lovingly.
+mpoload 7632
+give love $n
+say Promise you will come back and marry me!
+pkiss $n
+love $n
+mpecho &@&rHopefully the spell will wear off him soon.. 
+mpecho &@&rsince the blood hasn't been added.&*
+~
+|
+#1313
+elven vendor~
+an &@&ge&*&glven &@&gvendor&*~
+A girl asks if you would like to buy something.
+~
+~
+67 168 0 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 2
+#1314
+elven vendor~
+an &@&ge&*&glven &@&gvendor&*~
+A woman counts her gold and straightens her stock.
+~
+~
+67 168 0 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#1315
+giant owl~
+a &*&rgiant &@&bo&ww&*&yl&*~
+&*&rAn owl trained by the elves guards the village from intruders.&*
+~
+~
+67 0 1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#1316
+giant owl~
+a &*&rgiant &@&bo&ww&*&yl&*~
+&*&rAn owl trained by the elves guards the village from intruders.&*
+~
+~
+67 0 1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#1317
+giant owl~
+a &*&rgiant &@&bo&ww&*&yl&*~
+&*&rAn owl trained by the elves guards the village from intruders.&*
+~
+~
+67 0 1000 S
+15 0 0 0d0+0 0d0+0
+1800 0
+0 0 1
+#1318
+living tree~
+a &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTree&*~
+&@&gA huge oak spreads its branches to form the village walls.&*
+~
+~
+67 0 1000 S
+18 0 0 0d0+0 0d0+0
+1800 0
+0 0 0
+>greet_prog 15~
+emote &@&gsoftly warns you to behave yourself.&*
+~
+|
+#1319
+living tree~
+a &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTree&*~
+&@&gA huge oak spreads its branches to form the village walls.&*
+~
+~
+67 0 1000 S
+18 0 0 0d0+0 0d0+0
+1800 0
+0 0 0
+>greet_prog 15~
+emote &@&gpoints a branch at you!&*
+~
+|
+#1320
+living tree~
+a &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTree&*~
+&@&gA huge oak spreads its branches to form the village walls.&*
+~
+~
+67 0 1000 S
+18 0 0 0d0+0 0d0+0
+1800 0
+0 0 0
+>greet_prog 15~
+emote &@&grustles as you pass.&*
+~
+|
+#0
+
+
+#OBJECTS
+#1300
+stone well~
+&@&b[&*&w[&@&w[&lA &@&bS&*&wt&@&wo&*&wn&@&be &lWell&w]&*&w]&@&b]&*~
+&@&b[&*&w[&@&w[&lA &@&bS&*&wt&@&wo&*&wn&@&be &lWell&w]&*&w]&@&b]&*~
+~
+25 0 0
+0 0 0 0
+5 0 10
+#1301
+elven green herb~
+a &@&ggreen herb&*~
+Some herbs are here.~
+~
+26 64 1
+30 56 -1 -1
+5 1111 10
+#1302
+yellow herb~
+a &@&yyellow herb&*~
+Some herbs are here.~
+~
+26 64 1
+30 181 -1 -1
+5 1111 10
+#1303
+red herb~
+a &@&rred herb&*~
+Some herbs are here.~
+~
+26 64 1
+30 39 -1 -1
+5 1111 10
+#1304
+blue herb~
+a &@&lblue herb&*~
+Some herbs are here.~
+~
+26 64 1
+30 1 -1 -1
+5 1111 10
+#1305
+clay cup~
+a &*&yclay cup&*~
+A cup is here. Want some?~
+~
+17 0 1
+200 200 11 0
+2 1111 10
+#1306
+knitted sack~
+a &*&gk&@&wn&*&gi&@&wt&*&gt&@&we&*&gd &*&ysack&*~
+A bag is here.~
+~
+15 0 1
+300 0 0 0
+5 1111 10
+#1307
+knitted coat~
+a &*&gk&@&wn&*&gi&@&wt&*&gt&@&we&*&gd &*&ycoat&*~
+A nice warm coat is here.~
+~
+9 0 1025
+5 0 0 0
+5 1111 10
+A
+17 -5
+#1308
+berry~
+a &@&rb&*&me&@&rr&*&mr&@&ry&*~
+A tiny berry is here.~
+~
+19 0 1
+10 0 0 0
+1 11 10
+#1309
+apple~
+an &@&gapple&*~
+An apple is here.~
+~
+19 0 1
+13 0 0 0
+2 11 10
+#1310
+grapes~
+some &*&mgrapes&*~
+Peel me a grape.~
+~
+19 0 1
+12 0 0 0
+2 11 10
+#1311
+almonds~
+some &*&yalmonds&*~
+Sometimes you feel like a nut.~
+~
+19 0 1
+20 0 0 0
+3 11 10
+#1312
+elven chocolate chip cookies~
+&@&ge&*&glven &*&ychocolate&@&y-&@&bchip &@&ycookies&*~
+Cookies fresh from the tree.~
+~
+19 64 1
+25 0 0 0
+5 11 10
+#1313
+flower brew~
+a &@&mf&*&ml&@&mo&*&mw&@&me&*&mr &@&wbrew&*~
+An elven potion is here.~
+~
+10 192 1
+30 80 -1 -1
+5 1111 10
+#1314
+fern brew~
+a &@&gf&*&ge&@&gr&*&gn &@&wbrew&*~
+An elven potion is here.~
+~
+10 192 1
+30 19 -1 -1
+5 1111 10
+#1315
+tree brew~
+a &*&gt&yr&ge&ye &@&wbrew&*~
+An elven brew is here.~
+~
+10 192 1
+30 81 -1 -1
+5 1111 10
+#1316
+an arrow~
+an &*&yarrow&*~
+A sword rests here.~
+~
+9 0 16385
+0 0 0 0
+5 0 26
+A
+2 4
+A
+19 1
+#1317
+flower pendant~
+a &@&mflower &ypendant&*~
+A tiny flower is here.~
+~
+13 0 1
+1318 1319 0 0
+1 0 10
+#1318
+thin cord~
+a &@&bthin cord&*~
+A thin cord perfect for stringing a necklace lies here.~
+~
+13 0 1
+1317 1319 0 0
+1 0 10
+#1319
+flower choker~
+a &@&mf&*&ml&@&mo&*&mw&@&me&*&mr &@&bchoker&*~
+A small necklace with a flower on it is here.~
+~
+9 0 5
+8 0 0 0
+2 0 20
+A
+12 20
+#1320
+key~
+a &@&btin key&*~
+A key is here.~
+~
+18 0 1
+0 0 0 0
+2 0 10
+#1321
+mural twilight~
+a &*&yMural&* of &@&rT&yw&wilig&ch&lt&*~
+A &*&yMural&* of &@&rT&yw&wilig&ch&lt&* invites you.~
+~
+27 64 0
+1400 -1 0 0
+0 0 10
+#1322
+evil ogre boots~
+&@&rE&*&rv&@&ri&*&rl &@&gOgre &bB&*&ro&@&bo&*&rt&@&bs&*~
+Some nasty bloodstained boots drip in the grass.~
+~
+9 0 65
+0 0 0 0
+6 1111 30
+A
+19 2
+A
+18 2
+#1323
+vine ladder~
+a &*&yladder&* made from &@&gvines&*~
+A &*&yladder&* made from &@&gvines&* hangs from a branch above you.~
+~
+29 0 0
+1355 0 0 0
+0 0 10
+#1324
+vine ladder~
+a &*&yladder&* made from &@&gvines&*~
+A &*&yladder&* made from &@&gvines&* hangs from a branch below you.~
+~
+29 0 0
+1331 0 0 0
+0 0 10
+#0
+
+
+#ROOMS
+#1300
+Forest of &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTrees&*~
+You walk through a bristling forest the trees around you seem to sense your passing and spread their branches to touch each other.
+~
+0 0 3
+D0
+~
+~
+0 0 12713
+D2
+~
+~
+0 -1 1301
+S
+#1301
+Forest of &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTrees&*~
+You walk through a bristling forest the trees around you seem to sense your passing and spread their branches to touch each other.
+~
+0 0 3
+D0
+~
+~
+0 -1 1300
+D3
+~
+~
+0 -1 1302
+S
+#1302
+Forest of &@&gL&*&gi&@&gv&*&gi&@&gn&*&gg &*&yTrees&*~
+You walk through a bristling forest the trees around you seem to sense your passing and spread their branches to touch each other.
+~
+0 0 3
+D1
+~
+~
+0 -1 1301
+D2
+~
+~
+0 -1 1303
+S
+#1303
+Strong &*&yWooden Gates&*~
+Tall wooden gates block the trail. You can go back through the forest or dare to enter the gates and find what is within.
+~
+0 0 1
+D0
+~
+~
+0 -1 1302
+D2
+~
+strong wooden gates~
+1 -1 1304
+S
+#1304
+&@&gInside a &wSmall &*&yVillage&*~
+Just inside the gate the main square of a busy elven village can be seen. Huts lie in lines beside the central shopping area. A stone well sits are the very center of the town so all may share water. 
+The village is surrounded by tremendous oaks. They enclose it and probit anyone from entering the village accept through the main gate.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+1 -1 1303
+D1
+~
+~
+0 -1 1328
+D2
+~
+~
+0 -1 1329
+D3
+~
+~
+0 -1 1305
+S
+#1305
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1304
+D2
+~
+~
+0 -1 1334
+D3
+~
+~
+0 -1 1306
+S
+#1306
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1305
+D3
+~
+~
+0 -1 1307
+S
+#1307
+&@&gA &rGuarded &bCorner&*~
+One of the fierce elven guardians keeps watch here where two paths converge in the village. Even if you do not see him do not doubt it may indeed be there, blending into the ferns, just out of sight.
+~
+0 0 3
+D1
+~
+~
+0 -1 1306
+D2
+~
+~
+0 -1 1308
+S
+#1308
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1307
+D2
+~
+~
+0 -1 1309
+S
+#1309
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1308
+D2
+~
+~
+0 -1 1310
+S
+#1310
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1309
+D2
+~
+~
+0 -1 1311
+S
+#1311
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1310
+D2
+~
+~
+0 -1 1312
+S
+#1312
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1311
+D2
+~
+~
+0 -1 1313
+S
+#1313
+&@&gA &rGuarded &bCorner&*~
+One of the fierce elven guardians keeps watch here where two paths converge in the village. Even if you do not see him do not doubt it may indeed be there, blending into the ferns, just out of sight.
+~
+0 0 3
+D0
+~
+~
+0 -1 1312
+D1
+~
+~
+0 -1 1314
+S
+#1314
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1315
+D3
+~
+~
+0 -1 1313
+S
+#1315
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1338
+D1
+~
+~
+0 -1 1316
+D3
+~
+~
+0 -1 1314
+S
+#1316
+&@&gThe &bJailor's &wPost&*~
+Below you is a dark cell usually guarded by a dark jailor. People who have given great offense to the village are locked there to await their sentencing.
+~
+0 0 3
+D0
+~
+~
+0 -1 1333
+D1
+~
+~
+0 -1 1318
+D3
+~
+~
+0 -1 1315
+D5
+~
+cell door~
+1 1320 1317
+S
+#1317
+&@&bJail Cell&*~
+What did you do to get in here?
+~
+0 0 3
+D4
+~
+cell door~
+1 1320 1316
+S
+#1318
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1348
+D1
+~
+~
+0 -1 1319
+D3
+~
+~
+0 -1 1316
+S
+#1319
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1320
+D3
+~
+~
+0 -1 1318
+S
+#1320
+&@&gA &rGuarded &bCorner&*~
+One of the fierce elven guardians keeps watch here where two paths converge in the village. Even if you do not see him do not doubt it may indeed be there, blending into the ferns, just out of sight.
+~
+0 0 3
+D0
+~
+~
+0 -1 1321
+D3
+~
+~
+0 -1 1319
+S
+#1321
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1322
+D2
+~
+~
+0 -1 1320
+S
+#1322
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1323
+D2
+~
+~
+0 -1 1321
+S
+#1323
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1324
+D2
+~
+~
+0 -1 1322
+S
+#1324
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1325
+D2
+~
+~
+0 -1 1323
+S
+#1325
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D0
+~
+~
+0 -1 1326
+D2
+~
+~
+0 -1 1324
+S
+#1326
+&@&gA &rGuarded &bCorner&*~
+One of the fierce elven guardians keeps watch here where two paths converge in the village. Even if you do not see him do not doubt it may indeed be there, blending into the ferns, just out of sight.
+~
+0 0 3
+D2
+~
+~
+0 -1 1325
+D3
+~
+~
+0 -1 1327
+S
+#1327
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1326
+D3
+~
+~
+0 -1 1328
+S
+#1328
+&@&gGuarded &yP&*&yath&*~
+A trail leads around the village. The trees warn you not to try and pass them. They bristle as you pass. 
+The presence of the elves has caused the nearby plantlife to become a bit more animated than usual. Natural magic has changed the wide oaks into strong guardians for the elves.
+~
+0 0 3
+D1
+~
+~
+0 -1 1327
+D2
+~
+~
+0 -1 1344
+D3
+~
+~
+0 -1 1304
+S
+#1329
+&@&gA &ySmall &*&yShopping Stall&*~
+A stall packed with elven goods stands in the center of the town. The elves come to the center of the village to trade with each other and socialize.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1304
+D1
+~
+~
+0 -1 1344
+D2
+~
+~
+0 -1 1330
+D3
+~
+~
+0 -1 1334
+S
+#1330
+&@&gA &ySmall &*&yShopping Stall&*~
+A stall packed with elven goods stands in the center of the town. The elves come to the center of the village to trade with each other and socialize.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1329
+D1
+~
+~
+0 -1 1345
+D2
+~
+~
+0 -1 1331
+D3
+~
+~
+0 -1 1335
+S
+#1331
+&@&gThe &*&yVillage &@&wCenter&*~
+A stone well marks the center of the village. Pebbles have been laid into a mosaic of leaves around the well. To the east and west, lay elven huts. To the north and south, lay venders stalls and open shops. There is a storage pit in the ground. An enormous oak springs from the ground here and shades the square.
+
+&@&gA magical mural is here. Type &wnav mural &gto enter &@&rT&yw&wilig&ch&lt &wTemple&*.
+~
+0 4 1
+D0
+~
+strong wooden gates~
+0 -1 1330
+D1
+~
+~
+0 -1 1346
+D2
+~
+~
+0 -1 1332
+D3
+~
+~
+0 -1 1336
+D5
+~
+~
+0 -1 1354
+S
+#1332
+&@&gA &ySmall &*&yShopping Stall&*~
+A stall packed with elven goods stands in the center of the town. The elves come to the center of the village to trade with each other and socialize.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1331
+D1
+~
+~
+0 -1 1347
+D2
+~
+~
+0 -1 1333
+D3
+~
+~
+0 -1 1337
+S
+#1333
+&@&gA &ySmall &*&yShopping Stall&*~
+A stall packed with elven goods stands in the center of the town. The elves come to the center of the village to trade with each other and socialize. To the south is the jailor's post.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1332
+D1
+~
+~
+0 -1 1348
+D2
+~
+~
+0 -1 1316
+D3
+~
+~
+0 -1 1338
+S
+#1334
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The outline of a &*&ybear&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+~
+0 -1 1305
+D1
+~
+~
+0 -1 1329
+D2
+~
+~
+0 -1 1335
+D3
+~
+~
+0 -1 1343
+S
+#1335
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The outline of a &@&bwolf&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1334
+D1
+~
+~
+0 -1 1330
+D2
+~
+~
+0 -1 1336
+D3
+~
+~
+0 -1 1342
+S
+#1336
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The image of a &@&ywildflower&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1335
+D1
+~
+~
+0 -1 1331
+D2
+~
+~
+0 -1 1337
+D3
+~
+~
+0 -1 1341
+S
+#1337
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The form of an &@&bo&ww&*&yl&* has been etched into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1336
+D1
+~
+~
+0 -1 1332
+D2
+~
+~
+0 -1 1338
+D3
+~
+~
+0 -1 1340
+S
+#1338
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. A picture of a &@&gwillow &*&ytree&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1337
+D1
+~
+~
+0 -1 1333
+D2
+~
+~
+0 -1 1315
+D3
+~
+~
+0 -1 1339
+S
+#1339
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D1
+~
+~
+0 -1 1338
+S
+#1340
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D1
+~
+~
+0 -1 1337
+S
+#1341
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D1
+~
+~
+0 -1 1336
+S
+#1342
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D1
+~
+~
+0 -1 1335
+S
+#1343
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D1
+~
+~
+0 -1 1334
+S
+#1344
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The image of a &@&yw&ba&ys&bp&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+~
+0 -1 1328
+D1
+~
+~
+0 -1 1353
+D2
+~
+~
+0 -1 1345
+D3
+~
+~
+0 -1 1329
+S
+#1345
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The form of a &*&yh&@&wa&bwk&* has been carved into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1344
+D1
+~
+~
+0 -1 1352
+D2
+~
+~
+0 -1 1346
+D3
+~
+~
+0 -1 1330
+S
+#1346
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. A picture of a &@&gf&*&grog&* has been carved into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1345
+D1
+~
+~
+0 -1 1351
+D2
+~
+~
+0 -1 1347
+D3
+~
+~
+0 -1 1331
+S
+#1347
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. The image of a &@&cf&*&gi&@&cs&*&gh&* has been cut into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1346
+D1
+~
+~
+0 -1 1350
+D2
+~
+~
+0 -1 1348
+D3
+~
+~
+0 -1 1332
+S
+#1348
+&@&gThe E&*&glven &yVillage&*~
+Sounds rise from the elven huts and shops. Flowers and leaves saturate the air with their perfume. A picture of a &@&yb&*&yu&@&yt&*&yt&@&ye&*&yr&@&yf&*&yl&@&yy&* has been etched into the clay stones of the village streets.
+~
+0 0 1
+D0
+~
+strong wooden gates~
+0 -1 1347
+D1
+~
+~
+0 -1 1349
+D2
+~
+~
+0 -1 1318
+D3
+~
+~
+0 -1 1333
+S
+#1349
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D3
+~
+~
+0 -1 1348
+S
+#1350
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D3
+~
+~
+0 -1 1347
+S
+#1351
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D3
+~
+~
+0 -1 1346
+S
+#1352
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D3
+~
+~
+0 -1 1345
+S
+#1353
+&@&gAn E&*&glven &yHut&*~
+This is a small dusty sleeping hut. A bed of dried leaves lies in the corner. Many small treasures lie scattered around the room.
+~
+0 0 0
+D3
+~
+~
+0 -1 1344
+S
+#1354
+Storage Pit~
+This is a pit used for storing elven surplus.
+~
+0 0 0
+D4
+~
+~
+0 -1 1331
+S
+#1355
+&@&wMelding &gT&*&gr&yee&*~
+Elves climb to this sturdy branch and strengthen their weapons
+in the arms of this great oak.
+~
+0 16777216 0
+S
+#0
+
+
+#RESETS
+D 0 1303 2 1
+D 0 1304 0 1
+D 0 1317 4 2
+D 0 1316 5 2
+M 0 1311 1 1329
+G 0 1301 100
+G 0 1302 100
+G 0 1303 100
+G 0 1304 100
+M 0 1313 1 1330
+G 0 1305 100
+G 0 1306 100
+G 0 1307 100
+M 0 1308 1 1316
+G 0 1320 0
+M 0 1307 1 1317
+E 0 1322 1 8
+M 0 1310 1 1305
+M 0 1315 1 1310
+M 0 1316 1 1323
+M 0 1317 1 1328
+M 0 1309 1 1307
+M 0 1318 1 1313
+M 0 1319 1 1320
+M 0 1320 1 1326
+M 0 1314 1 1332
+G 0 1308 100
+G 0 1309 100
+G 0 1310 100
+G 0 1311 100
+G 0 1312 100
+M 0 1312 1 1333
+G 0 1313 100
+G 0 1314 100
+G 0 1315 100
+M 0 1303 2 1308
+E 0 1316 100 17
+M 0 1303 2 1321
+M 0 1304 2 1312
+M 0 1304 2 1325
+M 0 1302 4 1343
+M 0 1302 4 1339
+M 0 1302 4 1353
+M 0 1302 4 1349
+M 0 1300 3 1334
+G 0 1317 100
+M 0 1300 3 1346
+M 0 1300 3 1338
+M 0 1301 3 1344
+M 0 1301 3 1336
+M 0 1301 3 1348
+G 0 1318 100
+M 0 1305 2 1342
+M 0 1305 2 1347
+M 0 1306 2 1340
+M 0 1306 2 1352
+O 0 1300 1 1331
+O 0 1321 1 1331
+O 0 1323 1 1331
+O 0 1324 1 1355
+S
+
+
+#SHOPS
+1311 0 0 0 0 0 100 100 3 23
+1312 0 0 0 0 0 100 100 3 23
+1313 0 0 0 0 0 100 100 3 23
+1314 0 0 0 0 0 100 100 3 23
+0
+
+
+#SPECIALS
+S
+
+
+
+#$
+

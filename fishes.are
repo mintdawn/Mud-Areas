@@ -1,0 +1,4086 @@
+#AREADATA
+Name        &@&l-&r{  &y90 &g110 &r}&l-     &*&cDawn           &@&gF&*&gi&@&gs&*&gh&@&ge&*&gs&w&*  ~
+Builders    none~
+VNUMs       9900 10099
+Recall      3001
+Security    1
+LEVELS      80 120
+Repop       &@&wA &ccool &lc&wu&lr&wr&le&wn&lt &wrevives the &gs&ce&ga&w...&*~
+Norecall    God has forsaken you.~
+Sname       &@&gF&*&gi&@&gs&*&gh&@&ge&*&gs&w&*~
+End
+
+
+#MOBILES
+#9900
+seaweed sea weed~
+&*&g--&@&g`&*&g-&@&gS&*&ye&ga&@&gw&*&ye&ge&@&gd&*&g-&@&g,&*&g--&w&*~
+&@&bA &ggreen &band twisting clump of &gseaweed &bfloats here.&w&*
+~
+Tangled green weeds from the sea, some of which look much like grass.
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 0
+>death_prog 15~
+mpecho &@&bA blade of &@&g`&*&g-&@&g.&*&gS&@&ge&*&ya&*&gG&@&gr&*&yass&@&g'&*&g-&@&g, &bfloats to the sandy floor.&w&*
+mpoload 9905
+~
+|
+#9901
+goldfish gold fish yellow~
+&@&y<&*&y@&@&y><<&w&*~
+&@&bA &ygolden &bfish swims in the sun.&w&*
+~
+A fish who shines like the sun glints golden slices through the water as an amber dart.
+~
+8257 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 96
+0 0 0
+>death_prog 25~
+mpecho &@&bThe &*&rdying &@&yfish &btries to escape through narrow crack!&w&*
+mpoload 9920
+~
+|
+#9902
+starfish star fish~
+&@&y'&*&y.&@&y><&w+&yS&*&ytar&@&w+&yF&*&yish&@&w+&y><&*&y.&@&y'&w&*~
+&@&bA &*&ystarfish &@&brests here.&w&*
+~
+&@&bA five armed starfish plucked from the heavens adorns the sea.&w&*
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 2
+0 0 0
+#9903
+fish green~
+&@&g<&*&g@&@&g><&w&*~
+&@&bA &ggreen &bfish swims by.&w&*
+~
+A beautiful fish with emerald scales who blends gently with the sea grasses.
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 96
+0 0 0
+#9904
+fish pink purple magenta~
+&@&m<&*&m@&@&m><&w&*~
+&@&bA &mrose &bcolored fish swims around your ankle.&w&*
+~
+A pink fish who could easily be mistaken for a rose of the sea.
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 96
+0 0 0
+#9905
+sand dollar~
+&@&wA ((&b@&w))&bS&*&wa&@&wndDoll&*&wa&@&br&w((&b@&w))&w&*~
+&@&bA &wsand dollar &brests in the sand.&w&*
+~
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 0
+>death_prog 10~
+mpecho &@&l.-,-'-,&c,&w^&c\&l.&c/&w^&c'&l.,-.&*
+mpecho &@&wA tiny glowing sand dollar surfaces.&*
+mpecho &@&l.-,-'-,&c,&w^&c\&l.&c/&w^&c'&l.,-.&*
+mpoload 9914
+~
+|
+#9906
+seahorse sea horse~
+&*&yA &@&l.&w-&*&yS&@&w-&l.&*&yS&@&we&*&wa&yHo&wr&@&ws&*&ye&@&l.&w-&*&yS&@&w-&l.&w&*~
+&@&bA &*&yseahorse &@&bbobs gently on the tide.&w&*
+~
+~
+65 16777216 0 S
+90 0 0 0d0+0 0d0+0
+9000 32
+0 0 1
+#9907
+orca~
+&@&wAn O&br&wc&ba&w&*~
+&@&bAn &bo&br&wc&ba swims past powerfully.&w&*
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 96
+0 0 2
+#9908
+sea turtle~
+&@&gA S&*&ge&ya T&*&gu&yr&@&gt&*&yl&ge&w&*~
+&@&gA S&*&ge&ya T&*&gu&yr&@&gt&*&yl&ge&w&* swims here.
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 36
+0 0 2
+#9909
+hungry barracuda~
+&@&rA H&*&rungry &@&rB&*&ra&@&rr&*&rr&@&ra&*&rc&@&ru&*&rd&@&ra&w&*~
+&@&bA &rbarracuda &bstalks the sea for food.&w&*
+~
+~
+4193 83919400 0 S
+105 0 0 0d0+0 0d0+0
+10500 96
+0 0 2
+#9910
+blue fish~
+&@&l<&b*&c)}}}&l><<&w&*~
+&@&bA &csky &bcolored fish brushes by you.&w&*
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 96
+0 0 0
+#9911
+crab~
+&@&rA &*&r)&@&r)&w=&r(&*&r(&@&rCrab&*&r)&@&r)&w=&r(&*&r(&w&*~
+&@&bA &rcrab &btries to pinch you.&w&*
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 4
+0 0 0
+#9912
+whale~
+&*&ca Whale&w&*~
+&@&bAn Enormous &*&cwhale &@&bswims quietly here.&w&*
+~
+Disturbing the whale doesn't seem like a good idea.
+~
+139329 16777216 0 S
+151 0 0 0d0+0 0d0+0
+38750 96
+0 0 2
+>fight_prog 25~
+tailslap
+mpechoat $n &*&cA Whale Tail comes slamming down at you!&w&*
+mpechoaround $n &*&cThe whale brings his mighty tail down on $n&w&*
+~
+>fight_prog 25~
+attack1
+mpechoat $n &@&bThe &*&cWhale &@&btries to blow you out of the &lw&wa&lt&we&lr&b!&w&*
+mpechoaround $n &@&bThe &*&cWhale &@&btries to blow $n out of the &lw&wa&lt&we&lr&b!&w&*
+~
+|
+#9913
+jellyfish jelly fish~
+&@&wA &l.&*&@&co&wO&*&c(&@&lO&*&c)&@&lJ&ce&*&cllyFi&@&cs&lh&*&c(&@&lO&*&c)&@&wO&co&l.&w&*~
+&@&bA &lblue bubble &bis here.&w&*
+~
+~
+97 83886632 0 S
+105 0 0 0d0+0 0d0+0
+10500 0
+0 0 0
+>death_prog 100~
+if level ($n) > 294
+mpoload 25391
+endif
+~
+>greet_prog 100~
+if level ($n) > 294
+emote &@&wquickly hides it's treasure.&*
+endif
+~
+|
+#9914
+electric eel~
+&@&gAn _&r-&g.&*&@&y-&c'&*&@&y,&*&g=&@&ge&*&gl&@&ge&*&gc&@&gt&*&gr&@&gi&*&gc&@&y-&geel&*&g=&@&y,&@&c'&*&@&y-&g.&*&@&@&r-&g_&w&*~
+&@&bAn &gelectric snake &bgives you a shock.&w&*
+~
+~
+97 83886632 0 S
+105 0 0 0d0+0 0d0+0
+10500 32
+0 0 0
+#9915
+stingray sting ray~
+&@&bThe {&*&w{&r{&@&bS&wting&r+&bR&way&*&r}&w}&@&b}>==---&*&r-&w&*~
+&@&bA giant ray burries itself beneath a layer of &ysand&b.&w&*
+~
+~
+67 16844930 0 S
+110 0 0 0d0+0 0d0+0
+11000 64
+0 0 0
+>death_prog 100~
+mpecho &@&bA &@&ggreen &*key &@&bdrifts to the sand&w&*
+mpoload 9912
+~
+|
+#9916
+white shark~
+&@&wThe <&bo&w)&bw&*&wh&@&wite^&bs&*&wh&@&wark&*&@&w)>&b<&*&w<&@&w<&w&*~
+&@&bA &wfish &bto handle with &ycaution &bswims near.&w&*
+~
+~
+65 16777216 0 S
+110 0 0 0d0+0 0d0+0
+10000 96
+0 0 2
+>fight_prog 25~
+bite
+mpechoat $n &@&bThe &wWhite Shark &bsnaps its &*&rfierce &@&bjaws at you!&w&*
+mpechoaround $n &@&bThe &wWhite Shark &bsnaps its &*&rfierce &@&bjaws at $n!&w&*
+~
+>death_prog 25~
+mpecho &@&wThe Shark's great fin is &!&rsliced&* &@&wfrom its back!&w&*
+mpecho &@&bThe &wWhite Shark &bsinks to her &*&rdeath!&w&*
+mpoload 9904
+~
+|
+#9917
+ulameer preistess mer healer~
+&@&lU&cl&wa&*&wmeer&@&b, the mer-priestess&w&*~
+&@&lU&cl&wa&*&wmeer&@&b, the mer-priestess heals you.&w&*
+~
+Ulameer is the jewel of the sea. A healing priestess of great power and true magic.
+~
+8259 83888808 0 S
+100 0 0 0d0+0 0d0+0
+13750 0
+0 0 2
+>greet_prog 100~
+if level($n) < 111
+tell $n  If you bring me a &@&wp&*&we&@&wa&*&wr&@&wl &yi can show you a greater &cmagic.&w&*
+tell $n What does the &@&rd&ya&ww&rn &*&ybring?&*
+endif
+~
+>speech_prog renewal~
+nod
+mptransfer all 10017
+~
+>give_prog tiny white pearl~
+if level($n) < 111
+mpjunk tiny
+smile
+say Beautiful!
+mpecho &@&lU&cl&wa&*&wmeer &@&bholds a &ctiny &wwhite &wp&*&we&@&wa&*&wr&@&wl &band sings an enchanting song.&w&*
+sing
+say With this, your magic shall grow.
+mpoload 9900
+drop white
+force $n get white
+endif
+~
+>give_prog tiny black pearl~
+if level($n) < 111
+mpjunk tiny
+gasp
+say A very powerful pearl you have!
+mpecho &@&lU&cl&wa&*&wmeer &@&bholds a &ctiny &bblack &bp&we&ba&wr&bl &band sings an enchanting song.&w&*
+sing
+say With this, your strength shall increase.
+mpoload 9901
+drop black
+force $n get black
+endif
+~
+|
+#9918
+Travameer weaver~
+&@&gT&*&gr&@&wa&*&wvameer&@&b, the weaver&w&* ~
+&@&gT&*&gr&@&wa&*&wvameer&@&b, the weaver , works quietly here.&w&*
+~
+The finest weaver of seagrasses ever to live. Perhaps she has something to offer.
+~
+8259 83888808 0 S
+197 0 0 0d0+0 0d0+0
+19750 0
+0 0 2
+>greet_prog 100~
+if level($n) < 111
+tell $n would you like something special?
+endif
+~
+>speech_prog p yes~
+if level($n) < 111
+smile
+tell $n bring me a strong piece of &gs&*&ge&@&ga&*&gg&@&gr&*&ga&@&gs&*&gs.&w&*
+endif
+~
+>speech_prog p no~
+if level($n) < 111
+shrug
+emote goes back to work.
+endif
+~
+>give_prog seagrass sea grass~
+if level($n) < 111
+mpjunk seagrass
+clap
+say ....ah yes this is perfect.
+mpat 10011 mpmload 9921
+say now bring me some &@&lf&wl&lo&ww&le&wr&ls&w&*
+endif
+~
+>give_prog wet flowers~
+if level($n) < 111
+mpjunk flowers
+blush
+smile
+say for me??
+smirk
+say very nice
+mpecho &@&gT&*&gr&@&wa&*&wvameer &@&wweaves a delicate belt of &@&g`&*&y-&@&g,&*&y-&@&lS&ce&waflow&@&we&cr&ls&*&y-&@&g'&*&y-&@&g,&*
+say you can have it for a &@&yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&ycoin&w&*
+mpat 9962 mpmload 9922
+endif
+~
+>give_prog offering golden coin~
+if level($n) < 111
+mpjunk offering
+grin
+say I hope the price was not to high
+say here you go...
+mpoload 9902
+drop seaflowers
+mpforce $n get seaflowers
+snicker
+mpjunk seaflowers
+endif
+~
+|
+#9919
+seaworm sea worm~
+&@&ba &*&g-&@&g.&b.&g'&*&gs&@&ge&*&ga&@&gw&*&go&@&gr&*&gm&@&g.&b'&g'&*&g-&w&*~
+&@&bA &gseaworm &bwiggles through the water.&w&*
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10750 0
+0 0 1
+#9920
+octopus~
+&@&wAn &*&yO&@&wc&*&yt&@&wo&*&yp&@&wu&*&ys&w&*~
+&@&bAn &*&yo&@&wc&*&yt&@&wo&*&yp&@&wu&*&ys &@&bis here.&w&*
+~
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 16
+0 0 1
+#9921
+mer child girl~
+&@&wA &gMer&w-Child&w&*~
+&@&bA small &mgirl &bof the &csea &bis here.&w&*
+~
+&@&bShe swims among the flowers.&w&*
+~
+65 16779392 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 2
+>fight_prog 25~
+scream
+~
+>fight_prog 25~
+cry
+~
+>death_prog 100~
+mpecho &@&wSome &cwet &@&lf&wl&lo&ww&le&wr&ls &bfall from her hand......&w&*
+mpoload 9913
+~
+|
+#9922
+mer man merman~
+&@&wA &gmer&w-man in &cprayer&w&*~
+&@&wA &gmer&w-man &brests in quiet prayer.&w&*
+~
+He has come to make an offering to god.
+~
+65 16779392 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+>fight_prog 25~
+groan
+~
+>death_prog 100~
+mpecho &@&wWith his last &bbreath &whe releases his final possession...&w&*
+mpecho &@&wa &@&yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&ycoin.&w&*
+mpecho &@&wHis &bsilent &woffering to &cGod&w.&w&*
+mpoload 9906
+~
+|
+#9923
+ferrimeer mer smith~
+&@&lF&ce&wr&*&wrimeer&@&b, the sea smith&w&*~
+&@&lF&ce&wr&*&wrimeer&@&b, the sea smith concentrates on his work.&w&*
+~
+He is known as the finest smith in all the seas to the mer-folk.
+~
+24643 83888808 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+>give_prog shark fin~
+if level($n) < 111
+say Nice shark leather! Yeah i can do something with this....
+emote begings working.
+smile
+mpecho  &@&lF&ce&wr&*&wrimeer&@&b, produces some tough boots.&w&*
+say Here, try these on for size....
+mpjunk fin
+mpoload 9919
+drop boots
+mpforce $n get boots
+bow
+endif
+~
+|
+#9924
+cow sea~
+&@&wA &gS&ce&ga &wC&bo&ww&*~
+&@&wA &gS&ce&ga &wC&bo&ww &bswims past.&*
+~
+MOOOOOOOO!!
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+10000 32
+0 0 2
+>rand_prog 7~
+mpecho &@&bA &gS&ce&ga &wC&bo&ww &bgrazes and Moooo's.&*
+~
+|
+#9925
+killer flossie death sheep mbattle~
+&@&wA &b*&wFlossie&b* &wSheep&*~
+&@&wA &b*&wFlossie&b* &wSheep&*
+~
+An &@&rANGRY&* sheep lass!!!!
+She has learned powerful &@&cmagic&* from a master mage!
+~
+8291 218180264 0 S
+1150 0 0 0d0+0 0d0+0
+1000000 44
+0 0 2
+>fight_prog 50~
+mpechoat $n &*&rA &@&b*&wFlossie&b* &wSheep &*&rtries to &@&r<HEADBUTT> &*&ryou!!&*
+mpechoaround $n &*&rA &@&b*&wFlossie&b* &wSheep &*&rtries to &@&r<HEADBUTT> &*&r$n!!&*
+attack2
+attack3
+~
+>fight_prog 30~
+mpecho &@&b*&wFlossie&b* &wSheep unleashes a dreadful &cBAAAAAHHHHHHHH! &wand &r&!ATTACKS&*&@&r!!!&*
+attack2
+attack3
+attack3
+~
+|
+#9926
+king fish~
+&@&yK&*&ying &@&gF&*&gi&@&gs&*&gh&*~
+The &@&yK&*&ying &@&gF&*&gi&@&gs&*&gh&* wisks past.
+~
+The king of all fish a beautiful golden green specimen.
+~
+65 16777216 0 S
+100 0 0 0d0+0 0d0+0
+13750 96
+0 0 1
+>give_prog blue crown quest~
+wiggle self
+mpjunk blue
+say The lord of Atlantis is a very trustworthy man..yes, I shall help you on your quest.
+say This crown i wear is a fake...Here take the real crown it is very valuable guard it well.
+mpecho &@&wThe King Fish produces a &@&gG&*&green &@&gC&*&grown.&@&g.&w.&*
+mpoload 9518
+drop green
+mpforce $n get crown
+say Take it to the master of the game.
+emote swishes his tail.
+mpjunk green
+~
+|
+#10018
+viper fish~
+a &*&rV&yi&rp&ye&rr &y<&r@&y><<&*~
+&@&bA strange looking &*&yfish &@&bnotices you.&*
+~
+~
+101 16777768 0 S
+110 0 0 0d0+0 0d0+0
+11000 96
+0 0 1
+#10019
+rattail fish~
+a &@&rrattail &bfish&*~
+&@&bA large mouth fish approaches you!&*
+~
+~
+97 16777768 0 S
+112 0 0 0d0+0 0d0+0
+11200 96
+0 0 2
+#10020
+Brotulid~
+a &*&yBrotulid&*~
+&@&bA long toothed fish swishes by.&*
+~
+~
+65 16777768 0 S
+108 0 0 0d0+0 0d0+0
+10800 96
+0 0 1
+#10021
+sea pig~
+a &@&cs&ge&ca &*&ypig&*~
+&@&bA stout sea creature sucks the ocean floor.&*
+~
+~
+65 16777768 0 S
+107 0 0 0d0+0 0d0+0
+10700 0
+0 0 1
+#10022
+giant tube worm~
+a &@&lGIANT &@&g(&*&gT&@&wu&*&gb&@&we&*&gw&@&wo&*&gr&@&wm&g)&*~
+&@&bA giant worm attaches to a rock.&*
+~
+~
+65 16777768 0 S
+114 0 0 0d0+0 0d0+0
+11400 0
+0 0 2
+#10023
+squid~
+a &*&ysquid&*~
+&@&bA giant and many armed creature swims near.&*
+~
+~
+65 16777768 0 S
+112 0 0 0d0+0 0d0+0
+11200 0
+0 0 1
+#10024
+big one fish~
+&@&m<&b*&r)&wThe&r=&wBig&r=&wOne&m><<<&*~
+&@&bA &@&rHUGE &bfish tries to swim away from you!&*
+~
+~
+131265 16777896 0 S
+160 0 0 0d0+0 0d0+0
+40750 96
+0 0 2
+#10025
+idiot fish~
+an &@&ridiot &m<&*&r@&@&m><&*~
+&@&bA very ugly fish floats on the current.&*
+~
+~
+65 16777768 0 S
+112 0 0 0d0+0 0d0+0
+11200 96
+0 0 1
+>rand_prog 2~
+scratch
+~
+>rand_prog 3~
+guh self
+~
+|
+#10026
+eel pout eelpout~
+&*an &@&m<&b(((&weelpout&b)))&w>&*~
+&@&bA slick eel slides past fast.&*
+~
+~
+65 16777768 0 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 1
+#10027
+black fish~
+&@&b<&*&w@&@&b><<&*~
+&@&bA shady fish darts past.&*
+~
+~
+65 16777768 0 S
+115 0 0 0d0+0 0d0+0
+11500 96
+0 0 2
+#10028
+mermaid~
+a &@&gm&ce&wr&*&cmaid&*~
+&@&bA beautiful &@&gm&ce&wr&*&cmaid &@&bcombs her hair.&*
+~
+~
+65 16777896 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog note for subordinate~
+say Ahh. I must hurry and prepair. Please give this back to my master, and let
+say him know that i will b working diligently on this.
+mpoload 20405
+drop shell
+mpforce $n get shell
+~
+|
+#10029
+merman~
+a &@&gm&ce&wr&*&cman&*~
+&@&bA merman swims the sea proudly.&*
+~
+~
+65 16777896 0 S
+123 0 0 0d0+0 0d0+0
+12300 0
+0 0 1
+#10030
+bluefin tuna~
+&@&lblu&we&cfin &ltuna&*~
+&*&cA blue fish looks good enough to eat!.&*
+~
+~
+65 16777216 0 S
+92 0 0 0d0+0 0d0+0
+9275 96
+0 0 1
+#10031
+skinny dipper girl~
+a &@&mskinny dipper&*~
+&@&yA beautiful naked woman ducks under the water.&*
+~
+~
+67 16777216 0 S
+93 0 0 0d0+0 0d0+0
+9875 0
+0 0 2
+#0
+
+
+#OBJECTS
+#9900
+white pearl~
+&@&w(&c(&ww&*&wh&@&wi&*&wt&@&we&c(&w@&c)&wp&*&we&@&wa&*&wr&@&wl&c)&w)&*~
+A White Pearl softly shines.~
+~
+9 64 16385
+21 0 0 0
+5 1500 100
+A
+12 100
+A
+25 29
+#9901
+black pearl~
+&@&b(&w(&@&bb&wl&@&ba&wc&@&bk&w(&@&b@&w)&@&bp&we&@&ba&wr&@&b&@&bl&w)&@&b)&w&*~
+A powerful black pearl glimmers here.~
+~
+9 64 16385
+21 0 0 0
+5 1500 100
+A
+12 50
+A
+19 5
+#9902
+seaflowers sea flowers~
+&@&g`&*&y-&@&g,&*&y-&@&lS&ce&waflow&@&we&cr&ls&*&y-&@&g'&*&y-&@&g,&w&*~
+A belt of many flowers lays braided.~
+~
+9 0 2049
+21 0 0 0
+2 1500 101
+A
+12 50
+A
+13 50
+A
+17 -5
+#9903
+smooth shell~
+&@&w(&b>&w(&*&y(&@&wA&l.&*&yS&wm&@&wooth&l.&*&yS&wh&@&well&*&y)&@&w)&b<&w)&*~
+A smooth shell shines on the ground.~
+~
+15 0 1
+350 1 0 0
+5 0 0
+#9904
+shark fin~
+&@&w/&b/&wa^&bs&*&wh&@&wark^&bf&*&wi&@&wn&b\&w\&*~
+A piece of sharkfin is here. It looks perfect for making something.~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9905
+seagrass sea grass~
+&@&g`&*&g-&@&g.&*&gS&@&ge&*&ya&*&gG&@&gr&*&yass&@&g'&*&g-&@&g,&w&*~
+A long piece of seagrass perfect for weaving is here.~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9906
+offering golden coin~
+&@&ya &@&yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&ycoin&w&*~
+&@&ya &@&yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&ycoin&w&*~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9907
+tiny white pearl~
+&@&wa &ctiny &wwhite &wp&*&we&@&wa&*&wr&@&wl&w&*~
+A tiny pearl rolls on the ground.~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9908
+sponge water~
+&@&w.&*&yo&@&yO&*&yo&@&w.&*&yS&@&yp&*&yO&@&yn&*&yG&@&ye&w.&*&yo&@&yO&*&yo&@&w.&*~
+A lumpy sea sponge drips water everywhere.~
+~
+17 0 1
+300 300 14 0
+2 500 90
+#9909
+sea grass potion~
+&@&cSea &gg&*&gr&@&ga&@&gs&*&gs &@&cpotion&w&*~
+A foamy green potion lies here.~
+~
+10 128 1
+100 1 3 56
+5 500 100
+#9910
+woven green gloves~
+&*&yWoven &@&gg&*&gr&@&ga&*&gs&@&gs &@&bgloves&w&*~
+Grassy green gloves are here.~
+~
+9 0 129
+7 0 0 0
+2 2000 28
+A
+2 2
+A
+19 2
+#9911
+glass key~
+a tiny &@&cglass &*key&w&*~
+A tiny &@&cglass &*key&w&*~
+~
+18 32 1
+0 0 0 0
+5 0 0
+#9912
+green key~
+a &@&ggreen &*key&w&*~
+A &@&ggreen &*key&*~
+~
+18 32 1
+0 0 0 0
+5 0 0
+#9913
+wet flowers~
+&@&wsome &cwet &@&lf&wl&lo&ww&le&wr&ls&w&*~
+&@&wSome &cwet &@&lf&wl&lo&ww&le&wr&ls &wlay playfully here.&w&*~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9914
+magical sand dollar~
+&@&la &@&cmagical &w((&l@&w))sand dollar((&l@&w))&l that &c*&wglows&c*&*~
+&@&wA &cmagical &wsand dollar that &c*&wglows&c*&w. Hey that's pretty cool.&*~
+~
+1 4097 1
+0 0 -1 0
+5 11111 90
+A
+4 1
+A
+3 1
+A
+12 80
+#9916
+water jeweled fountain spring~
+&@&wA &y<&c*&y>&lJ&ge&rw&ye&rl&ge&ld&y<&c*&y> &lF&co&wunta&ci&ln&w&*~
+&@&wA &y<&c*&y>&lJ&ge&rw&ye&rl&ge&ld&y<&c*&y> &lF&co&wunta&ci&ln &binvites you to drink.&w&*~
+~
+25 0 0
+14 0 0 0
+5 0 0
+#9917
+pearl portal~
+&@&wA P&*&we&@&wa&*&wr&@&wl &cPortal&w&*~
+&@&bThere is &wa P&*&we&@&wa&*&wr&@&wl &cPortal &bshimmering here.&w&*~
+~
+27 0 0
+9900 0 0 0
+1000 0 0
+#9918
+giant oyster shell~
+&@&wA &@&cGiant &@&wO&*&wy&@&ws&*&wt&@&we&*&wr &yShell&w&*~
+&@&wA &@&cGiant &@&wO&*&wy&@&ws&*&wt&@&we&*&wr &yShell&w&*~
+~
+15 0 0
+350 1 0 0
+5 0 0
+#9919
+sharkskin boots~
+&@&b/&w/&bS&*&wh&@&wark^&bS&*&wk&@&win^&bB&*&wo&@&wots\&b\&w&*~
+A pair of &@&b/&w/&bS&wh&@&wark^&bS&wk&@&win^&bB&wo&@&wots\&b\&w&* rests here.~
+~
+9 64 65
+18 0 0 0
+5 1500 101
+A
+18 10
+A
+19 6
+A
+25 90
+#9920
+narrow crack portal~
+&@&bA narrow crack&w&*~
+&@&bYou notice a tiny crack between two rocks.&w&*~
+~
+27 0 0
+10016 5 0 0
+1000 0 0
+#9921
+tiny black pearl~
+&@&wa &ctiny &bblack &bp&we&ba&wr&bl&w&*~
+A tiny pearl rolls on the ground.~
+~
+12 4 1
+0 0 0 0
+15 0 0
+#9922
+pepper mint~
+&@&r(&w(&rP&we&rp&wp&re&wr&rm&wi&rn&wt&rs&w)&r)&*~
+&@&r(&w(&rP&we&rp&wp&re&wr&rm&wi&rn&wt&rs&w)&r)&*~
+~
+26 64 1
+50 103 171 160
+5 100 1006
+#9923
+king fish crown~
+&@&yA &@&gC&*&gr&@&yo&*&gw&@&gn&*~
+&@&yA &@&gC&*&gr&@&yo&*&gw&@&gn&* glitters here.~
+~
+9 0 17
+18 0 0 0
+3 1500 100
+A
+13 100
+#10018
+shell earring~
+&*&y(&@&wS&*&wh&ye&@&wll E&*&wa&*&yr&@&wring&*&y)&*~
+An earring made of shell is here.~
+~
+9 0 32769
+0 0 0 0
+2 0 120
+A
+12 70
+A
+13 50
+#10019
+statue neptune~
+&@&wa statue of &@&wKing &gN&ce&wp&*&ctune&*~
+&@&wA statue of King &gN&ce&wp&*&ctune &@&wsits grandly in the shrine.&*~
+~
+15 96 0
+300 15 10020 0
+5 0 0
+#10020
+key necklace~
+&*&ya key on a chain&*~
+A key on a chain is here.~
+~
+18 64 1
+1 0 0 0
+1 0 0
+#10021
+shell mail skirt~
+&@&wS&*&wh&ye&@&wllmail S&*&wk&yi&@&wrt&*~
+A skirt made of shells lies on the ground.~
+~
+9 0 33
+0 0 0 0
+10 0 120
+A
+12 120
+#10022
+spellup triple heartboost pill~
+&@&m(&rV&m)&@&rt&*&rr&@&ri&*&rp&@&rl&*&re &@&rh&*&re&@&ra&*&rr&@&rt&*&rb&@&ro&*&ro&@&rs&*&rt&@&m(&rV&m)&*~
+&@&m(&rV&m)&*~
+~
+26 68 1
+100 83 83 83
+1 1111 1006
+#10023
+water potion~
+the &@&lw&wa&lt&we&lr &cpotion&*~
+&*&lGills sprout from this bottle's neck.&*~
+~
+10 192 1
+50 84 -1 -1
+5 1111 20
+#0
+
+
+#ROOMS
+#9900
+&@&wThe &lS&ch&wallo&cw&ls&w&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&w&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9909
+D1
+~
+~
+0 -1 9901
+D2
+~
+~
+0 -1 9941
+D3
+~
+~
+0 0 900
+S
+#9901
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9908
+D1
+~
+~
+0 -1 9902
+D2
+~
+~
+0 -1 9942
+D3
+~
+~
+0 -1 9900
+S
+#9902
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9907
+D1
+~
+~
+0 -1 9903
+D2
+~
+~
+0 -1 9943
+D3
+~
+~
+0 -1 9901
+S
+#9903
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9906
+D1
+~
+~
+0 -1 9904
+D2
+~
+~
+0 -1 9944
+D3
+~
+~
+0 -1 9902
+S
+#9904
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9905
+D2
+~
+~
+0 -1 9945
+D3
+~
+~
+0 -1 9903
+S
+#9905
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9916
+D2
+~
+~
+0 -1 9904
+D3
+~
+~
+0 -1 9906
+S
+#9906
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9905
+D2
+~
+~
+0 -1 9903
+D3
+~
+~
+0 -1 9907
+S
+#9907
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9906
+D2
+~
+~
+0 -1 9902
+D3
+~
+~
+0 -1 9908
+S
+#9908
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9907
+D2
+~
+~
+0 -1 9901
+D3
+~
+~
+0 -1 9909
+S
+#9909
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9910
+D1
+~
+~
+0 -1 9908
+D2
+~
+~
+0 -1 9900
+S
+#9910
+&@&bA S&wh&ba&wd&bo&ww&by &*&yCave &@&bEntrance&*~
+&@&bA dusky &*&ycave &@&bentrance is here rimmed with &cluminescent &mf&wl&go&mw&we&gr&my &gvines 
+&btwisting in the &lcurrents&b. The cave's darkness seems inpenetrable.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9911
+D2
+~
+~
+0 -1 9909
+D3
+~
+~
+0 -1 9922
+S
+#9911
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9921
+D1
+~
+~
+0 -1 9912
+D2
+~
+~
+0 -1 9910
+S
+#9912
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9920
+D1
+~
+~
+0 -1 9913
+D3
+~
+~
+0 -1 9911
+S
+#9913
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9919
+D1
+~
+~
+0 -1 9914
+D3
+~
+~
+0 -1 9912
+S
+#9914
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9918
+D1
+~
+~
+0 -1 9915
+D3
+~
+~
+0 -1 9913
+S
+#9915
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9917
+D2
+~
+~
+0 -1 9916
+D3
+~
+~
+0 -1 9914
+S
+#9916
+&@&wA &cSwift &lC&wu&lr&wr&le&wn&lt&*~
+&@&bThere is a &cswiftness &bhere which sends one spinning downward into the 
+depths of the &lsea&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9915
+D2
+~
+~
+0 -1 9905
+D5
+~
+~
+0 -1 9979
+S
+#9917
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9955
+D2
+~
+~
+0 -1 9915
+D3
+~
+~
+0 -1 9918
+S
+#9918
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9954
+D1
+~
+~
+0 -1 9917
+D2
+~
+~
+0 -1 9914
+D3
+~
+~
+0 -1 9919
+S
+#9919
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9953
+D1
+~
+~
+0 -1 9918
+D2
+~
+~
+0 -1 9913
+D3
+~
+~
+0 -1 9920
+S
+#9920
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9952
+D1
+~
+~
+0 -1 9919
+D2
+~
+~
+0 -1 9912
+D3
+~
+~
+0 -1 9921
+S
+#9921
+&@&wThe &lS&ch&wallo&cw&ls&*~
+&@&bThe sun skims over the &csea &band the waves dance around you. Soft &wwhite 
+&ysand &blines the ocean bed and watery &@&gp&*&gl&@&ga&*&gn&@&gt&*&gs &@&bsway as if in the wind.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9951
+D1
+~
+~
+0 -1 9920
+D2
+~
+~
+0 -1 9911
+S
+#9922
+&@&wA &bNarrow &*&yOpening&*~
+&@&bSlick walls embrace the narrow passage and all is dark.&*
+~
+0 262149 6
+D1
+~
+~
+0 -1 9910
+D3
+~
+~
+0 -1 9923
+S
+#9923
+&@&wA &*&wP&@&we&*&wa&@&wr&*&wl&@&wy Room&*~
+&@&bThe walls wash the room in a &wm&*&wo&@&wo&*&wn&@&wl&*&wi&@&wg&*&wh&@&wt &cglow&b. An ancient yet, beautiful 
+mer-priestess floats chanting mesmorizing songs of &rhealing&b. In the 
+center of the chamber a crumbling, shell crusted staircase spirals down 
+into dark and &ls&ww&li&wr&ll&wi&ln&wg &cwaters&b.&*
+~
+0 263197 7
+D1
+~
+~
+0 -1 9922
+D5
+~
+~
+0 -1 9924
+S
+#9924
+&@&wA &bDark Room&*~
+&@&bThe stairs crash to the floor in a thunderous pile! All that is left is 
+a &gm&*&go&yl&@&gd&*&yy &@&bincline which carries you toward.....
+d
+a
+r
+k
+n
+e
+s
+s&*
+~
+0 262149 7
+D5
+~
+~
+0 -1 9925
+S
+#9925
+&@&bDarkness&*~
+&@&bA black silence guides the descent.&*
+~
+0 262149 7
+D5
+~
+~
+0 -1 9926
+S
+#9926
+&@&bDarkness&*~
+&@&bA black silence guides the descent.&*
+~
+0 262149 7
+D5
+~
+~
+0 -1 9927
+S
+#9927
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D2
+~
+~
+0 -1 9928
+D3
+~
+~
+0 -1 9965
+S
+#9928
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9927
+D2
+~
+~
+0 -1 9929
+D3
+~
+~
+0 -1 9964
+S
+#9929
+&@&bA Narrow Tunnel&*~
+&@&wPale &yl&wi&yg&wh&yt &bfrom the caverns shines through both ends of the tunnel 
+turning everything grey.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9928
+D2
+~
+~
+0 -1 9930
+S
+#9930
+&@&bA Narrow Tunnel&*~
+&@&wPale &yl&wi&yg&wh&yt &bfrom the caverns shines through both ends of the tunnel 
+turning everything grey.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9929
+D2
+~
+~
+0 -1 9931
+S
+#9931
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9930
+D2
+~
+~
+0 -1 9932
+D3
+~
+~
+0 -1 9934
+S
+#9932
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9931
+D2
+~
+~
+0 -1 9977
+D3
+~
+~
+0 -1 9933
+S
+#9933
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9934
+D1
+~
+~
+0 -1 9932
+D2
+~
+~
+0 -1 9976
+D3
+~
+~
+0 -1 9936
+D5
+A hatch is here barely visible beneath the shifting sands.~
+hatch door~
+16 9911 9978
+S
+#9934
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9931
+D2
+~
+~
+0 -1 9933
+D3
+~
+~
+0 -1 9935
+S
+#9935
+&@&wEntrance to a &yGolden &wChamber&*~
+&@&bA towering, &yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&barchway opens the way northward into an ornate 
+chamber. &gFish &bswim through the &cshining &bportal as if showing the way.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9961
+D1
+~
+~
+0 -1 9934
+D2
+~
+~
+0 -1 9936
+D3
+~
+~
+0 -1 9938
+S
+#9936
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9935
+D1
+~
+~
+0 -1 9933
+D2
+~
+~
+0 -1 9975
+D3
+~
+~
+0 -1 9937
+S
+#9937
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9938
+D1
+~
+~
+0 -1 9936
+D2
+~
+~
+0 -1 9974
+D3
+~
+~
+0 -1 9940
+S
+#9938
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9935
+D2
+~
+~
+0 -1 9937
+D3
+~
+~
+0 -1 9939
+S
+#9939
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9972
+D1
+~
+~
+0 -1 9938
+D2
+~
+~
+0 -1 9940
+S
+#9940
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9939
+D1
+~
+~
+0 -1 9937
+D2
+~
+~
+0 -1 9973
+S
+#9941
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9900
+D1
+~
+~
+0 -1 9942
+D2
+~
+~
+0 -1 9950
+S
+#9942
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9901
+D1
+~
+~
+0 -1 9943
+D2
+~
+~
+0 -1 9949
+D3
+~
+~
+0 -1 9941
+S
+#9943
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9902
+D1
+~
+~
+0 -1 9944
+D2
+~
+~
+0 -1 9948
+D3
+~
+~
+0 -1 9942
+S
+#9944
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9903
+D1
+~
+~
+0 -1 9945
+D2
+~
+~
+0 -1 9947
+D3
+~
+~
+0 -1 9943
+S
+#9945
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9904
+D2
+~
+~
+0 -1 9946
+D3
+~
+~
+0 -1 9944
+S
+#9946
+&@&wThe &*&yShores&*~
+&@&bAlong the &cocean &yshore &bthe waters crash over the &ysand &band 
+&*&yshells&@&b. The deep &lsea &bbeckons you to join it and venture in further.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9945
+D3
+~
+~
+0 -1 9947
+S
+#9947
+&@&wThe &*&yShores&*~
+&@&bAlong the &cocean &yshore &bthe waters crash over the &ysand &band 
+&*&yshells&@&b. The deep &lsea &bbeckons you to join it and venture in further.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9944
+D1
+~
+~
+0 -1 9946
+D3
+~
+~
+0 -1 9948
+S
+#9948
+&@&wThe &*&yShores&*~
+&@&bAlong the &cocean &yshore &bthe waters crash over the &ysand &band 
+&*&yshells&@&b. The deep &lsea &bbeckons you to join it and venture in further.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9943
+D1
+~
+~
+0 -1 9947
+D3
+~
+~
+0 -1 9949
+S
+#9949
+&@&wThe &*&yShores&*~
+&@&bAlong the &cocean &yshore &bthe waters crash over the &ysand &band 
+&*&yshells&@&b. The deep &lsea &bbeckons you to join it and venture in further.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9942
+D1
+~
+~
+0 -1 9948
+D3
+~
+~
+0 -1 9950
+S
+#9950
+&@&wThe &*&yShores&*~
+&@&bAlong the &cocean &yshore &bthe waters crash over the &ysand &band 
+&*&yshells&@&b. The deep &lsea &bbeckons you to join it and venture in further.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9941
+D1
+~
+~
+0 -1 9949
+S
+#9951
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9960
+D1
+~
+~
+0 -1 9952
+D2
+~
+~
+0 -1 9921
+S
+#9952
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9959
+D1
+~
+~
+0 -1 9953
+D2
+~
+~
+0 -1 9920
+D3
+~
+~
+0 -1 9951
+S
+#9953
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9958
+D1
+~
+~
+0 -1 9954
+D2
+~
+~
+0 -1 9919
+D3
+~
+~
+0 -1 9952
+S
+#9954
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9957
+D1
+~
+~
+0 -1 9955
+D2
+~
+~
+0 -1 9918
+D3
+~
+~
+0 -1 9953
+S
+#9955
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D0
+~
+~
+0 -1 9956
+D2
+~
+~
+0 -1 9917
+D3
+~
+~
+0 -1 9954
+S
+#9956
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D2
+~
+~
+0 -1 9955
+D3
+~
+~
+0 -1 9957
+S
+#9957
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9956
+D2
+~
+~
+0 -1 9954
+D3
+~
+~
+0 -1 9958
+S
+#9958
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9957
+D2
+~
+~
+0 -1 9953
+D3
+~
+~
+0 -1 9959
+S
+#9959
+&@&wVery Shallow &lW&ca&lt&ce&lr&*~
+&@&bTiny fish whisk past in a silent flurry. The water here is &wclear&b, 
+shallow and &ywell-warmed&b.&*
+~
+0 0 6
+D1
+~
+~
+0 -1 9958
+D2
+~
+~
+0 -1 9952
+D3
+~
+~
+0 -1 9960
+S
+#9960
+&@&cChanging &lWaters&*~
+&@&bNorthward the waters change and become a darker &lblue&b.
+The scents of city life blow over the &csea&b. &wYou are 
+entering a new &cocean &wrealm.&*
+~
+0 4 6
+D0
+~
+~
+0 -1 8100
+D1
+~
+~
+0 -1 9959
+D2
+~
+~
+0 -1 9951
+S
+#9961
+&@&wA &yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wHall&*~
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&btiles line the floors and stunning sea murals grace the
+walls. A &cjeweled &lfountain &wbubbles &bfrom the center of this rich 
+hall of worship. This is where the people of the sea come to make 
+offerings to their &wgod&b.&*
+~
+0 262144 7
+D0
+~
+~
+0 -1 9962
+D2
+~
+~
+0 -1 9935
+S
+#9962
+&@&wA &yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wHall&*~
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&btiles line the floors and stunning sea murals grace the
+walls. A &cjeweled &lfountain &wbubbles &bfrom the center of this rich 
+hall of worship. This is where the people of the sea come to make 
+offerings to their &wgod&b.&*
+~
+0 262144 7
+D0
+~
+~
+0 -1 9963
+D2
+~
+~
+0 -1 9961
+S
+#9963
+&@&wA &yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wEntrance&*~
+&@&bTo the south you see an enticing amber archway adorned with 
+&csparkling &wstones &band &ygolden &btiles. Looking in the doorway is like
+gazing into the &ysun &bitself.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9966
+D1
+~
+~
+0 -1 9964
+D2
+~
+~
+0 -1 9962
+D3
+~
+~
+0 -1 9970
+S
+#9964
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9965
+D1
+~
+~
+0 -1 9928
+D3
+~
+~
+0 -1 9963
+S
+#9965
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9927
+D2
+~
+~
+0 -1 9964
+D3
+~
+~
+0 -1 9966
+S
+#9966
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9965
+D2
+~
+~
+0 -1 9963
+D3
+~
+~
+0 -1 9967
+S
+#9967
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9966
+D2
+~
+~
+0 -1 9970
+D3
+~
+~
+0 -1 9968
+S
+#9968
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9967
+D2
+~
+~
+0 -1 9969
+S
+#9969
+&@&bWide &*&yCaverns&*~
+&@&bBeautiful and dangerous creatures are abundant in these wide, 
+&cilluminated &*&ycaverns&@&b. In the darker nooks shadowy movement can be
+noted.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9968
+D1
+~
+~
+0 -1 9970
+D2
+~
+~
+0 -1 9971
+S
+#9970
+&@&bA Wide &*&yCavern&*~
+&@&bFinally, &yl&wi&yg&wh&yt &wshines &baround you from glowing plants lining the walls 
+of this vital undersea canyon. &cGraceful &gfish &bglide through the &*&ycaves &@&bin 
+search of food.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9967
+D1
+~
+~
+0 -1 9963
+D3
+~
+~
+0 -1 9969
+S
+#9971
+&@&bA Narrow Tunnel&*~
+&@&wPale &yl&wi&yg&wh&yt &bfrom the caverns shines through both ends of the tunnel
+turning everything grey.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9969
+D2
+~
+~
+0 -1 9972
+S
+#9972
+&@&bA Narrow Tunnel&*~
+&@&wPale &yl&wi&yg&wh&yt &bfrom the caverns shines through both ends of the tunnel
+turning everything grey.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9971
+D2
+~
+~
+0 -1 9939
+S
+#9973
+&@&bA Shady &*&yCorner&*~
+&@&bThe &lwaters &bare &ccooler &bhere and it is slightly darker than the surrounding
+&*&ycaves&@&b. The &lwaters &bhere are very still...and tense.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9940
+D1
+~
+~
+0 -1 9974
+S
+#9974
+&@&wA &lC&wu&lr&wr&le&wn&lt &wAlong the Wall&*~
+&@&cCool &lc&wu&lr&wr&le&wn&lt&ws &bflow accross this wall. Small &gfish &bdart frantically 
+in conflicting directions and the &csea &ggrasses &bwhip in the churning
+currents.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9937
+D1
+~
+~
+0 -1 9975
+D3
+~
+~
+0 -1 9973
+S
+#9975
+&@&wA &lC&wu&lr&wr&le&wn&lt &wAlong the Wall&*~
+&@&cCool &lc&wu&lr&wr&le&wn&lt&ws &bflow accross this wall. Small &gfish &bdart frantically 
+in conflicting directions and the &csea &ggrasses &bwhip in the churning
+currents.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9936
+D1
+~
+~
+0 -1 9976
+D3
+~
+~
+0 -1 9974
+S
+#9976
+&@&wA &lC&wu&lr&wr&le&wn&lt &wAlong the Wall&*~
+&@&cCool &lc&wu&lr&wr&le&wn&lt&ws &bflow accross this wall. Small &gfish &bdart frantically 
+in conflicting directions and the &csea &ggrasses &bwhip in the churning
+currents.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9933
+D1
+~
+~
+0 -1 9977
+D3
+~
+~
+0 -1 9975
+S
+#9977
+&@&wA &lC&wu&lr&wr&le&wn&lt &wAlong the Wall&*~
+&@&cCool &lc&wu&lr&wr&le&wn&lt&ws &bflow accross this wall. Small &gfish &bdart frantically 
+in conflicting directions and the &csea &ggrasses &bwhip in the churning
+currents.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9932
+D3
+~
+~
+0 -1 9976
+S
+#9978
+&@&wA &bSilent &wGrotto&*~
+&@&bLong forgotten and discarded is this silent and lovely retreat. The
+walls are lined with opulent &wp&*&we&@&wa&*&wr&@&wl &btiles and the floor is powedery
+&wwhite &*&ysand&@&b.&*
+~
+0 262145 7
+D4
+There is a small hatch here leading up.~
+hatch door~
+16 9911 9933
+S
+#9979
+&@&lS&ww&li&wr&ll&wi&ln&wg&*~
+&@&lS&ww&li&wr&ll&wi&ln&wg..&c..&l..&*&l..
+&@&lV&wV&lV
+&@&wV&lV&wV
+&@&lV&wV&lV
+&@&w!&lD&w!
+&@&w!&lO&w!
+&@&w!&lW&w!
+&@&w!&lN&w!
+&@&w!!!&*
+~
+0 262149 7
+D4
+~
+~
+0 -1 9916
+D5
+~
+~
+0 -1 9980
+S
+#9980
+&@&lS&ww&li&wr&ll&wi&ln&wg&*~
+&@&lS&ww&li&wr&ll&wi&ln&wg..&c..&l..&*&l..
+&@&lV&wV&lV
+&@&wV&lV&wV
+&@&lV&wV&lV
+&@&w!&lD&w!
+&@&w!&lO&w!
+&@&w!&lW&w!
+&@&w!&lN&w!
+&@&w!!!&*
+~
+0 262149 7
+D4
+~
+~
+0 -1 9979
+D5
+~
+~
+0 -1 9981
+S
+#9981
+&*&gDeep &@&gGreen&*~
+&@&bIn the depths of an &gemerald &csea&b, life swells around you. Everything moves 
+very slowly like &wfeathers &bin the &cwind&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9984
+D1
+~
+~
+0 -1 10008
+D2
+~
+~
+0 -1 9982
+D4
+~
+~
+0 -1 9980
+S
+#9982
+&*&gDeep &@&gGreen&*~
+&@&bIn the depths of an &gemerald &csea&b, life swells around you. Everything moves 
+very slowly like &wfeathers &bin the &cwind&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9981
+D1
+~
+~
+0 -1 10009
+D2
+~
+~
+0 -1 9983
+S
+#9983
+&*&gDeep &@&gGreen&*~
+&@&bIn the depths of an &gemerald &csea&b, life swells around you. Everything moves 
+very slowly like &wfeathers &bin the &cwind&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9982
+D1
+~
+~
+0 -1 10001
+D2
+~
+~
+0 -1 9986
+S
+#9984
+&*&gDeep &@&gGreen&*~
+&@&bIn the depths of an &gemerald &csea&b, life swells around you. Everything moves 
+very slowly like &wfeathers &bin the &cwind&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9985
+D1
+~
+~
+0 -1 10007
+D2
+~
+~
+0 -1 9981
+S
+#9985
+&*&gDeep &@&gGreen&*~
+&@&bIn the depths of an &gemerald &csea&b, life swells around you. Everything moves 
+very slowly like &wfeathers &bin the &cwind&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10000
+D1
+~
+~
+0 -1 10004
+D2
+~
+~
+0 -1 9984
+S
+#9986
+&@&wA Tug in the &lCurrent&*~
+&@&bThe &lc&wu&lr&wr&le&wn&lt &bshifts direction here and carries you &cswiftly with it.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9983
+D1
+~
+~
+0 -1 9987
+S
+#9987
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10001
+D1
+~
+~
+0 -1 9988
+D3
+~
+~
+0 -1 9986
+S
+#9988
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10002
+D1
+~
+~
+0 -1 9989
+D3
+~
+~
+0 -1 9987
+S
+#9989
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10003
+D1
+~
+~
+0 -1 9990
+D3
+~
+~
+0 -1 9988
+S
+#9990
+&@&wA Tug in the &lCurrent&*~
+&@&bThe &lc&wu&lr&wr&le&wn&lt &bshifts direction here and carries you &cswiftly with it.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9991
+D3
+~
+~
+0 -1 9989
+D5
+~
+~
+0 -1 10018
+S
+#9991
+&@&cSmooth &lSapphire &cSeas&*~
+&@&wCold&b, calmer &lwaters &benvelope you. The still &lsapphire &csea &bshields its 
+elegant &@&lS&ce&waflow&@&we&cr&ls &band life from the world.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9992
+D2
+~
+~
+0 -1 9990
+D3
+~
+~
+0 -1 10003
+S
+#9992
+&@&cSmooth &lSapphire &cSeas&*~
+&@&wCold&b, calmer &lwaters &benvelope you. The still &lsapphire &csea &bshields its 
+elegant &@&lS&ce&waflow&@&we&cr&ls &band life from the world.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9993
+D2
+~
+~
+0 -1 9991
+D3
+~
+~
+0 -1 10011
+S
+#9993
+&@&cSmooth &lSapphire &cSeas&*~
+&@&wCold&b, calmer &lwaters &benvelope you. The still &lsapphire &csea &bshields its 
+elegant &@&lS&ce&waflow&@&we&cr&ls &band life from the world.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9994
+D2
+~
+~
+0 -1 9992
+D3
+~
+~
+0 -1 10012
+S
+#9994
+&@&cSmooth &lSapphire &cSeas&*~
+&@&wCold&b, calmer &lwaters &benvelope you. The still &lsapphire &csea &bshields its 
+elegant &@&lS&ce&waflow&@&we&cr&ls &band life from the world.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9995
+D2
+~
+~
+0 -1 9993
+D3
+~
+~
+0 -1 10013
+S
+#9995
+&@&cSmooth &lSapphire &cSeas&*~
+&@&wCold&b, calmer &lwaters &benvelope you. The still &lsapphire &csea &bshields its 
+elegant &@&lS&ce&waflow&@&we&cr&ls &band life from the world.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9996
+D2
+~
+~
+0 -1 9994
+D3
+~
+~
+0 -1 10006
+S
+#9996
+&@&wA Tug in the &lCurrent&*~
+&@&bThe &lc&wu&lr&wr&le&wn&lt &bshifts direction here and carries you &cswiftly with it.&*
+~
+0 262145 7
+D2
+~
+~
+0 -1 9995
+D3
+~
+~
+0 -1 9997
+S
+#9997
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9996
+D2
+~
+~
+0 -1 10006
+D3
+~
+~
+0 -1 9998
+S
+#9998
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9997
+D2
+~
+~
+0 -1 10005
+D3
+~
+~
+0 -1 9999
+S
+#9999
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9998
+D2
+~
+~
+0 -1 10004
+D3
+~
+~
+0 -1 10000
+S
+#10000
+&@&wA Tug in the &lCurrent&*~
+&@&bThe &lc&wu&lr&wr&le&wn&lt &bshifts direction here and carries you &cswiftly with it.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 9999
+D2
+~
+~
+0 -1 9985
+S
+#10001
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10009
+D1
+~
+~
+0 -1 10002
+D2
+~
+~
+0 -1 9987
+D3
+~
+~
+0 -1 9983
+S
+#10002
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10010
+D1
+~
+~
+0 -1 10003
+D2
+~
+~
+0 -1 9988
+D3
+~
+~
+0 -1 10001
+S
+#10003
+&@&wA &lLapis &cRush&*~
+&@&bA speedy east/west current is here skimming you &cswiftly &bthrough a &ll&*&ya&@&lp&*&yi&@&ls 
+&csea&b. &mCorals &band &gGrasses &bbrush by beneath you as water's currents guide you.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10011
+D1
+~
+~
+0 -1 9991
+D2
+~
+~
+0 -1 9989
+D3
+~
+~
+0 -1 10002
+S
+#10004
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9999
+D1
+~
+~
+0 -1 10005
+D2
+~
+~
+0 -1 10007
+D3
+~
+~
+0 -1 9985
+S
+#10005
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9998
+D1
+~
+~
+0 -1 10006
+D2
+~
+~
+0 -1 10014
+D3
+~
+~
+0 -1 10004
+S
+#10006
+&@&cTurquoise &lT&co&lr&cr&le&cn&lt&cs&*~
+&@&bThe &lwaters &bhere churn and swell and small &wbubbles &bcome from a deep &*&ycrack
+&@&bin the sea floor. Shapes are blurred through &wfoamy &ctuquoise &bturbulence.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 9997
+D1
+~
+~
+0 -1 9995
+D2
+~
+~
+0 -1 10013
+D3
+~
+~
+0 -1 10005
+S
+#10007
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10004
+D1
+~
+~
+0 -1 10014
+D2
+~
+~
+0 -1 10008
+D3
+~
+~
+0 -1 9984
+S
+#10008
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10007
+D2
+~
+~
+0 -1 10009
+D3
+~
+~
+0 -1 9981
+S
+#10009
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10008
+D1
+~
+~
+0 -1 10010
+D2
+~
+~
+0 -1 10001
+D3
+~
+~
+0 -1 9982
+S
+#10010
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10011
+D2
+~
+~
+0 -1 10002
+D3
+~
+~
+0 -1 10009
+S
+#10011
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10012
+D1
+~
+~
+0 -1 9992
+D2
+~
+~
+0 -1 10003
+D3
+~
+~
+0 -1 10010
+S
+#10012
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10013
+D1
+~
+~
+0 -1 9993
+D2
+~
+~
+0 -1 10011
+S
+#10013
+&@&wA &lWatery &gGarden&*~
+&@&bThere is a small house here surrounded by a lush &ggarden&b. Many cultured
+&gg&*&gr&@&ga&*&gs&@&gs&*&ge&@&gs &ggrow &bhere in different shades and widths and well kept rows of
+colorful &@&lS&ce&waflow&@&we&cr&ls &bsway with the movements of the &lwater&b.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10006
+D1
+~
+~
+0 -1 9994
+D2
+~
+~
+0 -1 10012
+D3
+~
+~
+0 -1 10014
+S
+#10014
+&*&yDoor &@&wto a &ySmall &*&yHouse&*~
+&@&bBefore you is the door to a small &*&yhouse&@&b. Long &ggrasses &btrail up the front
+walls making the house appear as if made of the &ge&*&gm&@&ge&*&gr&@&ga&*&gl&@&gd &ggrasses &baround it.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10005
+D1
+~
+~
+0 -1 10013
+D2
+A door to a tiny shop.~
+door~
+8 9912 10015
+D3
+~
+~
+0 -1 10007
+S
+#10015
+&@&wIn a &cTiny &wShop&*~
+&@&bAll along the walls are shelves with &mbeautiful &bcreations made 
+from &ggrass &band &lf&wl&lo&ww&le&wr&ls&b. There is a table in the center of the room 
+with several tools made from &*&yshells &@&band shark's &wteeth &bprobably used 
+for creating the &gg&*&gr&@&ga&*&gs&@&gs&*&gw&@&go&*&gr&@&gk &bwhich fills the shop.&*
+~
+0 263181 7
+D0
+A door to a tiny shop.~
+door~
+8 9912 10014
+S
+#10016
+&@&bA &*&yCrack &@&bBetween Two Rocks&*~
+&@&bThe crack opens up into a &wdivine &bwork area.&*
+~
+0 279581 7
+S
+#10017
+&@&wRenewal&c(&y+&c)&wChamber&*~
+&@&l>&@&c<>&@&y<&l<&m+&l>&y>&wRenewal&c(&y+&c)&wChamber&y<&l<&m+&l>&y>&c<>&l<&*
+&@&w-------------------------------&*
+&@&bR&we&*&wnewal..........&*
+&*&wof streng&@&wt&bh&*
+&*&wof heal&@&wt&bh&*
+&*&wof mi&@&wn&bd&*
+&*&wof fai&@&wt&bh&*
+&*&wof ener&@&wg&by&*
+&*&wof li&@&wf&be&*
+&*&wof promis&@&we&bs&*
+&@&w.........of &@&rl&mo&wv&re&w!!!&*
+&@&w-------------------------------&*
+&*&g--&@&g`&*&g-&@&g,&*&g-{&@&r@&*
+~
+0 263197 6
+E
+rose~
+&@&w-&c-&y-&bK&wa&*&wya&@&c(&y+&c)&bD&wa&*&wwn&@&y-&c-&w-&*
+~
+S
+#10018
+&@&bUnder&* the &@&lS&we&la&*~
+&@&bIts very cold this deep under the sea, yet the waters bubble with life and vitality.&*
+~
+0 262149 7
+D1
+~
+~
+0 -1 10019
+D2
+~
+~
+0 -1 10033
+D4
+~
+~
+0 -1 9990
+S
+#10019
+&@&lDeep S&we&la&*~
+&@&bNo &ysun &blights the waters here. It is very dark and strange creatures lurk everywhere.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10020
+D3
+~
+~
+0 -1 10018
+S
+#10020
+&@&lU&gn&ld&ge&lr&gt&lo&gw&*~
+&@&bA deep &ls&we&la &bcurrent drags the waters &cswiftly &bfrom east to west.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10021
+D3
+~
+~
+0 -1 10019
+S
+#10021
+&@&lU&gn&ld&ge&lr&gt&lo&gw&*~
+&@&bA deep &ls&we&la &bcurrent drags the waters &cswiftly &bfrom east to west.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10022
+D3
+~
+~
+0 -1 10020
+S
+#10022
+&@&cSwirl&* in the &@&gG&*&gr&@&ga&*&gs&@&gs&*~
+&@&bTwo &lcurrents &bconverge and create a swirlingmass of &gs&*&ge&@&ga&*&gg&@&gr&*&ga&@&gs&*&gs &@&bon the ocean floor.&*
+~
+0 262145 7
+D2
+~
+~
+0 -1 10023
+D3
+~
+~
+0 -1 10021
+S
+#10023
+&@&bThrough a &*&yChasm&*~
+&@&bThe &lw&wa&lt&we&lr &bslips through a deep sea &*&ychasm&@&b. &gB&bi&co&bl&mu&bm&yi&bn&ge&bs&cc&be&mn&yt &bplants weave their ways up the slick sides.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10022
+D2
+~
+~
+0 -1 10024
+S
+#10024
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10023
+D2
+~
+~
+0 -1 10025
+D3
+~
+~
+0 -1 10037
+S
+#10025
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10024
+D2
+~
+~
+0 -1 10026
+D3
+~
+~
+0 -1 10036
+S
+#10026
+&@&cSwirl&* in the &@&gG&*&gr&@&ga&*&gs&@&gs&*~
+&@&bTwo &lcurrents &bconverge and create a swirling mass of &gs&*&ge&@&ga&*&gg&@&gr&*&ga&@&gs&*&gs &@&bon the ocean floor.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10025
+D3
+~
+~
+0 -1 10027
+S
+#10027
+&@&lU&gn&ld&ge&lr&gt&lo&gw&*~
+&@&bA deep &ls&we&la &bcurrent drags the waters &cswiftly &bfrom east to west.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10036
+D1
+~
+~
+0 -1 10026
+D3
+~
+~
+0 -1 10028
+S
+#10028
+&@&lU&gn&ld&ge&lr&gt&lo&gw&*~
+&@&bA deep &ls&we&la &bcurrent drags the waters &cswiftly &bfrom east to west.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10035
+D1
+~
+~
+0 -1 10027
+D3
+~
+~
+0 -1 10029
+S
+#10029
+&@&lU&gn&ld&ge&lr&gt&lo&gw&*~
+&@&bA deep &ls&we&la &bcurrent drags the waters &cswiftly &bfrom east to west.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10034
+D1
+~
+~
+0 -1 10028
+D3
+~
+~
+0 -1 10030
+S
+#10030
+&@&cSwirl&* in the &@&gG&*&gr&@&ga&*&gs&@&gs&*~
+&@&bTwo &lcurrents &bconverge and create a swirling mass of &gs&*&ge&@&ga&*&gg&@&gr&*&ga&@&gs&*&gs &@&bon the ocean floor.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10031
+D1
+~
+~
+0 -1 10029
+S
+#10031
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10032
+D1
+~
+~
+0 -1 10034
+D2
+~
+~
+0 -1 10030
+S
+#10032
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10033
+D2
+~
+~
+0 -1 10031
+S
+#10033
+&@&bThrough a &*&yChasm&*~
+&@&bThe &lw&wa&lt&we&lr &bslips through a deep sea &*&ychasm&@&b. &gB&bi&co&bl&mu&bm&yi&bn&ge&bs&cc&be&mn&yt &bplants weave their ways up the slick sides.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10018
+D2
+~
+~
+0 -1 10032
+S
+#10034
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10039
+D1
+~
+~
+0 -1 10035
+D2
+~
+~
+0 -1 10029
+D3
+~
+~
+0 -1 10031
+S
+#10035
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10038
+D1
+~
+~
+0 -1 10036
+D2
+~
+~
+0 -1 10028
+D3
+~
+~
+0 -1 10034
+S
+#10036
+&@&bA Wide &gOcean &bPlain&*~
+&@&bThe &gocean &*&yfloor &@&bhere opens wide and smooth. A great ammount of fish swim and thrive on the &cglowing &gplantlife &bhere.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10037
+D1
+~
+~
+0 -1 10025
+D2
+~
+~
+0 -1 10027
+D3
+~
+~
+0 -1 10035
+S
+#10037
+&@&lDeep S&we&la&*~
+&@&bNo &ysun &blights the waters here. It is very dark and strange creatures lurk everywhere.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10024
+D2
+~
+~
+0 -1 10036
+D3
+~
+~
+0 -1 10038
+S
+#10038
+&@&bA Rift in the &gS&ce&gabed&*~
+&@&bA narrow rift leads downward here into an incredibly dark part of the &@&cs&ge&ca&b.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10037
+D2
+~
+~
+0 -1 10035
+D3
+~
+~
+0 -1 10039
+D5
+~
+~
+0 -1 10040
+S
+#10039
+&@&bUnder&* the &@&lS&we&la&*~
+&@&bIts very cold this deep under the sea, yet the waters bubble with life and vitality.&*
+~
+0 262149 7
+D1
+~
+~
+0 -1 10038
+D2
+~
+~
+0 -1 10034
+S
+#10040
+&@&bSwimming &lDown &ba &*&yCrack&*~
+~
+0 262149 7
+D4
+~
+~
+0 -1 10038
+D5
+~
+~
+0 -1 10041
+S
+#10041
+&*&yBottom &@&bof the &cS&ge&ca&*~
+&@&bNo &rs&yu&wnrise &bcan truly be seen from here. The &csky &bseems a thousand miles away.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10042
+D4
+~
+~
+0 -1 10040
+S
+#10042
+&@&cGlowing &bCave&*~
+&@&bThe walls of this tight cave are lit with &cglowing &gplants&b. They give just barely enough light to show the way several feet ahead.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10043
+D2
+~
+~
+0 -1 10041
+S
+#10043
+&@&lDeep S&we&la&*~
+&@&bNo &ysun &blights the waters here. It is very dark and strange creatures lurk everywhere.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10044
+D2
+~
+~
+0 -1 10042
+S
+#10044
+&@&cGlowing &bCave&*~
+&@&bThe walls of this tight cave are lit with &cglowing &gplants&b. They give just barely enough light to show the way several feet ahead.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10045
+D3
+~
+~
+0 -1 10043
+S
+#10045
+&@&cGlowing &bCave&*~
+&@&bThe walls of this tight cave are lit with &cglowing &gplants&b. They give just barely enough light to show the way several feet ahead.&*
+~
+0 262145 7
+D2
+~
+~
+0 -1 10046
+D3
+~
+~
+0 -1 10044
+S
+#10046
+&@&bA &mB&ce&ma&cu&mt&ci&mf&cu&ml &*&yCavern&*~
+&@&bThe shifting &lw&wa&lt&we&lr &breflects the &cc&bo&ml&bo&yr&bs from millions of tiny glowing plants and fish. The water shines and prisms like a wonderous &wcrystal &bchandelier.&*
+~
+0 262144 7
+D0
+~
+~
+0 -1 10045
+D5
+~
+~
+0 -1 10047
+S
+#10047
+&@&bSwimming &lDown &ba &*&yCrack&*~
+~
+0 262149 7
+D1
+~
+~
+0 -1 10048
+D4
+~
+~
+0 -1 10046
+S
+#10048
+&@&cUnderwater &bPocket&*~
+&@&bThis is a tiny and narrow pocket of life in one of the most isolated parts of the &cs&ge&ca&b, many fathoms down.&*
+~
+0 262144 7
+D1
+~
+~
+0 -1 10049
+D3
+~
+~
+0 -1 10047
+S
+#10049
+&@&cUnderwater &bPocket&*~
+&@&bThis is a tiny and narrow pocket of life in one of the most isolated parts of the &cs&ge&ca&b, many fathoms down.&*
+~
+0 262144 7
+D0
+~
+~
+0 -1 10050
+D2
+~
+~
+0 -1 10056
+D3
+~
+~
+0 -1 10048
+S
+#10050
+&*&yBottom &@&bof the &cS&ge&ca&*~
+&@&bNo &rs&yu&wnrise &bcan truly be seen from here. The &csky &bseems a thousand miles away.&*
+~
+0 262144 7
+D1
+~
+~
+0 -1 10051
+D2
+~
+~
+0 -1 10049
+S
+#10051
+&@&cUnderwater &bPocket&*~
+&@&bThis is a tiny and narrow pocket of life in one of the most isolated parts of the &cs&ge&ca&b, many fathoms down.&*
+~
+0 262144 7
+D1
+~
+~
+0 -1 10052
+D3
+~
+~
+0 -1 10050
+S
+#10052
+&@&bA Tiny &wShrine&*~
+&@&lHere a tiny shrine is found. A carved figure of Neptune rests 
+&@&cin the center of the marble floor. It is finely sculpted from 
+&@&gmother of pearl. Many offerings have been made here by the 
+&@&ymerfolk over the years.&*
+~
+0 262148 7
+D2
+~
+~
+0 -1 10053
+D3
+~
+~
+0 -1 10051
+>drop_prog focstaff~
+if islevel() > 449
+rpecho &@&lBecause you have offered the staff...&*
+rpecho &@&cYou are allowed to enter the fortress.&*
+rpecho &@&gThe seafloor splits open before you.&*
+rpecho &@&yAn unseen force pushes you inward.&*
+rpecho &@&rThe ocean floor closes above you.&*
+rpecho &@&mNow your journey begins!&*
+rppurge focstaff
+rptransfer all 1600
+~
+|
+S
+#10053
+&@&cUnderwater &bPocket&*~
+&@&bThis is a tiny and narrow pocket of life in one of the most isolated parts of the &cs&ge&ca&b, many fathoms down.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10052
+D2
+~
+~
+0 -1 10054
+S
+#10054
+&@&cGlowing &bCave&*~
+&@&bThe walls of this tight cave are lit with &cglowing &gplants&b. They give just barely enough light to show the way several feet ahead.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10053
+D3
+~
+~
+0 -1 10055
+S
+#10055
+&*&yBottom &@&bof the &cS&ge&ca&*~
+&@&bNo &rs&yu&wnrise &bcan truly be seen from here. The &csky &bseems a thousand miles away.&*
+~
+0 262145 7
+D1
+~
+~
+0 -1 10054
+D3
+~
+~
+0 -1 10056
+S
+#10056
+&@&cUnderwater &bPocket&*~
+&@&bThis is a tiny and narrow pocket of life in one of the most isolated parts of the &cs&ge&ca&b, many fathoms down.&*
+~
+0 262145 7
+D0
+~
+~
+0 -1 10049
+D1
+~
+~
+0 -1 10055
+S
+#0
+
+
+#RESETS
+D 0 9933 5 2
+D 0 9978 4 2
+D 0 10015 0 2
+D 0 10014 2 2
+M 0 9926 1 9936
+E 0 9923 1 6
+M 0 9923 1 10016
+M 0 9915 1 9973
+M 0 9900 10 9906
+M 0 9924 3 9991
+M 0 9924 3 10004
+M 0 9924 3 9994
+M 0 9901 10 9906
+M 0 9905 10 9904
+M 0 9903 10 9904
+M 0 9906 10 9909
+M 0 9904 10 9909
+M 0 9900 10 9911
+M 0 9901 10 9911
+M 0 9902 10 9912
+M 0 9903 10 9912
+M 0 9905 10 9913
+M 0 9900 10 9919
+M 0 9903 10 9919
+M 0 9906 10 9921
+M 0 9904 10 9921
+M 0 9917 1 9923
+M 0 9914 5 9927
+M 0 9910 10 9928
+M 0 9918 1 10015
+G 0 9908 0
+G 0 9909 0
+G 0 9910 0
+G 0 10023 0
+M 0 9912 1 10006
+M 0 9911 10 10002
+M 0 9903 10 10002
+M 0 9908 10 10004
+M 0 9907 5 10004
+M 0 9910 10 10011
+M 0 9911 10 10011
+M 0 9909 5 10005
+M 0 9919 10 10003
+M 0 9907 5 10003
+M 0 9903 10 10009
+M 0 9910 10 10009
+M 0 9900 10 10013
+M 0 9908 10 10013
+M 0 9907 5 9993
+M 0 9919 10 9993
+M 0 9904 10 9991
+M 0 9911 10 9991
+M 0 9905 10 9905
+M 0 9901 10 9905
+M 0 9900 10 9907
+M 0 9902 10 9907
+M 0 9906 10 9945
+M 0 9904 10 9945
+M 0 9919 10 9943
+M 0 9901 10 9943
+M 0 9905 10 9944
+M 0 9900 10 9944
+M 0 9919 10 9900
+M 0 9900 10 9900
+M 0 9901 10 9901
+M 0 9905 10 9901
+M 0 9904 10 9903
+M 0 9906 10 9903
+M 0 9902 10 9908
+M 0 9902 10 9960
+M 0 9903 10 9959
+M 0 9904 10 9958
+M 0 9900 10 9957
+M 0 9919 10 9957
+M 0 9901 10 9954
+M 0 9910 10 9969
+M 0 9913 5 9969
+M 0 9909 5 9977
+M 0 9919 10 9977
+M 0 9910 10 9975
+M 0 9914 5 9975
+M 0 9916 1 9937
+M 0 9909 5 9938
+M 0 9913 5 9938
+M 0 9901 10 9936
+M 0 9911 10 9936
+O 0 9916 100 9961
+O 0 9916 100 9962
+O 0 9917 100 9978
+O 0 9918 100 9978
+O 0 9911 100 10016
+O 0 9917 100 10016
+O 0 9916 100 10017
+O 0 87 100 10017
+O 0 90 100 10017
+O 0 9917 100 10017
+P 0 9903 100 9918
+P 0 9907 100 9918
+P 0 9921 100 9918
+M 0 9904 10 9914
+M 0 9905 10 9941
+M 0 9919 10 9955
+M 0 9906 10 9951
+M 0 9902 10 9952
+M 0 9900 10 9953
+M 0 9901 10 9956
+M 0 9919 10 9964
+M 0 9910 10 9965
+M 0 9903 10 9966
+M 0 9914 5 9966
+M 0 9909 5 9967
+M 0 9904 10 9968
+M 0 9903 10 9968
+M 0 9910 10 9970
+M 0 9911 10 9970
+M 0 9911 10 9974
+M 0 9907 5 9981
+M 0 9901 10 9981
+M 0 9920 5 10007
+M 0 9910 10 10007
+M 0 9911 10 10008
+M 0 9908 10 10008
+M 0 9900 1 10010
+M 0 9920 5 10012
+M 0 9910 10 9999
+M 0 9908 10 9999
+M 0 9907 5 9998
+M 0 9919 10 9998
+M 0 9900 1 9997
+M 0 9904 10 9997
+M 0 9908 10 9995
+M 0 9907 5 9995
+M 0 9901 10 9994
+M 0 9911 10 9992
+M 0 9910 10 9989
+M 0 9920 5 9988
+M 0 9919 10 9988
+M 0 9904 10 9987
+M 0 9908 10 9985
+M 0 9910 10 9985
+M 0 9900 1 9984
+M 0 9903 10 9983
+M 0 9910 10 9983
+M 0 9911 10 9982
+M 0 10018 5 10019
+M 0 10019 5 10020
+M 0 10020 5 10021
+M 0 10021 3 10022
+M 0 10018 5 10023
+M 0 10019 5 10024
+M 0 10020 5 10025
+M 0 10022 5 10026
+M 0 10023 5 10027
+M 0 10018 5 10028
+M 0 10024 1 10029
+M 0 10025 3 10030
+M 0 10026 3 10031
+M 0 10018 5 10032
+M 0 10019 5 10033
+M 0 10026 3 10034
+M 0 10021 3 10035
+M 0 10023 5 10036
+M 0 10023 5 10037
+M 0 10020 5 10038
+M 0 10027 8 10041
+M 0 10018 5 10042
+M 0 10026 5 10043
+M 0 10027 8 10044
+M 0 10025 3 10045
+M 0 10027 8 10046
+M 0 10028 3 10048
+E 0 10018 0 18
+M 0 10029 3 10049
+E 0 10020 100 4
+M 0 10028 3 10050
+E 0 10018 0 18
+M 0 10029 3 10051
+M 0 10028 3 10054
+E 0 10018 0 18
+M 0 10029 3 10055
+M 0 10027 8 10056
+M 0 10027 8 10021
+M 0 10025 3 10024
+M 0 10023 5 10025
+M 0 10021 3 10019
+M 0 10023 5 10042
+M 0 10022 5 10045
+M 0 10022 5 10039
+M 0 10022 5 10049
+M 0 10022 5 10022
+M 0 10027 8 10032
+O 0 10019 100 10052
+P 0 10021 100 10019
+M 0 10030 4 9941
+M 0 10030 4 9909
+M 0 10030 4 9907
+M 0 10030 4 9905
+M 0 10031 1 9947
+S
+
+
+#SHOPS
+9918 8 9 10 13 17 100 30 0 23
+0
+
+
+#SPECIALS
+M 9913 spec_poison
+M 9914 spec_poison
+M 9915 spec_pestilence
+M 9917 spec_cast_adept
+M 9921 spec_cast_cleric
+M 9922 spec_cast_cleric
+M 10019 spec_fido
+S
+
+
+
+#$
+

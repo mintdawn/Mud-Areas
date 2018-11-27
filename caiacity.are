@@ -1,0 +1,2989 @@
+#AREADATA
+Name        &@&l-&r{ &y100 &g170&r }&l-     &*&cDawn/Taukimada &*&yC&@&ya&gi&wamaya&*                 ~
+Builders    none~
+VNUMs       9700 9799
+Recall      3001
+Security    1
+LEVELS      100 170
+Repop       &*&cPrayers for &@&lrain &cwash &*&cacross the &@&csky&*&c.&*~
+Norecall    God has forsaken you.~
+Sname       &*&yC&@&ya&gi&wamaya City&*~
+End
+
+
+#MOBILES
+#9700
+caiamaya maiden~
+&*&yC&@&ya&gi&wamaya Maiden&*~
+A young girl brushes past.
+~
+~
+65 0 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 2
+#9701
+caiamaya warrior~
+&*&yC&@&ya&gi&wamaya &rWarrior&*~
+A strong warrior helps protect the city.
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 1
+#9702
+caiamaya man~
+&*&yC&@&ya&gi&wamaya &*&yM&@&wan&*~
+A man of the city goes about his daily business.
+~
+~
+65 0 0 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 1
+#9703
+caiamaya boy~
+&*&yC&@&ya&gi&wamaya &yBoy&*~
+A young boy is playing warrior games.
+~
+~
+69 0 0 S
+105 0 0 0d0+0 0d0+0
+10500 0
+0 0 1
+#9704
+caiamaya matron~
+&*&yC&@&ya&gi&wamaya &*&yM&@&watron&*~
+A dignified woman is busy with her day.
+~
+~
+65 0 0 S
+110 0 0 0d0+0 0d0+0
+11000 0
+0 0 2
+#9705
+caiamaya watchman~
+&*&yC&@&ya&gi&wamaya &*&rWatchman&*~
+A watchman guards the city.
+~
+~
+67 8872 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#9706
+caiamaya woman~
+&*&yC&@&ya&gi&wamaya &*&yW&@&woman&*~
+A busy woman strolls past.
+~
+~
+65 0 0 S
+112 0 0 0d0+0 0d0+0
+11200 0
+0 0 2
+#9707
+jewelry crafter~
+&*&yJ&@&ye&gw&welry &*&yC&@&wrafter&*~
+The &*&yJ&@&ye&gw&welry &*&yC&@&wrafter&* tends her shop.
+~
+~
+67 680 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+#9708
+herbal dealer~
+&*&yH&@&ye&gr&wbal &*&yD&@&wealer&*~
+A man is here selling herb.
+~
+~
+67 680 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+#9709
+grocer~
+&@&wThe &*&yG&@r&go&wcer&*~
+&@&wThe &*&yG&@r&go&wcer&* smiles at you through a haze of flour.
+~
+~
+67 168 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+#9710
+wife~
+&@&wThe &*&yG&@r&go&wcer's&* &yw&@&wife&*~
+&@&wThe &*&yG&@r&go&wcer's&* &yw&@&wife&* helps her husband prepare food.
+~
+~
+67 168 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 2
+>greet_prog 10~
+mpoload 9707
+give taco $n
+~
+|
+#9711
+weaver~
+&@&wThe &*&yW&@e&ga&wver&*~
+&@&wThe &*&yW&@e&ga&wver&* concentrates as he works on a large basket.
+~
+~
+67 168 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+#9712
+jaguar bacab white~
+&@&wThe bacab&*~
+&@&wThe white bacab of the north is here holding up the sky.&*
+~
+~
+67 67117736 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+>greet_prog 100~
+if ispc ($n)
+if level ($n) < 100
+growl
+endif
+~
+>give_prog white trinket caia~
+mpjunk trinket
+if isbar ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if isshd ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if isnec ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if iswzr ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if isabt ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if issag ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if ispri ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if isnja ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if isnbl ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if isshp ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if isrvr ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if isran ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if isbrb ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if iskni ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if iswrk ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+else
+if issam ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if ispug ($n)
+mpoload 9716
+drop robe
+mpforce $n get robe
+else
+if isshm ($n)
+mpoload 9868
+drop crown
+mpforce $n get crown
+endif
+~
+|
+#9713
+jaguar bacab~
+&@&wThe &rbacab&*~
+&@&wThe &rred bacab &wof the &reast &wis here holding up the sky.&*
+~
+~
+67 67117736 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+>greet_prog 100~
+if ispc ($n)
+if level ($n) < 100
+growl
+endif
+~
+>give_prog red trinket caia~
+mpjunk trinket
+if isbar ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if isshd ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if isnec ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if iswzr ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if isabt ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if issag ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if ispri ($n)
+mpoload 9864
+drop henna
+mpforce $n get henna
+else
+if isnja ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isnbl ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isshp ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isrvr ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isran ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isbrb ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if iskni ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if iswrk ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if issam ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if ispug ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+else
+if isshm ($n)
+mpoload 9867
+drop bleeding
+mpforce $n get bleeding
+endif
+~
+|
+#9714
+jaguar bacab~
+&@&wThe &bbacab&*~
+&@&wThe &bblack bacab &wof the &bwest &wis here holding up the sky.&*
+~
+~
+67 67117736 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+>greet_prog 100~
+if ispc ($n)
+if level ($n) < 100
+growl
+endif
+~
+>give_prog black trinket caia~
+mpjunk trinket
+if isbar ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if isshd ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if isnec ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if iswzr ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if isabt ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if issag ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if ispri ($n)
+mpoload 9866
+drop leggings
+mpforce $n get leggings
+else
+if isnja ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isnbl ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isshp ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isrvr ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isran ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isbrb ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if iskni ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if iswrk ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if issam ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if ispug ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+else
+if isshm ($n)
+mpoload 9869
+drop door
+mpforce $n get door
+endif
+~
+>give_prog shard bone~
+if ispc ($n)
+if ispug ($n)
+if level ($n) > 149
+mpjunk shard
+tell $n &*&wYou have done well in bringing this to me, $n&*
+tell $n &*&wFor the Trials you have undergone, I'll give you this.&*
+mpoload 9711
+drop pugilist
+mpforce $n get pugilist
+endif
+~
+|
+#9715
+jaguar bacab~
+&@&wThe &ybacab&*~
+&@&wThe &yyellow bacab &wof the &ysouth &wis here holding up the sky.&*
+~
+~
+67 67117736 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+>greet_prog 100~
+if ispc ($n)
+if level ($n) < 100
+growl
+endif
+~
+>give_prog yellow trinket caia~
+mpjunk trinket
+if isbar ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if isshd ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if isnec ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if iswzr ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if isabt ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if issag ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if ispri ($n)
+mpoload 9865
+drop dreams
+mpforce $n get dreams
+else
+if isnja ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if isnbl ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if isshp ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if isrvr ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if isran ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if isbrb ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if iskni ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if iswrk ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+else
+if issam ($n)
+mpoload 9805
+drop spiney
+mpforce $n get spiney
+else
+if ispug ($n)
+mpoload 9805
+drop spiney
+mpforce $n get spiney
+else
+if isshm ($n)
+mpoload 9870
+drop spiney
+mpforce $n get spiney
+endif
+~
+|
+#9716
+crying girl~
+&@&wThe &*&yc&@r&gy&wing &*&yg&@&wirl&*~
+&@&wThe &*&yc&@r&gy&wing &*&yg&@&wirl&* looks like she needs help.
+~
+~
+67 8872 0 S
+105 0 0 0d0+0 0d0+0
+12975 0
+0 0 2
+>rand_prog 2~
+sob
+~
+>greet_prog 100~
+mpechoat $n &@&wThe &*&yc&@r&gy&wing &*&yg&@&wirl&* says 'Please help me!'
+mpechoat $n &@&wThe &*&yc&@r&gy&wing &*&yg&@&wirl&* says 'My sister has been taken to the temple for sacrifice.'
+mpechoat $n &@&wThe &*&yc&@r&gy&wing &*&yg&@&wirl&* says 'Ask the priest about the sacrifice.'
+~
+>give_prog sister note letter caia~
+emote reads the letter
+thank $n
+curt
+mpjunk letter
+mpoload 9788
+drop key
+mpforce $n get key
+say I must go and make sure she is ok...
+say Please feel free to take anything i have in gratitude.
+mpgoto 9787
+~
+|
+#9717
+brynn red footed harlot~
+&@&rB&*&rry&@&rnn&*,the &rred&g-&yfooted &@&rharlot&*~
+A sultry woman with the soles of her feet painted red is here.
+~
+A woman with a merry spirit and great humor who
+is gifted in the arts of love and adept at giving
+pleasure to both the men and women of the land.
+She is reknowned for her chaotic nature and great
+style. You also can't help but notice the grand
+expanse of her backside.
+~
+8257 67117736 0 S
+150 0 0 0d0+0 0d0+0
+38750 0
+0 0 2
+>greet_prog 100~
+mpechoat $n &@&rB&*&rry&@&rnn says 'I can make you something.'&*
+mpechoat $n &@&rB&*&rry&@&rnn says 'If you bring me something special or precious.'&*
+~
+>give_prog precious ring~
+mprename precious &@&w$n's&* &@&l(&c(&wLove&l(&cV&l)&wRing&c)&l)&*
+drop precious
+mpforce $n get precious
+~
+>give_prog special ring~
+mprename special &@&w$n's &r(&m(&wLove&r(&mV&r)&wRing&m)&r)&*
+drop special
+mpforce $n get special
+~
+>death_prog 80~
+wink
+mpecho &@&rSomethings will just not be denied.&*
+mpmload 9717
+~
+|
+#9718
+wandering trader~
+&@&cWandering &gT&yrader&*~
+A wandering trader is looking for something to trade.
+~
+~
+8257 67109544 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 1
+>speech_prog pc urn~
+say Hrmmm, I found these broken shards in a pile of ash. 
+say Do you have something to trade for them?
+~
+>rand_prog 10~
+mpzsound &*&cA &@&cWandering &gT&yrader&* cries out 'Buy, sell, trade...come see my wares....'&*
+~
+>give_prog splendid shiny mirror~
+hop
+clap
+mpjunk mirror
+mpoload 9717
+drop broken
+mpforce $n get broken
+say This is a GOOD trade!
+snicker
+mppurge $i
+~
+|
+#9781
+temple guard~
+&@&wa temple &*&rguard&*~
+A &@&wtemple &*&rguard&* patrols the temple.
+~
+~
+67 67109544 0 S
+160 0 0 0d0+0 0d0+0
+18750 0
+0 0 1
+#9782
+faithful~
+the &@&cfaithful&*~
+&@&cFaithful&* followers protect their sacred temple.
+~
+~
+67 67109544 0 S
+155 0 0 0d0+0 0d0+0
+15500 0
+0 0 2
+>rand_prog 2~
+emote quietly prays for water.
+~
+>rand_prog 3~
+say &@&lWater is the material which makes up all living things....&*
+say &@&lWater....bring me water....&*
+~
+>give_prog blue stone water materia~
+worship $n
+grovel $n
+emote kisses $n's feet.
+mpjunk materia
+mpoload 9799
+drop liquid
+mpforce $n get liquid
+~
+|
+#9783
+priest~
+a &*&yp&@&yr&gi&west&*~
+A &*&yp&@&yr&gi&west&* guides the faithful in worship.
+~
+~
+8259 67109544 0 S
+168 0 0 0d0+0 0d0+0
+16800 0
+0 0 1
+>rand_prog 2~
+emote mumbles quiet prayers for rain.
+~
+>speech_prog pc girl~
+say Yes, a girl was brought here for sacrifice.
+~
+>speech_prog pc sacrifice~
+say You must go to the underworld and the realm of the sky 
+say to bring the rains. You must get ash from the center of 
+say the earth and bring it to the rain goddess to scatter in the 
+say clouds. Only if you do this can the girl be saved.
+mpoload 9848
+drop urn
+mpforce $n get urn
+say Take this and fill it with the ash.
+say After it rains bring it back as proof it was you who made the rains.
+mpgoto 9786
+~
+|
+#9784
+temple guard~
+&@&wa temple &*&rguard&*~
+A &@&wtemple &*&rguard&* patrols the temple.
+~
+~
+67 67109544 0 S
+162 0 0 0d0+0 0d0+0
+16200 0
+0 0 1
+#9785
+high priestess~
+the &@&whigh &*&yp&@&yr&gi&westess&*~
+The &@&whigh &*&yp&@&yr&gi&westess&* is praying for rain.
+~
+~
+8259 67117736 0 S
+168 0 0 0d0+0 0d0+0
+16800 0
+0 0 2
+>speech_prog pc sacrifice~
+say Prove you brought the rain.
+~
+>speech_prog pc rain~
+say Prove you brought the rain.
+~
+>speech_prog pc ash~
+say Did you bring it?
+~
+>speech_prog pc urn~
+say Where is the urn?
+say Give it to me.
+~
+>give_prog ashy broken urn~
+bow $n
+mpoload 9785
+drop key
+mpforce $n get key
+mppurge $i
+~
+|
+#9786
+binding man~
+a &@&lman &*of &@&rbinding&*~
+A man is here to bind the sacrifice.
+~
+~
+524387 67109544 0 S
+150 0 0 0d0+0 0d0+0
+15000 0
+0 0 1
+>fight_prog 10~
+mpforce $n remove all
+~
+|
+#9787
+master knife~
+the &@&lMaster&* of the &@&rKnife&*~
+The &@&lMaster&* is ready for the sacrifice.
+~
+~
+532579 67109544 0 S
+170 0 0 0d0+0 0d0+0
+17000 0
+0 0 1
+>fight_prog 40~
+emote &@&rtries to sacrifice you!!!&*
+stab $n
+stab $n
+~
+>death_prog 100~
+emote &@&wdrops the key to the cell...&*
+mpoload 9786
+~
+|
+#9788
+sacrifice girl sister scared caiamaya~
+the &*&yS&@&yc&ga&wred &*&yG&@&wirl&*~
+A very scared girl who is about to be sacrificed rests in the cell.
+~
+~
+8291 67109544 0 S
+110 0 0 0d0+0 0d0+0
+14750 0
+0 0 2
+>greet_prog 100~
+sob
+thank $n
+say I thought they would surely kill me.
+mpoload 9793
+say Thank you, so much i must hurry away...
+say Please, take this letter to my sister so she will know i am well.
+drop letter
+mpforce $n get letter
+mpgoto 9787
+~
+|
+#9789
+caiamaya watchman~
+&*&yC&@&ya&gi&wamaya &*&rWatchman&*~
+A watchman guards the city.
+~
+~
+67 8872 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#9790
+caiamaya watchman~
+&*&yC&@&ya&gi&wamaya &*&rWatchman&*~
+A watchman guards the city.
+~
+~
+67 8872 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#9791
+caiamaya watchman~
+&*&yC&@&ya&gi&wamaya &*&rWatchman&*~
+A watchman guards the city.
+~
+~
+67 8872 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#9792
+hider~
+The &@&bHider&*~
+Something is here.
+~
+~
+8259 67117736 0 S
+150 0 0 0d0+0 0d0+0
+18750 0
+0 0 2
+>give_prog all~
+if sex ($n) == 1
+oset $o short &@&b$n's &rC&yr&gA&yz&lY &bThangamagig!&*
+drop $o
+mpforce $n get $o
+else
+if sex ($n) == 2
+oset $o short &@&w$n's &rC&yr&gA&yz&lY &wThangamagig!&*
+drop $o
+mpforce $n get $o
+else
+oset $o short &@&w$n's &rC&yr&gA&yz&lY &wT&bh&wa&bn&wg&ba&wm&ba&wg&bi&wg&b!&*
+drop $o
+mpforce $n get $o
+endif
+~
+|
+#9793
+corn maiden cornmaiden~
+&@&wThe &*&yC&@&yo&gr&wn &*&yM&@&ya&gi&wden&*~
+&@&wA holy and chaste maiden says her prayers.&*
+~
+&@&wThe corn maiden is the most holy of all citizens
+of caiamaya. A maiden is chosen at birth to bear the
+title and guard the sacred bacab totem. She must remain
+pure which means she must never marry or bear children.
+The penalty for such earthly pleasure is sacrifice at
+the altar of the rain god.&*
+~
+65 0 0 S
+100 0 0 0d0+0 0d0+0
+12750 0
+0 0 2
+>greet_prog 100~
+if ispc ($n)
+if level($n) > 399
+mpechoat $n &@&wThe &*&yC&@&yo&gr&wn &*&yM&@&ya&gi&wden shrieks in panic!&*
+mpechoat $n &@&wThe &*&yC&@&yo&gr&wn &*&yM&@&ya&gi&wden &*&rscreams 'The sacred bacab totem is missing!'&*
+mpechoat $n &@&wThe &*&yC&@&yo&gr&wn &*&yM&@&ya&gi&wden &*&rentreats 'Please...help me...'&*
+endif
+~
+>speech_prog bacab~
+if level($n) > 399
+say The bacab is the guardian of Caiamaya..
+say A fierce jaguar which devours evil and holds up the sky.
+say The totem was a powerful and ancient relic.
+say Our people's most valuable treasure.
+say Can you help me to get it back?
+else
+say You are of no use to me.
+dismiss $n
+endif
+~
+>speech_prog help~
+if level($n) > 399
+say The bacab is the guardian of Caiamaya..
+say A fierce jaguar which devours evil and holds up the sky.
+say The totem was a powerful and ancient relic.
+say Our people's most valuable treasure.
+say Can you help me to get it back?
+else
+say You are of no use to me.
+dismiss $n
+endif
+~
+>speech_prog no~
+if level($n) > 399
+say Get away from me then!
+mptransfer $n 1400
+else
+say Oh please, who asked you?
+dismiss $n
+endif
+~
+>speech_prog yes~
+if level($n) > 399
+say If you want to help then take this wood...
+mpoload 14391
+drop wood
+say Take this wood to the &@&cIcy M&wys&ctic &rso it will make a rune of&*
+say this wood. The rune will help you to find the person who
+say has stolen the totem from me. With the right powers it
+say might even be able to transport you to the thief.
+say Hurry, if the elders find it missing, I will have to be sacrificed...
+else
+say Go take a nap, you don't stand a chance.
+mpforce $n sleep
+endif
+~
+>give_prog bacab totem relic caia~
+if level($n) > 399
+emote breathes a sigh of relief
+mpjunk totem
+smile
+thank $n
+say I will be safe from death now.
+say The rains will be plentiful this year with
+say such a beautiful sacrifice as my son.
+say He was a good boy with a pure heart.
+emote smiles proudly and holds the &@&bbacab&* to her &@&rheart&*, knowing she has done well.
+mpecho She pricks her finger with the &@&wtooth&* of the &@&bbacab&* she holds.
+mpecho The &@&rb&*&rl&@&ro&*&ro&@&rd&* hits the ground in tiny droplets. 
+mpecho It expands and becomes stronger than iron...
+mpecho Several objects form from the &@&bsacrificed &@&rb&*&rl&@&ro&*&ro&@&rd&*.
+mpoload 14396
+mpoload 9871
+mpoload 9872
+drop all
+mpforce $n get all
+say Take that for your pains.
+mppurge cornmaiden
+else
+say Oh, like this is the real thing.
+roll
+drop totem
+dismiss $n
+endif
+~
+|
+#9794
+tiny boy smallson~
+a &*&yv&@&ye&gr&wy &*&yt&@&yi&gn&wy &@&lboy&*~
+A little boy plays with a tiny jaguar toy.
+~
+&@&wA young boy has been left and hidden here in
+solitude. He has very few toys or clothes. Where
+is his mother and why is he here?&*
+~
+67 0 0 S
+10 0 0 0d0+0 0d0+0
+5450 0
+0 0 1
+>give_prog crimson rune caia~
+if level($n) > 399
+say OooOoo pretty!
+mpjunk crimson
+mpecho The &*&yC&@&yh&gi&wld's&* eyes open wide...
+say Wait til MaMa sees!
+mpecho The relic falls from his hands...
+mpoload 14395
+drop totem
+mpecho The boy is sucked into the &*&rr&mu&rn&me&*!
+mpecho The &*&rr&mu&rn&me&* drops the the ground and implodes with a whisper of &@&bc&*&mr&@&mi&@&wm&*&ws&@&mo&*&mn &@&rfire&*.
+mppurge smallson
+else
+say Wanna play?
+drop rune
+get rune
+drop rune
+sit
+smile
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#9700
+coolspice mint herb~
+&@&wsome &@&gm&*&gi&@&gn&*&gt&*~
+&@&wSome &@&gm&*&gi&@&gn&*&gt&* is on the ground.~
+~
+26 0 1
+100 81 160 171
+5 100 0
+#9701
+glowing shuriken~
+&@&rS&yh&*&ru&@&br&*&wi&@k&*&re&@&yn&*~
+&@&ba &rS&yh&*&ru&@&br&*&wi&@k&*&re&@&yn &blies here&*~
+~
+8 0 1
+0 0 0 0
+1 10 701
+#9702
+saffron~
+&@&wSome &ys&*&yaffron&*~
+&@&wSome &ys&*&yaffron&* lies in a heap on the floor.~
+~
+26 0 1
+100 119 29 -1
+1 200 0
+#9703
+hemp~
+&@&wSome &gh&*emp~
+&@&wSome &gh&*emp~
+~
+26 0 1
+100 2 2 2
+1 300 0
+#9704
+cornbread~
+&@&wSome &ycorn&*&ybread&*~
+&@&wSome &ycorn&*&ybread&* is here.~
+~
+19 0 1
+40 0 0 0
+2 20 0
+#9705
+chili pepper~
+&@&wA &@&rc&*&rh&@i&*&rl&@i &gp&*&gepper&*~
+&@&wA &@&rc&*&rh&@i&*&rl&@i &gp&*&gepper&* melts the ground it sits on.~
+~
+19 0 1
+25 0 0 0
+1 10 0
+#9706
+cheese~
+&@&wA &*large block of &@&yc&*&yheese&*~
+&@&wA &*large block of &@&yc&*&yheese&* which does not stink is here.~
+~
+19 0 1
+35 0 0 0
+5 30 0
+#9707
+taco~
+a &@&rt&ya&rc&yo&*~
+A crunchy &@&rt&ya&rc&yo&* makes a lot of noise. ~
+~
+19 0 1
+15 0 0 0
+1 10 0
+#9708
+special ring~
+&@&wA &mR&*&ming&*~
+&@&wA &mR&*&ming&* can barely be seen in the dirt here.~
+~
+9 64 3
+5 0 0 0
+5 10000 20
+A
+4 5
+#9709
+crystal raindrop~
+&@&wA &ccrystal &lr&wa&li&wn&ld&wr&lo&wp&*~
+&@&wA &ccrystal &lr&wa&li&wn&ld&wr&lo&wp&* falls from the sky.~
+~
+1 64 1
+0 0 -1 0
+2 100000 25
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+#9710
+woven sack~
+&@&wA &*&yW&@&yo&gv&wen &*&ySack&*~
+A grass sack lies here.~
+~
+15 0 1
+400 0 0 0
+2 10 0
+#9711
+inner strength pugilist~
+&@&r((&bW&w:&bw&w.&r|&w.&bw&w:&bW&r)) &wI&rn&bn&we&rr &wS&rt&br&we&rn&bg&rt&wh &r((&bW&w:&bw&w.&r|&w.&bw&w:&bW&r))&*~
+&@&wSomeone's &@&r((&bW&w:&bw&w.&r|&w.&bw&w:&bW&r)) &wI&rn&bn&we&rr &wS&rt&br&we&rn&bg&rt&wh &r((&bW&w:&bw&w.&r|&w.&bw&w:&bW&r))&* &@&wlies here.&*~
+~
+1 541065218 1
+0 0 -1 0
+1 10 150
+F 32243679
+A
+25 3
+A
+14 25
+A
+18 9
+A
+19 9
+A
+17 -40
+A
+1 1
+A
+5 1
+#9712
+blow gun~
+&@&wA &bBlow &rGun&*~
+A thin tube with a dart rests here.~
+~
+5 0 8193
+0 0 0 6
+10 0 0
+A
+19 10
+A
+18 10
+#9713
+arrow tipped spear~
+&@&wAn &rarrow &wtipped &rs&*&rp&@&re&*&ra&@&rr&*~
+A sharp spear sticks out of the ground.~
+~
+5 0 8193
+0 0 0 11
+10 0 0
+A
+18 15
+A
+19 15
+#9714
+soft woven blanket~
+a &*&csoft &ywoven &@&lblanket&*~
+A soft blanket is folded here ready for bed.~
+~
+9 0 1025
+20 0 0 0
+10 20000 0
+#9715
+precious ring~
+&@&wA &cR&*&cing&*~
+&@&wA &cR&*&cing&* can barely be seen in the dirt here.~
+~
+9 64 3
+5 0 0 0
+5 10000 20
+A
+5 5
+#9716
+rain robe~
+&@&l.&c'&w.&lr&ca&wi&ln r&co&wb&le&w.&c'&l.&*~
+Rain is here.~
+~
+9 64 1025
+27 0 0 0
+2 1000000 170
+A
+13 180
+A
+25 120
+#9717
+ashy broken urn~
+an &@&bashy&* and &*&rbroken&* urn.~
+A broken urn is here.~
+~
+13 0 1
+0 0 0 0
+5 0 201
+#9781
+rain stick~
+a &@&lrain &*&ystick&*~
+A sharp wet stick is here.~
+~
+5 0 8193
+0 0 0 2
+5 0 0
+A
+19 20
+A
+18 20
+#9782
+box rain~
+a &*&ybox of &@&lrain&*~
+A wet box is here.~
+~
+15 0 1
+500 0 0 0
+5 0 0
+#9783
+temple key~
+a &@&ctemple&* key~
+A key to the temple is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#9784
+temple key~
+a &@&ctemple&* key~
+A key to the temple is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#9785
+knife key~
+a &*&rknife&* key~
+A key shaped like a knife rests here.~
+~
+18 0 1
+1 0 0 0
+1 0 0
+#9786
+cell key~
+the &*&ycell&* key~
+A key is here.~
+~
+18 0 1
+1 0 0 0
+1 0 0
+#9787
+woven chest~
+a &*&yw&go&yv&ge&yn chest&*~
+A &*&yw&go&yv&ge&yn chest&* is here.~
+~
+15 0 0
+300 15 9788 0
+5 0 0
+#9788
+very small key~
+a very &*&ys&gm&ya&gl&yl&* key~
+A key is here.~
+~
+18 0 1
+1 0 0 0
+1 0 0
+#9789
+white trinket caia~
+a &@&wwhite trinket&*~
+A trinket is here.~
+~
+18 0 5
+0 0 0 0
+5 0 0
+#9790
+black trinket caia~
+a &@&bblack trinket&*~
+A trinket is here.~
+~
+18 0 5
+0 0 0 0
+5 0 0
+#9791
+red trinket caia~
+a &@&rred trinket&*~
+A trinket is here.~
+~
+18 0 5
+0 0 0 0
+5 0 0
+#9792
+yellow trinket caia~
+a &@&yyellow trinket&*~
+A trinket is here.~
+~
+18 0 5
+0 0 0 0
+5 0 0
+#9793
+sister note letter caia~
+a &@&wletter&*~
+A letter is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+letter~
+I am free and have gone into hiding
+
+your sister.~
+#9794
+knife sacrifice~
+a &*&rsacrifical &@&rknife&*~
+A long curved knife is here.~
+~
+5 0 8193
+0 0 0 2
+5 0 0
+A
+19 20
+A
+18 20
+A
+25 197
+#9795
+red henna feet~
+&@&rhenna&*&y-&rstained &yfeet&*~
+Red foot prints are here.~
+~
+9 0 65
+23 0 0 0
+3 1111 110
+A
+12 110
+#9796
+beaded bracelet~
+a &@&rb&ye&ga&bd&ye&rd &wbracelet&*~
+A bracelet made of tiny beads is here.~
+~
+9 0 4097
+18 0 0 0
+3 1111 110
+A
+12 80
+A
+13 30
+#9797
+beaded necklace~
+a &@&rb&ye&ga&bd&ye&rd &wnecklace&*~
+A necklace made with tiny beads is here.~
+~
+9 0 5
+18 0 0 0
+3 1111 110
+A
+12 55
+A
+13 55
+#9798
+tiger claw~
+a &*&yt&@&yi&*&yg&@&ye&*&yr &@&rclaw&*~
+A sharp tiger's claw lies here.~
+~
+9 0 129
+23 0 0 0
+3 1111 110
+A
+19 7
+A
+13 40
+#9799
+liquid shield~
+&*a &@&ll&ci&wquid &*&ys&@&yh&gi&weld&*~
+A liquid shield is here.~
+~
+9 4 513
+46 0 0 0
+3 1111 110
+A
+19 7
+A
+12 40
+#0
+
+
+#ROOMS
+#9700
+&*&yN&@&yo&gr&wthwest Corner&*~
+&*&yYou are standing behind a small house which lies on your southeast side. The thin trail leads east and south. In the distance you see a guarded gate in both directions.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9701
+D2
+~
+~
+0 -1 9709
+S
+#9701
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your south side. Northward is blocked by a large stone wall. The trail leads east and west. To the east you can see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9702
+D3
+~
+~
+0 -1 9700
+S
+#9702
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yThe way northward is blocked by a large stone wall. To the east you can see a guarded gate. The thin trail leads east and west. There is a path between two small houses which heads south.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9703
+D2
+~
+~
+0 -1 9711
+D3
+~
+~
+0 -1 9701
+S
+#9703
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your south side. Northward is blocked by a large stone wall. The trail leads east and west. Just east of here you see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9704
+D3
+~
+~
+0 -1 9702
+S
+#9704
+&*&yN&@&yo&gr&wth Gate&*~
+&*&yLooming above you are the northern gates into the city. There is a guardpost here. Exits lie in all directions. North through the gate you can proceed to the jungles. Far to the south you see a market of some sort. East and west both lead to a thin trail along the inside of the city's stone wall.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9000
+D1
+~
+~
+0 -1 9705
+D2
+~
+~
+0 -1 9713
+D3
+~
+~
+0 -1 9703
+S
+#9705
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your south side. Northward is blocked by a large stone wall. The trail leads east and west. Just west of here you see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9706
+D3
+~
+~
+0 -1 9704
+S
+#9706
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yThe way northward is blocked by a large stone wall. To the east you can see a guarded gate. The thin trail leads east and west. There is a path between two small houses which heads south.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9707
+D2
+~
+~
+0 -1 9715
+D3
+~
+~
+0 -1 9705
+S
+#9707
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your south side. Northward is blocked by a large stone wall. The trail leads east and west. To the west you can see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9708
+D3
+~
+~
+0 -1 9706
+S
+#9708
+&*&yN&@&yo&gr&wtheast Corner&*~
+&*&yYou are standing behind a small house which lies on your southwest side. The thin trail leads west and south. In the distance you see a guarded gate in both directions.&*
+~
+0 0 1
+D2
+~
+~
+0 -1 9717
+D3
+~
+~
+0 -1 9707
+S
+#9709
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your east side. Westward is blocked by a large stone wall. The trail leads north and south. To the south you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9700
+D2
+~
+~
+0 -1 9718
+S
+#9710
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 8 0
+D2
+~
+~
+1 -1 9719
+S
+#9711
+&*&yB&@&ye&gt&wween Houses&*~
+&*&yJust north of here you can see the trail which follows the city's stone wall. East and west are the sides of two small houses, and south leads to the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9702
+D2
+~
+~
+0 -1 9720
+S
+#9712
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 8 0
+D2
+~
+~
+1 -1 9721
+S
+#9713
+&*&yW&@&yi&gd&we Street&*~
+&*&yJust north of here you can see the city gates along with the guardpost. East and west of here are the sides of two small houses, and far to the south you see the market square.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9704
+D2
+~
+~
+0 -1 9722
+S
+#9714
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 8 0
+D2
+~
+~
+1 -1 9723
+S
+#9715
+&*&yB&@&ye&gt&wween Houses&*~
+&*&yJust north of here you can see the trail which follows the city's stone wall. East and west are the sides of two small houses, and south leads to the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9706
+D2
+~
+~
+0 -1 9724
+S
+#9716
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 8 0
+D2
+~
+~
+1 -1 9725
+S
+#9717
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your west side. Eastward is blocked by a large stone wall. The trail leads north and south. To the south you can see a large guarded gate.&*
+~
+0 8 0
+D0
+~
+~
+0 -1 9708
+D2
+~
+~
+0 -1 9726
+S
+#9718
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are on a thin trail which follows the city's wall on your west side. The trail leads north and south. There is also a path to the main walkway to the east.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9709
+D1
+~
+~
+0 -1 9719
+D2
+~
+~
+0 -1 9727
+S
+#9719
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of two small houses directly north and south of here. Westward you see the thin trail which follows the city's stone wall. Eastward the main walkway continues toward the center of town.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9710
+D1
+~
+~
+0 -1 9720
+D2
+~
+~
+1 -1 9728
+D3
+~
+~
+0 -1 9718
+S
+#9720
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of the small houses you see around you. You can head north between two houses, or, in any other direction to follow the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9711
+D1
+~
+~
+0 -1 9721
+D2
+~
+~
+0 -1 9729
+D3
+~
+~
+0 -1 9719
+S
+#9721
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are standing behind a small shop. To your north you see the front door of a small house. To the east is a wide street, and west is the main walkway leading to more houses.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9712
+D1
+~
+~
+0 -1 9722
+D3
+~
+~
+0 -1 9720
+S
+#9722
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis grand intersection leads northward to a large guarded gate. To the south, you can see the market square, and a path leads east and west used as the main walkway to the small houses of the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9713
+D1
+~
+~
+0 -1 9723
+D2
+~
+~
+0 -1 9731
+D3
+~
+~
+0 -1 9721
+S
+#9723
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are standing behind a small shop. To your north you see the front door of a small house. To the west is a wide street, and east is the main walkway leading to more houses.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9714
+D1
+~
+~
+0 -1 9724
+D3
+~
+~
+0 -1 9722
+S
+#9724
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of the small houses you see around you. You can head north between two houses, or, in any other direction to follow the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9715
+D1
+~
+~
+0 -1 9725
+D2
+~
+~
+0 -1 9733
+D3
+~
+~
+0 -1 9723
+S
+#9725
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of two small houses directly north and south of here. Eastward you see the thin trail which follows the city's stone wall. Westward the main walkway continues toward the center of town.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9716
+D1
+~
+~
+0 -1 9726
+D2
+~
+~
+1 -1 9734
+D3
+~
+~
+0 -1 9724
+S
+#9726
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are on a thin trail which follows the city's wall on your east side. The trail leads north and south. There is also a path to the main walkway to the west.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9717
+D2
+~
+~
+0 -1 9735
+D3
+~
+~
+0 -1 9725
+S
+#9727
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your east side. Westward is blocked by a large stone wall. The trail leads north and south. Just south of here you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9718
+D2
+~
+~
+0 -1 9736
+S
+#9728
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9719
+S
+#9729
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are between a small house and a shop. The main walkway lies to the north, while a wide street can be seen to the south.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9720
+D2
+~
+~
+0 -1 9738
+S
+#9730
+&*&yCity &@&wWeaver&*~
+&*&yThis is the house and shop of the citys weaver. Baskets line the floor, and all around you are small chairs and other woven artifacts. There is also some cloth in reams on one woven table. Exits are south and east each leading to a wide street.&*
+~
+0 12 0
+D1
+~
+~
+0 -1 9731
+D2
+~
+~
+0 -1 9739
+S
+#9731
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis place is commonly referred to as North Market Square. You may enter the weaver's place west of here, or go east to the herb dealer. South is the Center Market. Far to the north you see some of the guarded gates to the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9722
+D1
+~
+~
+0 -1 9732
+D2
+~
+~
+0 -1 9740
+D3
+~
+~
+0 -1 9730
+S
+#9732
+&@&gHerb &wDealer&*~
+&*&yMany baskets line the floor containing a multitude of different herbs and plants. Some you can recognize, while others are exotic and unfamiliar to you. The shop has no decoration, and exits are south and west each leading to a wide street.&*
+~
+0 12 0
+D2
+~
+~
+0 -1 9741
+D3
+~
+~
+0 -1 9731
+S
+#9733
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are between a small house and a shop. The main walkway lies to the north, while a wide street can be seen to the south.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9724
+D2
+~
+~
+0 -1 9742
+S
+#9734
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9725
+S
+#9735
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your west side. Eastward is blocked by a large stone wall. The trail leads north and south. Just south of here you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9726
+D2
+~
+~
+0 -1 9744
+S
+#9736
+&*&yW&@&ye&gs&wt Gate&*~
+&*&yLooming above you are the western gates into the city. There is a guardpost here. Exits lie in all directions. West through the gate you can see a vast rolling corn field. Far to the east you see a market of some sort. North and south both lead to a thin trail along the inside of the city's stone wall.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9727
+D1
+~
+~
+0 -1 9737
+D2
+~
+~
+0 -1 9745
+D3
+~
+~
+0 -1 9824
+S
+#9737
+&*&yW&@&yi&gd&we Street&*~
+&*&yJust west of here you can see the city gates along with the guardpost. North and south of here are the sides of two small houses, and far to the east you see the market square.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9738
+D3
+~
+~
+0 -1 9736
+S
+#9738
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis grand intersection leads westward to a large guarded gate. To the east, you can see the market square, and a path leads north and south used as the main walkway to the small houses of the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9729
+D1
+~
+~
+0 -1 9739
+D2
+~
+~
+0 -1 9747
+D3
+~
+~
+0 -1 9737
+S
+#9739
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis place is commonly referred to as West Market Square. You may enter the weaver's place north of here, or go south to the jeweler. East is the Center Market. Far to the west you see some of the guarded gates to the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9730
+D1
+~
+~
+0 -1 9740
+D2
+~
+~
+0 -1 9748
+D3
+~
+~
+0 -1 9738
+S
+#9740
+&*&yC&@&ye&gn&wter &gMarket &wSquare&*~
+&*&yThis is not only the center of the market, but also the center of the city as well. Far in the distance in all directions you can see gates leading out from the city. Northwest of here is the city's weaver, northeast is the local herbalist. Southwest you can see a jewelery shop, and southeast is some form of bakery.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9731
+D1
+~
+~
+0 -1 9741
+D2
+~
+~
+0 -1 9749
+D3
+~
+~
+0 -1 9739
+D4
+~
+~
+0 -1 9788
+D5
+~
+~
+0 -1 972
+S
+#9741
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis place is commonly referred to as East Market Square. You may enter the herb vendor's place north of here, or go south to the bakery. West is the Center Market. Far to the east you see some of the guarded gates to the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9732
+D1
+~
+~
+0 -1 9742
+D2
+~
+~
+0 -1 9750
+D3
+~
+~
+0 -1 9740
+S
+#9742
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis grand intersection leads eastward to a large guarded gate. To the west, you can see the market square, and a path leads north and south used as the main walkway to the small houses of the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9733
+D1
+~
+~
+0 -1 9743
+D2
+~
+~
+0 -1 9751
+D3
+~
+~
+0 -1 9741
+S
+#9743
+&*&yW&@&yi&gd&we Street&*~
+&*&yJust east of here you can see the city gates along with the guardpost. North and south of here are the sides of two small houses, and far to the west you see the market square.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9744
+D3
+~
+~
+0 -1 9742
+S
+#9744
+&*&yE&@&ya&gs&wt Gate&*~
+&*&yLooming above you are the eastern gates into the city. There is a guardpost here. Exits lie in all directions. East through the gate you can see a vast rolling corn field. Far to the west you see a market of some sort. North and south both lead to a thin trail along the inside of the city's stone wall.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9735
+D1
+~
+~
+0 -1 9809
+D2
+~
+~
+0 -1 9753
+D3
+~
+~
+0 -1 9743
+S
+#9745
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your east side. Westward is blocked by a large stone wall. The trail leads north and south. Just north of here you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9736
+D2
+~
+~
+0 -1 9754
+S
+#9746
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 0 1
+D2
+~
+~
+1 -1 9755
+S
+#9747
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are between a small house and a shop. The main walkway lies to the south, while a wide street can be seen to the north.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9738
+D2
+~
+~
+0 -1 9756
+S
+#9748
+&@&yJewlery &wShop&*~
+&*&yThis shop is home to the city's jeweler. Mainly, he makes his living repairing existing jewlery. There aren't many things for sale here. The few items there are here are very beautiful indeed.&*
+~
+0 8 0
+D0
+~
+~
+0 -1 9739
+D1
+~
+~
+0 -1 9749
+S
+#9749
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis place is commonly referred to as South Market Square. You may enter the jewler's place west of here, or go east to the bakery. North is the Center Market. Far to the south you see some of the guarded gates to the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9740
+D1
+~
+~
+0 -1 9750
+D2
+~
+~
+0 -1 9758
+D3
+~
+~
+0 -1 9748
+S
+#9750
+Food Vendor~
+The sweet aroma of cooking food tantalizes your senses. A friendly man and woman work together to provide the people at the market something good to eat.
+~
+0 12 0
+D0
+~
+~
+0 -1 9741
+D3
+~
+~
+0 -1 9749
+S
+#9751
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are between a small house and a shop. The main walkway lies to the south, while a wide street can be seen to the north.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9742
+D2
+~
+~
+0 -1 9760
+S
+#9752
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the south wall, there is a wooden door.&*
+~
+0 0 1
+D2
+~
+~
+1 -1 9761
+S
+#9753
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your west side. Eastward is blocked by a large stone wall. The trail leads north and south. Just north of here you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9744
+D2
+~
+~
+0 -1 9762
+S
+#9754
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are on a thin trail which follows the city's wall on your west side. The trail leads north and south. There is also a path to the main walkway to the east.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9745
+D1
+~
+~
+0 -1 9755
+D2
+~
+~
+0 -1 9763
+S
+#9755
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of two small houses directly north and south of here. Westward you see the thin trail which follows the city's stone wall. Eastward the main walkway continues toward the center of town.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9746
+D1
+~
+~
+0 -1 9756
+D2
+~
+~
+1 -1 9764
+D3
+~
+~
+0 -1 9754
+S
+#9756
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of the small houses you see around you. You can head south between two houses, or, in any other direction to follow the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9747
+D1
+~
+~
+0 -1 9757
+D2
+~
+~
+0 -1 9765
+D3
+~
+~
+0 -1 9755
+S
+#9757
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are standing behind a small shop. To your south you see the front door of a small house. To the east is a wide street, and west is the main walkway leading to more houses.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9758
+D2
+~
+~
+1 -1 9766
+D3
+~
+~
+0 -1 9756
+S
+#9758
+&*&yW&@&yi&gd&we Street&*~
+&*&yThis grand intersection leads southward to a large guarded gate. To the north, you can see the market square, and a path leads east and west used as the main walkway to the small houses of the city.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9749
+D1
+~
+~
+0 -1 9759
+D2
+~
+~
+0 -1 9767
+D3
+~
+~
+0 -1 9757
+S
+#9759
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are standing behind a small shop. To your south you see the front door of a small house. To the west is a wide street, and east is the main walkway leading to more houses.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9760
+D2
+~
+~
+1 -1 9768
+D3
+~
+~
+0 -1 9758
+S
+#9760
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of the small houses you see around you. You can head south between two houses, or, in any other direction to follow the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9751
+D1
+~
+~
+0 -1 9761
+D2
+~
+~
+0 -1 9769
+D3
+~
+~
+0 -1 9759
+S
+#9761
+&*&yM&@&ya&gi&wn Walkway&*~
+&*&yYou are on a well worn path which leads to the doors of two small houses directly north and south of here. Eastward you see the thin trail which follows the city's stone wall. Westward the main walkway continues toward the center of town.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9752
+D1
+~
+~
+0 -1 9762
+D2
+~
+~
+1 -1 9770
+D3
+~
+~
+0 -1 9760
+S
+#9762
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are on a thin trail which follows the city's wall on your east side. The trail leads north and south. There is also a path to the main walkway to the west.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9753
+D2
+~
+~
+0 -1 9771
+D3
+~
+~
+0 -1 9761
+S
+#9763
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your east side. Westward is blocked by a large stone wall. The trail leads north and south. To the north you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9754
+D2
+~
+~
+0 -1 9772
+S
+#9764
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9755
+S
+#9765
+&*&yB&@&ye&gt&wween Houses&*~
+&*&yJust south of here you can see the trail which follows the city's stone wall. East and west are the sides of two small houses, and north leads to the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9756
+D2
+~
+~
+0 -1 9774
+S
+#9766
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9757
+S
+#9767
+&*&yW&@&yi&gd&we Street&*~
+&*&yJust south of here you can see the city gates along with the guardpost. East and west of here are the sides of two small houses, and far to the north you see the market square.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9758
+D2
+~
+~
+0 -1 9776
+S
+#9768
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9759
+S
+#9769
+&*&yB&@&ye&gt&wween Houses&*~
+&*&yJust south of here you can see the trail which follows the city's stone wall. East and west are the sides of two small houses, and north leads to the main walkway.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9760
+D2
+~
+~
+0 -1 9778
+S
+#9770
+&*&yS&@&ym&ga&wll House&*~
+&*&yYou are inside a small peasant house. The room is dimly lit by a single candle. Straw mats lie on one side of the room, while rudementary chairs and tables are on the other. In the north wall, there is a wooden door.&*
+~
+0 0 1
+D0
+~
+~
+1 -1 9761
+S
+#9771
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your west side. Eastward is blocked by a large stone wall. The trail leads north and south. To the north you can see a large guarded gate.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9762
+D2
+~
+~
+0 -1 9780
+S
+#9772
+&*&yS&@&yo&gu&wthwest Corner&*~
+&*&yYou are standing behind a small house which lies on your northeast side. The thin trail leads east and north. In the distance you see a guarded gate in both directions.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9763
+D1
+~
+~
+0 -1 9773
+S
+#9773
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your north side. Southward is blocked by a large stone wall. The trail leads east and west. Far to the east you can see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9774
+D3
+~
+~
+0 -1 9772
+S
+#9774
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yThe way southward is blocked by a large stone wall. To the east you can see a guarded gate. The thin trail leads east and west. There is a path between two small houses which heads north.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9765
+D1
+~
+~
+0 -1 9775
+D3
+~
+~
+0 -1 9773
+S
+#9775
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your north side. Southward is blocked by a large stone wall. The trail leads east and west. Just east of here you see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9776
+D3
+~
+~
+0 -1 9774
+S
+#9776
+&*&yS&@&yo&gu&wth Gate&*~
+&*&yLooming above you are the southern gates into the city. There is a guardpost here. Exits lie in all directions. To the south, you can see a large stone temple. Far to the north you see a market of some sort. East and west both lead to a thin trail along the inside of the city's stone wall.&*
+~
+0 4 1
+D0
+~
+~
+0 -1 9767
+D1
+~
+~
+0 -1 9777
+D2
+~
+~
+0 -1 9781
+D3
+~
+~
+0 -1 9775
+S
+#9777
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your north side. Southward is blocked by a large stone wall. The trail leads east and west. Just west of here you see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9778
+D3
+~
+~
+0 -1 9776
+S
+#9778
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yThe way southward is blocked by a large stone wall. To the west you can see a guarded gate. The thin trail leads east and west. There is a path between two small houses which heads north.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9769
+D1
+~
+~
+0 -1 9779
+D3
+~
+~
+0 -1 9777
+S
+#9779
+&*&yT&@&yh&gi&wn Trail&*~
+&*&yYou are standing behind a small house which lies on your north side. Southward is blocked by a large stone wall. The trail leads east and west. Far to the west you can see a large guarded gate.&*
+~
+0 0 1
+D1
+~
+~
+0 -1 9780
+D3
+~
+~
+0 -1 9778
+S
+#9780
+&*&yS&@&yo&gu&wtheast Corner&*~
+&*&yYou are standing behind a small house which lies on your northwest side. The thin trail leads west and north. In the distance you see a guarded gate in both directions.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 9771
+D3
+~
+~
+0 -1 9779
+S
+#9781
+&@&cEntrance to a Small &*&rSacrifice &@&wTemple&*~
+&*&rSacrifices to the rain god are made here. Many people believe it is the only way to bring the &@&lrains&*&r.&*
+~
+0 262196 0
+D0
+~
+~
+0 -1 9776
+D2
+~
+temple door~
+8 9783 9782
+P
+0
+99 10000
+&@&g-&y-&*&y-&@&wYou aren't high enough level&*&y-&@&y-&g-&*
+~
+S
+#9782
+&@&wTemple &cof &lRains&*~
+&*&rA guarded corridor leads to the inner temple.&*
+~
+0 262192 0
+D0
+~
+temple door~
+8 9783 9781
+D2
+~
+temple door~
+8 9784 9783
+S
+#9783
+&@&cA Room of &wWhispered &cPrayer&*~
+&*&rSoft prayers are offered up to the sky to bless the town with rain.&*
+~
+0 262192 0
+D0
+~
+temple door~
+8 9784 9782
+D4
+~
+altar door~
+8 9785 9784
+S
+#9784
+&@&cThe &wAltar &cof &*&rSacrifice&*~
+&*&rAn altar of sacrifice where the unneeded are offered to the gods for rain.&*
+~
+0 262196 0
+D0
+~
+cell door~
+8 9786 9785
+D5
+~
+altar door~
+8 9785 9783
+S
+#9785
+&@&wA Small &*&yCell&*~
+&*&rA small cell where prisoners wait for the sacrifice.&*
+~
+0 262708 0
+D2
+~
+cell door~
+8 9786 9784
+S
+#9786
+&@&cMeditation &wRoom&*~
+&@&cRoom where priests meditate.&*
+~
+0 262192 0
+S
+#9787
+&*&yP&@&ya&gr&went's House&*~
+&@&wThe parents of the girls house.&*
+~
+0 262192 0
+S
+#9788
+&@&wA &*&rF&@&rl&ya&rming &bPire&*~
+&*&yThe funeral drum beats over the sad
+scene. A young boy lights the fire for his
+father while his mother watches.&*
+~
+0 4 0
+D5
+~
+~
+0 -1 9740
+S
+#9789
+&@&wA &*&yS&@&ym&ga&wll &*&yRoom&*~
+&@&bThis is a tiny room somewhere in the inner
+temple of &*&yC&@&ya&gi&wamaya&b. It is the perfect place 
+to hide a secret.&*
+~
+0 262192 0
+S
+#0
+
+
+#RESETS
+M 0 9700 10 9701
+E 0 9796 100 14
+M 0 9702 10 9703
+M 0 9703 10 9705
+M 0 9704 10 9707
+E 0 9797 100 3
+M 0 9705 2 9700
+E 0 9713 100 16
+M 0 9705 2 9700
+E 0 9713 100 16
+M 0 9789 2 9708
+E 0 9713 100 16
+M 0 9789 2 9708
+E 0 9713 100 16
+M 0 9790 2 9772
+E 0 9713 100 16
+M 0 9790 2 9772
+E 0 9713 100 16
+M 0 9791 2 9780
+E 0 9713 100 16
+M 0 9791 2 9780
+E 0 9713 100 16
+M 0 9706 10 9773
+M 0 9700 10 9773
+M 0 9702 10 9775
+M 0 9701 10 9771
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9703 10 9769
+M 0 9700 10 9767
+E 0 9796 100 14
+M 0 9702 10 9761
+M 0 9706 10 9761
+M 0 9701 10 9759
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9701 10 9757
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9700 10 9755
+M 0 9702 10 9755
+M 0 9709 1 9750
+G 0 9704 100
+G 0 9705 100
+G 0 9706 100
+M 0 9710 1 9750
+M 0 9707 1 9748
+G 0 9708 100
+G 0 9709 100
+G 0 9715 0
+G 0 48 0
+M 0 9701 10 9749
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9704 10 9747
+E 0 9797 100 3
+M 0 9706 10 9747
+M 0 9703 10 9745
+M 0 9708 1 9732
+G 0 9700 100
+G 0 9702 100
+G 0 9703 100
+M 0 9701 10 9737
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9700 10 9737
+M 0 9704 10 9734
+M 0 9711 1 9730
+G 0 9710 100
+G 0 9714 100
+M 0 9702 10 9721
+M 0 9706 10 9719
+M 0 9701 10 9718
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9700 10 9716
+M 0 9716 1 9714
+O 0 9787 1 9714
+P 0 9789 1 9787
+P 0 9790 1 9787
+P 0 9791 1 9787
+P 0 9792 1 9787
+M 0 9703 10 9713
+M 0 9701 10 9711
+E 0 9712 100 16
+E 0 9798 100 9
+M 0 9704 10 9709
+M 0 9702 10 9706
+M 0 9715 1 9776
+M 0 9713 1 9744
+M 0 9714 1 9736
+M 0 9712 1 9704
+M 0 9717 1 9742
+E 0 9795 100 8
+M 0 9781 2 9781
+E 0 9781 100 16
+M 0 9781 2 9781
+E 0 9781 100 16
+G 0 9783 100
+M 0 9784 2 9782
+E 0 9781 100 16
+M 0 9784 2 9782
+E 0 9781 100 16
+G 0 9784 100
+M 0 9782 3 9783
+G 0 9782 100
+M 0 9782 3 9783
+G 0 9782 100
+M 0 9782 3 9783
+G 0 9782 100
+M 0 9783 1 9783
+M 0 9787 1 9784
+E 0 9794 100 16
+M 0 9786 2 9784
+M 0 9786 2 9784
+M 0 9788 1 9785
+D 0 9781 2 2
+D 0 9782 0 2
+D 0 9782 2 2
+D 0 9783 0 2
+D 0 9783 4 2
+D 0 9784 0 2
+D 0 9784 5 2
+D 0 9785 2 2
+O 0 87 1 9788
+M 0 9793 1 9745
+S
+
+
+#SHOPS
+9707 0 0 0 0 0 100 100 7 23
+9708 0 0 0 0 0 100 100 7 23
+9709 0 0 0 0 0 100 100 7 23
+9711 0 0 0 0 0 100 100 7 23
+0
+
+
+#SPECIALS
+M 9717 spec_mage
+M 9781 spec_monk
+M 9782 spec_guard
+M 9783 spec_cleric
+M 9784 spec_monk
+M 9785 spec_cleric
+S
+
+
+
+#$
+

@@ -1,0 +1,3514 @@
+#AREADATA
+Name        &@&l-&r{  &y25  &g50 &r}&l-     &*&cDawn           &@&cS&wp&ci&wr&ci&wt&cs&w&*                  ~
+Builders    none~
+VNUMs       9300 9499
+Recall      3001
+Security    1
+LEVELS      15 60
+Repop       &@&wThe &@&cs&*&cp&@&ci&*&cr&@&ci&*&ct&@&cs &wawait...&*~
+Norecall    God has forsaken you.~
+Sname       &@&cS&wp&ci&wr&ci&wt&cs&w&*~
+End
+
+
+#MOBILES
+#9300
+ash~
+&*&gan &@&ba&ws&bh&w&*~
+&*&gan &@&ba&ws&bh&w&* drifts by.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+1000 0
+0 0 0
+#9301
+wisp smoke~
+&*&ga &@&wwisp of &bs&wm&bo&wk&we&w&*~
+&*&ga &@&wwisp of &bs&wm&bo&wk&we&w&* trails across the room.
+~
+~
+65 0 0 S
+27 0 0 0d0+0 0d0+0
+2700 0
+0 0 0
+#9302
+ember~
+&*&gan &@&re&ym&*&rb&@&ye&rr&w&*~
+&*&gan &@&re&ym&*&rb&@&ye&rr&w&* smolders here.
+~
+~
+97 552 0 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#9303
+flickering flame~
+&*&ga &@&rf&*&rl&@&ri&*&rc&@&rk&*&re&@&rr&*&ri&@&rn&*&rg &@&rflame&w&*~
+&*&ga &@&rf&*&rl&@&ri&*&rc&@&rk&*&re&@&rr&*&ri&@&rn&*&rg &@&rflame&w&* burns a trail across the ground.
+~
+~
+97 552 0 S
+32 0 0 0d0+0 0d0+0
+3200 0
+0 0 0
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &*&rA key emerges from the ashes.&*
+mpoload 9302
+mpoload 9343
+~
+|
+#9304
+ash guardian~
+&@&wThe &bA&ws&bh &rGuardian&w&*~
+&@&wThe &bA&ws&bh &rGuardian&w&*
+~
+~
+99 2600 0 S
+34 0 0 0d0+0 0d0+0
+3400 0
+0 0 0
+#9305
+smoke guardian~
+&@&wThe &bS&wm&bo&wk&be &rGuardian&w&*~
+&@&wThe &bS&wm&bo&wk&be &rGuardian&w&*
+~
+~
+99 2600 0 S
+35 0 0 0d0+0 0d0+0
+3500 0
+0 0 0
+#9306
+ember guardian~
+&@&wThe &rE&ym&*&rb&@&ye&rr Guardian&w&*~
+&@&wThe &rE&ym&*&rb&@&ye&rr Guardian&w&*
+~
+~
+99 2600 0 S
+36 0 0 0d0+0 0d0+0
+3600 0
+0 0 0
+#9307
+keeper flame~
+&@&wThe &rKeeper &wof &rF&*&rl&@&ra&*&rm&@&re&w&*~
+&@&wThe &rKeeper &wof &rF&*&rl&@&ra&*&rm&@&re&w&* protects its trust.
+~
+~
+99 2600 0 S
+37 0 0 0d0+0 0d0+0
+3700 0
+0 0 0
+>death_prog 100~
+mpecho &@&wWith a &!&rFLASH!!&*
+mpecho &@&wThe &rkeeper &wpasses leaving his treasure unguarded.&*
+mpoload 9301
+mpoload 9306
+~
+|
+#9308
+spirit fire~
+&@&wThe &rSpirit &wof &rF&yi&rr&ye&w&*~
+&@&wThe &rSpirit &wof &rF&yi&rr&ye&w&* quietly understands the wonder of fire.
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+16750 0
+0 0 0
+>give_prog flame~
+mpecho &@&wThe &rSpirit &wof &rF&yi&rr&ye &wabsorbs the &*&rflame&*
+mpjunk flame
+mpoload 9300
+drop ring
+mpforce $n get ring
+smile
+~
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&wThe &rSpirit &wof &rF&yi&rr&ye &wscreams &rRENEWAL!!!&*
+mpmload 9308
+~
+|
+#9309
+mist~
+&*&gsome &@&cm&*&ci&@&cs&*&ct&w&*~
+&*&gsome &@&cm&*&ci&@&cs&*&ct&w&* drifts near.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 0
+#9310
+water droplet~
+&*&ga &@&lw&wa&lt&we&lr &cdroplet&w&*~
+&*&ga &@&lw&wa&lt&we&lr &cdroplet&w&* rolls across the floor.
+~
+~
+65 0 0 S
+27 0 0 0d0+0 0d0+0
+2700 0
+0 0 0
+#9311
+whirlpool~
+&*&ga &@&lw&wh&li&wr&ll&wp&lo&wo&ll&w!&w&*~
+&*&ga &@&lw&wh&li&wr&ll&wp&lo&wo&ll&w!&w&* spins wildly.
+~
+~
+97 552 0 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#9312
+flash flood~
+&*&ga &@&!&w!!&*&@&lf&wl&la&ws&lh &lf&wl&lo&wo&ld&@&!&w!!&w&*~
+&*&ga &@&!&w!!&*&@&lf&wl&la&ws&lh &lf&wl&lo&wo&ld&@&!&w!!&w&* washes you away.
+~
+~
+97 552 0 S
+32 0 0 0d0+0 0d0+0
+3200 0
+0 0 0
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&lThe waters recede, leaving behind a key.&*
+mpoload 9309
+mpoload 9346
+~
+|
+#9313
+mist guardian~
+&@&wThe &cM&*&ci&@&cs&*&ct &@&lGuardian&w&*~
+&@&wThe &cM&*&ci&@&cs&*&ct &@&lGuardian&w&*
+~
+~
+99 2600 0 S
+34 0 0 0d0+0 0d0+0
+3400 0
+0 0 0
+#9314
+droplet guardian~
+&@&wThe &cDroplet &lGuardian&w&*~
+&@&wThe &cDroplet &lGuardian&w&*
+~
+~
+99 2600 0 S
+35 0 0 0d0+0 0d0+0
+3500 0
+0 0 0
+#9315
+whirlpool guardian~
+&@&wThe &lW&wh&li&wr&ll&wp&lo&wo&ll &lGuardian&w&*~
+&@&wThe &lW&wh&li&wr&ll&wp&lo&wo&ll &lGuardian&w&*
+~
+~
+99 2600 0 S
+36 0 0 0d0+0 0d0+0
+3600 0
+0 0 0
+#9316
+keeper water~
+&@&wThe &lKeeper &wof &lW&wa&lt&we&lr&w&*~
+&@&wThe &lKeeper &wof &lW&wa&lt&we&lr&w&* protects its trust.
+~
+~
+99 2600 0 S
+37 0 0 0d0+0 0d0+0
+3700 0
+0 0 0
+>death_prog 100~
+mpecho &@&wWith a &!&lSPLASH!!&*
+mpecho &@&wThe &lkeeper &wpasses leaving his treasure unguarded.&*
+mpoload 9308
+mpoload 9313
+~
+|
+#9317
+spirit water~
+&@&wThe &lSpirit &wof &lW&wa&lt&we&lr&w&*~
+&@&wThe &lSpirit &wof &lW&wa&lt&we&lr&w&* quietly understands the wonder of water.
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+16750 0
+0 0 0
+>give_prog puddle~
+mpecho &@&wThe &lSpirit &wof &lW&wa&lt&we&lr &wabsorbs the &*&lpuddle&*
+mpjunk puddle
+mpoload 9307
+drop ring
+mpforce $n get ring
+smile
+~
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&wThe &lSpirit &wof &lW&wa&lt&we&lr &wscreams &lRENEWAL!!!&*
+mpmload 9317
+~
+|
+#9318
+pebble~
+&*&ga &@&yp&*&ye&@&yb&*&yb&@&yl&*&ye&*~
+&*&ga &@&yp&*&ye&@&yb&*&yb&@&yl&*&ye&* rolls across the floor.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 0
+#9319
+smooth rock~
+&*&ga &@&bsmooth &yr&*&yo&@&yc&*&yk&*~
+&*&ga &@&bsmooth &yr&*&yo&@&yc&*&yk&* shines on the ground.
+~
+~
+65 0 0 S
+27 0 0 0d0+0 0d0+0
+2700 0
+0 0 0
+#9320
+jagged boulder~
+&*&ga &@&w>&bjAggEd&w< &yb&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr&*~
+&*&ga &@&w>&bjAggEd&w< &yb&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr&* tears at you.
+~
+~
+97 552 0 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#9321
+earthquake~
+&*&gan &@&b\/\&@&ye&*&ya&@&yr&*&yt&@&yh&*&yq&@&yu&*&ya&@&yk&*&ye&@&b/\/&*~
+&*&gan &@&b\/\&@&ye&*&ya&@&yr&*&yt&@&yh&*&yq&@&yu&*&ya&@&yk&*&ye&@&b/\/&* shakes the canyon.
+~
+~
+97 552 0 S
+32 0 0 0d0+0 0d0+0
+3200 0
+0 0 0
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &*&yThe ground shifts revealing a key.&*
+mpoload 9316
+mpoload 9345
+~
+|
+#9322
+pebble guardian~
+&@&wThe &yP&*&ye&@&yb&*&yb&@&yl&*&ye &yGuardian&w&*~
+&@&wThe &yP&*&ye&@&yb&*&yb&@&yl&*&ye &yGuardian&w&*
+~
+~
+99 2600 0 S
+34 0 0 0d0+0 0d0+0
+3400 0
+0 0 0
+#9323
+rock guardian ~
+&@&wThe &bRock &*&yGuardian&w&*~
+&@&wThe &bRock &*&yGuardian&w&*
+~
+~
+99 2600 0 S
+35 0 0 0d0+0 0d0+0
+3500 0
+0 0 0
+#9324
+boulder guardian~
+&@&wThe &yB&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr &*&yGuardian&w&*~
+&@&wThe &yB&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr &*&yGuardian&w&*
+~
+~
+99 2600 0 S
+36 0 0 0d0+0 0d0+0
+3600 0
+0 0 0
+#9325
+keeper earth~
+&@&wThe &*&yKeeper &@&wof &yE&*&ya&@&yr&*&yt&@&yh&w&*~
+&@&wThe &*&yKeeper &@&wof &yE&*&ya&@&yr&*&yt&@&yh&w&* protects its trust.
+~
+~
+99 2600 0 S
+37 0 0 0d0+0 0d0+0
+3700 0
+0 0 0
+>death_prog 100~
+mpecho &@&wWith a &!&yRUMBLE!!&*
+mpecho &@&wThe &*&ykeeper &@&wpasses leaving his treasure unguarded.&*
+mpoload 9315
+mpoload 9320
+~
+|
+#9326
+spirit earth~
+&@&wThe &*&ySpirit &@&wof &yE&*&ya&@&yr&*&yt&@&yh&w&*~
+&@&wThe &*&ySpirit &@&wof &yE&*&ya&@&yr&*&yt&@&yh&w&* quietly understands the wonder of earth.
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+16750 0
+0 0 0
+>give_prog small rock~
+mpecho &@&wThe &*&ySpirit &@&wof &yE&*&ya&@&yr&*&yt&@&yh &wabsorbs the &*&yrock.&*
+mpjunk rock
+mpoload 9314
+drop eye
+mpforce $n get eye
+smile
+~
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&wThe &*&ySpirit &@&wof &yE&*&ya&@&yr&*&yt&@&yh &wscreams &yRENEWAL!!!&*
+mpmload 9326
+~
+|
+#9327
+breeze~
+&*&ga &@&cb&*&cr&@&ce&*&ce&@&cz&*&ce&*~
+&*&ga &@&cb&*&cr&@&ce&*&ce&@&cz&*&ce&* brushes past you.
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 0
+#9328
+cold wind~
+&*&ga &@&wcold &cw&*&ci&@&cn&*&cd&w&*~
+&*&ga &@&wcold &cw&*&ci&@&cn&*&cd&w&* gives you chills.
+~
+~
+65 0 0 S
+27 0 0 0d0+0 0d0+0
+2700 0
+0 0 0
+#9329
+swift gale~
+&*&ga &@&c-&wswift&c- &cg&*&ca&@&cl&*&ce&w&*~
+&*&ga &@&c-&wswift&c- &cg&*&ca&@&cl&*&ce&w&* knocks you off your feet.
+~
+~
+97 552 0 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#9330
+spinning tornado~
+&*&ga &@&c(&w(&cs&*&cp&@&ci&*&cn&@&cn&*&ci&@&cn&*&cg &@&ct&*&co&@&cr&*&cn&@&ca&*&cd&@&co&w)&c)&w&*~
+&*&ga &@&c(&w(&cs&*&cp&@&ci&*&cn&@&cn&*&ci&@&cn&*&cg &@&ct&*&co&@&cr&*&cn&@&ca&*&cd&@&co&w)&c)&w&* spins you.
+~
+~
+97 552 0 S
+32 0 0 0d0+0 0d0+0
+3200 0
+0 0 0
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&cThe settiling winds lay a key to rest.&*
+mpoload 9323
+mpoload 9344
+~
+|
+#9331
+breeze guardian~
+&@&wThe &cB&*&cr&@&ce&*&ce&@&cz&*&ce &@&cGuardian&w&*~
+&@&wThe &cB&*&cr&@&ce&*&ce&@&cz&*&ce &@&cGuardian&w&*
+~
+~
+99 2600 0 S
+34 0 0 0d0+0 0d0+0
+3400 0
+0 0 0
+#9332
+wind guardian~
+&@&wThe &cW&*&ci&@&cn&*&cd &@&cGuardian&w&*~
+&@&wThe &cW&*&ci&@&cn&*&cd &@&cGuardian&w&*
+~
+~
+99 2600 0 S
+35 0 0 0d0+0 0d0+0
+3500 0
+0 0 0
+#9333
+gale guardian~
+&@&wThe &cG&*&ca&@&cl&*&ce &@&cGuardian&w&*~
+&@&wThe &cG&*&ca&@&cl&*&ce &@&cGuardian&w&*
+~
+~
+99 2600 0 S
+36 0 0 0d0+0 0d0+0
+3600 0
+0 0 0
+#9334
+keeper air~
+&@&wThe &*&cKeeper &@&wof &cA&*&ci&@&cr&w&*~
+&@&wThe &*&cKeeper &@&wof &cA&*&ci&@&cr&w&* protects its trust.
+~
+~
+99 2600 0 S
+37 0 0 0d0+0 0d0+0
+3700 0
+0 0 0
+>death_prog 100~
+mpecho &@&wWith a &!&rRUSH!!&*
+mpecho &@&wThe &*&ckeeper &@&wpasses leaving his treasure unguarded.&*
+mpoload 9322
+mpoload 9327
+~
+|
+#9335
+spirit air~
+&@&wThe &*&cSpirit &@&wof &cA&*&ci&@&cr&w&*~
+&@&wThe &*&cSpirit &@&wof &cA&*&ci&@&cr&w&* quietly understands the wonder of air.
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+16750 0
+0 0 0
+>give_prog eddie~
+mpecho &@&wThe &*&cSpirit &@&wof &cA&*&ci&@&cr &wabsorbs the eddie.&*
+mpjunk eddie
+mpoload 9321
+drop earring
+mpforce $n get earring
+smile
+~
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&wThe &*&cSpirit &@&wof &cA&*&ci&@&cr &wscreams &cRENEWAL!!!&*
+mpmload 9335
+~
+|
+#9336
+electron~
+&*&gan &@&be&wl&be&wc&bt&wr&bo&wn&w&*~
+&*&gan &@&be&wl&be&wc&bt&wr&bo&wn&w&*
+~
+~
+65 0 0 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 0
+#9337
+sizzling spark~
+&*&ga &@&bs&wi&bz&wz&bl&wi&bn&wg &cspark&w&*~
+&*&ga &@&bs&wi&bz&wz&bl&wi&bn&wg &cspark&w&*
+~
+~
+65 0 0 S
+27 0 0 0d0+0 0d0+0
+2700 0
+0 0 0
+#9338
+crackling charge~
+&*&ga &@&bc&wr&ba&wc&bk&wl&bi&wn&bg &y+&wcharge&y-&w&*~
+&*&ga &@&bc&wr&ba&wc&bk&wl&bi&wn&bg &y+&wcharge&y-&w&* sparks wildly.
+~
+~
+97 552 0 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#9339
+lightning bolt~
+&*&ga &@&w/&y-&w/&bl&wi&bg&wh&bt&wn&bi&wn&bg &wb&bo&wl&bt&w/&y-&w/&w&*~
+&*&ga &@&w/&y-&w/&bl&wi&bg&wh&bt&wn&bi&wn&bg &wb&bo&wl&bt&w/&y-&w/&w&* comes crashing down.
+~
+~
+97 552 0 S
+32 0 0 0d0+0 0d0+0
+3200 0
+0 0 0
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&bA sparking key appears.&*
+mpoload 9330
+mpoload 9347
+~
+|
+#9340
+electron guardian~
+&@&wThe &bE&wl&be&wc&bt&wr&bo&wn &bGuardian&w&*~
+&@&wThe &bE&wl&be&wc&bt&wr&bo&wn &bGuardian&w&*
+~
+~
+99 2600 0 S
+34 0 0 0d0+0 0d0+0
+3400 0
+0 0 0
+#9341
+sizzling guardian~
+&@&wThe &ySizzling &bGuardian&w&*~
+&@&wThe &ySizzling &bGuardian&w&*
+~
+~
+99 2600 0 S
+35 0 0 0d0+0 0d0+0
+3500 0
+0 0 0
+#9342
+crackling guardian~
+&@&wThe &bC&wr&ba&wc&bk&wl&bi&wn&bg Guardian&w&*~
+&@&wThe &bC&wr&ba&wc&bk&wl&bi&wn&bg Guardian&w&*
+~
+~
+99 2600 0 S
+36 0 0 0d0+0 0d0+0
+3600 0
+0 0 0
+#9343
+keeper lightning~
+&@&wThe &bKeeper &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&wThe &bKeeper &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&* protects its trust.
+~
+~
+99 2600 0 S
+37 0 0 0d0+0 0d0+0
+3700 0
+0 0 0
+>death_prog 100~
+mpecho &@&wWith a &!&bCRACKLE!!&*
+mpecho &@&wThe &bkeeper &wpasses leaving his treasure unguarded.&*
+mpoload 9329
+mpoload 9334
+~
+|
+#9344
+spirit lightning~
+&@&wThe &bSpirit &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&wThe &bSpirit &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&* quietly understands the wonder of lightning.
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+16750 0
+0 0 0
+>give_prog small spark~
+mpecho &@&wThe &bSpirit &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg &wabsorbs the &cspark.&*
+mpjunk spark
+mpoload 9328
+drop lightning
+mpforce $n get lightning
+smile
+~
+>fight_prog 25~
+attack1
+~
+>death_prog 100~
+mpecho &@&wThe &bSpirit &wof &bL&wi&bg&wh&bt&wn&bi&wn&bg &wscreams &bRENEWAL!!!&*
+mpmload 9344
+~
+|
+#9345
+fire healer~
+&@&rF&yi&rr&ye &wHealer&w&*~
+&@&wThe &rF&yi&rr&ye &wHealer is here mending you.&w&*
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+4000 0
+0 0 0
+>fight_prog 25~
+attack2
+~
+|
+#9346
+water healer~
+&@&lW&wa&lt&we&lr &wHealer&w&*~
+&@&wThe &lW&wa&lt&we&lr &wHealer is here mending you.&w&*
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+4000 0
+0 0 0
+>fight_prog 25~
+attack2
+~
+|
+#9347
+earth healer~
+&@&yE&*&ya&@&yr&*&yt&@&yh &wHealer&w&*~
+&@&wThe &yE&*&ya&@&yr&*&yt&@&yh &wHealer is here mending you.&w&*
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+4000 0
+0 0 0
+>fight_prog 25~
+attack2
+~
+|
+#9348
+air healer~
+&@&cA&*&ci&@&cr &wHealer&w&*~
+&@&wThe &cA&*&ci&@&cr &wHealer is here mending you.&w&*
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+4000 0
+0 0 0
+>fight_prog 25~
+attack2
+~
+>greet_prog 100~
+if isdcp ($n)
+tell $n if you bring me a &gwand &yof my nature I will give you something in return.&*
+endif
+~
+>give_prog wand air wind~
+if isdcp ($n)
+emote &@&wwaves the airy wand in circles and in its place a &mM&wagical &cR&wing appears&*
+mpjunk wand
+mpoload 9522
+drop ring
+mpforce $n get ring
+smile $n
+else
+shake
+drop wand
+endif
+~
+|
+#9349
+lightning healer~
+&@&bL&wi&bg&wh&bt&wn&bi&wn&bg &wHealer&w&*~
+&@&wThe &bL&wi&bg&wh&bt&wn&bi&wn&bg &wHealer is here mending you.&w&*
+~
+~
+67 2728 0 S
+40 0 0 0d0+0 0d0+0
+4000 0
+0 0 0
+>fight_prog 25~
+attack2
+~
+|
+#0
+
+
+#OBJECTS
+#9300
+ring fire~
+&@&rR&yi&rn&yg &ro&yf &rF&yi&rr&ye&w&*~
+&@&rR&yi&rn&yg &ro&yf &rF&yi&rr&ye&w&*~
+~
+9 0 3
+9 0 0 0
+5 1000 40
+A
+19 3
+A
+18 2
+#9301
+flame~
+&*&gA &rflame&w&*~
+&*&gA &rflame&w&*~
+~
+12 0 1
+0 0 0 0
+5 0 0
+#9302
+fire key~
+&*&rfire key&w&*~
+A &*&rfire key&w&* lays here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9303
+ash key~
+&@&ba&ws&bh key&w&*~
+An &@&ba&ws&bh key&w&* lays here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9304
+smoke key~
+&@&bs&wm&bo&wk&be key&w&*~
+A &@&bs&wm&bo&wk&be key&w&* lays here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9305
+ember key~
+&@&rE&ym&*&rb&@&ye&rr key&w&*~
+An &@&rE&ym&*&rb&@&ye&rr key&w&* lays here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9306
+keeper key~
+&@&wThe &rKeeper's key&w&*~
+&@&wThe &rKeeper's key&w&* lays here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9307
+ring water~
+&@&lR&wi&ln&wg &lo&wf &lW&wa&lt&we&lr&w&*~
+&@&lR&wi&ln&wg &lo&wf &lW&wa&lt&we&lr&w&*~
+~
+9 0 3
+9 0 0 0
+5 1000 0
+A
+13 40
+#9308
+puddle~
+&*&gA &lpuddle&w&*~
+&*&gA &lpuddle&w&*~
+~
+12 0 1
+0 0 0 0
+5 0 0
+#9309
+key water~
+&*&lwater key&w&*~
+&*&lwater key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9310
+mist key~
+&@&cm&*&ci&@&cs&*&ct key&w&*~
+&@&cm&*&ci&@&cs&*&ct key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9311
+droplet key~
+&@&cdroplet &*&ckey&w&*~
+&@&cdroplet &*&ckey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9312
+whirlpool key~
+&@&lw&wh&li&wr&ll&wp&lo&wo&ll key&w&*~
+&@&lw&wh&li&wr&ll&wp&lo&wo&ll key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9313
+keeper key~
+&@&wThe &lKeeper's Key&w&*~
+&@&wThe &lKeeper's Key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9314
+earth eye~
+&@&yE&*&ya&@&yr&*&yt&@&yh&*&y'&@&ys &w<&y(&*&yo&@&y)&w>&w&*~
+&@&yE&*&ya&@&yr&*&yt&@&yh&*&y'&@&ys &w<&y(&*&yo&@&y)&w>&w&*~
+~
+9 0 65537
+9 0 0 0
+5 1000 40
+A
+13 20
+A
+12 20
+#9315
+small rock~
+&*&gA &ysmall rock&*~
+&*&gA &ysmall rock&*~
+~
+12 0 1
+0 0 0 0
+5 0 0
+#9316
+earth key~
+&*&yearth key&w&*~
+&*&yearth key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9317
+pebble key~
+&@&yp&*&ye&@&yb&*&yb&@&yl&*&ye &@&ykey&w&*~
+&@&yp&*&ye&@&yb&*&yb&@&yl&*&ye &@&ykey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9318
+rock key~
+&@&brock &ykey&w&*~
+&@&brock &ykey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9319
+boulder key~
+&@&yB&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr key&w&*~
+&@&yB&*&yo&@&yu&*&yl&@&yd&*&ye&@&yr key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9320
+keeper key~
+&*&yKeeper's &@&ykey&w&*~
+&*&yKeeper's &@&ykey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9321
+windy earring~
+&@&wA &*&cWindy &@&cE&*&ca&@&cr&*&cr&@&ci&*&cn&@&cg&w&*~
+&@&wA &*&cWindy &@&cE&*&ca&@&cr&*&cr&@&ci&*&cn&@&cg&w&*~
+~
+9 0 32769
+9 0 0 0
+5 1000 40
+A
+13 40
+#9322
+eddie~
+&*&gAn &@&weddie&w&*~
+&*&gAn &@&weddie&w&*~
+~
+12 0 1
+0 0 0 0
+5 0 0
+#9323
+air key~
+&*&cair &@&ckey&w&*~
+&*&cair &@&ckey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9324
+breeze key~
+&@&cb&*&cr&@&ce&*&ce&@&cz&*&ce key&w&*~
+&@&cb&*&cr&@&ce&*&ce&@&cz&*&ce key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9325
+wind key~
+&@&cw&*&ci&@&cn&*&cd key&w&*~
+&@&cw&*&ci&@&cn&*&cd key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9326
+gale key~
+&@&wgale &ckey&w&*~
+&@&wgale &ckey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9327
+keeper key~
+&@&cKeeper's &wkey&w&*~
+&@&cKeeper's &wkey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9328
+crystal lightning~
+&@&b-&w-&bC&wr&by&ws&bt&wa&bl &bL&wi&bg&wh&bt&wn&bi&wn&bg&w-&b-&w&*~
+&@&b-&w-&bC&wr&by&ws&bt&wa&bl &bL&wi&bg&wh&bt&wn&bi&wn&bg&w-&b-&w&*~
+~
+1 0 1
+0 0 -1 0
+5 1000 40
+A
+18 3
+A
+19 3
+#9329
+small spark~
+&*&gA &@&csmall spark&w&*~
+&*&gA &@&csmall spark&w&*~
+~
+12 0 1
+0 0 0 0
+5 0 0
+#9330
+lightning key~
+&@&wlightning key&w&*~
+&@&wlightning key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9331
+electron key~
+&@&be&wl&be&wc&bt&wr&bo&wn key&w&*~
+&@&be&wl&be&wc&bt&wr&bo&wn key&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9332
+sizzling key~
+&@&bs&wi&bz&wz&bl&wi&bn&wg &ckey&w&*~
+&@&bs&wi&bz&wz&bl&wi&bn&wg &ckey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9333
+crackling key~
+&@&bc&wr&ba&wc&bk&wl&bi&wn&bg &ykey&w&*~
+&@&bc&wr&ba&wc&bk&wl&bi&wn&bg &ykey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9334
+keeper key~
+&@&bKeeper's &wkey&w&*~
+&@&bKeeper's &wkey&w&*~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#9335
+lightning orb~
+&@&wThe &@&w/&!&y-&*&@&w/&bL&wi&bg&wh&bt&wn&bi&wn&bg O&wr&bb&w/&!&y-&*&@&w/&*~
+&@&wThe &@&w/&!&y-&*&@&w/&bL&wi&bg&wh&bt&wn&bi&wn&bg O&wr&bb&w/&!&y-&*&@&w/&*~
+~
+15 0 8192
+100 1 0 0
+100 0 0
+#9336
+prism fountain~
+&@&wThe &m/&r/&y/&g/&c/&lPrism&c\&g\&y\&r\&m\ &wFountain&*~
+&@&wThe &m/&r/&y/&g/&c/&lPrism&c\&g\&y\&r\&m\ &wFountain&*~
+~
+25 0 8192
+0 0 0 0
+100 0 0
+#9337
+clay bowl~
+&@&wA &b/\&y^&b/\&yC&*&yl&@&ya&*&yy&@&b(&y+&b)&*&yB&@&yo&*&yw&@&yl&b/\&y^&b/\&w&*~
+&@&wA &b/\&y^&b/\&yC&*&yl&@&ya&*&yy&@&b(&y+&b)&*&yB&@&yo&*&yw&@&yl&b/\&y^&b/\&w&*~
+~
+15 0 8192
+300 1 0 0
+100 0 0
+#9338
+rice~
+&@&wrice&*~
+&*Some &@&wrice&* lays here.~
+~
+19 0 1
+50 0 0 0
+1 0 0
+#9339
+corn~
+&@&ycorn&w&*~
+&*Some &@&ycorn&w&* lays here.~
+~
+19 0 1
+50 0 0 0
+1 0 0
+#9340
+wheat~
+&@&yw&*&yh&@&ye&*&ya&@&yt&w&*~
+&*Some &@&yw&*&yh&@&ye&*&ya&@&yt&w&* is here.~
+~
+19 0 1
+50 0 0 0
+1 0 0
+#9341
+squash~
+&@&bs&yq&*&gu&ya&@&ys&bh&w&*~
+&*Some &@&bs&yq&*&gu&ya&@&ys&bh&w&* is here.~
+~
+19 0 1
+50 0 0 0
+1 0 0
+#9342
+sight~
+&@&w-&y-&wsight&y-&w-&*~
+&@&w-&y-&wsight&y-&w-&*~
+~
+26 0 1
+30 77 19 44
+5 0 0
+#9343
+flame armor~
+&@&rF&*&rl&@&ra&*&rm&@&re &@&wArmor&*~
+&@&rF&*&rl&@&ra&*&rm&@&re &@&wArmor&*~
+~
+9 0 9
+7 0 0 0
+5 1000 30
+A
+19 3
+#9344
+wind shield~
+&@&cW&*&ci&@&cn&*&cd &@&wShield&*~
+&@&cW&*&ci&@&cn&*&cd &@&wShield&*~
+~
+9 0 513
+14 0 0 0
+3 1000 30
+A
+12 30
+#9345
+muddy helmet~
+&@&yM&*&yu&@&yd&*&yd&@&yy &wHelmet&*~
+&@&yM&*&yu&@&yd&*&yd&@&yy &wHelmet&*~
+~
+9 0 17
+7 0 0 0
+5 1000 30
+A
+19 3
+#9346
+water staff~
+&@&lW&wa&lt&we&lr &*&yStaff&*~
+&@&lW&wa&lt&we&lr &*&yStaff&*~
+~
+4 64 16385
+30 3 3 55
+5 1000 0
+#9347
+light staff~
+&@&bL&wi&bg&wh&bt &*&yStaff&*~
+&@&bL&wi&bg&wh&bt &*&yStaff&*~
+~
+4 64 16385
+30 3 3 56
+5 1000 0
+#0
+
+
+#ROOMS
+#9300
+&@&wA Realm of &rF&*&ri&@&rr&*&re&*~
+&*&rThe air quivers in waves from the searing &@&rheat&*&r  and ravages you from all
+ directions. &@&bSmoke &*&rfumes from the &@&wglowing &rhot &*&rwalls. It would not
+ be surprising if the canyon ignited into a roaring &@&rf&*&ri&@&rr&*&re.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9301
+D3
+~
+~
+0 -1 9315
+S
+#9301
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9302
+D2
+~
+~
+0 -1 9300
+S
+#9302
+&@&wJunction of &rF&*&rl&@&ra&*&rm&@&re&w&*~
+&*&rTo the west a &@&rf&yi&rr&ye &*&rcan be seen. From all directions, you are baked by smoldering warmth.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9303
+D2
+~
+~
+0 -1 9301
+D3
+~
+~
+0 -1 9319
+S
+#9303
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9304
+D2
+~
+~
+0 -1 9302
+S
+#9304
+&@&wA Realm of &rF&*&ri&@&rr&*&re&*~
+&*&rThe air quivers in waves from the searing &@&rheat&*&r  and ravages you from all
+ directions. &@&bSmoke &*&rfumes from the &@&wglowing &rhot &*&rwalls. It would not
+ be surprising if the canyon ignited into a roaring &@&rf&*&ri&@&rr&*&re.&w&*
+~
+0 262193 1
+D2
+~
+~
+0 -1 9303
+D3
+~
+~
+0 -1 9305
+S
+#9305
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9304
+D3
+~
+~
+0 -1 9306
+S
+#9306
+&@&wJunction of &rF&*&rl&@&ra&*&rm&@&re&w&*~
+&*&rTo the south a &@&rf&yi&rr&ye &*&rcan be seen. From all directions, you are baked by smoldering warmth.&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9305
+D2
+~
+~
+0 -1 9317
+D3
+~
+~
+0 -1 9307
+S
+#9307
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9306
+D3
+~
+~
+0 -1 9308
+S
+#9308
+&@&wA Realm of &rF&*&ri&@&rr&*&re&*~
+&*&rThe air quivers in waves from the searing &@&rheat&*&r  and ravages you from all
+ directions. &@&bSmoke &*&rfumes from the &@&wglowing &rhot &*&rwalls. It would not
+ be surprising if the canyon ignited into a roaring &@&rf&*&ri&@&rr&*&re.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9307
+D2
+~
+~
+0 -1 9309
+D3
+A firey door.~
+fire door~
+8 9302 9321
+S
+#9309
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9308
+D2
+~
+~
+0 -1 9310
+S
+#9310
+&@&wJunction of &rF&*&rl&@&ra&*&rm&@&re&w&*~
+&*&rTo the east a &@&rf&yi&rr&ye &*&rcan be seen. From all directions, you are baked by smoldering warmth.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9309
+D1
+~
+~
+0 -1 9318
+D2
+~
+~
+0 -1 9311
+S
+#9311
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9310
+D2
+~
+~
+0 -1 9312
+S
+#9312
+&@&wA Realm of &rF&*&ri&@&rr&*&re&*~
+&*&rThe air quivers in waves from the searing &@&rheat&*&r  and ravages you from all
+ directions. &@&bSmoke &*&rfumes from the &@&wglowing &rhot &*&rwalls. It would not
+ be surprising if the canyon ignited into a roaring &@&rf&*&ri&@&rr&*&re.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9311
+D1
+~
+~
+0 -1 9313
+S
+#9313
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9314
+D3
+~
+~
+0 -1 9312
+S
+#9314
+&@&wJunction of &rF&*&rl&@&ra&*&rm&@&re&w&*~
+&*&rTo the north a &@&rf&yi&rr&ye &*&rcan be seen. From all directions, you are baked by smoldering warmth.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9316
+D1
+~
+~
+0 -1 9315
+D3
+~
+~
+0 -1 9313
+S
+#9315
+&@&wA Corridor on &rF&yi&rr&ye&w&*~
+&*&rYou walk through a narrow passage with &@&rm&yo&rl&yt&re&yn &*&rwalls. The ground beneath you 
+is &@&bcracked &*&rfrom the &@&rheat&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9300
+D3
+~
+~
+0 -1 9314
+S
+#9316
+&@&wAround the &rPit&w&*~
+&*&rTo the north you see a great &@&rfirey &bpit&*&r. Probably a place of great &@&wpower&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9320
+D2
+~
+~
+0 -1 9314
+S
+#9317
+&@&wAround the &rPit&w&*~
+&*&rTo the south you see a great &@&rfirey &bpit&*&r. Probably a place of great &@&wpower&*&r.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9306
+D2
+~
+~
+0 -1 9320
+S
+#9318
+&@&wAround the &rPit&w&*~
+&*&rTo the east you see a great &@&rfirey &bpit&*&r. Probably a place of great &@&wpower&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9320
+D3
+~
+~
+0 -1 9310
+S
+#9319
+&@&wAround the &rPit&w&*~
+&*&rTo the west you see a great &@&rfirey &bpit&*&r. Probably a place of great &@&wpower&*&r.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9302
+D3
+~
+~
+0 -1 9320
+S
+#9320
+&@&wThe &rF&yi&rr&ye &bPit&w&*~
+&*&rThe warmth and the sound of the &@&ycrackling &rfire &*&rhere lull you into a sauna
+ of smooth rest. You are renewed by the healing powers of the &@&rf&yl&ra&ym&re&ys&*&r. A fire
+ healer is here to tend the pit and help mend  your wounds.&w&*
+~
+0 262197 1
+D0
+~
+~
+0 -1 9317
+D1
+~
+~
+0 -1 9319
+D2
+~
+~
+0 -1 9316
+D3
+~
+~
+0 -1 9318
+S
+#9321
+&@&wRoom of &bAsh&w&*~
+&*&rGreat piles of &@&bash &*&rlay on the floor and fill every corner of this room. The walls are 
+covered with it and more &@&wsnows &*&rfrom the ceiling constantly replenishing the supply.&w&*
+~
+0 262193 1
+D1
+A firey door.~
+door fire~
+8 9302 9308
+D3
+A door of Ash.~
+ash door~
+8 9303 9322
+S
+#9322
+&@&wRoom of &bSmoke&w&*~
+&@&bS&wm&bo&wk&be &*&rswirls within smoke weaving and twisting within itself.&w&*
+~
+0 262193 1
+D1
+A door of ash.~
+door ash~
+8 9303 9321
+D3
+A door of Smoke.~
+smoke door~
+8 9304 9323
+S
+#9323
+&@&wRoom of &rE&ym&*&rb&@&ye&rr&w&*~
+&*&rThe walls and floor consist of pulsing &@&rred e&ym&rb&ye&rr&ys&*&r. The room is lit with a &@&rred 
+&*&rflickering glow.&w&*
+~
+0 262193 1
+D1
+A door of smoke.~
+door smoke~
+8 9304 9322
+D3
+A door of embers.~
+door ember~
+8 9305 9324
+S
+#9324
+&@&wVault of &rF&yl&ra&ym&re&w&*~
+&*&rThis is a sacred vault of &@&rf&yl&ra&ym&re &*&rwhere the keeper of the flame does its best to
+ preserve the &@&wpurity &*&rof &@&yfire&*&r.&w&*
+~
+0 262193 1
+D1
+A door of embers.~
+door ember~
+8 9305 9323
+D3
+The Vault.~
+door vault~
+8 9306 9325
+S
+#9325
+&@&wOrigin of &rF&yi&rr&ye&w&*~
+&@&r<&y<&r-&w-&y-&r(&yV&r)&wThe Origin of &rF&yi&rr&ye&@&r(&yV&r)&y-&w-&r-&y>&r>&w&*
+~
+0 262193 1
+D1
+The vault.~
+door vault~
+8 9306 9324
+S
+#9326
+&@&wA Realm of &lW&wa&lt&we&lr&w&*~
+&@&lWaterfalls rush down the walls forming vast rivers and lakes everywhere.
+ A &cmisty &wspray &lwets your face, refreshing you.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9341
+D2
+~
+~
+0 -1 9327
+S
+#9327
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9326
+D2
+~
+~
+0 -1 9328
+S
+#9328
+&@&wJunction of &lW&wa&lt&we&lr&ws&*~
+&@&lHere rivers meet and divide. A &cr&la&ci&ln&ci&ln&cg fountain &lcan be glimpsed to the east.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9327
+D1
+~
+~
+0 -1 9343
+D2
+~
+~
+0 -1 9329
+S
+#9329
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9328
+D2
+~
+~
+0 -1 9330
+S
+#9330
+&@&wA Realm of &lW&wa&lt&we&lr&w&*~
+&@&lWaterfalls rush down the walls forming vast rivers and lakes everywhere.
+ A &cmisty &wspray &lwets your face, refreshing you.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9329
+D1
+~
+~
+0 -1 9331
+S
+#9331
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9332
+D3
+~
+~
+0 -1 9330
+S
+#9332
+&@&wJunction of &lW&wa&lt&we&lr&ws&*~
+&@&lHere rivers meet and divide. A &cr&la&ci&ln&ci&ln&cg fountain &lcan be glimpsed to the north.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9344
+D1
+~
+~
+0 -1 9333
+D3
+~
+~
+0 -1 9331
+S
+#9333
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9334
+D3
+~
+~
+0 -1 9332
+S
+#9334
+&@&wA Realm of &lW&wa&lt&we&lr&w&*~
+&@&lWaterfalls rush down the walls forming vast rivers and lakes everywhere.
+ A &cmisty &wspray &lwets your face, refreshing you.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9335
+D1
+A watery door.~
+door water~
+8 9309 9347
+D3
+~
+~
+0 -1 9333
+S
+#9335
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9336
+D2
+~
+~
+0 -1 9334
+S
+#9336
+&@&wJunction of &lW&wa&lt&we&lr&ws&*~
+&@&lHere rivers meet and divide. A &cr&la&ci&ln&ci&ln&cg fountain &lcan be glimpsed to the west.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9337
+D2
+~
+~
+0 -1 9335
+D3
+~
+~
+0 -1 9345
+S
+#9337
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9338
+D2
+~
+~
+0 -1 9336
+S
+#9338
+&@&wA Realm of &lW&wa&lt&we&lr&w&*~
+&@&lWaterfalls rush down the walls forming vast rivers and lakes everywhere.
+ A &cmisty &wspray &lwets your face, refreshing you.&w&*
+~
+0 262193 1
+D2
+~
+~
+0 -1 9337
+D3
+~
+~
+0 -1 9339
+S
+#9339
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9338
+D3
+~
+~
+0 -1 9340
+S
+#9340
+&@&wJunction of &lW&wa&lt&we&lr&ws&*~
+&@&lHere rivers meet and divide. A &cr&la&ci&ln&ci&ln&cg fountain &lcan be glimpsed to the south.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9339
+D2
+~
+~
+0 -1 9342
+D3
+~
+~
+0 -1 9341
+S
+#9341
+&@&wA &cWet &wPass&*~
+&@&lA tunnel formed entirely of &cwater &lmaking a rolling passage. You are carried along 
+with its motion.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9340
+D3
+~
+~
+0 -1 9326
+S
+#9342
+&@&wAround the &lF&wo&lu&wn&lt&wa&li&wn&*~
+&@&lA &wclear &cfountain &lbursts like spring rain from the ground to the south. &wLight &rp&yr&gi&cs&lm&ms 
+&lthrough flying water droplets casting a &rr&ya&gi&cn&lb&mo&rw &lmist over these rooms.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9340
+D2
+~
+~
+0 -1 9346
+S
+#9343
+&@&wAround the &lF&wo&lu&wn&lt&wa&li&wn&*~
+&@&lA &wclear &cfountain &lbursts like spring rain from the ground to the east. &wLight &rp&yr&gi&cs&lm&ms 
+&lthrough flying water droplets casting a &rr&ya&gi&cn&lb&mo&rw &lmist over these rooms.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9346
+D3
+~
+~
+0 -1 9328
+S
+#9344
+&@&wAround the &lF&wo&lu&wn&lt&wa&li&wn&*~
+&@&lA &wclear &cfountain &lbursts like spring rain from the ground to the north. &wLight &rp&yr&gi&cs&lm&ms 
+&lthrough flying water droplets casting a &rr&ya&gi&cn&lb&mo&rw &lmist over these rooms.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9346
+D2
+~
+~
+0 -1 9332
+S
+#9345
+&@&wAround the &lF&wo&lu&wn&lt&wa&li&wn&*~
+&@&lA &wclear &cfountain &lbursts like spring rain from the ground to the west. &wLight &rp&yr&gi&cs&lm&ms 
+&lthrough flying water droplets casting a &rr&ya&gi&cn&lb&mo&rw &lmist over these rooms.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9336
+D3
+~
+~
+0 -1 9346
+S
+#9346
+&@&wA &cShower &wof &rC&yo&gl&lo&mr&w&*~
+&@&lDroplets fly up then fall through &bshadowed &wlight&l. They &csparkle &land spray a wonderous &rs&yp&ge&cc&lt&mr&ru&ym &lover all.&w&*
+~
+0 262197 1
+D0
+~
+~
+0 -1 9342
+D1
+~
+~
+0 -1 9345
+D2
+~
+~
+0 -1 9344
+D3
+~
+~
+0 -1 9343
+S
+#9347
+&@&wRoom of &cM&*&ci&@&cs&*&ct&w&*~
+&@&lA place shrouded in a damp blanket of &cm&*&ci&@&cs&*&ct&@&l.&w&*
+~
+0 262193 1
+D1
+A door of mist.~
+mist door~
+8 9310 9348
+D3
+A watery door.~
+water door~
+8 9309 9334
+S
+#9348
+&@&wRoom of &lDroplets&w&*~
+&@&lDroplets bead in steady streams from the walls and ceilings and &cr&wa&ci&wn &ldown on you.&w&*
+~
+0 262193 1
+D1
+A door of droplets.~
+droplet door~
+8 9311 9349
+D3
+A door of mist.~
+door mist~
+8 9310 9347
+S
+#9349
+&@&wRoom of &lW&wh&li&wr&ll&wp&lo&wo&ll&w&*~
+&@&w-&lW&wH&lI&wR&lL&wP&lO&wO&lL&w-&*
+&@&woo&lV&cV&wV&lV&wV&cV&lV&woo&*
+&@&wooo&lV&cV&wV&cV&lV&wooo&*
+&@&woooo&lV&cV&lV&woooo&*
+&@&wooooo&lV&wooooo&*
+&@&w!&l!&w!&l!&w!&l!&w!&l!&w!&l!&w!&*
+~
+0 262193 1
+D3
+A door of droplets.~
+droplet door~
+8 9311 9348
+D5
+A swirling whirlpool.~
+whirlpool door~
+8 9312 9350
+S
+#9350
+&@&wVault of &wWater&w&*~
+&@&lThis is a sacred vault of &cwater &lwhere the keeper of the water does its best to
+ preserve the &wpurity &lof &*&coceans&@&l.&w&*
+~
+0 262193 1
+D1
+Vault door.~
+vault door~
+8 9313 9351
+D4
+A swirling whirlpool.~
+whirlpool door~
+8 9312 9349
+S
+#9351
+&@&wOrigin of &lW&wa&lt&we&lr&w&*~
+&@&l<&c<&l-&c-&w-&l(&cV&l)&wThe Origin of &lW&wa&lt&we&lr(&cV&l)&w-&c-&l-&c>&l>&w&*
+~
+0 262193 1
+D3
+Vault door.~
+vault door~
+8 9313 9350
+S
+#9352
+&@&wA Realm of &*&yEarth&w&*~
+&*&yFrom this rocky plateau you can see the many &@&yc&*&yo&@&wl&bo&wr&*&ye&@&yd &*&ylayers of earth in
+ the surrounding canyon walls.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9367
+D1
+~
+~
+0 -1 9353
+S
+#9353
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9354
+D3
+~
+~
+0 -1 9352
+S
+#9354
+&@&wJunction of &*&yEarth&w&*~
+&*&yDirt paths lead in several directions here. Northward a &@&bquiet &*&yearthen chamber awaits.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9369
+D1
+~
+~
+0 -1 9355
+D3
+~
+~
+0 -1 9353
+S
+#9355
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9356
+D3
+~
+~
+0 -1 9354
+S
+#9356
+&@&wA Realm of &*&yEarth&w&*~
+&*&yFrom this rocky plateau you can see the many &@&yc&*&yo&@&wl&bo&wr&*&ye&@&yd &*&ylayers of earth
+ in the surrounding canyon walls.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9357
+D3
+~
+~
+0 -1 9355
+S
+#9357
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9358
+D2
+~
+~
+0 -1 9356
+S
+#9358
+&@&wJunction of &*&yEarth&w&*~
+&*&yDirt paths lead in several directions here. Westward a &@&bquiet &*&yearthen chamber awaits.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9359
+D2
+~
+~
+0 -1 9357
+D3
+~
+~
+0 -1 9370
+S
+#9359
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9360
+D2
+~
+~
+0 -1 9358
+S
+#9360
+&@&wA Realm of &*&yEarth&w&*~
+&*&yFrom this rocky plateau you can see the many &@&yc&*&yo&@&wl&bo&wr&*&ye&@&yd &*&ylayers of earth
+ in the surrounding canyon walls.&w&*
+~
+0 262193 1
+D2
+~
+~
+0 -1 9359
+D3
+~
+~
+0 -1 9361
+S
+#9361
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9360
+D3
+~
+~
+0 -1 9362
+S
+#9362
+&@&wJunction of &*&yEarth&w&*~
+&*&yDirt paths lead in several directions here. Southward a &@&bquiet &*&yearthen chamber awaits.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9361
+D2
+~
+~
+0 -1 9371
+D3
+~
+~
+0 -1 9363
+S
+#9363
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9362
+D3
+~
+~
+0 -1 9364
+S
+#9364
+&@&wA Realm of &*&yEarth&w&*~
+&*&yFrom this rocky plateau you can see the many &@&yc&*&yo&@&wl&bo&wr&*&ye&@&yd &*&ylayers of earth
+ in the surrounding canyon walls.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9363
+D2
+~
+~
+0 -1 9365
+S
+#9365
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9364
+D2
+~
+~
+0 -1 9366
+S
+#9366
+&@&wJunction of &*&yEarth&w&*~
+&*&yDirt paths lead in several directions here. Eastward a &@&bquiet &*&yearthen chamber awaits.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9365
+D1
+~
+~
+0 -1 9368
+D2
+~
+~
+0 -1 9367
+S
+#9367
+&@&bCrumbling &wCorridor&*~
+&*&ySmall &@&brocks &*&ycrumble from the sides of this narrow corridor and pile gently on the &@&ysandy &*&yfloor.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9366
+D2
+~
+~
+0 -1 9352
+S
+#9368
+&@&wAround the &cOffering&w&*~
+&*&yHere, deep in the center of the canyon, there are &@&ccrystals &*&yof many &@&rc&yo&gl&co&lr&ms 
+&*&ylining the walls. They are framed by banded layers of infinate shades of brown. 
+To the east is a small offering to earth.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9372
+D3
+~
+~
+0 -1 9366
+S
+#9369
+&@&wAround the &cOffering&w&*~
+&*&yHere, deep in the center of the canyon, there are &@&ccrystals &*&yof many &@&rc&yo&gl&co&lr&ms 
+&*&ylining the walls. They are framed by banded layers of infinate shades of brown. 
+To the north is a small offering to earth.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9372
+D2
+~
+~
+0 -1 9354
+S
+#9370
+&@&wAround the &cOffering&w&*~
+&*&yHere, deep in the center of the canyon, there are &@&ccrystals &*&yof many &@&rc&yo&gl&co&lr&ms 
+&*&ylining the walls. They are framed by banded layers of infinate shades of brown. 
+To the west is a small offering to earth.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9358
+D3
+~
+~
+0 -1 9372
+S
+#9371
+&@&wAround the &cOffering&w&*~
+&*&yHere, deep in the center of the canyon, there are &@&ccrystals &*&yof many &@&rc&yo&gl&co&lr&ms 
+&*&ylining the walls. They are framed by banded layers of infinate shades of brown. 
+To the south is a small offering to earth.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9362
+D2
+~
+~
+0 -1 9372
+S
+#9372
+&*&yOffering &@&wRoom&w&*~
+&*&yPeople from all lands gather here to pay tribute to the &@&gearth &*&ywith small offerings 
+in hopes that the &@&gearth &*&ywill continue to grant them &@&mabundance.&w&*
+~
+0 262197 1
+D0
+~
+~
+0 -1 9371
+D1
+~
+~
+0 -1 9370
+D2
+~
+~
+0 -1 9369
+D3
+~
+~
+0 -1 9368
+D5
+An earthy door.~
+earth door~
+8 9316 9373
+S
+#9373
+&@&wRoom of &yP&*&ye&@&yb&*&yb&@&yl&*&ye&w&*~
+&*&yTiny smooth &@&yp&*&ye&@&yb&*&yb&@&yl&*&ye&@&ys &*&ylitter the floor and shift beneath you.&w&*
+~
+0 262193 1
+D4
+An earthy door.~
+earth door~
+8 9316 9372
+D5
+A door of pebbles.~
+pebble door~
+8 9317 9374
+S
+#9374
+&@&wRoom of &bRock&w&*~
+&@&yR&*&yO&@&yC&*&yK&@&yS&*&yL&@&yI&*&yD&@&yE&*&y!&@&y!&*&y!&@&y!&*&y!&@&y!&w&*
+&*&yo&*
+&@&yO&b0   &*&yo&*
+&*&yoo&@&bO&*
+&@&wo&yO&bO&*&yo   &@&w. &yO&*
+&@&bo&yO&*&yoo&@&wO   &y'&b.&*
+&@&bO&wo&*&y0&@&yo&*&yO&@&bo&w0  &*&y' &@&yo&*
+&*&yOo&@&yo&wO&bO&yo&*&yo&@&bO&y0  &w.&*&y0&*
+&*&yO&@&yo&wo&bO&yO&*&yoO&@&b0&wo&yOo&wo&*&yO&@&wo&bo&y0&*&yOo&w&*
+~
+0 262193 1
+D4
+A door of pebbles.~
+pebble door~
+8 9317 9373
+D5
+A door of rock.~
+rock door~
+8 9318 9375
+S
+#9375
+&@&wRoom of &bBoulders&w&*~
+&*&yGiant &@&bboulders &*&ylay strewn magnificently throughout the room.&w&*
+~
+0 262193 1
+D4
+A door of rock.~
+rock key~
+8 9318 9374
+D5
+A door of boulders.~
+boulder door~
+8 9319 9376
+S
+#9376
+&@&wVault of &yE&*&ya&@&yr&*&yt&@&yh&w&*~
+&*&yThis is a sacred vault of &@&gearth &*&ywhere the keeper of the &@&gearth &*&ydoes its best to
+ preserve the purity of soil.&w&*
+~
+0 262193 1
+D4
+A door of boulders.~
+boulder door~
+8 9319 9375
+D5
+Vault door.~
+vault door~
+8 9320 9377
+S
+#9377
+&@&wOrigin of &yE&*&ya&@&yr&*&yt&@&yh&w&*~
+&*&y<&@&y<&*&y-&@&y-&w-&*&y(&@&yV&*&y)&@&wThe Origin of &yE&*&ya&@&yr&*&yt&@&yh&*&y(&@&yV&*&y)&@&w-&y-&*&y-&@&y>&*&y>&w&*
+~
+0 262193 1
+D4
+Vault door.~
+vault key~
+8 9320 9376
+S
+#9378
+&@&wRealm of &cA&*&ci&@&cr&w&*~
+&*&cWinds whirl around you lifting you and displacing you. Your movements feel 
+lighter as the powerful &@&wgusts &*&csweep you from the ground below.&w&*
+~
+0 262193 1
+D2
+~
+~
+0 -1 9379
+D3
+~
+~
+0 -1 9393
+S
+#9379
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9378
+D2
+~
+~
+0 -1 9380
+S
+#9380
+&@&cWindy &wConnection&*~
+&@&cWindy &*&cpasses connect here. The air currents convect and spin as they meet. 
+To the distance in the west you can see a &@&csky &lblue &wglow&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9379
+D2
+~
+~
+0 -1 9381
+D3
+~
+~
+0 -1 9394
+S
+#9381
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9380
+D2
+~
+~
+0 -1 9382
+S
+#9382
+&@&wRealm of &cA&*&ci&@&cr&w&*~
+&*&cWinds whirl around you lifting you and displacing you. Your movements feel 
+lighter as the powerful &@&wgusts &*&csweep you from the ground below.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9381
+D3
+~
+~
+0 -1 9383
+S
+#9383
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9382
+D3
+~
+~
+0 -1 9384
+S
+#9384
+&@&cWindy &wConnection&*~
+&@&cWindy &*&cpasses connect here. The air currents convect and spin as they meet. 
+To the distance in the north you can see a &@&csky &lblue &wglow&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9395
+D1
+~
+~
+0 -1 9383
+D3
+~
+~
+0 -1 9385
+S
+#9385
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9384
+D3
+~
+~
+0 -1 9386
+S
+#9386
+&@&wRealm of &cA&*&ci&@&cr&w&*~
+&*&cWinds whirl around you lifting you and displacing you. Your movements feel 
+lighter as the powerful &@&wgusts &*&csweep you from the ground below.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9387
+D1
+~
+~
+0 -1 9385
+S
+#9387
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9388
+D2
+~
+~
+0 -1 9386
+S
+#9388
+&@&cWindy &wConnection&*~
+&@&cWindy &*&cpasses connect here. The air currents convect and spin as they meet. 
+To the distance in the east you can see a &@&csky &lblue &wglow&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9389
+D1
+~
+~
+0 -1 9396
+D2
+~
+~
+0 -1 9387
+S
+#9389
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9390
+D2
+~
+~
+0 -1 9388
+S
+#9390
+&@&wRealm of &cA&*&ci&@&cr&w&*~
+&*&cWinds whirl around you lifting you and displacing you. Your movements feel 
+lighter as the powerful &@&wgusts &*&csweep you from the ground below.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9391
+D2
+~
+~
+0 -1 9389
+S
+#9391
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9392
+D3
+~
+~
+0 -1 9390
+S
+#9392
+&@&cWindy &wConnection&*~
+&@&cWindy &*&cpasses connect here. The air currents convect and spin as they meet. 
+To the distance in the south you can see a &@&csky &lblue &wglow&*&c.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9393
+D2
+~
+~
+0 -1 9397
+D3
+~
+~
+0 -1 9391
+S
+#9393
+&@&wA &cBreezy &wHall&*~
+&*&cAn &@&cairy &wbreeze &*&ccarries you lightly through a narrow hall of &@&wclouds&*&c.&w&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9378
+D3
+~
+~
+0 -1 9392
+S
+#9394
+&@&wAround the &cAltar&w&*~
+&*&cWest of here you see a &@&ccyan &wglow &*&creceding and accending it is a sacred place of 
+great &@&mmagical &*&cstrength.&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9380
+D3
+~
+~
+0 -1 9398
+S
+#9395
+&@&wAround the &cAltar&w&*~
+&*&cNorth of here you see a &@&ccyan &wglow &*&creceding and accending it is a sacred place of 
+great &@&mmagical &*&cstrength.&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9398
+D2
+~
+~
+0 -1 9384
+S
+#9396
+&@&wAround the &cAltar&w&*~
+&*&cEast of here you see a &@&ccyan &wglow &*&creceding and accending it is a sacred place of 
+great &@&mmagical &*&cstrength.&*
+~
+0 262193 1
+D1
+~
+~
+0 -1 9398
+D3
+~
+~
+0 -1 9388
+S
+#9397
+&@&wAround the &cAltar&w&*~
+&*&cSouth of here you see a &@&ccyan &wglow &*&creceding and accending it is a sacred place of 
+great &@&mmagical &*&cstrength.&*
+~
+0 262193 1
+D0
+~
+~
+0 -1 9392
+D2
+~
+~
+0 -1 9398
+S
+#9398
+&@&cS&*&ck&@&cy &wAltar&*~
+&*&cA glowing &@&ca&wl&ct&wa&cr &wshines &*&chere honoring the bright sky and reminding us of of sweet 
+songs wind has sung on &@&ysummer &bnights&*&c.&w&*
+~
+0 262197 1
+D0
+~
+~
+0 -1 9397
+D1
+~
+~
+0 -1 9394
+D2
+~
+~
+0 -1 9395
+D3
+~
+~
+0 -1 9396
+D4
+An airy door.~
+air door~
+8 9323 9399
+S
+#9399
+&@&wRoom of &cB&*&cr&@&ce&*&ce&@&cz&*&ce&w&*~
+&*&cSoft &@&wbreezes &*&cbrush across your face reminding you of &@&bsleep&*&c.&w&*
+~
+0 262193 1
+D4
+A breezy door.~
+breeze door~
+8 9324 9400
+D5
+An airy door.~
+air key~
+8 9323 9398
+S
+#9400
+&@&wRoom of &cW&*&ci&@&cn&*&cd&w&*~
+&*&cWinds blow &@&ysand &*&cacross the chamber floor.&w&*
+~
+0 262193 1
+D4
+A windy door.~
+wind door~
+8 9325 9401
+D5
+A breezy door.~
+breeze door~
+8 9324 9399
+S
+#9401
+&@&wRoom of &cGale&w&*~
+&*&cThe strength of the &@&wwinds &*&chere nearly knock you down.&@&c.&w.&*
+~
+0 262193 1
+D4
+A door of gale.~
+gale door~
+8 9326 9402
+D5
+A windy door.~
+wind door~
+8 9325 9400
+S
+#9402
+&@&wVault of &cA&*&ci&@&cr&w&*~
+&*&cThis is a sacred vault of air where the keeper of the air does its best to
+ preserve the purity of &@&cw&*&ci&@&cn&*&cd.&w&*
+~
+0 262193 1
+D4
+Vault door.~
+vault door~
+8 9327 9403
+D5
+A door of gale.~
+gale key~
+8 9326 9401
+S
+#9403
+&@&wOrigin of &cA&*&ci&@&cr&w&*~
+&*&c<&@&c<&*&c-&@&c-&w-&*&c(&@&cV&*&c)&@&wThe Origin of &cA&*&ci&@&cr&*&c(&@&cV&*&c)&@&w-&c-&*&c-&@&c>&*&c>&w&*
+~
+0 262193 1
+D5
+Vault door.~
+vault door~
+8 9327 9402
+S
+#9404
+&@&wTunnel of &bS&wp&ba&wr&bk&ws&*~
+&@&cSparks &bstretch down from the sloping curve of this narrow crawlway.&w&*
+~
+0 262192 1
+D1
+~
+~
+0 -1 9405
+D3
+~
+~
+0 -1 9409
+S
+#9405
+&@&wCanyon of &yLights&w&*~
+&@&bThe air of the canyon is filled with &csparks &band &yflashes &bof &wlight &bof all &rc&yo&gl&co&lr&ms&b. 
+&@&bIt crackles like &welectric &yyellow &mf&yl&mo&yw&me&yr&ms&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9406
+D1
+~
+~
+0 -1 9408
+D3
+~
+~
+0 -1 9404
+S
+#9406
+&@&wCanyon of &yLights&w&*~
+&@&bThe air of the canyon is filled with &csparks &band &yflashes &bof &wlight &bof all &rc&yo&gl&co&lr&ms&b. 
+&@&bIt crackles like &welectric &yyellow &mf&yl&mo&yw&me&yr&ms&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9424
+D1
+~
+~
+0 -1 9407
+D2
+~
+~
+0 -1 9405
+S
+#9407
+&@&wCanyon of &yLights&w&*~
+&@&bThe air of the canyon is filled with &csparks &band &yflashes &bof &wlight &bof all &rc&yo&gl&co&lr&ms&b. 
+&@&bIt crackles like &welectric &yyellow &mf&yl&mo&yw&me&yr&ms&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9425
+D2
+~
+~
+0 -1 9408
+D3
+~
+~
+0 -1 9406
+S
+#9408
+&@&wCanyon of &yLights&w&*~
+&@&bThe air of the canyon is filled with &csparks &band &yflashes &bof &wlight &bof all &rc&yo&gl&co&lr&ms&b. 
+&@&bIt crackles like &welectric &yyellow &mf&yl&mo&yw&me&yr&ms&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9407
+D3
+~
+~
+0 -1 9405
+S
+#9409
+&@&gLiving &wLights&*~
+&@&wLight &bdances on the air as if to its own brave song. It crackles and ripples 
+in flashes down the walls of the canyon and across the &csky&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9412
+D1
+~
+~
+0 -1 9404
+D3
+~
+~
+0 -1 9410
+S
+#9410
+&@&gLiving &wLights&*~
+&@&wLight &bdances on the air as if to its own brave song. It crackles and ripples 
+in flashes down the walls of the canyon and across the &csky&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9411
+D1
+~
+~
+0 -1 9409
+S
+#9411
+&@&gLiving &wLights&*~
+&@&wLight &bdances on the air as if to its own brave song. It crackles and ripples 
+in flashes down the walls of the canyon and across the &csky&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9413
+D1
+~
+~
+0 -1 9412
+D2
+~
+~
+0 -1 9410
+S
+#9412
+&@&gLiving &wLights&*~
+&@&wLight &bdances on the air as if to its own brave song. It crackles and ripples 
+in flashes down the walls of the canyon and across the &csky&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9414
+D2
+~
+~
+0 -1 9409
+D3
+~
+~
+0 -1 9411
+S
+#9413
+&@&bLow &*&yOverhang&w&*~
+&@&bBeneath the overhang, you are shielded from the &ysizzling &csparks &bthat shower
+ from the &lsky&b. From here, to the east, an &yorb &bof &wlight &bcan be glimpsed.
+ It beams like a tiny &ysun&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9416
+D1
+~
+~
+0 -1 9414
+D2
+~
+~
+0 -1 9411
+S
+#9414
+&@&bLow &*&yOverhang&w&*~
+&@&bBeneath the overhang, you are shielded from the &ysizzling &csparks &bthat shower from the &lsky&b. 
+From here, to the east, an &yorb &bof &wlight &bcan be glimpsed. It beams like a tiny &ysun&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9415
+D1
+~
+~
+0 -1 9426
+D2
+~
+~
+0 -1 9412
+D3
+~
+~
+0 -1 9413
+S
+#9415
+&@&lBlue &cRain&w&*~
+&@&bThousands of &lblue &csparks &bcascade gently to the ground and melt to ash. 
+The ground is slightly black from the scorching showers of &lblue &crain&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9418
+D2
+~
+~
+0 -1 9414
+D3
+~
+~
+0 -1 9416
+S
+#9416
+&@&lBlue &cRain&w&*~
+&@&bThousands of &lblue &csparks &bcascade gently to the ground and melt to ash. 
+The ground is slightly black from the scorching showers of &lblue &crain&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9417
+D1
+~
+~
+0 -1 9415
+D2
+~
+~
+0 -1 9413
+S
+#9417
+&@&lBlue &cRain&w&*~
+&@&bThousands of &lblue &csparks &bcascade gently to the ground and melt to ash. 
+The ground is slightly black from the scorching showers of &lblue &crain&b.&w&*
+~
+0 262192 1
+D1
+~
+~
+0 -1 9418
+D2
+~
+~
+0 -1 9416
+S
+#9418
+&@&lBlue &cRain&w&*~
+&@&bThousands of &lblue &csparks &bcascade gently to the ground and melt to ash. 
+The ground is slightly black from the scorching showers of &lblue &crain&b.&w&*
+~
+0 262192 1
+D1
+~
+~
+0 -1 9419
+D2
+~
+~
+0 -1 9415
+D3
+~
+~
+0 -1 9417
+S
+#9419
+&@&wTunnel of &bS&wp&ba&wr&bk&ws&*~
+&@&cSparks &bstretch down from the sloping curve of this narrow crawlway.&w&*
+~
+0 262192 1
+D0
+The lightning door.~
+lightning door~
+8 9330 9427
+D1
+~
+~
+0 -1 9420
+D3
+~
+~
+0 -1 9418
+S
+#9420
+&@&wCrashing &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&bPillars of lighting spring from the ground to join with bolts from the &csky&b. As they 
+meet the ground shakes and thunder crashes. It sounds as if the &gearth &bis splitting 
+down the center.&w&*
+~
+0 262192 1
+D1
+~
+~
+0 -1 9421
+D2
+~
+~
+0 -1 9423
+D3
+~
+~
+0 -1 9419
+S
+#9421
+&@&wCrashing &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&bPillars of lighting spring from the ground to join with bolts from the &csky&b. As they 
+meet the ground shakes and thunder crashes. It sounds as if the &gearth &bis splitting 
+down the center.&w&*
+~
+0 262192 1
+D2
+~
+~
+0 -1 9422
+D3
+~
+~
+0 -1 9420
+S
+#9422
+&@&wCrashing &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&bPillars of lighting spring from the ground to join with bolts from the &csky&b. As they 
+meet the ground shakes and thunder crashes. It sounds as if the &gearth &bis splitting 
+down the center.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9421
+D2
+~
+~
+0 -1 9425
+D3
+~
+~
+0 -1 9423
+S
+#9423
+&@&wCrashing &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&bPillars of lighting spring from the ground to join with bolts from the &csky&b. As they 
+meet the ground shakes and thunder crashes. It sounds as if the &gearth &bis splitting 
+down the center.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9420
+D1
+~
+~
+0 -1 9422
+D2
+~
+~
+0 -1 9424
+S
+#9424
+&@&bLow &*&yOverhang&w&*~
+&@&bBeneath the overhang, you are shielded from the &ysizzling &csparks &bthat shower
+ from the &lsky&b. From here, to the west, an &yorb &bof &wlight &bcan be glimpsed.
+ It beams like a tiny &ysun&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9423
+D1
+~
+~
+0 -1 9425
+D2
+~
+~
+0 -1 9406
+D3
+~
+~
+0 -1 9426
+S
+#9425
+&@&bLow &*&yOverhang&w&*~
+&@&bBeneath the overhang, you are shielded from the &ysizzling &csparks &bthat shower
+ from the &lsky&b. From here, to the west, an &yorb &bof &wlight &bcan be glimpsed.
+ It beams like a tiny &ysun&b.&w&*
+~
+0 262192 1
+D0
+~
+~
+0 -1 9422
+D2
+~
+~
+0 -1 9407
+D3
+~
+~
+0 -1 9424
+S
+#9426
+&@&yOrb of Light&*~
+&@&bAbove the canyon floor hangs a magestic &yorb &bof &celectricity&b. It isnt hot,
+ but shines brighter than the &ysun&b. Everything here looks incredibly &wclear
+ &band &wdetailed&b.&w&*
+~
+0 262196 1
+D1
+~
+~
+0 -1 9424
+D3
+~
+~
+0 -1 9414
+S
+#9427
+&@&bE&wl&be&wc&bt&wr&bo&wn Room&*~
+&@&bStatic charges fill the room standing your hair on end.&w&*
+~
+0 262192 1
+D0
+The electron door.~
+electron door~
+8 9331 9428
+D2
+The lightning door.~
+lightning door~
+8 9330 9419
+S
+#9428
+&@&bS&wi&bz&wz&bl&wi&bn&wg Room&*~
+&@&cElectricity &ysizzles&b, buzzes and fills the chamber with &!&wflashing light&*&@&b.&w&*
+~
+0 262192 1
+D0
+A sizzling door.~
+sizzling door~
+8 9332 9429
+D2
+The electron door.~
+electron door~
+8 9331 9427
+S
+#9429
+&@&bC&wr&ba&wc&bk&wl&bi&wn&bg &wRoom&*~
+&@&bSheets of &clightning &bcrackle accross the top of the room.&w&*
+~
+0 262192 1
+D2
+A sizzling door.~
+sizzling door~
+8 9332 9428
+D4
+A crackling door.~
+crackling door~
+8 9333 9430
+S
+#9430
+&@&wVault of &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&bThis is a sacred vault of &clightning &bwhere the keeper of the lightning does its best to
+ preserve the purity of &we&cl&we&cc&wt&cr&wi&cc&wi&ct&wy&b.&w&*
+~
+0 262192 1
+D4
+Vault door.~
+vault key~
+8 9334 9431
+D5
+A crackling door.~
+crackling door~
+8 9333 9429
+S
+#9431
+&@&wOrigin of &bL&wi&bg&wh&bt&wn&bi&wn&bg&w&*~
+&@&b<&w<&b-&c-&w-&b(&cV&b)&wThe Origin of &bL&wi&bg&wh&bt&wn&bi&wn&bg(&cV&b)&w-&c-&b-&w>&b>&*
+~
+0 262192 1
+D5
+Vault door.~
+vault key~
+8 9334 9430
+S
+#0
+
+
+#RESETS
+D 0 9324 1 2
+D 0 9324 3 2
+D 0 9323 1 2
+D 0 9323 3 2
+D 0 9322 1 2
+D 0 9322 3 2
+D 0 9321 1 2
+D 0 9321 3 2
+D 0 9308 3 2
+D 0 9351 3 2
+D 0 9350 1 2
+D 0 9350 4 2
+D 0 9349 3 2
+D 0 9349 5 2
+D 0 9348 1 2
+D 0 9348 3 2
+D 0 9347 1 2
+D 0 9347 3 2
+D 0 9334 1 2
+D 0 9372 5 2
+D 0 9373 4 2
+D 0 9373 5 2
+D 0 9374 4 2
+D 0 9374 5 2
+D 0 9375 4 2
+D 0 9375 5 2
+D 0 9376 4 2
+D 0 9376 5 2
+D 0 9377 4 2
+D 0 9398 4 2
+D 0 9399 4 2
+D 0 9399 5 2
+D 0 9400 4 2
+D 0 9400 5 2
+D 0 9401 4 2
+D 0 9401 5 2
+D 0 9402 4 2
+D 0 9402 5 2
+D 0 9403 5 2
+D 0 9431 5 2
+D 0 9430 4 2
+D 0 9430 5 2
+D 0 9429 2 2
+D 0 9429 4 2
+D 0 9428 0 2
+D 0 9428 2 2
+D 0 9427 0 2
+D 0 9427 2 2
+D 0 9419 0 2
+M 0 9345 1 9320
+M 0 9304 1 9321
+G 0 9303 100
+M 0 9305 1 9322
+G 0 9304 100
+M 0 9306 1 9323
+G 0 9305 100
+M 0 9307 1 9324
+M 0 9308 1 9325
+M 0 9300 10 9300
+M 0 9301 10 9300
+M 0 9300 10 9302
+M 0 9300 10 9302
+M 0 9302 5 9304
+M 0 9301 10 9306
+M 0 9300 10 9306
+M 0 9303 1 9308
+M 0 9300 10 9310
+M 0 9301 10 9310
+M 0 9302 5 9312
+M 0 9300 10 9314
+M 0 9301 10 9314
+M 0 9300 10 9316
+M 0 9301 10 9316
+M 0 9302 5 9316
+M 0 9300 10 9317
+M 0 9301 10 9317
+M 0 9300 10 9318
+M 0 9301 10 9318
+M 0 9300 10 9319
+M 0 9301 10 9319
+M 0 9302 5 9319
+M 0 9346 1 9346
+M 0 9313 1 9347
+G 0 9310 100
+M 0 9314 1 9348
+G 0 9311 100
+M 0 9315 1 9349
+G 0 9312 100
+M 0 9316 1 9350
+M 0 9317 1 9351
+M 0 9309 10 9326
+M 0 9310 10 9326
+M 0 9309 10 9328
+M 0 9310 10 9328
+M 0 9312 1 9330
+M 0 9309 10 9332
+M 0 9310 10 9332
+M 0 9311 5 9334
+M 0 9309 10 9336
+M 0 9310 10 9336
+M 0 9309 10 9338
+M 0 9310 10 9338
+M 0 9309 10 9340
+M 0 9310 10 9340
+M 0 9309 10 9342
+M 0 9310 10 9342
+M 0 9311 5 9342
+M 0 9309 10 9343
+M 0 9310 10 9343
+M 0 9309 10 9344
+M 0 9310 10 9344
+M 0 9309 10 9345
+M 0 9310 10 9345
+M 0 9311 5 9345
+M 0 9347 1 9372
+M 0 9322 1 9373
+G 0 9317 100
+M 0 9323 1 9374
+G 0 9318 100
+M 0 9324 1 9375
+G 0 9319 100
+M 0 9325 1 9376
+M 0 9326 1 9377
+M 0 9318 10 9352
+M 0 9319 10 9352
+M 0 9318 10 9354
+M 0 9319 10 9354
+M 0 9321 1 9356
+M 0 9318 10 9358
+M 0 9319 10 9358
+M 0 9318 10 9360
+M 0 9319 10 9360
+M 0 9320 5 9362
+M 0 9318 10 9364
+M 0 9319 10 9364
+M 0 9318 10 9366
+M 0 9319 10 9366
+M 0 9318 10 9368
+M 0 9319 10 9368
+M 0 9320 5 9368
+M 0 9318 10 9369
+M 0 9319 10 9369
+M 0 9318 10 9370
+M 0 9319 10 9370
+M 0 9318 10 9371
+M 0 9319 10 9371
+M 0 9320 5 9371
+M 0 9348 1 9398
+M 0 9331 1 9399
+G 0 9324 100
+M 0 9332 1 9400
+G 0 9325 100
+M 0 9333 1 9401
+G 0 9326 100
+M 0 9334 1 9402
+M 0 9335 1 9403
+M 0 9327 10 9378
+M 0 9328 10 9378
+M 0 9327 10 9380
+M 0 9328 10 9380
+M 0 9329 5 9382
+M 0 9327 10 9384
+M 0 9328 10 9384
+M 0 9330 1 9386
+M 0 9327 10 9388
+M 0 9328 10 9388
+M 0 9327 10 9390
+M 0 9328 10 9390
+M 0 9329 5 9392
+M 0 9327 10 9394
+M 0 9328 10 9394
+M 0 9329 5 9394
+M 0 9327 10 9395
+M 0 9328 10 9395
+M 0 9327 10 9396
+M 0 9328 10 9396
+M 0 9327 10 9397
+M 0 9328 10 9397
+M 0 9329 5 9397
+M 0 9349 1 9426
+M 0 9340 1 9427
+G 0 9331 100
+M 0 9341 1 9428
+G 0 9332 100
+M 0 9342 1 9429
+G 0 9333 100
+M 0 9343 1 9430
+M 0 9344 1 9431
+M 0 9336 10 9405
+M 0 9337 10 9405
+M 0 9336 10 9406
+M 0 9337 10 9406
+M 0 9338 5 9407
+M 0 9336 10 9409
+M 0 9337 10 9409
+M 0 9339 1 9410
+M 0 9336 10 9411
+M 0 9337 10 9411
+M 0 9336 10 9413
+M 0 9337 10 9413
+M 0 9338 5 9413
+M 0 9336 10 9414
+M 0 9337 10 9414
+M 0 9336 10 9415
+M 0 9337 10 9415
+M 0 9336 10 9416
+M 0 9337 10 9416
+M 0 9338 5 9417
+M 0 9336 10 9420
+M 0 9337 10 9420
+M 0 9336 10 9421
+M 0 9337 10 9421
+M 0 9338 5 9422
+M 0 9336 10 9424
+M 0 9337 10 9424
+M 0 9336 10 9425
+M 0 9337 10 9425
+M 0 9338 5 9425
+O 0 9335 100 9426
+O 0 90 100 9398
+O 0 87 100 9320
+P 0 9342 100 9335
+O 0 9336 100 9346
+O 0 9337 100 9372
+P 0 9338 100 9337
+P 0 9339 100 9337
+P 0 9340 100 9337
+P 0 9341 100 9337
+P 0 48 1 9337
+D 0 9325 1 2
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 9307 spec_cast_cleric
+M 9308 spec_breath_fire
+M 9316 spec_cast_cleric
+M 9317 spec_breath_frost
+M 9325 spec_cast_cleric
+M 9326 spec_breath_acid
+M 9334 spec_cast_cleric
+M 9335 spec_breath_gas
+M 9343 spec_cast_cleric
+M 9344 spec_breath_lightning
+M 9345 spec_cast_adept
+M 9346 spec_cast_adept
+M 9347 spec_cast_adept
+M 9348 spec_cast_adept
+M 9349 spec_cast_adept
+S
+
+
+
+#$
+

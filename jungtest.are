@@ -1,0 +1,3939 @@
+#AREADATA
+Name        &@&l-&r{  &y60 &g100 &r}&l-     &*&cDawn           &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*&ys&@&w!&*                 ~
+Builders    none~
+VNUMs       9000 9199
+Recall      3001
+Security    1
+LEVELS      50 110
+Repop       &@&gLeaves &rrustle...a &*&rwild&ycat &@&rscreams...&@&gnature &rreturns!&*~
+Norecall    God has forsaken you.~
+Sname       &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*&ys&@&w!&*~
+End
+
+
+#MOBILES
+#9000
+alligator gator~
+&*&y<&*&g^&@&g^&*&gA&yl&gl&yi&gg&ya&gt&yo&gr&@&g^&*&g^&*&y>&*~
+An alligator thrashes and snaps!
+~
+He has very sharp teeth!
+~
+99 680 0 S
+100 0 0 0d0+0 0d0+0
+13750 0
+0 0 1
+>fight_prog 20~
+mpechoat $n &@&rThe &galligator &rtries to swallow you alive!!&*
+mpechoaround $n &@&rThe &galligator &rtries to swallow $n alive!!&*
+bite
+bite
+~
+|
+#9001
+soaring eagle~
+&@&b^v^&*&ys&@&bo&*&ya&@&br&*&yi&@&bn&*&yg&@&b^&*&ye&@&ba&*&yg&@&bl&*&ye&@&b^v^&*~
+&@&b An &*&ye&@&ba&*&yg&@&bl&*&ye &@&bsoars high above waiting to swoop.&*
+~
+&@&bThe eagle sees all below him as he soars through the air.&*
+&@&bHis wings have harnessed the power of the air.&*
+~
+67 67108904 -500 S
+75 0 0 0d0+0 0d0+0
+7500 2062
+0 0 1
+>give_prog power of air~
+if ispc ($n)
+if issag ($n)
+if level ($n) > 189
+tell $n You are beginning to understand the power of the air.
+mpoload 9015
+drop wind
+mpforce $n get wind
+mpjunk colors
+tell $n Take this to the demi-god of the storm, Saleana.
+tell $n She will instill it with the energy of the storm.
+endif
+~
+|
+#9002
+tiger~
+&*A &*&yT&@&yi&*&yg&@&ye&*&yr&*~
+&*A &*&yT&@&yi&*&yg&@&ye&*&yr&* pounces on you!
+~
+A powerful cat.
+~
+97 524968 0 S
+100 0 0 0d0+0 0d0+0
+10000 0
+0 0 2
+>fight_prog 20~
+mpechoat $n &*&rThe &*&yt&@&yi&*&yg&@&ye&*&yr &rlunges at you with his powerful claws!!!&*
+mpechoaround $n &*&rThe &*&yt&@&yi&*&yg&@&ye&*&yr &rlunges at $n with his powerful claws!!!&*
+claw
+claw
+~
+>death_prog 100~
+mpoload 9009
+~
+|
+#9003
+monkey~
+&*A &yMonkey&*~
+&*A &ymonkey&* swings down from a tree.
+~
+~
+69 32808 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 1
+>rand_prog 1~
+scratch self
+~
+|
+#9004
+fish pirranhas~
+&@&rP&*&ri&@&rr&*&rr&@&ra&*&rn&@&rh&*&ra&@&rs&*~
+A school of hungry fish circles you!
+~
+~
+101 40 -500 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9005
+salmon fish~
+&*A &@&mS&wa&ml&wm&mo&wn&*~
+A &@&mpink&* fish swims here.
+~
+~
+65 40 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 2
+#9006
+hairy spider~
+&@&b_/\&*&y^&@&b\&*&y^&@&b\&w(&*&y<&@&ro o&*&y>&@&w)&b/&*&y^&@&b/&*&y^&@&b/\_&w&*~
+A hairy spider crawls up a tree.
+~
+It has black and hairy legs.
+~
+99 0 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 2
+>fight_prog 20~
+mpechoat $n &@&rThe &bspider &rspins its &wweb &raround you!&*
+mpechoaround $n &@&rThe &bspider &rspins its &wweb &raround $n!&*
+attack2
+bite
+~
+|
+#9007
+python snake~
+&*&y-&@&bo&*&yo&@&w0&*&y(&wO&y)&@&bpython&*&y(&wO&y)&@&w0&*&yo&@&bo&*&y-&*~
+A long thick snake slides past.
+~
+~
+65 32768 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 1
+>fight_prog 20~
+emote &@&rsqueezes you!!&*
+attack2
+~
+|
+#9008
+spider monkey~
+&*A &@&bS&rp&bi&rd&be&rr &*&yMonkey&*~
+&*A &@&bS&rp&bi&rd&be&rr &*&yMonkey&* swings from tree to tree.
+~
+~
+197 32768 0 S
+65 0 0 0d0+0 0d0+0
+6500 0
+0 0 1
+>rand_prog 1~
+mpecho &*A &@&bS&rp&bi&rd&be&rr &*&yMonkey&* swings down from a tree!
+~
+|
+#9009
+toucan bird~
+&*A &@&rT&yo&wu&bcan&*~
+&*A &@&rT&yo&wu&bcan&* rests colorfully here.
+~
+~
+65 0 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 2
+#9010
+maned wolf~
+&*A &yM&@&ra&wn&re&*&yd &@&rWolf&*~
+&*A &yM&@&ra&wn&re&*&yd &@&rWolf&* darts out from the brush.
+~
+~
+65 0 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 1
+#9011
+black panther~
+&@&bBlack Panther&w&*~
+&@&bBlack Panther&w&* leaps at you.
+~
+She is very shiny and beautiful black.
+~
+99 680 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 2
+>fight_prog 15~
+growl
+claw
+claw
+~
+|
+#9012
+screech owl~
+&*&y-&@&w>&b(&yO&b)&*&yS&@&wc&br&*&yeech&@&bO&ww&*&yl&@&b(&yO&b)&w<&*&y-&w&*~
+A dark owl glides among the branches.
+~
+~
+65 552 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 2
+#9013
+snake anaconda~
+&*&y-&@&w=&bo&*&y=&@&bo&w=&ba&*&yn&@&ba&*&yc&@&bo&*&yn&@&bd&*&ya&@&w=&bo&*&y=&@&bo&@&w=&*&y-&w&*~
+An emense snake swifts through the water towards you.
+~
+~
+97 557608 0 S
+85 0 0 0d0+0 0d0+0
+8500 0
+0 0 1
+>fight_prog 15~
+mpecho &@&wThe &*&yanaconda &@&wslides close and attacks!!&*
+bite
+bite
+~
+|
+#9014
+giant otter~
+&*A &@&wGIANT &*&yO&@&bt&*&yt&@&be&*&yr&*~
+&*A &@&wGIANT &*&yO&@&bt&*&yt&@&be&*&yr&* is trying to catch a fish.
+~
+~
+65 524840 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9015
+hissing turtle~
+&*A &@&rhissing &gT&*&gu&yr&@&gt&*&gl&ye&@&g!&*~
+A jagged tailed turtle hisses and attacks!
+~
+He has a beautiful shell and a long jagged tail.
+~
+97 524968 0 S
+100 0 0 0d0+0 0d0+0
+13750 0
+0 0 1
+>fight_prog 15~
+mpecho &@&wA &@&rhissing &gT&*&gu&yr&@&gt&*&gl&ye&@&g! &whisses and straightens her tail!!&*
+bite
+attack2
+~
+|
+#9016
+crawfish~
+&*A &wC&gr&ya&ww&gf&yi&ws&gh&*~
+&*A &wC&gr&ya&ww&gf&yi&ws&gh&* sits beneath the water.
+~
+~
+65 524840 0 S
+65 0 0 0d0+0 0d0+0
+6500 0
+0 0 2
+#9017
+mosquito fish~
+&@&w<&b*&g)&wM&*&wosquitofis&@&wh&@&g>&y<&w)&*~
+A small fish swims near.
+~
+~
+65 524840 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 2
+#9018
+flying squirrel~
+&@&cFlying &bS&*&yq&@&bu&*&yi&@&br&*&yr&@&be&*&yl&*~
+&@&cFlying &bS&*&yq&@&bu&*&yi&@&br&*&yr&@&be&*&yl&* brushes from tree to tree.
+~
+~
+69 590376 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9019
+ant eater~
+&@&rAnt&ge&*&ga&@&gt&*&ge&@&gr&*~
+&@&rAnt&ge&*&ga&@&gt&*&ge&@&gr&* carefully sniffs the ground.
+~
+~
+65 524840 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9020
+wild boar~
+&*A &@&rW&yi&wl&rd &*&yBoar&*~
+&*A &@&rW&yi&wl&rd &*&yBoar&* charges you!
+~
+~
+97 524840 0 S
+85 0 0 0d0+0 0d0+0
+8500 0
+0 0 1
+#9021
+fire ant~
+&@&rF&*&ri&@&rr&*&re &@&rAnt&*~
+&@&rF&*&ri&@&rr&*&re &@&rAnt!&*
+~
+~
+97 524840 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 2
+#9022
+tapir~
+&*A &@&bT&*&ya&@&bp&*&yi&*&yr&*~
+&*A &@&bT&*&ya&@&bp&*&yi&*&yr&* is looking for food.
+~
+~
+65 524840 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 2
+#9023
+fire ant spec~
+&@&rF&*&ri&@&rr&*&re &@&rAnt&*~
+&@&rF&*&ri&@&rr&*&re &@&rAnt!!&*
+~
+&@&bThis &@&rF&*&ri&@&rr&*&re &@&rAnt &@&bhas evolved over time&*
+&@&bas the result of exposure to fire.  He can help you master&*
+&@&bthe flames for your own evolution&*
+~
+67 0 0 S
+80 0 0 0d0+0 0d0+0
+8000 2062
+0 0 2
+>greet_prog 100~
+if ispc ($n)
+if issag ($n)
+if level ($n) > 99
+tell $n I have anticipated your impending arrival.  
+tell $n Give me elemental fire of which I have evolved.
+endif
+~
+>give_prog elemental fire sag~
+if ispc ($n)
+if issag ($n)
+if level ($n) > 100
+tell $n Take this fossil.  The secrets are formed upon its surface.
+tell $n Find the Dragon of Fire in the Astral Plane.
+mpoload 9016
+drop fossilized
+mpforce $n get fossilized
+mpjunk elemental
+tell $n Only his furnace can unleash power of the coal.
+endif
+~
+|
+#9024
+copperhead snake~
+&*A &*&yC&@&wo&*&yp&@&wp&*&ye&@&wr&*&yh&@&we&*&ya&@&wd&*~
+A defensive snake tries to bite you!
+~
+~
+97 524840 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 1
+>fight_prog 15~
+bite
+~
+|
+#9025
+newt~
+&*A &yN&re&yw&rt&*~
+&*A &yN&re&yw&rt&* looks at you.
+~
+It has round eyes which look in all directions.
+~
+65 524840 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 2
+>fight_prog 15~
+roll $n
+attack1
+~
+|
+#9026
+jaguar~
+&*A &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr&*~
+&*A &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr&* springs from the brush!
+~
+~
+97 66088 0 S
+95 0 0 0d0+0 0d0+0
+9500 0
+0 0 1
+>fight_prog 10~
+mpechoat $n &@&rThe &*&yJ&@&wa&*&yg&@&wu&*&ya&@&wr &rtries to sink his &wteeth &rinto you!!!&*
+mpechoaround $n &@&rThe &*&yJ&@&wa&*&yg&@&wu&*&ya&@&wr &rtries to sink his &wteeth &rinto $n!!!&*
+bite
+~
+|
+#9027
+female jaguar~
+&*A &*&rFemale &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr&*~
+&*A &*&rFemale &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr&* guards her young.
+~
+~
+99 66088 0 S
+90 0 0 0d0+0 0d0+0
+9000 0
+0 0 2
+>fight_prog 10~
+mpechoat $n &@&rThe &*&yJ&@&wa&*&yg&@&wu&*&ya&@&wr &rtries to tear you apart!!!&*
+mpechoaround $n &@&rThe &*&yJ&@&wa&*&yg&@&wu&*&ya&@&wr &rtries to tear $n apart!!!&*
+claw
+~
+>fight_prog 15~
+mpecho &@&rThe &*&yJ&@&wa&*&yg&@&wu&*&ya&@&wr &rflashes her &wteeth &rat you!!!&*
+bite
+~
+>death_prog 70~
+mpoload 9007
+~
+|
+#9028
+jaguar cub~
+&*A &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr Cub&*~
+&*A &@&wJ&*&ya&@&wg&*&yu&@&wa&*&yr Cub&* stays close to his mother.
+~
+~
+99 66088 0 S
+65 0 0 0d0+0 0d0+0
+6500 0
+0 0 1
+#9029
+fruit bat~
+&@&b\/\&@&rF&yr&*&mu&@&wi&gt&bBat/\/&w&*~
+A fruit bat flies in search of food.
+~
+~
+65 552 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+>death_prog 10~
+mpoload 9008
+~
+|
+#9030
+iguana~
+&*An &@&gI&*&gguan&@&ga&*~
+&*An &@&gI&*&gguan&@&ga&* rolls his eyes at you.
+~
+~
+65 552 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 1
+#9031
+chameleon~
+&*A &@&gC&*&gh&ya&@&gm&*&ge&yl&@&ge&*&go&yn&*~
+&*A &@&gC&*&gh&ya&@&gm&*&ge&yl&@&ge&*&go&yn&* blends against the brush.
+~
+~
+65 98856 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 2
+>give_prog thiefly note~
+if isrog ($n)
+mpjunk note
+emote reads the note and barely notices you.
+emote looks at you
+mpoload 8230
+drop promise
+mpforce $n get promise
+say Take it to the crab.
+say I'll be there.
+endif
+~
+|
+#9032
+ocelot~
+&*An &yO&@&yc&we&*&yl&@&yo&wt&*~
+A beautiful little cat plays here.
+~
+~
+65 33320 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 2
+>rand_prog 3~
+purr
+~
+|
+#9033
+dragonfly dragon fly~
+&*A &*&g-&@&g-&y=&w=&*&g<&@&g<&wD&yr&ga&wgon&gf&yl&wy&g>&*&g>&@&w=&y=&g-&*&g-&*~
+A dragonfly buzzes past.
+~
+~
+65 552 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 1
+>greet_prog 10~
+if ispc ($n)
+emote sweeps down on you.
+endif
+~
+|
+#9034
+armadillo~
+&*An &@&bA&*&wr&@&wmadil&*&wl&@&bo&w&*~
+&*An &@&bA&*&wr&@&wmadil&*&wl&@&bo&w&* curls up avoiding you.
+~
+~
+65 552 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 1
+#9035
+snowy egret~
+&*A &@&wSnowy &bE&*&yg&@&wr&*&ye&@&bt&w&*~
+&*A &@&wSnowy &bE&*&yg&@&wr&*&ye&@&bt&w&* wades through the marsh.
+~
+~
+65 552 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9036
+stork~
+&*A &@&mS&*&mt&@&mo&*&mr&@&mk&*~
+&*A &@&mS&*&mt&@&mo&*&mr&@&mk&* bends to scoop up fish.
+~
+~
+65 552 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 2
+#9037
+bull frog~
+&*A B&yu&gl&yl&gf&yr&go&yg&*~
+&*A B&yu&gl&yl&gf&yr&go&yg&* sits on a log.
+~
+~
+65 552 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 1
+#9038
+racoon~
+&*A &@&bR&*&wa&@&bc&*&wo&@&bo&*&wn&*~
+&*A &@&bR&*&wa&@&bc&*&wo&@&bo&*&wn&* is looking for something interesting.
+~
+~
+69 552 0 S
+80 0 0 0d0+0 0d0+0
+8000 0
+0 0 2
+#9039
+molly fish~
+&*A &@&y<&b'&*&y)&@&yM&*&yo&@&yl&*&yl&@&yy&*&y>&@&y<&*&y<&*~
+A small fish swims arround your knees.
+~
+~
+67 552 0 S
+70 0 0 0d0+0 0d0+0
+7000 0
+0 0 2
+#9040
+horny toad~
+&*A &@&gHorny &*&yT&go&ya&gd&*~
+&@&gA &r*VERY* &ganxious toad is hopping around.&*
+~
+You really don't want to know what's on his mind.
+~
+67 680 0 S
+100 0 0 0d0+0 0d0+0
+13750 0
+0 0 1
+>rand_prog 5~
+if rand(20)
+wink
+else
+if rand(30)
+seduce
+else
+if rand(40)
+goose self
+else
+if rand(50)
+lick
+else
+if rand(60)
+bjump self
+else
+if rand(70)
+wiggle
+else
+stroke
+endif
+~
+>give_prog glowing stinky flask quest~
+if ismon($n)
+  mpjunk quest
+  mpechoat $n The horny toad's nostril's flare as you give it the flask.
+  mpechoat $n The horny toad hops behind a tree with the flask in it's mouth!
+  mpechoat $n You hear strange sounds coming from behind the tree.
+  mpechoat $n -Slurp- -Stroke- -Moan- -Gasp- -Sigh-
+  mpechoat $n The horny toad hops back to you, a strangely satisfied look on it's face.
+  mpoload 8250
+  drop quest
+  mpforce $n get quest
+ else
+  moan $n
+  drop flask
+ endif
+~
+|
+#9041
+tiny spider~
+&*A &@&rt&bi&rn&by spider&w&*~
+A tiny spider whispers across the ground.
+~
+~
+97 0 0 S
+60 0 0 0d0+0 0d0+0
+6000 0
+0 0 2
+#9042
+green snake~
+A &@&ggreen snake&*~
+A &@&ggreen snake&* slides by.
+~
+~
+97 98344 0 S
+75 0 0 0d0+0 0d0+0
+7500 0
+0 0 2
+>fight_prog 25~
+mpechoat $n &@&gA green snake tries to &rbite &gyou!&*
+mpechoaround $n &@&gA green snake tries to &rbite &g$n&*
+bite
+~
+|
+#0
+
+
+#OBJECTS
+#9000
+spotted belt~
+&*&y-&@&w=&bo&w=&bo&w=&*&ys&@&bp&*&yo&@&bt&*&yt&@&be&*&yd&@&bb&*&ye&@&bl&*&yt&@&w=&bo&w=&bo&w=&*&y-&*~
+A scaley belt with spots is here.~
+~
+9 0 2049
+15 0 0 0
+7 1111 80
+A
+13 40
+A
+12 40
+#9001
+panther fur leggings~
+&@&b>&w+&@&r=&@&bpanther fur&r=&w+&b<&*~
+A pile of silky black fur rests here.~
+~
+9 64 33
+15 0 0 0
+7 1111 80
+A
+13 36
+A
+12 36
+A
+4 1
+A
+3 1
+#9002
+spider web earring~
+&@&bS&wp&bi&wd&be&wr &bW&we&bb&ws&w&*~
+A spider web lays torn here.~
+~
+9 0 32769
+13 0 0 0
+5 1111 80
+A
+12 80
+#9003
+alligator teeth~
+&@&w/&r^&w\&*&gA&yl&gl&yi&gg&ya&gt&yo&gr &gT&ye&ge&yt&gh&@&w/&r^&w\&*~
+A string of sharp teeth glints dangerously.~
+~
+9 64 257
+17 0 0 0
+7 1111 80
+A
+18 4
+A
+19 6
+#9004
+coon cap~
+&@&b(&w(&bR&*&wa&@&bc&*&wo&@&bo&*&wn&@&bC&*&wa&@&bp&w)&b)&w<&b<&w<&b<&w&*~
+A fuzzy cap with a striped tail tries to run away.~
+~
+9 0 17
+13 0 0 0
+7 1111 70
+A
+13 20
+A
+19 5
+#9005
+newt eye~
+&*&y(&@&bo&*&y)&@&rE&*&ry&ye of Ne&rw&@&rt&*&y(&@&bo&*&y)&*~
+An eyeball stares up at you.~
+~
+9 0 65537
+17 0 0 0
+7 1111 80
+A
+12 50
+A
+13 30
+#9006
+turtle shell shield~
+&@&gT&*&gu&yr&@&gt&*&gl&ye Shell &@&wShield&*~
+A turtle shell is here...wheres the turtle?~
+~
+9 0 513
+38 0 0 0
+7 1111 90
+A
+17 -11
+A
+12 40
+A
+13 50
+#9007
+jaguar fur~
+&*&yF&@&wu&*&yr&w&*~
+A beautiful pelt lies here.~
+~
+9 0 9
+15 0 0 0
+7 1111 80
+A
+12 80
+#9008
+fruit~
+&@&rF&yr&*&mu&@&wi&gt&w&*~
+&@&rF&yr&*&mu&@&wi&gt&w&* is here.~
+~
+26 0 17
+50 15 43 181
+5 0 80
+#9009
+tiger striped sleeves~
+&*&yTiger S&@&yt&*&yr&@&yi&*&yp&@&ye&*&yd Sleeves&*~
+Some furry sleeves are here.~
+~
+9 0 257
+15 0 0 0
+5 0 100
+A
+13 100
+#9010
+fire ant mound~
+&@&wA &rF&*&ri&@&rr&*&re &@&rAnt &*&yMound&*~
+&@&wA &rF&*&ri&@&rr&*&re &@&rAnt &*&yMound&*~
+~
+27 0 0
+0 0 0 0
+5 0 0
+#9011
+slick wild reeds~
+&*&mSlick W&yi&ml&yd Reeds&*~
+&*&mSlick W&yi&ml&yd Reeds&*~
+~
+27 0 0
+9170 0 0 0
+100 0 0
+#9012
+bright green opening~
+&@&g'&*&g-&@&g,&*&g-&@&wA &ybright &gg&*&gr&@&ge&*&ge&@&gn &wopening&*&g-&@&g`&*&g-&@&g,&*~
+&@&g'&*&g-&@&g,&*&g-&@&wA &ybright &gg&*&gr&@&ge&*&ge&@&gn &wopening&*&g-&@&g`&*&g-~
+~
+27 0 0
+9007 0 0 0
+100 0 0
+#9013
+pool blood~
+&@&bA &rpool &bof &rb&*&rl&@&ro&*&ro&@&rd&b!&w&*~
+&@&bA &rpool &bof &rb&*&rl&@&ro&*&ro&@&rd&b!&w&*~
+~
+25 0 0
+13 0 0 0
+100 0 0
+#9014
+dark shrieking trail~
+&@&wA &bdark &rs&*&rh&@&rr&*&ri&@&re&*&rk&@&ri&*&rn&@&rg &wtrail&*~
+&@&wA &bdark &rs&*&rh&@&rr&*&ri&@&re&*&rk&@&ri&*&rn&@&rg &wtrail&*~
+~
+27 0 0
+9077 0 0 0
+100 0 0
+#9015
+wind beneath wings~
+&@&bwind beneath his wings&*~
+&@&bthe wind beneath his wings is ready to be harnessed&*~
+~
+8 0 1
+0 0 0 0
+1 10 701
+#9016
+fossilized coal~
+&@&bfossilized coal&*~
+&@&bfossiled coal lies before you&*~
+~
+8 0 1
+0 0 0 0
+1 10 701
+#0
+
+
+#ROOMS
+#9000
+&@&wTangled Up and &gGreen&*~
+The jungle is a tangling fortress of &*&ytrees&* and vines. Long weed try and wrap 
+around your ankles and take you down. Dangerous sounds screech and scream 
+through the rustling &@&gleaves&*.
+~
+0 4 3
+D0
+~
+~
+0 -1 9001
+D2
+~
+~
+0 0 9704
+P
+0
+39 10000
+&*&rThe &yj&@&wu&*&yn&@&wg&*&yl&@&we&*&ys &rare dangerous you should bring a more experienced group&*
+~
+S
+#9001
+&@&wTangled Up and &gGreen&*~
+The jungle is a tangling fortress of &*&ytrees&* and vines. Long weed try and wrap 
+around your ankles and take you down. Dangerous sounds screech and scream 
+through the rustling &@&gleaves&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9002
+D2
+~
+~
+0 -1 9000
+S
+#9002
+&@&wTangled Up and &gGreen&*~
+The jungle is a tangling fortress of &*&ytrees&* and vines. Long weed try and wrap 
+around your ankles and take you down. Dangerous sounds screech and scream 
+through the rustling &@&gleaves&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9003
+D3
+~
+~
+0 -1 9001
+S
+#9003
+&@&wTangled Up and &gGreen&*~
+The jungle is a tangling fortress of &*&ytrees&* and vines. Long weed try and wrap 
+around your ankles and take you down. Dangerous sounds screech and scream 
+through the rustling &@&gleaves&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9004
+D3
+~
+~
+0 -1 9002
+S
+#9004
+&@&wTangled Up and &gGreen&*~
+The jungle is a tangling fortress of &*&ytrees&* and vines. Long weed try and wrap 
+around your ankles and take you down. Dangerous sounds screech and scream 
+through the rustling &@&gleaves&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9005
+D2
+~
+~
+0 -1 9003
+S
+#9005
+&@&wStart of a Grand &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*~
+Before you stands an immense and twisting jungle.  Animals prowl &*&rhungry &gin&*
+search of prey.  The air smells of &@&gleaves&*&g, wet moss and fur.  The air is
+so thick it is suffocating.&*
+~
+0 4 3
+D0
+~
+~
+0 -1 9006
+D2
+~
+~
+0 -1 9004
+S
+#9006
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9020
+D1
+~
+~
+0 -1 9007
+D2
+~
+~
+0 -1 9005
+D3
+~
+~
+0 -1 9019
+S
+#9007
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9021
+D1
+~
+~
+0 -1 9008
+D3
+~
+~
+0 -1 9006
+S
+#9008
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9009
+D3
+~
+~
+0 -1 9007
+S
+#9009
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9010
+D2
+~
+~
+0 -1 9008
+D3
+~
+~
+0 -1 9021
+S
+#9010
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9011
+D2
+~
+~
+0 -1 9009
+D3
+~
+~
+0 -1 9022
+S
+#9011
+&@&lWet &cWind&*~
+&@&lWet &cwinds&* blow in from the river. Its passage can be heard clearly to the north-east.
+~
+0 0 3
+D0
+~
+~
+0 -1 9012
+D2
+~
+~
+0 -1 9010
+D3
+~
+~
+0 -1 9023
+S
+#9012
+&@&lRiver &wClearing&*~
+There's a small clear area here which leads down to the &*&ymuddy &@&yshore&* of a oily river.
+~
+0 0 3
+D1
+~
+~
+0 -1 9176
+D2
+~
+~
+0 -1 9011
+D3
+~
+~
+0 -1 9013
+S
+#9013
+&@&lWet &cWind&*~
+The &@&cwind&* is &@&lwet&* from a soft mist carried from the river to the east.
+~
+0 0 3
+D1
+~
+~
+0 -1 9012
+D2
+~
+~
+0 -1 9023
+D3
+~
+~
+0 -1 9014
+S
+#9014
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D1
+~
+~
+0 -1 9013
+D2
+~
+~
+0 -1 9024
+D3
+~
+~
+0 -1 9015
+S
+#9015
+&*&rWild&ycat &@&wCross&*~
+Far to the north you can hear low and wild &*&rgrowls&*. There are legends 
+of killer cats who dwell in the deepest corners of the &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&*&ys&*. 
+Could they be true?
+~
+0 0 3
+D0
+~
+~
+0 -1 9026
+D1
+~
+~
+0 -1 9014
+D2
+~
+~
+0 -1 9016
+S
+#9016
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9015
+D1
+~
+~
+0 -1 9024
+D2
+~
+~
+0 -1 9017
+S
+#9017
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9016
+D1
+~
+~
+0 -1 9025
+D2
+~
+~
+0 -1 9018
+S
+#9018
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9017
+D1
+~
+~
+0 -1 9020
+D2
+~
+~
+0 -1 9019
+S
+#9019
+&@&bDark &wand &rDangerous&*~
+The &@&gleaves&* whisper secrets of hiding preditors awaiting and watching in 
+the &*&ytrees&* around you. Be prepared for anything and watch where you 
+step the &@&gweeds&* are very binding.
+~
+0 0 3
+D0
+~
+~
+0 -1 9018
+D1
+~
+~
+0 -1 9006
+S
+#9020
+&@&rWild &*&yBrush&*~
+The &*&ybrush&* here is nearly inpenetreble. Sharp &@&ggrasses&*, lacing bushes 
+and &@&gvines&* cling to your legs and leave scratches on unguarded skin. 
+Snakes slither from &@&bshadow &*to &@&bshadow&* trying to dodge careless footfall.
+~
+0 0 3
+D0
+~
+~
+0 -1 9025
+D1
+~
+~
+0 -1 9021
+D2
+~
+~
+0 -1 9006
+D3
+~
+~
+0 -1 9018
+S
+#9021
+&@&rWild &*&yBrush&*~
+The &*&ybrush&* here is nearly inpenetreble. Sharp &@&ggrasses&*, lacing bushes 
+and &@&gvines&* cling to your legs and leave scratches on unguarded skin. 
+Snakes slither from &@&bshadow &*to &@&bshadow&* trying to dodge careless footfall.
+~
+0 0 3
+D0
+~
+~
+0 -1 9022
+D1
+~
+~
+0 -1 9009
+D2
+~
+~
+0 -1 9007
+D3
+~
+~
+0 -1 9020
+S
+#9022
+&@&gTangled &win the &*&yBrush&*~
+You are entangled in a wiley mesh of &@&gweeds&* and &@&gvines&*, from the &ytrees&* 
+above and the &yj&@&wu&*&yn&@&wg&*&yl&@&we&* bed beneath your tied feet!
+~
+3 0 3
+D0
+~
+~
+0 -1 9023
+D1
+~
+~
+0 -1 9010
+D2
+~
+~
+0 -1 9021
+D3
+~
+~
+0 -1 9025
+S
+#9023
+&@&rWild &*&yBrush&*~
+The &*&ybrush&* here is nearly inpenetreble. Sharp &@&ggrasses&*, lacing bushes 
+and &@&gvines&* cling to your legs and leave scratches on unguarded skin. 
+Snakes slither from &@&bshadow &*to &@&bshadow&* trying to dodge careless footfall.
+~
+0 0 3
+D0
+~
+~
+0 -1 9013
+D1
+~
+~
+0 -1 9011
+D2
+~
+~
+0 -1 9022
+D3
+~
+~
+0 -1 9024
+S
+#9024
+&@&rWild &*&yBrush&*~
+The &*&ybrush&* here is nearly inpenetreble. Sharp &@&ggrasses&*, lacing bushes 
+and &@&gvines&* cling to your legs and leave scratches on unguarded skin. 
+Snakes slither from &@&bshadow &*to &@&bshadow&* trying to dodge careless footfall.
+~
+0 0 3
+D0
+~
+~
+0 -1 9014
+D1
+~
+~
+0 -1 9023
+D2
+~
+~
+0 -1 9025
+D3
+~
+~
+0 -1 9016
+S
+#9025
+&@&rWild &*&yBrush&*~
+The &*&ybrush&* here is nearly inpenetreble. Sharp &@&ggrasses&*, lacing bushes 
+and &@&gvines&* cling to your legs and leave scratches on unguarded skin. 
+Snakes slither from &@&bshadow &*to &@&bshadow&* trying to dodge careless footfall.
+~
+0 0 3
+D0
+~
+~
+0 -1 9024
+D1
+~
+~
+0 -1 9022
+D2
+~
+~
+0 -1 9020
+D3
+~
+~
+0 -1 9017
+S
+#9026
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 4 3
+D0
+~
+~
+0 -1 9027
+D2
+~
+~
+0 -1 9015
+S
+#9027
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D2
+~
+~
+0 -1 9026
+D3
+~
+~
+0 -1 9028
+S
+#9028
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9029
+D1
+~
+~
+0 -1 9027
+S
+#9029
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9030
+D2
+~
+~
+0 -1 9028
+S
+#9030
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9031
+D2
+~
+~
+0 -1 9029
+S
+#9031
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9032
+D3
+~
+~
+0 -1 9030
+S
+#9032
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9033
+D3
+~
+~
+0 -1 9031
+S
+#9033
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9034
+D2
+~
+~
+0 -1 9032
+S
+#9034
+&@&wThe &*&rWild&ycat &@&wPass&*~
+This is a very overgrown path which leads you deeper into a part 
+of the jungle reknowned for its &@&rdanger&* and &rfierce &ycats&*.
+~
+0 4 3
+D0
+~
+~
+0 -1 9035
+D2
+~
+~
+0 -1 9033
+S
+#9035
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9058
+D1
+~
+~
+0 -1 9057
+D2
+~
+~
+0 -1 9034
+D3
+~
+~
+0 -1 9036
+S
+#9036
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9059
+D1
+~
+~
+0 -1 9035
+D3
+~
+~
+0 -1 9037
+S
+#9037
+&@&wKnotted &*&yUnderbrush&*~
+Twisting &*&yunderbrush&* makes &@&gnatural&* boundaries and lead you down 
+faint paths which are just barely walkable.
+~
+0 0 3
+D0
+~
+~
+0 -1 9038
+D1
+~
+~
+0 -1 9036
+S
+#9038
+&@&wAn &gOpening&*~
+Theres a small &@&gopening&* in the dense &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&* growth which allows 
+you to pass westward.
+~
+0 0 3
+D0
+~
+~
+0 -1 9046
+D1
+~
+~
+0 -1 9059
+D2
+~
+~
+0 -1 9037
+D3
+~
+~
+0 -1 9039
+S
+#9039
+&@&wClose &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*~
+&*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&* closes in on all sides. You can go back the way you came 
+or press on.
+~
+0 0 3
+D1
+~
+~
+0 -1 9038
+D3
+~
+~
+0 -1 9040
+S
+#9040
+&@&wClose &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*~
+&*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&* closes in on all sides. You can go back the way you came 
+or press on.
+~
+0 0 3
+D1
+~
+~
+0 -1 9039
+D2
+~
+~
+0 -1 9041
+S
+#9041
+&@&wA &bTunnel &wof &*&yTrees&*~
+The &*&ytrees&* arch overhead making a long and &@&gleafed &btunnel&* of &ytrees&* 
+which leads north to south.
+~
+0 0 3
+D0
+~
+~
+0 -1 9040
+D2
+~
+~
+0 -1 9042
+S
+#9042
+&@&wA &bTunnel &wof &*&yTrees&*~
+The &*&ytrees&* arch overhead making a long and &@&gleafed &btunnel&* of &ytrees&* 
+which leads north to south.
+~
+0 0 3
+D0
+~
+~
+0 -1 9041
+D2
+~
+~
+0 -1 9043
+S
+#9043
+&@&wClose &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*~
+&*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&* closes in on all sides. You can go back the way you came 
+or press on.
+~
+0 0 3
+D0
+~
+~
+0 -1 9042
+D1
+~
+~
+0 -1 9044
+S
+#9044
+&@&wClose &*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&*~
+&*&yJ&@&wu&*&yn&@&wg&*&yl&@&we&* closes in on all sides. You can go back the way you came 
+or press on.
+~
+0 0 3
+D1
+~
+~
+0 -1 9045
+D3
+~
+~
+0 -1 9043
+S
+#9045
+&@&wA Huge &gFern&*~
+You can see movement beyond a huge &@&gfern&* to the east.
+~
+0 4 3
+D1
+An enormous &@&gfern&*.~
+fern~
+1 -1 9030
+D3
+~
+~
+0 -1 9044
+S
+#9046
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9047
+D2
+~
+~
+0 -1 9038
+S
+#9047
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9048
+D2
+~
+~
+0 -1 9046
+S
+#9048
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9049
+D1
+~
+~
+0 -1 9060
+D2
+~
+~
+0 -1 9047
+S
+#9049
+&@&wNorthward &*&yPath&*~
+A path winds northward through collumns of twisting &*&ytrees&*. The 
+ground becomes &@&lwetter&* here and it is very slick.
+~
+0 0 3
+D0
+~
+~
+0 -1 9174
+D1
+~
+~
+0 -1 9050
+D2
+~
+~
+0 -1 9048
+S
+#9050
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D1
+~
+~
+0 -1 9051
+D2
+~
+~
+0 -1 9060
+D3
+~
+~
+0 -1 9049
+S
+#9051
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D1
+~
+~
+0 -1 9052
+D2
+~
+~
+0 -1 9061
+D3
+~
+~
+0 -1 9050
+S
+#9052
+&@&wKnotted &*&yUnderbrush&*~
+Twisting &*&yunderbrush&* makes &@&gnatural&* boundaries and lead you down 
+faint paths which are just barely walkable.
+~
+0 0 3
+D2
+~
+~
+0 -1 9053
+D3
+~
+~
+0 -1 9051
+S
+#9053
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9052
+D2
+~
+~
+0 -1 9054
+D3
+~
+~
+0 -1 9061
+S
+#9054
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9053
+D2
+~
+~
+0 -1 9055
+S
+#9055
+Dark Trail~
+A dark trail forks off to the east leading into a bitterly dark and vicious part of the jungle.
+~
+0 0 3
+D0
+~
+~
+0 -1 9054
+D1
+~
+~
+0 -1 9062
+D2
+~
+~
+0 -1 9056
+S
+#9056
+&*&yMuddy &@&wand &bShaded &*&yBrush&*~
+&*&yMuddy&* tracks and semi clear paths wind through &@&rangry &*&ybrush&*. Trees 
+block most of the &@&csky&ylight&* and it is &@&lwet&* and nearly &@&ccool&* here. Wild cries 
+spread out through the forest ceiling.
+~
+0 0 3
+D0
+~
+~
+0 -1 9055
+D2
+~
+~
+0 -1 9057
+D3
+~
+~
+0 -1 9058
+S
+#9057
+&@&wKnotted &*&yUnderbrush&*~
+Twisting &*&yunderbrush&* makes &@&gnatural&* boundaries and lead you down 
+faint paths which are just barely walkable.
+~
+0 0 3
+D0
+~
+~
+0 -1 9056
+D3
+~
+~
+0 -1 9035
+S
+#9058
+&*&yMud!&*~
+Its hard to walk here because your feet sink into the ground 
+with everystep. &yMud&* sucks arround your ankles and insects 
+&@&rbuzz&* arround you.
+~
+0 0 3
+D1
+~
+~
+0 -1 9056
+D2
+~
+~
+0 -1 9035
+D3
+~
+~
+0 -1 9059
+S
+#9059
+&*&yMud!&*~
+Its hard to walk here because your feet sink into the ground 
+with everystep. &yMud&* sucks arround your ankles and insects 
+&@&rbuzz&* arround you.
+~
+0 0 3
+D1
+~
+~
+0 -1 9058
+D2
+~
+~
+0 -1 9036
+D3
+~
+~
+0 -1 9038
+S
+#9060
+&*&yMud!&*~
+Its hard to walk here because your feet sink into the ground 
+with everystep. &yMud&* sucks arround your ankles and insects 
+&@&rbuzz&* arround you.
+~
+0 0 3
+D0
+~
+~
+0 -1 9050
+D1
+~
+~
+0 -1 9061
+D3
+~
+~
+0 -1 9048
+S
+#9061
+&*&yMud!&*~
+Its hard to walk here because your feet sink into the ground 
+with everystep. &yMud&* sucks arround your ankles and insects 
+&@&rbuzz&* arround you.
+~
+0 0 3
+D0
+~
+~
+0 -1 9051
+D1
+~
+~
+0 -1 9053
+D3
+~
+~
+0 -1 9060
+S
+#9062
+&@&wThe &bBlack &*&yPath&*~
+This is a &*&rpoisonious &ypath&* smelling of trees and &@&rb&*&rl&@&ro&*&ro&@&rd&*. It gives 
+you the feeling you are being &@&ghunted&*!
+~
+0 4 3
+D1
+~
+~
+0 -1 9063
+D3
+~
+~
+0 -1 9055
+S
+#9063
+&@&wThe &bBlack &*&yPath&*~
+This is a &*&rpoisonious &ypath&* smelling of trees and &@&rb&*&rl&@&ro&*&ro&@&rd&*. It gives 
+you the feeling you are being &@&ghunted&*!
+~
+0 0 3
+D1
+~
+~
+0 -1 9064
+D3
+~
+~
+0 -1 9062
+S
+#9064
+&gT&yw&gi&ys&gt&yi&gn&yg &@&bShade&*~
+&@&bBlack &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*shrouds your passage and weaves a shadowed, 
+tangled &@&cmist&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9065
+D3
+~
+~
+0 -1 9063
+S
+#9065
+&@&wThe &bBlack &*&yPath&*~
+This is a &*&rpoisonious &ypath&* smelling of trees and &@&rb&*&rl&@&ro&*&ro&@&rd&*. It gives 
+you the feeling you are being &@&ghunted&*!
+~
+0 0 3
+D1
+~
+~
+0 -1 9066
+D2
+~
+~
+0 -1 9064
+S
+#9066
+&@&wThe &bBlack &*&yPath&*~
+This is a &*&rpoisonious &ypath&* smelling of trees and &@&rb&*&rl&@&ro&*&ro&@&rd&*. It gives 
+you the feeling you are being &@&ghunted&*!
+~
+0 0 3
+D1
+~
+~
+0 -1 9067
+D3
+~
+~
+0 -1 9065
+S
+#9067
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D1
+~
+~
+0 -1 9068
+D3
+~
+~
+0 -1 9066
+S
+#9068
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D1
+~
+~
+0 -1 9069
+D3
+~
+~
+0 -1 9067
+S
+#9069
+&@&wWebs!&*~
+Giant &@&rs&bp&ri&bd&re&br &wwebs &*swoop down from the &*&ytrees&*. They stick to you 
+and wrap around you, sheer and clinging.
+~
+0 0 3
+D1
+~
+~
+0 -1 9070
+D2
+~
+~
+0 -1 9074
+D3
+~
+~
+0 -1 9068
+S
+#9070
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D1
+~
+~
+0 -1 9071
+D2
+~
+~
+0 -1 9073
+D3
+~
+~
+0 -1 9069
+S
+#9071
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D2
+~
+~
+0 -1 9072
+D3
+~
+~
+0 -1 9070
+S
+#9072
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9071
+D2
+~
+~
+0 -1 9076
+D3
+~
+~
+0 -1 9073
+S
+#9073
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9070
+D1
+~
+~
+0 -1 9072
+D2
+~
+~
+0 -1 9075
+D3
+~
+~
+0 -1 9074
+S
+#9074
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9069
+D1
+~
+~
+0 -1 9073
+S
+#9075
+&@&rTorn &*&yTrees&*~
+Claw marks stripe the &ytree trunks&* making them look like &@&wbones&* 
+without &rskin&* or the half eaten meal of a GIANT &ycat&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9073
+D1
+~
+~
+0 -1 9076
+S
+#9076
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9072
+D2
+~
+~
+0 -1 9077
+D3
+~
+~
+0 -1 9075
+S
+#9077
+&@&wWebs!&*~
+Giant &@&rs&bp&ri&bd&re&br &wwebs &*swoop down from the &*&ytrees&*. They stick to you 
+and wrap around you, sheer and clinging.
+~
+0 0 3
+D0
+~
+~
+0 -1 9076
+D1
+~
+~
+0 -1 9078
+D2
+~
+~
+0 -1 9102
+S
+#9078
+&@&wA &bPitch &*&ySqueeze&*~
+This is a &@&bpitch-black&* squeeze from east to west through &@&gvines&*
+ tangling so tight it is almost impassable.
+~
+0 0 3
+D1
+~
+~
+0 -1 9079
+D3
+~
+~
+0 -1 9077
+S
+#9079
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9080
+D2
+~
+~
+0 -1 9084
+D3
+~
+~
+0 -1 9078
+S
+#9080
+&@&bDark &gCanopy&*~
+The &ytrees&* form a &@&bdark &gcanopy&* overhead &@&bblacking&* out the &@&ylight&* 
+from the &@&ysun&* and the &@&wstars&*. The only hint of &@&ylight&* reflects off 
+beads of &@&cdew&* on the &@&gleaves&* and shimmers off thin strands of 
+&@&rs&bp&ri&bd&re&br&ry &wwebs&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9081
+D2
+~
+~
+0 -1 9079
+S
+#9081
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9082
+D3
+~
+~
+0 -1 9080
+S
+#9082
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9083
+D2
+~
+~
+0 -1 9081
+S
+#9083
+&@&gG&*&gr&@&ge&*&ge&@&gn&*&gi&@&gn&*&gg&*~
+The &@&ylight&* breaks through the &ytrees&* and the &yj&@&wu&*&yn&@&wg&*&yl&@&we &ggreens&* 
+&@&ldamp&* and &@&ywarm&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9104
+D2
+~
+~
+0 -1 9082
+S
+#9084
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9079
+D1
+~
+~
+0 -1 9085
+S
+#9085
+&@&gOvergrown &*&yPath&*~
+&@&gFronds&* scratch against your shoulders &*&yrustling&* and &@&ggreen&*. 
+A path twists southward through &*&ymuddy &*and &@&cmisty &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&*.
+~
+0 0 3
+D2
+~
+~
+0 -1 9086
+D3
+~
+~
+0 -1 9084
+S
+#9086
+&@&gOvergrown &*&yPath&*~
+&@&gFronds&* scratch against your shoulders &*&yrustling&* and &@&ggreen&*. 
+A path twists southward through &*&ymuddy &*and &@&cmisty &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9085
+D2
+~
+~
+0 -1 9087
+S
+#9087
+&@&yOvergrown &@&wBend&*~
+&*&yTrees&* form banks outlining a small cleared path. Movement is guided 
+north and west here all other directions are blocked solidly by &@&gf&*&go&@&gl&*&gi&@&ga&*&gg&@&ge&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9086
+D3
+~
+~
+0 -1 9088
+S
+#9088
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D1
+~
+~
+0 -1 9087
+D3
+~
+~
+0 -1 9089
+S
+#9089
+&@&bDark &gCanopy&*~
+The &ytrees&* form a &@&bdark &gcanopy&* overhead &@&bblacking&* out the &@&ylight&* 
+from the &@&ysun&* and the &@&wstars&*. The only hint of &@&ylight&* reflects off 
+beads of &@&cdew&* on the &@&gleaves&* and shimmers off thin strands of 
+&@&rs&bp&ri&bd&re&br&ry &wwebs&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9090
+D1
+~
+~
+0 -1 9088
+S
+#9090
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D2
+~
+~
+0 -1 9089
+D3
+~
+~
+0 -1 9091
+S
+#9091
+&@&bD&*&ya&@&br&*&yk &@&wJunction&*~
+Paths lead north, east and west. Far off to the south-west swift 
+&@&lwater&* can be heard.
+~
+0 0 3
+D0
+~
+~
+0 -1 9103
+D1
+~
+~
+0 -1 9090
+D3
+~
+~
+0 -1 9092
+S
+#9092
+&@&rTorn &*&yTrees&*~
+Claw marks stripe the &ytree trunks&* making them look like &@&wbones&* 
+without &rskin&* or the half eaten meal of a GIANT &ycat&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9091
+D2
+~
+~
+0 -1 9093
+S
+#9093
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9092
+D3
+~
+~
+0 -1 9094
+S
+#9094
+&*&yMuddy &@&yShore&*~
+A &ymuddy&* path travels westward towards the sounds of a grand river 
+and eastward into a tight, &@&bdark &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9093
+D3
+~
+~
+0 -1 9095
+S
+#9095
+&@&lR&*&yi&@&lv&*&ye&@&lr&*&yw&@&la&*&yr&@&ld&*~
+To the west the shallows of a mighty &@&lriver&* lick a &ymuddy &@&yshore&*. 
+Northward a &ytangled&* path leads into &@&bdark&* and &@&cmisty &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9096
+D1
+~
+~
+0 -1 9094
+D3
+~
+~
+0 -1 9106
+S
+#9096
+&*&yMuddy &@&yShore&*~
+To the south a wide &@&lriver&* slices through the &@&gforest&*, northward 
+a narrow path &@&bshadows&* itself delicately through a fierce and 
+&@&bblack &*&gw&yi&gl&yd&ge&yr&gn&ye&gs&ys&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9097
+D2
+~
+~
+0 -1 9095
+S
+#9097
+&@&wA &rS&bp&ri&bd&re&br&ry &wCorner&*~
+Thick &@&wwebs&* are spun through every visible branch. Even in 
+the &@&bdark&*, you can see the &@&cshimmering&* cloud of &@&wweb&* overhead 
+shaking a little with the motion of the &*&ytrees&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9098
+D2
+~
+~
+0 -1 9096
+S
+#9098
+&@&gOvergrown &wBend&*~
+&*&yTrees&* form banks outlining a small cleared path. Movement 
+is guided north and west here all other directions are blocked 
+solidly by &@&gfoliage&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9099
+D3
+~
+~
+0 -1 9097
+S
+#9099
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D1
+~
+~
+0 -1 9100
+D2
+~
+~
+0 -1 9098
+S
+#9100
+&@&wWebs!&*~
+Giant &@&rs&bp&ri&bd&re&br &wwebs &*swoop down from the &*&ytrees&*. They stick to you 
+and wrap around you, sheer and clinging.
+~
+0 0 3
+D1
+~
+~
+0 -1 9101
+D3
+~
+~
+0 -1 9099
+S
+#9101
+&@&wA &bPitch &*&ySqueeze&*~
+This is a &@&bpitch-black&* squeeze from east to west through &@&gvines&*
+ tangling so tight it is almost impassable.
+~
+0 0 3
+D1
+~
+~
+0 -1 9102
+D3
+~
+~
+0 -1 9100
+S
+#9102
+&@&wInstant &bNight&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*here turns so dense its as if you walked straight 
+into &mmidnight&*. The air is strangling and alive with buzzing and 
+screeching.
+~
+0 0 3
+D0
+~
+~
+0 -1 9077
+D2
+~
+~
+0 -1 9103
+D3
+~
+~
+0 -1 9101
+S
+#9103
+&@&wA &bPitch &*&ySqueeze&*~
+This is a &@&bpitch-black&* squeeze from north to south through &@&gvines&*
+ tangling so tight it is almost impassable.
+~
+0 0 3
+D0
+~
+~
+0 -1 9102
+D2
+~
+~
+0 -1 9091
+S
+#9104
+&@&gGreen &wPath&*~
+&@&yLight&* spills down through the &@&gleaves&* bathing the trail in &@&ggreen &bshadows&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9105
+D2
+~
+~
+0 -1 9083
+S
+#9105
+&@&gGreen &wOutlet&*~
+Before you lies a &@&wbright&* and &@&ggreen&* opening freeing you 
+from the &@&bblack &gvines&* and binding &@&wwebs&*.
+~
+0 0 3
+D3
+~
+~
+0 -1 9104
+S
+#9106
+&@&wThe &*&yMuddy &@&yShore&*~
+&@&lWater&* meets &yland&* in a swirling rush of &ymud&*. Thick reeds and 
+grasses line the bank and fish swim just below the river's surface.
+~
+0 4 6
+D1
+~
+~
+0 -1 9095
+D2
+~
+~
+0 -1 9107
+S
+#9107
+&*&yMuck!&*~
+Squishy &ymud&* sucks your feet deeper down and &@&lwater&* cycles in 
+small whirlpools around your ankles. Crawfish dodge your steps 
+and small fish try and make a meal of you.
+~
+0 0 6
+D0
+~
+~
+0 -1 9106
+D2
+~
+~
+0 -1 9108
+S
+#9108
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9107
+D2
+~
+~
+0 -1 9109
+D3
+~
+~
+0 -1 9111
+S
+#9109
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9108
+D1
+~
+~
+0 -1 9112
+D3
+~
+~
+0 -1 9110
+S
+#9110
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9111
+D1
+~
+~
+0 -1 9109
+S
+#9111
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D1
+~
+~
+0 -1 9108
+D2
+~
+~
+0 -1 9110
+D3
+~
+~
+0 -1 9177
+S
+#9112
+&@&lRush!&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* rushes eastward sweeping all along with it!
+~
+0 0 6
+D1
+~
+~
+0 -1 9113
+S
+#9113
+&@&lRush!&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* rushes eastward sweeping all along with it!
+~
+0 0 6
+D1
+~
+~
+0 -1 9114
+S
+#9114
+&@&cPooling &wTributary&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* widens and pools here. A swift tributary winds 
+off to the south.
+~
+0 0 6
+D0
+~
+~
+0 -1 9115
+D1
+~
+~
+0 -1 9117
+D2
+~
+~
+0 -1 9131
+S
+#9115
+&@&cRippling &lPool&*~
+Slowly rippling eastward the &@&lr&*&yi&@&lv&*&ye&@&lr&* widens slightly and nearly 
+forms a lake here.
+~
+0 0 6
+D1
+~
+~
+0 -1 9116
+D2
+~
+~
+0 -1 9114
+S
+#9116
+&@&cRippling &lPool&*~
+Slowly rippling eastward the &@&lr&*&yi&@&lv&*&ye&@&lr&* widens slightly and nearly 
+forms a lake here.
+~
+0 0 6
+D1
+~
+~
+0 -1 9118
+D2
+~
+~
+0 -1 9117
+D3
+~
+~
+0 -1 9115
+S
+#9117
+&@&cRippling &lPool&*~
+Slowly rippling eastward the &@&lr&*&yi&@&lv&*&ye&@&lr&* widens slightly and nearly 
+forms a lake here.
+~
+0 0 6
+D0
+~
+~
+0 -1 9116
+D3
+~
+~
+0 -1 9114
+S
+#9118
+&@&lRush!&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* rushes eastward sweeping all along with it!
+~
+0 0 6
+D1
+~
+~
+0 -1 9119
+S
+#9119
+&@&lRush!&*~
+&*&yBrown&* and &@&cfluid&* the &@&lr&*&yi&@&lv&*&ye&@&lr&* rushes east through a narrow pass between banks.
+~
+0 0 6
+D1
+~
+~
+0 -1 9120
+S
+#9120
+&*&yDeep &@&lR&*&yi&@&lv&*&ye&@&lr &@&wRunoff&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* widens and a small &@&ccreek&* runs north from the main 
+eastward trek.
+~
+0 0 6
+D0
+~
+~
+0 -1 9138
+D1
+~
+~
+0 -1 9123
+D2
+~
+~
+0 -1 9121
+D3
+~
+~
+0 -1 9119
+S
+#9121
+&@&lDeep R&*&yi&@&lv&*&ye&@&lr&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* widens here and becomes &@&bblack&* and &@&bbottomless&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9120
+D1
+~
+~
+0 -1 9122
+S
+#9122
+&@&lDeep R&*&yi&@&lv&*&ye&@&lr&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* widens here and becomes &@&bblack&* and &@&bbottomless&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9123
+D1
+~
+~
+0 -1 9124
+D3
+~
+~
+0 -1 9121
+S
+#9123
+&@&lDeep R&*&yi&@&lv&*&ye&@&lr&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* widens here and becomes &@&bblack&* and &@&bbottomless&*.
+~
+0 0 6
+D2
+~
+~
+0 -1 9122
+D3
+~
+~
+0 -1 9120
+S
+#9124
+&@&wF&co&lr&wk&c!&*~
+The &@&lr&*&yi&@&lv&*&ye&@&lr&* rushes and forks here. The main  &@&lr&*&yi&@&lv&*&ye&@&lr&* screams eastward 
+and a smaller tributary edges southward. Water spins in &*&ybrown&* circles 
+correcting itself for its swift eastward progression.
+~
+0 0 6
+D1
+~
+~
+0 -1 9125
+D2
+~
+~
+0 -1 9137
+S
+#9125
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9126
+D1
+~
+~
+0 -1 9128
+D3
+~
+~
+0 -1 9124
+S
+#9126
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D1
+~
+~
+0 -1 9127
+D2
+~
+~
+0 -1 9125
+S
+#9127
+&@&wBase of the &cC&wa&cs&wc&ca&wd&ce&ws&*~
+&@&lWater&* pours down from &ystep&* stones and rejoins the  &@&lr&*&yi&@&lv&*&ye&@&lr 
+&@&wfoaming&* and &@&csplashing&*.
+~
+0 0 6
+D1
+~
+~
+0 -1 9129
+D2
+~
+~
+0 -1 9128
+D3
+~
+~
+0 -1 9126
+S
+#9128
+&@&rW&yi&gl&rd &lRiver&*~
+A &@&rw&yi&gl&rd &lriver&* rushes from east to west through the heart of the 
+&*&yj&@&wu&*&yn&@&wg&*&yl&@&we &*bringing &@&glife&* to every part. But beware, the dangerous 
+currents and preditors make this less than a &@&ytropical &whaven&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9127
+D3
+~
+~
+0 -1 9125
+S
+#9129
+&*&ySinking &@&yShore&*~
+The &ymud&* here is so deep every step drags you deeper and 
+deeper into a wet and sunken &mmarsh&*. Animals tread lightly 
+to avoid being pulled completely under.
+~
+0 0 3
+D1
+~
+~
+0 -1 9130
+D3
+~
+~
+0 -1 9127
+S
+#9130
+&*&ySinking &@&yShore&*~
+The &ymud&* here is so deep every step drags you deeper and 
+deeper into a wet and sunken &mmarsh&*. Animals tread lightly 
+to avoid being pulled completely under.
+~
+0 4 3
+D1
+~
+~
+0 -1 9144
+D3
+~
+~
+0 -1 9129
+S
+#9131
+&@&cShallow &wTributary&*~
+You travel down a shallow and &@&brocky&* branch of a sinious &@&lr&*&yi&@&lv&*&ye&@&lr&*. 
+Water bubbles softly over smooth &ystones&* and meanders in a 
+gentle twisting path.
+~
+0 0 6
+D2
+~
+~
+0 -1 9132
+S
+#9132
+&@&cShallow &wTributary&*~
+You travel down a shallow and &@&brocky&* branch of a sinious &@&lr&*&yi&@&lv&*&ye&@&lr&*. 
+Water bubbles softly over smooth &ystones&* and meanders in a 
+gentle twisting path.
+~
+0 0 6
+D1
+~
+~
+0 -1 9133
+S
+#9133
+&@&lTwining &*&yCreek&*~
+You follow a &@&ltwining &*&ycreek&* filled with fish and beautiful cool &ystones&*.
+~
+0 0 6
+D2
+~
+~
+0 -1 9134
+S
+#9134
+&@&lTwining &*&yCreek&*~
+You follow a &@&ltwining &*&ycreek&* filled with fish and beautiful cool &ystones&*.
+~
+0 0 6
+D1
+~
+~
+0 -1 9135
+S
+#9135
+&@&cShallow &wTributary&*~
+You travel down a shallow and &@&brocky&* branch of a sinious &@&lr&*&yi&@&lv&*&ye&@&lr&*. 
+Water bubbles softly over smooth &ystones&* and meanders in a 
+gentle twisting path.
+~
+0 0 6
+D1
+~
+~
+0 -1 9136
+S
+#9136
+&@&cShallow &wTributary&*~
+You travel down a shallow and &@&brocky&* branch of a sinious &@&lr&*&yi&@&lv&*&ye&@&lr&*. 
+Water bubbles softly over smooth &ystones&* and meanders in a 
+gentle twisting path.
+~
+0 0 6
+D0
+~
+~
+0 -1 9137
+S
+#9137
+&@&wRejoining the &lR&*&yi&@&lv&*&ye&@&lr&*~
+With a wild
+&@&wSWOOSH!!&*
+the stream rejoins the &@&lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 0 6
+D0
+~
+~
+0 -1 9124
+S
+#9138
+&*&yTired &@&lStream&*~
+The &@&lstream&* makes a quiet and lazy trip northward.
+~
+0 0 1
+D0
+~
+~
+0 -1 9139
+S
+#9139
+&*&yTired &@&lStream&*~
+The &@&lstream&* makes a quiet and lazy trip northward.
+~
+0 0 1
+D1
+~
+~
+0 -1 9140
+S
+#9140
+&@&lTwining &*&yCreek&*~
+You follow a &@&ltwining &*&ycreek&* filled with fish and beautiful cool &ystones&*.
+~
+0 0 1
+D2
+~
+~
+0 -1 9141
+S
+#9141
+&@&wC&la&ws&cc&wa&ld&we&cs&*~
+Here starts a small &@&wcascade&*. The &ycreek&* bounds softly down &@&bstone&*
+steps to rejoin the &@&lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 0 1
+D5
+~
+~
+0 -1 9142
+S
+#9142
+&@&wC&la&ws&cc&wa&ld&we&cs&*~
+Here starts a small &@&wcascade&*. The &ycreek&* bounds softly down &@&bstone&*
+steps to rejoin the &@&lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 0 1
+D2
+~
+~
+0 -1 9143
+S
+#9143
+&@&wC&la&ws&cc&wa&ld&we&cs&*~
+Here starts a small &@&wcascade&*. The &ycreek&* bounds softly down &@&bstone&*
+steps to rejoin the &@&lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 0 1
+D5
+~
+~
+0 -1 9127
+S
+#9144
+&*&ySweltering &mSwamp&*~
+The sucking sounds of &ymud&* and the creaking sounds of thousands 
+of &@&greptiles&* and &@&rinsects&* lay thickly on the air.
+~
+0 0 3
+D1
+~
+~
+0 -1 9145
+D2
+~
+~
+0 -1 9159
+D3
+~
+~
+0 -1 9130
+S
+#9145
+&@&wThin &*&yDry Ledge&*~
+The ground rises slightly here and forms a thin &ydry&* ledge 
+you are able to walk across without fighting through sucking 
+&@&ysands&* and &ymud&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9146
+D3
+~
+~
+0 -1 9144
+S
+#9146
+&*&yThick &@&ySand&*~
+Bugs are like a cloud over the &ymud&*. Travel is slow and 
+each step taken a great labor. &@&rCareful&* you can never tell 
+just how deep that &ymud&* really is.
+~
+0 0 3
+D0
+~
+~
+0 -1 9171
+D1
+~
+~
+0 -1 9147
+D2
+~
+~
+0 -1 9160
+D3
+~
+~
+0 -1 9145
+S
+#9147
+&@&yS&gq&yu&gi&ys&gh&y!&*~
+The &ymud&* here is waist high and one must nearly swim through it. 
+Theres nothing to grip for safety except &@&gsawgrass&* and &ytoads&*, neither 
+of which seem very appealing.
+~
+0 0 3
+D1
+~
+~
+0 -1 9148
+D2
+~
+~
+0 -1 9172
+D3
+~
+~
+0 -1 9146
+S
+#9148
+&*&yThick &@&ySand&*~
+Bugs are like a cloud over the &ymud&*. Travel is slow and 
+each step taken a great labor. &@&rCareful&* you can never tell 
+just how deep that &ymud&* really is.
+~
+0 0 3
+D0
+~
+~
+0 -1 9167
+D1
+~
+~
+0 -1 9149
+D2
+~
+~
+0 -1 9166
+D3
+~
+~
+0 -1 9147
+S
+#9149
+&@&wThin &*&yDry Ledge&*~
+The ground rises slightly here and forms a thin &ydry&* ledge 
+you are able to walk across without fighting through sucking 
+&@&ysands&* and &ymud&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9150
+D3
+~
+~
+0 -1 9148
+S
+#9150
+&*&mTight &yTrees&*~
+There is a small tightly grown grove of &ytrees&* here bearing small &@&rf&yr&gu&*&mi&@&yt&gs&*. 
+Many half eaten &@&rf&yr&gu&*&mi&@&yt&gs&* lay around the base of the &ytrees&*.
+~
+0 0 3
+D2
+~
+~
+0 -1 9151
+D3
+~
+~
+0 -1 9149
+S
+#9151
+&*&mViolet &@&bShadow&*~
+&@&mLight&* shines through the &ytrees&* above casting a &mviolet&* glow over 
+the ground and the &@&cwet &wfeathers&* of birds.
+~
+0 0 3
+D0
+~
+~
+0 -1 9150
+D2
+~
+~
+0 -1 9152
+S
+#9152
+&*&ySweltering &mSwamp&*~
+The sucking sounds of &ymud&* and the creaking sounds of thousands 
+of &@&greptiles&* and &@&rinsects&* lay thickly on the air.
+~
+0 0 3
+D0
+~
+~
+0 -1 9151
+D1
+~
+~
+0 -1 9173
+D3
+~
+~
+0 -1 9153
+S
+#9153
+&@&wClear &cWater&*~
+Shallow and &@&wclear &cwater&* form a &@&lpool&* here in the midst of all the 
+strangling &ymud&*. Many birds wade across the &@&cpond&* snacking on 
+insects and tiny fish.
+~
+0 0 3
+D1
+~
+~
+0 -1 9152
+D3
+~
+~
+0 -1 9154
+S
+#9154
+&*&yThick &@&ySand&*~
+Bugs are like a cloud over the &ymud&*. Travel is slow and 
+each step taken a great labor. &@&rCareful&* you can never tell 
+just how deep that &ymud&* really is.
+~
+0 0 3
+D0
+~
+~
+0 -1 9166
+D1
+~
+~
+0 -1 9153
+D2
+~
+~
+0 -1 9165
+D3
+~
+~
+0 -1 9155
+S
+#9155
+&@&yS&gq&yu&gi&ys&gh&y!&*~
+The &ymud&* here is waist high and one must nearly swim through it. 
+Theres nothing to grip for safety except &@&gsawgrass&* and &ytoads&*, neither 
+of which seem very appealing.
+~
+0 0 3
+D0
+~
+~
+0 -1 9172
+D1
+~
+~
+0 -1 9154
+D3
+~
+~
+0 -1 9156
+S
+#9156
+&*&yThick &@&ySand&*~
+Bugs are like a cloud over the &ymud&*. Travel is slow and 
+each step taken a great labor. &@&rCareful&* you can never tell 
+just how deep that &ymud&* really is.
+~
+0 0 3
+D0
+~
+~
+0 -1 9160
+D1
+~
+~
+0 -1 9155
+D2
+~
+~
+0 -1 9161
+D3
+~
+~
+0 -1 9157
+S
+#9157
+&@&wClear &cWater&*~
+Shallow and &@&wclear &cwater&* form a &@&lpool&* here in the midst of all the 
+strangling &ymud&*. Many birds wade across the &@&cpond&* snacking on 
+insects and tiny fish.
+~
+0 0 3
+D1
+~
+~
+0 -1 9156
+D3
+~
+~
+0 -1 9158
+S
+#9158
+&@&gL&*&gi&@&gl&*&gy&@&gp&*&ga&@&gd&*&gs&*~
+There are &@&ybright &ggreen &@&gl&*&gi&@&gl&*&gy&@&gp&*&ga&@&gd&*&gs&* floating across the pond. Insects 
+buzz from one to another using them as landing ground.
+~
+0 0 3
+D0
+~
+~
+0 -1 9159
+D1
+~
+~
+0 -1 9157
+S
+#9159
+&@&wClear &cWater&*~
+Shallow and &@&wclear &cwater&* form a &@&lpool&* here in the midst of all the 
+strangling &ymud&*. Many birds wade across the &@&cpond&* snacking on 
+insects and tiny fish.
+~
+0 0 3
+D0
+~
+~
+0 -1 9144
+D2
+~
+~
+0 -1 9158
+S
+#9160
+&@&rCrazy &*&yMud&*~
+&@&rCrazy &*deep &ymud&* drags you downward. You had better move 
+quick or your never getting out of it.
+~
+0 0 3
+D0
+~
+~
+0 -1 9146
+D1
+~
+~
+0 -1 9172
+D2
+~
+~
+0 -1 9156
+S
+#9161
+&@&wThin &*&yDry Ledge&*~
+The ground rises slightly here and forms a thin &ydry&* ledge 
+you are able to walk across without fighting through sucking 
+&@&ysands&* and &ymud&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9156
+D2
+~
+~
+0 -1 9162
+S
+#9162
+&*&mViolet &@&bShadow&*~
+&@&mLight&* shines through the &ytrees&* above casting a &mviolet&* glow over 
+the ground and the &@&cwet &wfeathers&* of birds.
+~
+0 0 3
+D0
+~
+~
+0 -1 9161
+D1
+~
+~
+0 -1 9163
+S
+#9163
+&*&yBubbling Mud &@&bPit&*~
+&*&yMud&* bubbles and releases hellish smells. Insects buzz around 
+and feed on half devoured &rcarcasses&* of animals who failed to 
+escape this bubbling &@&bpit&*.
+~
+0 0 6
+D1
+~
+~
+0 -1 9164
+D3
+~
+~
+0 -1 9162
+S
+#9164
+&*&ySweltering &mSwamp&*~
+The sucking sounds of &ymud&* and the creaking sounds of thousands 
+of &@&greptiles&* and &@&rinsects&* lay thickly on the air.
+~
+0 0 3
+D0
+~
+~
+0 -1 9165
+D3
+~
+~
+0 -1 9163
+S
+#9165
+&@&wThin &*&yDry Ledge&*~
+The ground rises slightly here and forms a thin &ydry&* ledge 
+you are able to walk across without fighting through sucking 
+&@&ysands&* and &ymud&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9154
+D2
+~
+~
+0 -1 9164
+S
+#9166
+&@&rCrazy &*&yMud&*~
+&@&rCrazy &*deep &ymud&* drags you downward. You had better move 
+quick or your never getting out of it.
+~
+0 0 3
+D0
+~
+~
+0 -1 9148
+D2
+~
+~
+0 -1 9154
+D3
+~
+~
+0 -1 9172
+S
+#9167
+&@&wClear &cWater&*~
+Shallow and &@&wclear &cwater&* form a &@&lpool&* here in the midst of all the 
+strangling &ymud&*. Many birds wade across the &@&cpond&* snacking on 
+insects and tiny fish.
+~
+0 0 3
+D0
+~
+~
+0 -1 9168
+D2
+~
+~
+0 -1 9148
+S
+#9168
+&*&mViolet &@&bShadow&*~
+&@&mLight&* shines through the &ytrees&* above casting a &mviolet&* glow over 
+the ground and the &@&cwet &wfeathers&* of birds.
+~
+0 0 3
+D2
+~
+~
+0 -1 9167
+D3
+~
+~
+0 -1 9169
+S
+#9169
+&@&wThin &*&yDry Ledge&*~
+The ground rises slightly here and forms a thin &ydry&* ledge 
+you are able to walk across without fighting through sucking 
+&@&ysands&* and &ymud&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9168
+D3
+~
+~
+0 -1 9170
+S
+#9170
+&*&ySweltering &mSwamp&*~
+The sucking sounds of &ymud&* and the creaking sounds of thousands 
+of &@&greptiles&* and &@&rinsects&* lay thickly on the air.
+~
+0 0 3
+D1
+~
+~
+0 -1 9169
+D2
+~
+~
+0 -1 9171
+S
+#9171
+&*&yMuddy &@&bRidge&*~
+The land rises slightly here forming a &ymuddy &@&bridge&*. It would be 
+very easy to slide down one of the sides so travel with &@&rcare&*.
+~
+0 0 3
+D0
+~
+~
+0 -1 9170
+D2
+~
+~
+0 -1 9146
+S
+#9172
+&@&rQ&*&yU&@&rI&*&yC&@&rK&*&yS&@&rA&*&yN&@&rD&*&y!!!&*~
+The &ymud&* drags you under and you find yourself...
+&@&rTRAPPED!&*
+~
+7 0 3
+D0
+~
+~
+0 -1 9147
+D1
+~
+~
+0 -1 9166
+D2
+~
+~
+0 -1 9155
+D3
+~
+~
+0 -1 9160
+S
+#9173
+&@&wA &bDarkened &*&yNook&*~
+The &*&mswamp &@&bdarkens&* here and things get a little &@&rw&yi&gl&rd&ge&yr&*.....
+~
+0 0 3
+D3
+~
+~
+0 -1 9152
+S
+#9174
+&@&wNorthward &*&yPath&*~
+A path winds northward through collumns of twisting &*&ytrees&*. The 
+ground becomes &@&lwetter&* here and it is very slick.
+~
+0 0 3
+D2
+~
+~
+0 -1 9049
+D3
+~
+~
+0 -1 9175
+S
+#9175
+&*&yMud &@&wand &*&mReeds&*~
+&*&yMud &*and &mreeds&* line the edge of a &mviolet &ymarsh&*.
+~
+0 0 3
+D1
+~
+~
+0 -1 9174
+S
+#9176
+&@&lR&*&yi&@&lv&*&ye&@&lr &*&yEdge&*~
+The &*&yj&@&wu&*&yn&@&wg&*&yl&@&we&* thins and lends way to a &@&gthriving &lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 4 3
+D1
+~
+~
+0 -1 9177
+D3
+~
+~
+0 -1 9012
+S
+#9177
+&@&lR&*&yi&@&lv&*&ye&@&lr &yShore&*~
+The water bathes the &@&yshore&* with a soft &ymurky&* lapping. It is shallow 
+but deepens quickly and expands into a strong moving &@&lr&*&yi&@&lv&*&ye&@&lr&*.
+~
+0 4 3
+D1
+~
+~
+0 -1 9111
+D3
+~
+~
+0 -1 9176
+S
+#0
+
+
+#RESETS
+D 0 9045 1 1
+M 0 9033 5 9001
+M 0 9030 5 9003
+M 0 9031 5 9006
+M 0 9032 5 9006
+M 0 9034 5 9008
+M 0 9003 5 9008
+M 0 9029 3 9010
+M 0 9031 5 9010
+M 0 9029 5 9016
+M 0 9003 5 9016
+M 0 9034 5 9018
+M 0 9033 5 9018
+M 0 9030 5 9021
+M 0 9033 5 9021
+M 0 9026 2 9028
+M 0 9028 2 9030
+M 0 9027 2 9031
+M 0 9028 5 9031
+M 0 9028 5 9031
+M 0 9027 2 9033
+M 0 9028 5 9033
+M 0 9028 5 9033
+M 0 9018 5 9035
+M 0 9021 5 9037
+M 0 9025 1 9037
+G 0 9005 100
+M 0 9022 3 9047
+M 0 9020 3 9047
+M 0 9024 2 9057
+M 0 9019 3 9057
+M 0 9002 1 9049
+M 0 9021 5 9052
+M 0 9021 5 9052
+M 0 9022 3 9061
+M 0 9019 3 9061
+M 0 9021 5 9056
+M 0 9018 5 9056
+M 0 9024 2 9040
+M 0 9041 6 9090
+M 0 9041 6 9090
+M 0 9041 6 9097
+M 0 9041 6 9084
+M 0 9041 6 9081
+M 0 9041 6 9074
+O 0 9013 100 9075
+M 0 9006 1 9077
+G 0 9002 100
+M 0 9008 5 9072
+M 0 9011 1 9075
+G 0 9001 100
+M 0 9012 2 9087
+M 0 9007 2 9089
+M 0 9008 5 9091
+M 0 9010 5 9102
+M 0 9009 5 9093
+M 0 9008 5 9096
+O 0 9011 100 9175
+O 0 9012 100 9105
+M 0 9007 2 9105
+M 0 9009 5 9082
+M 0 9010 5 9080
+M 0 9012 2 9071
+M 0 9008 5 9069
+M 0 9013 1 9121
+G 0 9000 100
+M 0 9014 3 9108
+M 0 9016 5 9108
+M 0 9005 5 9110
+M 0 9004 5 9110
+M 0 9014 3 9114
+M 0 9017 5 9114
+M 0 9015 1 9116
+G 0 9006 100
+M 0 9004 5 9123
+M 0 9016 5 9123
+M 0 9014 3 9126
+M 0 9017 5 9126
+M 0 9005 5 9128
+M 0 9004 5 9128
+M 0 9005 5 9134
+M 0 9017 5 9132
+M 0 9005 5 9139
+M 0 9016 5 9139
+M 0 9017 5 9142
+O 0 9014 100 9173
+M 0 9000 1 9172
+G 0 9003 100
+M 0 9035 5 9144
+M 0 9036 5 9144
+M 0 9040 1 9158
+M 0 9038 1 9156
+G 0 9004 100
+M 0 9037 5 9156
+M 0 9042 5 9146
+M 0 9042 5 9170
+M 0 9035 5 9170
+M 0 9036 5 9168
+M 0 9037 5 9168
+M 0 9042 5 9162
+M 0 9035 5 9162
+M 0 9039 5 9167
+M 0 9037 5 9167
+M 0 9039 5 9159
+M 0 9042 5 9153
+M 0 9039 5 9153
+M 0 9036 5 9151
+M 0 9035 5 9157
+M 0 9035 5 9154
+M 0 9037 5 9166
+M 0 9001 1 9010
+M 0 9023 1 9038
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 9006 spec_poison
+M 9021 spec_poison
+M 9041 spec_poison
+M 9042 spec_poison
+S
+
+
+
+#$
+

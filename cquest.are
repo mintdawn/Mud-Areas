@@ -1,0 +1,2815 @@
+#AREADATA
+Name        &@&l-&r{ &y100 &g170 &r}&l-     &*&cDawn           &*&yC&@&ya&gi&wamaya&*                 ~
+Builders    none~
+VNUMs       9800 9899
+Recall      3001
+Security    2
+LEVELS      201 201
+Repop       &*&cPrayers for &@&lrain &cwash &*&cacross the &@&csky&*&c.&*~
+Norecall    God has forsaken you.~
+Sname       &*&yC&@&ya&gi&wamaya&*~
+End
+
+
+#MOBILES
+#9840
+claw~
+the &@&rClaw&*~
+The Claw grabs for you!
+~
+~
+99 67109544 -500 S
+131 0 0 0d0+0 0d0+0
+13100 0
+0 0 0
+>fight_prog 30~
+if ismon ($)
+jump $n
+claw
+claw
+endif
+~
+|
+#9841
+shining knife~
+A &@&cShining &rKnife&*~
+A &@&cshining &rknife&* flies toward you!
+~
+~
+67 67109544 -500 S
+132 0 0 0d0+0 0d0+0
+13200 0
+0 0 0
+>fight_prog 30~
+if isrog ($)
+stab $n
+endif
+~
+|
+#9842
+swinging sword~
+A &@&wSwinging &rSword&*~
+An &@&rsword &wswings&* across the hall.
+~
+~
+99 67109544 -500 S
+133 0 0 0d0+0 0d0+0
+13300 0
+0 0 0
+>fight_prog 30~
+if iswar ($n)
+hack $n
+hack $n
+endif
+~
+|
+#9843
+bloodletter~
+A &@&rB&*&rloodletter&*~
+A bloodletter drains you.
+~
+~
+99 67109544 -500 S
+134 0 0 0d0+0 0d0+0
+13400 0
+0 0 0
+#9844
+ill wind~
+&@&rAn &*&mIll &@&wWind&*~
+An angry wind storms over you.
+~
+~
+8291 67175082 -500 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 0
+>fight_prog 30~
+mpecho &@&rAn &*&mIll &@&wWind&* blows straight through you.&*
+scream
+mpforce $n scream
+attack1
+attack1
+attack1
+~
+|
+#9845
+kiss~
+&@&wA &rK&*&ri&@&rs&*&rs&*~
+A soft kiss brushes your skin.
+~
+~
+8291 67109544 -1000 S
+144 0 0 0d0+0 0d0+0
+14400 0
+0 0 0
+>fight_prog 20~
+pkiss $n
+slap $n
+laugh $n
+stab $n
+stab $n
+~
+|
+#9846
+promise~
+&@&wA &cPro&lm&cise&*~
+A sweet promise is whispered in your ear.
+~
+~
+8291 67109544 -1000 S
+145 0 0 0d0+0 0d0+0
+14500 0
+0 0 0
+>fight_prog 30~
+emote &@&wwhispers &c$n's &wname....&*
+gore $n
+~
+|
+#9847
+tear~
+&@&wA &cTear&*~
+A tear rolls down a beautiful cheek.
+~
+~
+8291 67109544 -1000 S
+147 0 0 0d0+0 0d0+0
+14700 0
+0 0 0
+>fight_prog 30~
+mpechoat $n &@&wYou are drowned in &ctears&w.&*
+mpechoaround $n &@&l$n &wis drowned in &ctears&w.&*
+attack2
+attack2
+attack2
+~
+|
+#9848
+lie~
+&@&wA &@&rL&*&rie&*~
+A lie tears at your heart.
+~
+~
+8291 67109544 -1000 S
+150 0 0 0d0+0 0d0+0
+15000 0
+0 0 0
+>fight_prog 20~
+mpecho &@&wA &@&rL&*&rie &wtears at your &rheart.&*
+attack3
+attack3
+~
+>fight_prog 30~
+mpforce $n cry
+stab $n
+~
+|
+#9849
+betrayal sin~
+&@&wB&*&wetrayal&@&w!&*~
+&@&wB&*&wetrayal&@&w!&* is here.
+~
+~
+8291 67109544 -500 S
+152 0 0 0d0+0 0d0+0
+15200 0
+0 0 0
+>fight_prog 20~
+hack $n
+hack $n
+~
+>fight_prog 25~
+attack3
+~
+|
+#9850
+anger sin~
+&@&rA&*&rnger&@&r!&*~
+&@&rA&*&rnger&@&r!&* is here.
+~
+~
+8291 67109544 -500 S
+153 0 0 0d0+0 0d0+0
+15300 0
+0 0 0
+>fight_prog 20~
+bloodlust
+stab $n
+stab $n
+~
+>fight_prog 25~
+mpforce $n rem chaos
+attack3
+attack3
+~
+|
+#9851
+jealousy sin~
+&@&gJ&*&gealousy&@&g!&*~
+&@&gJ&*&gealousy&@&g!&* is here.
+~
+~
+8291 67109544 -500 S
+154 0 0 0d0+0 0d0+0
+15400 0
+0 0 0
+>fight_prog 20~
+hiss
+circle $n
+~
+>fight_prog 25~
+tailslap
+bite
+bite
+~
+|
+#9852
+pride sin~
+&@&lP&*&lride&@&l!&*~
+&@&lP&*&lride&@&l!&* is here.
+~
+~
+8291 67109544 -500 S
+155 0 0 0d0+0 0d0+0
+15500 0
+0 0 0
+>fight_prog 20~
+strut
+slap $n
+death $n
+~
+>fight_prog 25~
+attack1
+attack1
+~
+|
+#9853
+lust sin~
+&@&mL&*&must!&*~
+&@&mL&*&must!&* is here.
+~
+~
+8291 67109544 -500 S
+156 0 0 0d0+0 0d0+0
+15600 0
+0 0 0
+>fight_prog 20~
+lust $n
+fkiss $n
+jump $n
+howl
+~
+>fight_prog 25~
+bite
+bite
+bite
+~
+|
+#9854
+bent man~
+&@&wThe &*&rBent &yMan&*~
+&@&wThe &*&rBent &yMan&* stoops wearily and does his pennance.
+~
+Answer his riddle and pass.
+~
+67 67109544 0 S
+150 0 0 0d0+0 0d0+0
+15000 0
+0 0 1
+>speech_prog promise~
+mpoload 9845
+unlock down
+op down
+mpgoto 20
+~
+|
+#9855
+dancing skeleton~
+A &*&rdancing &@&wskeleton&*~
+A &*&rdancing &@&wskeleton&* shakes you!
+~
+~
+532579 67109544 -500 S
+155 0 0 0d0+0 0d0+0
+15500 0
+0 0 0
+#9856
+spinning skull~
+A &@&rs&wp&*&rinni&@&wn&rg &wskull&*~
+A skull spins wildly here.
+~
+~
+532579 67109544 -500 S
+160 0 0 0d0+0 0d0+0
+16000 0
+0 0 0
+>fight_prog 25~
+mpecho A &@&rs&wp&*&rinni&@&wn&rg &wskull&* &@&rSPINS!!!!&*
+spin $n
+spin $n
+circle $n
+~
+>fight_prog 30~
+attack3
+attack3
+~
+>death_prog 100~
+mpecho A &@&rs&yp&gi&ln&cn&mi&rn&yg &wskull splits and hits the ground.&*
+mpoload 9846
+~
+|
+#9857
+daruhl god blood~
+&@&rD&wa&*&yruhl&*~
+&@&rD&wa&*&yruhl&*, god of death and the underworld.
+~
+Daruhl sits in his lounge plotting terrible fates for lost souls who wander into his realm.
+~
+8291 67109544 -1000 S
+175 0 0 0d0+0 0d0+0
+17500 0
+0 0 1
+>fight_prog 20~
+mpecho &@&rD&wa&*&yruhl &wdrains your soul.&*
+gore $n
+mpforce $n flee
+~
+>fight_prog 25~
+attack3
+attack3
+~
+>fight_prog 30~
+mpforce $n drink bottle
+mpforce $n scream
+stab $n
+stab $n
+~
+>death_prog 100~
+mpecho &@&rD&wa&*&yruhl&* &@&rscreams '&mS&wu&*&mrrender!!!!&@&r'&*
+mpoload 9847
+~
+|
+#9858
+surrender wife~
+&@&mS&wu&*&mrrender&*~
+&@&mS&wu&*&mrrender&* reclines.
+~
+Death's beautiful bride dressed in purple robes.
+~
+67 67109544 1000 S
+160 0 0 0d0+0 0d0+0
+16000 0
+0 0 2
+>greet_prog 100~
+say Finally, I am free!!
+say The dark one has imprisioned me for eons.
+say How can i repay you?
+~
+>speech_prog pc ash~
+say Give me something i can put it in.
+~
+>give_prog ashen urn~
+mpjunk ashen
+mpoload 9849
+drop urn
+mpforce $n get urn
+say Take this...and bring this letter to my lover in the sky, he will help you.
+mpoload 9850
+drop letter
+mpforce $n get letter
+say I will be waiting for him in the place between sleep and awake...
+say &@&rt&yw&wilig&yh&rt&*....
+mpgoto 9861
+~
+|
+#9859
+sky guard~
+a &@&csky &rguard&*~
+A &@&csky &rguard&* defends the purity of the sky.
+~
+~
+99 67109544 500 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 1
+#9860
+cloud guard~
+a &@&wcloud &rguard&*~
+A &@&wcloud &rguard&* defends the purity of clouds.
+~
+~
+99 67109544 500 S
+142 0 0 0d0+0 0d0+0
+14200 0
+0 0 2
+#9861
+lightning guard~
+a &@&bl&wi&bg&wh&bt&wn&bi&wn&bg &rguard&*~
+&@&bL&wi&bg&wh&bt&wn&bi&wn&bg&* strikes beside you!
+~
+~
+99 67109544 500 S
+145 0 0 0d0+0 0d0+0
+14500 0
+0 0 1
+#9862
+rain guard~
+a &@&lrain &rguard&*~
+A &@&lrain &rguard&* keeps the rain.
+~
+~
+99 67109544 500 S
+150 0 0 0d0+0 0d0+0
+15000 0
+0 0 2
+#9863
+aurora~
+&*&m-&@&m-&c-&w-&yAurora&w-&c-&m-&*&m-&*~
+A &@&wluminescent&* wash of light fills the room.
+~
+~
+8291 67109544 500 S
+155 0 0 0d0+0 0d0+0
+18750 0
+0 0 0
+>fight_prog 30~
+mpecho &*&m-&@&m-&c-&w-&yAurora&w-&c-&m-&*&m- &@&!&wFLASHES&* &@&wbright!&*
+attack3
+attack3
+attack3
+~
+>death_prog 100~
+mpecho &*&m-&@&m-&c-&w-&yAurora&w-&c-&m-&*&m- &@&wdisolves and only a dark key is left.&*
+mpoload 9854
+~
+|
+#9864
+rainbow weaver~
+a &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&*~
+A &*&yweaver&* of &@&rc&yo&gl&lo&cr&me&rd &wlight&* sits spinning.
+~
+A sturdy woman who possesses the skill to weave colored light from strands of air.
+~
+67 67109544 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'I can weave anger, war and blood.'
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'What do i weave?'
+~
+>speech_prog pc red~
+emote waves her hand
+mpmload 9869
+mpgoto 9876
+~
+|
+#9865
+rainbow weaver~
+a &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&*~
+A &*&yweaver&* of &@&rc&yo&gl&lo&cr&me&rd &wlight&* sits spinning.
+~
+A sturdy woman who possesses the skill to weave colored light from strands of air.
+~
+67 67109544 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'I can weave fear, maize and sun.'
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'What do i weave?'
+~
+>speech_prog pc yellow~
+emote turns her back to you
+mpmload 9870
+mpgoto 9876
+~
+|
+#9866
+rainbow weaver~
+a &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&*~
+A &*&yweaver&* of &@&rc&yo&gl&lo&cr&me&rd &wlight&* sits spinning.
+~
+A sturdy woman who possesses the skill to weave colored light from strands of air.
+~
+67 67109544 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'I can weave trees, grass and earth.'
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'What do i weave?'
+~
+>speech_prog pc green~
+emote pulls a flower from her hair
+mpmload 9871
+mpgoto 9876
+~
+|
+#9867
+rainbow weaver~
+a &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&*~
+A &*&yweaver&* of &@&rc&yo&gl&lo&cr&me&rd &wlight&* sits spinning.
+~
+A sturdy woman who possesses the skill to weave colored light from strands of air.
+~
+67 67109544 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'I can weave sky, sadness and water.'
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'What do i weave?'
+~
+>speech_prog pc blue~
+emote casts her airy eyes on you and smiles
+mpmload 9872
+mpgoto 9876
+~
+|
+#9868
+rainbow weaver~
+a &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&*~
+A &*&yweaver&* of &@&rc&yo&gl&lo&cr&me&rd &wlight&* sits spinning.
+~
+A sturdy woman who possesses the skill to weave colored light from strands of air.
+~
+67 67109544 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'I can weave flowers, imagination and royalty.'
+mpechoat $n A &@&rr&ya&gi&ln&cb&mo&rw &*&yweaver&* says 'What do i weave?'
+~
+>speech_prog pc purple~
+wrap $n
+wave
+mpmload 9873
+mpgoto 9876
+~
+|
+#9869
+red searing light~
+a &*&r-&@&r+&wsearing&r+&*&r- &@&rred &wlight&*~
+A &@&rred&* light blinds you!
+~
+~
+8291 67117736 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 0
+>hitprcnt_prog 25~
+mpecho A &*&r-&@&r+&wsearing&r+&*&r- &@&rred &wlight &r&!EXPLODES!!!&*
+attack3
+attack3
+~
+>death_prog 100~
+mpoload 9855
+~
+|
+#9870
+searing yellow light~
+a &*&y-&@&y+&wsearing&y+&*&y- &@&yyellow &wlight&*~
+A &@&yyellow&* light blinds you!
+~
+~
+8291 67117736 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 0
+>hitprcnt_prog 25~
+mpecho A &*&y-&@&y+&wsearing&y+&*&y- &@&yyellow &wlight &y&!EXPLODES!!!&*
+attack3
+attack3
+~
+>death_prog 100~
+mpoload 9856
+~
+|
+#9871
+searing green light~
+a &*&g-&@&g+&wsearing&g+&*&g- &@&ggreen &wlight&*~
+A &@&ggreen&* light blinds you!
+~
+~
+8291 67117736 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 0
+>hitprcnt_prog 25~
+mpecho A &*&g-&@&g+&wsearing&g+&*&g- &@&ggreen &wlight&* &g&!EXPLODES!!!&*
+attack3
+attack3
+~
+>death_prog 100~
+mpoload 9857
+~
+|
+#9872
+searing blue light~
+a &@&l-&c+&wsearing&c+&l- &@&lblue &wlight&*~
+A &@&lblue&* light blinds you!
+~
+~
+8291 67117736 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 0
+>hitprcnt_prog 25~
+mpecho A &@&l-&c+&wsearing&c+&l- &@&lblue &wlight &l&!EXPLODES!!!&*
+attack3
+attack3
+~
+>death_prog 100~
+mpoload 9858
+~
+|
+#9873
+searing purple light~
+a &@&m-&m+&wsearing&m+&m- &@&mpurple &wlight&*~
+A &@&mpurple&* light blinds you!
+~
+~
+8291 67117736 500 S
+158 0 0 0d0+0 0d0+0
+15800 0
+0 0 0
+>hitprcnt_prog 25~
+mpecho A &@&m-&m+&wsearing&m+&m- &@&mpurple &wlight&* &m&!EXPLODES!!!&*
+attack3
+attack3
+~
+>death_prog 100~
+mpoload 9859
+~
+|
+#9874
+screaming wind~
+a &@&w>&c>&*&c>&@&bscreaming&*&c<&@&c<&w< &cwind&*~
+A wind screams and rips through the sky.
+~
+~
+532579 67117736 0 S
+165 0 0 0d0+0 0d0+0
+16500 0
+0 0 0
+>fight_prog 30~
+scream
+attack2
+attack2
+~
+>fight_prog 35~
+mpecho A &@&w>&c>&*&c>&@&bscreaming&*&c<&@&c<&w< &cwind blows through you!&*
+attack3
+attack3
+mpforce $n wail
+~
+>death_prog 100~
+mpecho A &@&w>&c>&*&c>&@&bscreaming&*&c<&@&c<&w< &cwind dies down.&*
+mpoload 9861
+~
+|
+#9875
+lightning~
+&@&wlightning&*~
+Lightning strikes!
+~
+~
+524387 67117736 0 S
+160 0 0 0d0+0 0d0+0
+16000 0
+0 0 0
+#9876
+thunder~
+&@&bThunder&*~
+Thunder shakes the sky!
+~
+~
+524387 67117736 0 S
+160 0 0 0d0+0 0d0+0
+16000 0
+0 0 0
+#9877
+chac god rain~
+&@&lC&*&chac&*~
+&@&lC&*&chac&*, the &@&wgod&* of &@&lrain&* is here.
+~
+&*&cHe is sad because his true love was stolen
+from him long ago, so he married the most beautiful 
+and best weaver in all creation unknowing her angry 
+and vain nature.&*
+~
+8259 67117736 500 S
+170 0 0 0d0+0 0d0+0
+17000 0
+0 0 1
+>rand_prog 2~
+sigh
+~
+>rand_prog 3~
+emote looks lost in thought.
+frown
+~
+>speech_prog pc surrender~
+eye $n
+~
+>give_prog surrender letter~
+gasp
+emote reads the letter carefully.
+thank $n
+say I've waited long for this....
+say Of course I will go to her.
+mpjunk letter
+mpoload 9862
+think
+drop splendid
+mpforce $n get splendid
+say Here take this...
+say Its the key to my wife's room.
+say Let her know I've gone to Surrender.
+say She'll be ok...she has herself.
+emote leaves with great haste.
+mpgoto 9861
+mpat 9758 mpmload 9718
+~
+>fight_prog 50~
+mpecho &@&lC&*&chac &@&wbrings down the rain on you!&*
+attack3
+attack3
+gore $n
+~
+|
+#9878
+splendor goddess~
+&@&cS&*&cplendor&*~
+&@&cS&*&cplendor&*, the &yweaver&* of &@&bstorms&*.
+~
+The beautiful and vain wife of the Chac, the rain goddess. 
+She is great at weaving thunderous downpours.
+~
+8259 67117736 -500 S
+175 0 0 0d0+0 0d0+0
+43750 0
+0 0 2
+>rand_prog 2~
+emote gazes lovingly in her mirror.
+~
+>rand_prog 3~
+embrace self
+smile
+~
+>greet_prog 100~
+mpechoat $n &@&cS&*&cplendor&* asks 'How did you get in here? Where is my husband?!?!'
+~
+>speech_prog pc surrender~
+scream
+curse
+slap $n
+~
+>give_prog ash filled urn~
+hiss $n
+say I have no time for this!
+mpjunk urn
+emote throws the urn out the window.
+mpecho &@&bAsh &cspills from the urn as it hurls through the &wclouds&c....&*
+mpecho &@&rA massive storm builds!&*
+say GET OUT!!!! GO AWAY!!!!
+scream
+mpzsound &@&wLightning &!&yflashes&* &@&wacross the &csky &wand &lrain &rscreams &wdown on the city.&*
+mpkill $n
+~
+>fight_prog 40~
+emote &@&lrains down on you!&*
+stab
+stab
+~
+>death_prog 100~
+emote &@&cdrops her mirror as she falls to the floor.&*
+mpat 9783 mpmload 9785
+~
+|
+#9879
+rainbow~
+&@&r(&y(&g(&l(&m(&wrainbow&m)&l)&g)&y)&r)&*~
+A &@&rr&ya&gi&ln&mb&ro&yw&* arches across the &@&csky&*.
+~
+A rainbow has spread across a part of this sky tower.
+~
+8259 67117736 0 S
+168 0 0 0d0+0 0d0+0
+16800 0
+0 0 0
+#0
+
+
+#OBJECTS
+#9800
+stars milky strand~
+&@&wA M&*&wi&@&wl&*&wk&@&wy Strand of &yStars&*~
+&@&wA m&*&wi&@&wl&*&wk&@&wy strand of &ystars &wstretches through time.&*~
+~
+27 68 0
+9830 0 0 0
+1000 0 0
+F 24725312
+#9801
+milky strand stars~
+&@&wA M&*&wi&@&wl&*&wk&@&wy Strand of &yStars&*~
+&@&wA m&*&wi&@&wl&*&wk&@&wy strand of &ystars &wstretches through time.&*~
+~
+27 68 0
+9835 0 0 0
+1000 0 0
+F 8566912
+#9802
+shining knife~
+a &@&wshining &rknife&*~
+A sharp knife is here.~
+~
+5 68 8193
+0 0 0 11
+1 0 120
+A
+25 47
+A
+25 197
+A
+18 20
+A
+19 20
+#9803
+swinging sword~
+a &@&wswinging &rsword&*~
+A deadly sword lies here.~
+~
+5 68 8193
+0 0 0 3
+1 0 120
+A
+25 128
+A
+18 20
+A
+19 20
+#9804
+claw~
+the &@&rClaw&*~
+A mean lookin claw is here.~
+~
+5 68 8193
+0 0 0 5
+1 0 120
+A
+25 171
+A
+25 189
+A
+18 20
+A
+19 20
+#9805
+spiney mail caiquest~
+&@&yS&bp&yi&bn&ye&by &wM&bai&wl&*~
+A pile of spines is here.&*~
+~
+9 0 9
+0 0 0 0
+6 50000 170
+F 32047071
+A
+19 10
+A
+18 7
+A
+13 50
+A
+12 50
+A
+25 55
+#9806
+Dummy~
+Dummy~
+Dummy~
+~
+0 0 0
+0 0 0 0
+1 10 1
+#9807
+Dummy~
+Dummy~
+Dummy~
+~
+0 0 0
+0 0 0 0
+1 10 1
+#9840
+white key~
+a &@&ww&*&whit&@&we&* key~
+A &@&wkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9841
+red key~
+a &@&rr&*&re&@&rd&* key~
+A &@&rkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9842
+green key~
+a &@&gg&*&gree&@&gn&* key~
+A &@&gkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9843
+blue key~
+a &@&lb&*&llu&@&le&* key~
+A &@&lkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9844
+purple key~
+a &@&mp&*&murpl&@&me&* key~
+A &@&mkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9845
+bent key~
+a &*&rbent&* key~
+A &*&rkey&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9846
+skeleton key~
+a &@&ws&*&wk&@&we&*&wl&@&we&*&wt&@&wo&*&wn&* key~
+A &@&wk&*&we&@&wy&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9847
+delicate key~
+a &@&md&*&melicate&* key~
+A &@&mk&*&me&@&my&* is here.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9848
+ashen urn~
+an &@&bashen &yurn&*~
+A dusty urn is here.~
+~
+13 4 1
+0 0 0 0
+5 0 201
+#9849
+ash filled urn~
+an &@&bash&* filled &@&yurn&*~
+An urn full of ashes is here.~
+~
+13 4 1
+0 0 0 0
+5 0 201
+#9850
+surrender letter~
+letter from &@&mS&wu&*&mrrender&*~
+A letter is here.~
+~
+13 4 1
+0 0 0 0
+5 0 201
+E
+letter~
+Meet me in &@&rt&yw&wilig&yh&rt&*.
+
+&@&mS&wu&*&mrrender&*~
+#9851
+evil bottle~
+an &@&revil &ybottle&*~
+An &@&revil &ybottle&* is here.~
+~
+25 0 0
+3 0 0 0
+5 0 0
+#9852
+pitcher rain~
+a &@&ypitcher&* of &@&lrain&*~
+A &@&ypitcher&* full of &@&lrain&* is here ready to be poured into the &@&csky&*.~
+~
+25 64 0
+0 0 0 0
+5 0 0
+#9853
+aurora key~
+an &@&maurora&* key~
+A &@&mmisty&* key is here.~
+~
+18 4 1
+0 0 0 0
+1 0 0
+#9854
+oxidized key~
+an &*&roxidized&* key~
+A &*&rrusted&* key is here.~
+~
+18 4 1
+0 0 0 0
+1 0 0
+#9855
+bright needle~
+a &@&wbright&* needle~
+A &@&wbright&* needle is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#9856
+bright needle~
+a &@&wbright&* needle~
+A &@&wbright&* needle is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#9857
+bright needle~
+a &@&wbright&* needle~
+A &@&wbright&* needle is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#9858
+bright needle~
+a &@&wbright&* needle~
+A &@&wbright&* needle is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#9859
+bright needle~
+a &@&wbright&* needle~
+A &@&wbright&* needle is here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#9860
+golden key~
+a &@&ygolden&* key~
+A &@&ygolden&* key is here.~
+~
+18 4 1
+0 0 0 0
+1 0 0
+#9861
+wind wisp~
+a &*&wwisp&* of &@&wwind&*~
+A tiny bit of &@&wwind&* blows across the floor.~
+~
+18 4 1
+0 0 0 0
+1 0 0
+#9862
+splendid key~
+a &@&csplendid&* key~
+A splendid key is here.~
+~
+18 4 1
+0 0 0 0
+1 0 0
+#9863
+splendid shiny mirror~
+a &@&cshiny &wmirror&*~
+A shiny mirror reflects the light.~
+~
+18 4 1
+0 0 0 0
+5 0 0
+#9864
+henna stained palms caiquest~
+&@&rhenna&*&y-&rstained &ypalms&*~
+Some red handprints are here.~
+~
+9 0 129
+35 0 0 0
+3 1111 170
+F 512
+A
+13 80
+A
+12 100
+A
+25 52
+#9865
+dreams eyes caiquest~
+&@&w<&b(&mo&b)&w>&bD&wr&*&wea&@&wm&bs&w<&b(&mo&b)&w>&*~
+A dream crosses your mind.~
+~
+9 0 65537
+35 0 0 0
+3 1111 170
+A
+13 60
+A
+12 100
+A
+5 1
+A
+4 1
+A
+3 1
+A
+2 1
+A
+1 1
+#9866
+silk leggings caiquest~
+&@&wS&*&wi&@&wl&*&wk &@&bL&*&we&@&wggings&*~
+Some shiny fabric is here.~
+~
+9 0 33
+27 0 0 0
+3 1111 170
+A
+13 75
+A
+24 -5
+A
+12 100
+#9867
+bleeding heart caiquest~
+&@&wA &*&rBleeding &@&rHeart&*~
+A heart bleeds here.~
+~
+1 64 1
+0 0 -1 0
+3 1111 170
+A
+25 160
+A
+13 100
+A
+12 -55
+A
+18 9
+A
+19 9
+#9868
+bone crown caiquest~
+&@&wB&*&wone &@&rCrown&*~
+A crown of bones lies here.~
+~
+9 0 17
+30 0 0 0
+3 1111 170
+A
+12 -100
+A
+13 130
+A
+19 10
+#9869
+door wand caiquest~
+&@&wa &rD&yo&go&lr&*~
+A rolled up door is here.~
+~
+3 64 16385
+100 3 3 173
+10 1111 170
+#9870
+spiney leggings caiquest~
+&@&bS&yp&bi&yn&be&yy &bLeggings&*~
+A piles of spines is here.~
+~
+9 0 33
+35 0 0 0
+3 1111 170
+A
+24 -5
+A
+13 75
+A
+18 10
+A
+19 10
+A
+12 -150
+#9871
+arms bathed blood~
+&*&yarms &@&rbathed&* in &@&rb&*&rl&@&ro&*&ro&@&rd&*~
+A pool of blood coagulates.~
+~
+9 68 257
+50 0 0 0
+3 1111 400
+A
+25 103
+A
+17 -20
+A
+12 100
+A
+13 300
+#9872
+sacrificial binding~
+&*&y>&@&y<&g[&w[&rs&*&ra&@&rc&*&rr&@&ri&*&rf&@&ri&*&rc&@&ri&*&ra&@&rl &yb&*&yi&@&yn&*&yd&@&yi&*&yn&@&yg&w]&g]&y>&*&y<&*~
+Cord lies ready to bind someone for sacrifice.~
+~
+9 4 4097
+50 0 0 0
+3 1111 400
+A
+17 -20
+A
+12 200
+A
+13 200
+#0
+
+
+#ROOMS
+#9800
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9809
+D1
+~
+~
+0 -1 9801
+T
+20
+&@&wWind rustles through dry &gl&*&ge&@&ga&*&gv&@&ge&*&gs &@&wof &ycorn&w.&*
+~
+S
+#9801
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9808
+D1
+~
+~
+0 -1 9802
+D3
+~
+~
+0 -1 9800
+S
+#9802
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9807
+D1
+~
+~
+0 -1 9803
+D3
+~
+~
+0 -1 9801
+S
+#9803
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9806
+D1
+~
+~
+0 -1 9804
+D3
+~
+~
+0 -1 9802
+S
+#9804
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9805
+D3
+~
+~
+0 -1 9803
+S
+#9805
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9814
+D2
+~
+~
+0 -1 9804
+D3
+~
+~
+0 -1 9806
+S
+#9806
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9813
+D1
+~
+~
+0 -1 9805
+D2
+~
+~
+0 -1 9803
+D3
+~
+~
+0 -1 9807
+S
+#9807
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9812
+D1
+~
+~
+0 -1 9806
+D2
+~
+~
+0 -1 9802
+D3
+~
+~
+0 -1 9808
+S
+#9808
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity..
+~
+0 0 2
+D0
+~
+~
+0 -1 9811
+D1
+~
+~
+0 -1 9807
+D2
+~
+~
+0 -1 9801
+D3
+~
+~
+0 -1 9809
+S
+#9809
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9810
+D1
+~
+~
+0 -1 9808
+D2
+~
+~
+0 -1 9800
+D3
+~
+~
+0 -1 9744
+P
+0
+99 10000
+&@&g-&y-&*&y-&@&wYou aren't high enough level&*&y-&@&y-&g-&*
+~
+S
+#9810
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9811
+D2
+~
+~
+0 -1 9809
+S
+#9811
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9812
+D2
+~
+~
+0 -1 9808
+D3
+~
+~
+0 -1 9810
+S
+#9812
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9813
+D2
+~
+~
+0 -1 9807
+D3
+~
+~
+0 -1 9811
+S
+#9813
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9814
+D2
+~
+~
+0 -1 9806
+D3
+~
+~
+0 -1 9812
+S
+#9814
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D2
+~
+~
+0 -1 9805
+D3
+~
+~
+0 -1 9813
+S
+#9815
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9824
+D3
+~
+~
+0 -1 9816
+T
+20
+&@&wWind rustles through dry &gl&*&ge&@&ga&*&gv&@&ge&*&gs &@&wof &ycorn&w.&*
+~
+S
+#9816
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9823
+D1
+~
+~
+0 -1 9815
+D3
+~
+~
+0 -1 9817
+S
+#9817
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9822
+D1
+~
+~
+0 -1 9816
+D3
+~
+~
+0 -1 9818
+S
+#9818
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity..
+~
+0 0 2
+D0
+~
+~
+0 -1 9821
+D1
+~
+~
+0 -1 9817
+D3
+~
+~
+0 -1 9819
+S
+#9819
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9820
+D1
+~
+~
+0 -1 9818
+S
+#9820
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9829
+D1
+~
+~
+0 -1 9821
+D2
+~
+~
+0 -1 9819
+S
+#9821
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9828
+D1
+~
+~
+0 -1 9822
+D2
+~
+~
+0 -1 9818
+D3
+~
+~
+0 -1 9820
+S
+#9822
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9827
+D1
+~
+~
+0 -1 9823
+D2
+~
+~
+0 -1 9817
+D3
+~
+~
+0 -1 9821
+S
+#9823
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9826
+D1
+~
+~
+0 -1 9824
+D2
+~
+~
+0 -1 9816
+D3
+~
+~
+0 -1 9822
+S
+#9824
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D0
+~
+~
+0 -1 9825
+D1
+~
+~
+0 -1 9736
+D2
+~
+~
+0 -1 9815
+D3
+~
+~
+0 -1 9823
+P
+0
+99 10000
+&@&g-&y-&*&y-&@&wYou aren't high enough level&*&y-&@&y-&g-&*
+~
+S
+#9825
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D2
+~
+~
+0 -1 9824
+D3
+~
+~
+0 -1 9826
+S
+#9826
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9825
+D2
+~
+~
+0 -1 9823
+D3
+~
+~
+0 -1 9827
+S
+#9827
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9826
+D2
+~
+~
+0 -1 9822
+D3
+~
+~
+0 -1 9828
+S
+#9828
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9827
+D2
+~
+~
+0 -1 9821
+D3
+~
+~
+0 -1 9829
+S
+#9829
+&@&wA &yC&*&yo&@&yr&*&yn&@&gfield&*~
+Bright and even rows of corn lay just outside the city providing 
+stablity and hope for tomorrow's prosperity.
+~
+0 0 2
+D1
+~
+~
+0 -1 9828
+D2
+~
+~
+0 -1 9820
+S
+#9830
+&@&wAn &lUpward &wSpiral&*~
+&@&w.     +
+    ,          &c*           &w'     .         *
+  &m*        &w.       '  +                
+                          --===<&y*&w>     .
+        .                 * 
+    +             *          &c.             &w,&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9831
+S
+#9831
+&@&wAn &lUpward &wSpiral&*~
+&@&w.     +               o
+    ,          *           '     .         *
+  *        .       &c'  &w+                
+                          --===<&yo&w>     .
+        &m.     &wo            * 
+    +             *          &c.             &w,&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9832
+D5
+~
+~
+0 -1 9830
+S
+#9832
+&@&wAn &lUpward &wSpiral&*~
+&@&w,    +                     &y *   &w,
+   .       &m.              &w.     '          *
+       .   .      .       |       +
+ *         .            --&c+&w--         .
+     +                    |
+.      &y'             &w*    .           *&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9833
+D5
+~
+~
+0 -1 9831
+S
+#9833
+&@&wAn &lUpward &wSpiral&*~
+&@&w.     +
+    ,          *           &y'     &w.         *
+  *        .       '  +                
+                o          --===<&y*&w>     .
+  &co      &w.                 * 
+    +             *          .             ,&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9834
+D5
+~
+~
+0 -1 9832
+S
+#9834
+&@&wAn &lUpward &wSpiral&*~
+&@&w*                      . &y*               &w'
+   -==&m*          &w+.    .           * 
+         -===&co         &w.    .    '          *
+  *                  *      *      -==&y*
+        &w     +                .         '&*
+~
+0 262193 9
+D0
+~
+~
+0 -1 9862
+D5
+~
+~
+0 -1 9833
+S
+#9835
+&@&wA &*&yDownward &@&wSpiral&*~
+&@&w.       ,   *     .                 -
+                       &yO&w=--    *         ,
+  *     &y.        &w+            . .   *
+       .  .          (             *    .
+  +      .            &c0     &w*        .      &m*
+&w,             .        )         .&*
+~
+0 262193 9
+D5
+~
+~
+0 -1 9836
+S
+#9836
+&@&wA &*&yDownward &@&wSpiral&*~
+&@&w.     +
+    ,          &c*           &w'     .         *
+  *        .       '  +                
+                          --===<&y*&w>     .
+        .                 * 
+    +             *          .             ,
+&yO&w==----   '.'  . -                *&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9835
+D5
+~
+~
+0 -1 9837
+S
+#9837
+&@&wA &*&yDownward &@&wSpiral&*~
+&@&w.      '       *               -       .
+    &c,        &w*.       (      ,.'    *      +
+   *    o          .   &y0              &w*
+                        )           .
+      &m*         &w.              .           .
+.           '                &c.         &w.   *&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9836
+D5
+~
+~
+0 -1 9838
+S
+#9838
+&@&wA &*&yDownward &@&wSpiral&*~
+&@&w*                .                 &m. 
+&w                *  .       +               o
+       &y.          &w.          o          .   .
+   *               *   +                  
+           *                    <&c*&w>==----
+.        .       &y+         &w'                .&*
+~
+0 262193 9
+D4
+~
+~
+0 -1 9837
+D5
+~
+~
+0 -1 9839
+S
+#9839
+&@&wA &*&yDownward &@&wSpiral&*~
+&@&w.                ,            *   
+                                             +
+&m     .   &w.              o        &y*&w=---
+    .          *.         &cO&w=---          *
+*                .           *        +
+            .    .              &y+&w==--     .
+   .*           .       *   .  '              .&*
+~
+0 262197 9
+D4
+~
+~
+0 -1 9838
+D5
+~
+~
+0 -1 9840
+S
+#9840
+&@&wThe Hall of &rB&*&rl&@&ro&*&ro&@&rd&*~
+&@&r   B 
+&*&r '   &@&rL
+    O  &*&r'
+ ' &@&rO  &*&r. 
+    &@&rD
+&*&r   '
+&@&r.&*&r'&@&rdrips&*&r'&@&r.
+from every
+surface....&*
+~
+0 262192 3
+D3
+~
+~
+0 -1 9841
+D4
+~
+~
+0 -1 9839
+S
+#9841
+&@&wThe Hall of &rB&*&rl&@&ro&*&ro&@&rd&*~
+&@&r   B 
+&*&r '   &@&rL
+    O  &*&r'
+ ' &@&rO  &*&r. 
+    &@&rD
+&*&r   '
+&@&r.&*&r'&@&rdrips&*&r'&@&r.
+from every
+surface....&*
+~
+0 262192 3
+D1
+~
+~
+0 -1 9840
+D2
+~
+~
+0 -1 9842
+S
+#9842
+&@&wThe Hall of &rB&*&rl&@&ro&*&ro&@&rd&*~
+&@&r   B 
+&*&r '   &@&rL
+    O  &*&r'
+ ' &@&rO  &*&r. 
+    &@&rD
+&*&r   '
+&@&r.&*&r'&@&rdrips&*&r'&@&r.
+from every
+surface....&*
+~
+0 262192 3
+D0
+~
+~
+0 -1 9841
+D1
+~
+~
+0 -1 9843
+S
+#9843
+&@&wThe Hall of &rB&*&rl&@&ro&*&ro&@&rd&*~
+&@&r   B 
+&*&r '   &@&rL
+    O  &*&r'
+ ' &@&rO  &*&r. 
+    &@&rD
+&*&r   '
+&@&r.&*&r'&@&rdrips&*&r'&@&r.
+from every
+surface....&*
+~
+0 262192 3
+D3
+~
+~
+0 -1 9842
+D5
+~
+~
+0 -1 9844
+S
+#9844
+&@&wThe Hall of &rAnger!&*~
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&wRAGE SCREAMS INSIDE YOU!
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\&*
+~
+0 262192 3
+D3
+~
+~
+0 -1 9845
+D4
+~
+~
+0 -1 9843
+S
+#9845
+&@&wThe Hall of &rAnger!&*~
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&wRAGE SCREAMS INSIDE YOU!
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\&*
+~
+0 262192 3
+D1
+~
+~
+0 -1 9844
+D2
+~
+~
+0 -1 9846
+S
+#9846
+&@&wThe Hall of &rAnger!&*~
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&wRAGE SCREAMS INSIDE YOU!
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\&*
+~
+0 262192 3
+D0
+~
+~
+0 -1 9845
+D1
+~
+~
+0 -1 9847
+S
+#9847
+&@&wThe Hall of &rAnger!&*~
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&@&wRAGE SCREAMS INSIDE YOU!
+&@&r/\/\/\/\/\/\/\/\/\/\/\/\
+&*&r/\/\/\/\/\/\/\/\/\/\/\/\&*
+~
+0 262192 3
+D3
+~
+~
+0 -1 9846
+D5
+~
+~
+0 -1 9848
+S
+#9848
+&@&wThe Hall of &gBetrayal&*~
+&@&mSweet &lpromise &wawaits in all directions.&*
+
+&@&m.                                                  .&*
+&@&l(                &m.-'`-.--.                         &@&l)&*
+&@&m.               :         )                        .&*
+&@&w)        &m .' `           /.- '` .                  &w(&*
+&@&m.         >       `.   .'       <                  .&*
+&@&l(        &m(        &w .' `.         &m)                 &l)&*
+&@&m.         `- -.-'  &w`- -'  &m`-.- -'                  .&*
+&@&w)           &m(        :        )           &*&g_ .-:    &@&w(&*
+&@&m.            `--.    :    .--'        &*&g.-'  .-'     &@&m.&*
+&@&l(                &m`-.-^-.-' &*&g\_      .'  .-'  '      &@&l)&*
+&@&m.                         &*&g\ \'     \ '_ _ -'       &@&m.&*
+&@&w)                          &*&g`.`.    //              &@&w)&*
+&@&m.                 &*&g. - " `-.__`.`-.//               &@&m.&*
+&@&l(            &*&g.-'   . - '  }' " `-.`-.              &@&l(&*
+&@&m.          &*&g.' .-'      .-'         `-.`-.          &@&m.&* 
+&@&w)        &*&g/_'_ _ . - '                 `-.`-._      &@&w)&*
+&@&m.                                         &*&g`-.<     &@&m.&*
+~
+0 262192 3
+D0
+~
+~
+0 -1 9849
+D4
+~
+~
+0 -1 9847
+S
+#9849
+&@&wThe Hall of &gBetrayal&*~
+&@&mSweet &lpromise &wawaits in all directions.&*
+
+&@&m.                                                  .&*
+&@&l(                &m.-'`-.--.                         &@&l)&*
+&@&m.               :         )                        .&*
+&@&w)        &m .' `           /.- '` .                  &w(&*
+&@&m.         >       `.   .'       <                  .&*
+&@&l(        &m(        &w .' `.         &m)                 &l)&*
+&@&m.         `- -.-'  &w`- -'  &m`-.- -'                  .&*
+&@&w)           &m(        :        )           &*&g_ .-:    &@&w(&*
+&@&m.            `--.    :    .--'        &*&g.-'  .-'     &@&m.&*
+&@&l(                &m`-.-^-.-' &*&g\_      .'  .-'  '      &@&l)&*
+&@&m.                         &*&g\ \'     \ '_ _ -'       &@&m.&*
+&@&w)                          &*&g`.`.    //              &@&w)&*
+&@&m.                 &*&g. - " `-.__`.`-.//               &@&m.&*
+&@&l(            &*&g.-'   . - '  }' " `-.`-.              &@&l(&*
+&@&m.          &*&g.' .-'      .-'         `-.`-.          &@&m.&* 
+&@&w)        &*&g/_'_ _ . - '                 `-.`-._      &@&w)&*
+&@&m.                                         &*&g`-.<     &@&m.&*
+~
+0 262192 3
+D1
+~
+~
+0 -1 9850
+D2
+~
+~
+0 -1 9848
+S
+#9850
+&@&wThe Hall of &gBetrayal&*~
+&@&mSweet &lpromise &wawaits in all directions.&*
+
+&@&m.                                                  .&*
+&@&l(                &m.-'`-.--.                         &@&l)&*
+&@&m.               :         )                        .&*
+&@&w)        &m .' `           /.- '` .                  &w(&*
+&@&m.         >       `.   .'       <                  .&*
+&@&l(        &m(        &w .' `.         &m)                 &l)&*
+&@&m.         `- -.-'  &w`- -'  &m`-.- -'                  .&*
+&@&w)           &m(        :        )           &*&g_ .-:    &@&w(&*
+&@&m.            `--.    :    .--'        &*&g.-'  .-'     &@&m.&*
+&@&l(                &m`-.-^-.-' &*&g\_      .'  .-'  '      &@&l)&*
+&@&m.                         &*&g\ \'     \ '_ _ -'       &@&m.&*
+&@&w)                          &*&g`.`.    //              &@&w)&*
+&@&m.                 &*&g. - " `-.__`.`-.//               &@&m.&*
+&@&l(            &*&g.-'   . - '  }' " `-.`-.              &@&l(&*
+&@&m.          &*&g.' .-'      .-'         `-.`-.          &@&m.&* 
+&@&w)        &*&g/_'_ _ . - '                 `-.`-._      &@&w)&*
+&@&m.                                         &*&g`-.<     &@&m.&*
+~
+0 262192 3
+D2
+~
+~
+0 -1 9851
+D3
+~
+~
+0 -1 9849
+S
+#9851
+&@&wThe Hall of &gBetrayal&*~
+&@&mSweet &lpromise &wawaits in all directions.&*
+
+&@&m.                                                  .&*
+&@&l(                &m.-'`-.--.                         &@&l)&*
+&@&m.               :         )                        .&*
+&@&w)        &m .' `           /.- '` .                  &w(&*
+&@&m.         >       `.   .'       <                  .&*
+&@&l(        &m(        &w .' `.         &m)                 &l)&*
+&@&m.         `- -.-'  &w`- -'  &m`-.- -'                  .&*
+&@&w)           &m(        :        )           &*&g_ .-:    &@&w(&*
+&@&m.            `--.    :    .--'        &*&g.-'  .-'     &@&m.&*
+&@&l(                &m`-.-^-.-' &*&g\_      .'  .-'  '      &@&l)&*
+&@&m.                         &*&g\ \'     \ '_ _ -'       &@&m.&*
+&@&w)                          &*&g`.`.    //              &@&w)&*
+&@&m.                 &*&g. - " `-.__`.`-.//               &@&m.&*
+&@&l(            &*&g.-'   . - '  }' " `-.`-.              &@&l(&*
+&@&m.          &*&g.' .-'      .-'         `-.`-.          &@&m.&* 
+&@&w)        &*&g/_'_ _ . - '                 `-.`-._      &@&w)&*
+&@&m.                                         &*&g`-.<     &@&m.&*
+~
+0 262192 3
+D0
+~
+~
+0 -1 9850
+D5
+~
+~
+0 -1 9852
+S
+#9852
+&@&wThe Chamber of &rS&*&rins&*~
+&*&rThis is the chamber of mortal sins. Exits lead in all directions, for there are many sins to be found in mortals.&*
+~
+0 262192 3
+D0
+&*&rAnger's door&*~
+anger door~
+8 9840 9853
+D1
+&*&mLust's door.&*~
+lust door~
+8 9843 9856
+D2
+Jealousy's door.~
+jealous door~
+8 9841 9854
+D3
+&*&lPride's Door.&*~
+pride door~
+8 9842 9855
+D4
+~
+~
+0 -1 9851
+D5
+&@&wA questionable curtain.&*~
+questionable curtain~
+8 9844 9857
+S
+#9853
+&@&rA&*&rnger's &@&wAbode&*~
+&@&b0==&y|&b>>>>>>&rA&*&rNGER&@&b>>>>>>&*
+&*&rAnger consumes you and you welcome its embrace.&*
+~
+0 262192 3
+D2
+&*&rAnger's Door&*~
+anger door~
+8 9840 9852
+S
+#9854
+&@&gJ&*&gealousy's &@&wBreeding &*&yGround&*~
+&@&b0==&y|&b>>>>>>&gJ&*&gEALOUSY&@&b>>>>>>&*
+Jealousy bites at you with its wrath.
+~
+0 262192 3
+D0
+Jealousy's door.~
+jealous door~
+8 9841 9852
+S
+#9855
+&@&lP&*&lride's &@&wGallery&*~
+&@&b0==&y|&b>>>>>>&lP&*&lRIDE&@&b>>>>>>&*
+&*&lPride wells through you and fills you with false promise.&*
+~
+0 262192 3
+D1
+&*&lPride's door.&*~
+pride door~
+8 9842 9852
+S
+#9856
+&@&mL&*&must's &@&wLair&*~
+&@&b0==&y|&b>>>>>>&mL&*&mUST&@&b>>>>>>&*
+&*&mYou think very unpure thoughts. Not a bad place really....&*
+~
+0 262192 3
+D3
+&*&mLust's door.&*~
+lust door~
+8 9843 9852
+S
+#9857
+&@&rR&yi&gd&ld&cl&me &wRoom&*~
+&@&r?
+&y ?
+&g  ?
+&l   ?
+&c    ?
+&m     ?&*
+
+&@&wWhat can you break without hitting or dropping it?&*
+~
+0 262196 3
+D4
+&@&wA questionable curtain&*~
+questionable curtain~
+8 9844 9852
+D5
+A &@&wbone&* gate.~
+bone gate~
+8 9845 9858
+S
+#9858
+&*&rRoom &@&wof B&*&wo&@&wn&*&we&@&ws&*~
+&*&rA room built entirely of the bones of countless lost souls.&*
+~
+0 262196 3
+D4
+A &@&wbone&* gate.~
+bone gate~
+8 9845 9857
+D5
+A &@&rB&ye&ga&ld&ce&md &wPortal.&*~
+beaded portal~
+8 9846 9859
+S
+#9859
+&@&wGod's &cLounge&*~
+&*&cA smoking room for the god of the Underworld.&*
+~
+0 262196 3
+D0
+A &@&cglass&* door.~
+glass door~
+8 9847 9860
+D4
+A &@&rb&ye&ga&ld&ce&md &wPortal.&*~
+beaded portal~
+8 9846 9858
+S
+#9860
+&@&mS&*&murrender's &@&rBedchamber&*~
+Where Surrender has waited locked and resting for many centuries. Watching her husband sow his evil seeds.
+~
+0 262708 3
+D2
+A &@&cglass&* door.~
+glass door~
+8 9847 9859
+S
+#9861
+&@&rT&yw&wilig&yh&rt&*~
+&*&rThe place between sleep and awake...&*
+~
+0 262196 3
+S
+#9862
+&@&wAn &cAirborne &lTower&*~
+&*&cA beautiful tower guards the secret of rain.&*
+
+&@&l   '
+  ' '
+  `-'&*
+~
+0 262196 9
+D0
+~
+~
+0 -1 9863
+D2
+~
+~
+0 -1 9834
+S
+#9863
+&@&wAn &cAirborne &lTower&*~
+&*&cA beautiful tower guards the secret of rain.&*
+
+&@&l   '
+  ' '
+  `-'&*
+~
+0 262196 9
+D2
+~
+~
+0 -1 9862
+D3
+~
+~
+0 -1 9864
+S
+#9864
+&@&wAn &cAirborne &lTower&*~
+&*&cA beautiful tower guards the secret of rain.&*
+
+&@&l   '
+  ' '
+  `-'&*
+~
+0 262196 9
+D1
+~
+~
+0 -1 9863
+D2
+~
+~
+0 -1 9865
+S
+#9865
+&@&wAn &cAirborne &lTower&*~
+&*&cA beautiful tower guards the secret of rain.&*
+
+&@&l   '
+  ' '
+  `-'&*
+~
+0 262196 9
+D0
+~
+~
+0 -1 9864
+D4
+A &@&wshimmering&* haze.~
+haze~
+8 9853 9866
+S
+#9866
+&@&wA &wS&mh&wi&cm&wm&ye&wr&mi&wn&cg &wRoom&*~
+&@&w-  - - &m-&w--  - &y-&w--   -    &c-    &w----
+-&m-&w-- &w- --- - &c----- &w- -     &m---- &w--
+- &y---- &w- --- &m- &w- --- --  &y----- &w- -
+&m--- &w- - ----- &y- &w- --- &c- &w- -- &y-- &w--
+-- &c-- --&w--- &m- &w- -- ---- &y-- &w- -----
+&m-- &w---- &y-- &w----- -- &m- &c- &w---- -- &c--&*
+~
+0 262196 9
+D4
+A &*&ywooden&* door.~
+wooden door~
+8 9854 9867
+D5
+A &@&wshimmering&* haze.~
+haze~
+8 9853 9865
+S
+#9867
+&@&wThe &*&yWeaver's &@&cWorkshop&*~
+A large spinning wheel stands in the corner
+next to a pile of glowing fabric. The simple
+stone walls mask the nature of this place.
+~
+0 262196 9
+D4
+~
+screen~
+8 9855 9868
+D5
+A &*&ywooden&* door.~
+wooden door~
+8 9854 9866
+S
+#9868
+&@&wThe &*&yWeaver's &@&cWorkshop&*~
+&*&yA large spinning wheel stands in the corner
+next to a pile of glowing fabric. The simple
+stone walls mask the nature of this place.&*
+~
+0 262196 9
+D4
+~
+screen~
+8 9856 9869
+D5
+~
+screen~
+8 9855 9867
+S
+#9869
+&@&wThe &*&yWeaver's &@&cWorkshop&*~
+&*&yA large spinning wheel stands in the corner
+next to a pile of glowing fabric. The simple
+stone walls mask the nature of this place.&*
+~
+0 262196 9
+D4
+~
+screen~
+8 9857 9870
+D5
+~
+screen~
+8 9856 9868
+S
+#9870
+&@&wThe &*&yWeaver's &@&cWorkshop&*~
+&*&yA large spinning wheel stands in the corner
+next to a pile of glowing fabric. The simple
+stone walls mask the nature of this place.&*
+~
+0 262196 9
+D4
+~
+screen~
+8 9858 9871
+D5
+~
+screen~
+8 9857 9869
+S
+#9871
+&@&wThe &*&yWeaver's &@&cWorkshop&*~
+&*&yA large spinning wheel stands in the corner
+next to a pile of glowing fabric. The simple
+stone walls mask the nature of this place.&*
+~
+0 262196 9
+D0
+~
+bright sky~
+8 9859 9872
+D5
+~
+screen~
+8 9858 9870
+S
+#9872
+&@&wA &cRo&wl&cli&cng &wC&clo&wu&cds&wca&cpe&*~
+&@&wA clear and blooming sky.&*
+~
+0 262196 9
+D2
+~
+bright sky~
+8 9859 9871
+D4
+~
+vicious storm~
+8 9860 9873
+S
+#9873
+&@&wThe &lStorm&*~
+&@&bThe ceiling looms far above you in this grand hall where the elements of storms meet. The air is moist, and a low rumbling can be heard emminating from all around you.&*
+~
+0 262196 9
+D4
+~
+fluffy cloud~
+8 9861 9874
+D5
+~
+vicious storm~
+8 9860 9872
+S
+#9874
+&@&wThe &lM&*&caster's &yDen&*~
+&@&lThe master of rain escapes the winds of his wife here. A Large pitcher for pouring rain rests in the center of the room.&*
+~
+0 262196 9
+D3
+~
+wet door~
+8 9862 9875
+D5
+~
+fluffy cloud~
+8 9861 9873
+S
+#9875
+&@&wThe Room of &cS&*&cplendor&*~
+&@&wA sparkling and rich room with crytalized raindrops suspended in mid-fall spraying splendid color everywhere. A huge open window looks down on the city of Caiamaya far below.&*
+~
+0 262196 9
+D1
+~
+wet door~
+8 9862 9874
+S
+#9876
+&@&wThe &rR&ya&gi&ln&cb&mo&rw &*&yWeavers &@&wRoom&*~
+&*&cWhere the weavers of light live.&*
+~
+0 262196 9
+S
+#0
+
+
+#RESETS
+O 0 9800 100 9805
+O 0 9801 100 9820
+M 0 9840 1 9840
+E 0 9804 0 16
+M 0 9841 2 9841
+E 0 9802 0 16
+M 0 9841 2 9841
+E 0 9802 0 16
+M 0 9842 3 9842
+E 0 9803 0 16
+M 0 9842 3 9842
+E 0 9803 0 16
+M 0 9842 3 9842
+E 0 9803 0 16
+M 0 9843 4 9843
+M 0 9843 4 9843
+M 0 9843 4 9843
+M 0 9843 4 9843
+M 0 9844 4 9844
+M 0 9844 4 9845
+M 0 9844 4 9846
+M 0 9844 4 9847
+M 0 9845 2 9848
+M 0 9845 2 9848
+M 0 9846 2 9849
+M 0 9846 2 9849
+M 0 9847 2 9850
+M 0 9847 2 9850
+M 0 9848 2 9851
+M 0 9848 2 9851
+M 0 9850 1 9853
+G 0 9841 100
+D 0 9853 2 2
+M 0 9849 1 9852
+G 0 9840 100
+D 0 9852 0 2
+D 0 9854 0 2
+D 0 9852 2 2
+M 0 9851 1 9854
+G 0 9842 100
+M 0 9852 1 9855
+G 0 9843 100
+D 0 9855 1 2
+D 0 9852 3 2
+D 0 9856 3 2
+M 0 9853 1 9856
+G 0 9844 100
+D 0 9852 1 2
+D 0 9857 4 2
+D 0 9852 5 2
+D 0 9857 4 2
+D 0 9852 5 2
+M 0 9854 1 9857
+D 0 9858 4 2
+D 0 9857 5 2
+M 0 9855 3 9858
+M 0 9855 3 9858
+M 0 9855 3 9858
+M 0 9856 1 9858
+D 0 9859 4 2
+D 0 9858 5 2
+M 0 9857 1 9859
+D 0 9860 2 2
+D 0 9859 0 2
+M 0 9858 1 9860
+O 0 9851 100 9859
+M 0 9859 2 9862
+M 0 9859 2 9862
+M 0 9860 2 9863
+M 0 9860 2 9863
+M 0 9861 2 9864
+M 0 9861 2 9864
+M 0 9862 2 9865
+G 0 9853 100
+M 0 9862 2 9865
+M 0 9863 1 9866
+M 0 9864 1 9867
+M 0 9865 1 9868
+M 0 9866 1 9869
+M 0 9867 1 9870
+M 0 9868 1 9871
+M 0 9874 1 9873
+M 0 9875 1 9873
+M 0 9876 1 9873
+O 0 9852 100 9874
+O 0 9852 100 9875
+M 0 9877 1 9874
+M 0 9878 1 9875
+E 0 9863 100 17
+D 0 9865 4 2
+D 0 9866 5 2
+D 0 9866 4 2
+D 0 9867 5 2
+D 0 9867 4 2
+D 0 9868 5 2
+D 0 9868 4 2
+D 0 9869 5 2
+D 0 9869 4 2
+D 0 9870 5 2
+D 0 9870 4 2
+D 0 9871 5 2
+D 0 9871 0 2
+D 0 9872 2 2
+M 0 9879 1 9872
+G 0 9860 100
+D 0 9872 4 2
+D 0 9873 5 2
+D 0 9873 4 2
+D 0 9874 5 2
+D 0 9874 3 2
+D 0 9875 1 2
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 9840 spec_monk
+M 9841 spec_backstab
+M 9842 spec_warrior
+M 9843 spec_pestilence
+M 9854 spec_cast_adept
+M 9856 spec_breath_any
+M 9863 spec_breath_any
+M 9869 spec_cast_cleric
+M 9870 spec_cast_cleric
+M 9871 spec_cast_cleric
+M 9872 spec_cast_cleric
+M 9873 spec_cast_cleric
+M 9877 spec_cast_cleric
+M 9878 spec_cast_cleric
+M 9879 spec_cast_adept
+S
+
+
+
+#$
+

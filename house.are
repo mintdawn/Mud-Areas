@@ -1,0 +1,1036 @@
+#AREADATA
+Name        &@&l-&r{ &y215 &g700&r }&l-     &*&cDawn Tauki     &@&bE&*&wt&@&wher&*~
+Builders    none~
+VNUMs       5000 5099
+Recall      3001
+Security    2
+LEVELS      215 700
+Repop       You blink and someone is gone.~
+Norecall    &@&y(&w(&mYour conscience won't let you turn back.&w)&y)&*~
+Sname       &@&bE&*&wt&@&wher&*~
+End
+
+
+#MOBILES
+#5000
+Missy~
+&@&mMissy&*~
+&@&gC&rh&gr&ri&gs&rt&gm&ra&gs &rjuice &wdrips across the floor.&*
+~
+&@&bM I S S Y !!!!!&*
+~
+279363 0 1000 S
+1000 0 0 0d0+0 0d0+0
+10000 0
+0 0 2
+#5001
+killer bunny mbattle~
+&w&*The &@&wK&*&wi&@l&*&wl&@e&*&wr &w&*Bunny!~
+&w&*The &@&wK&*&wi&@l&*&wl&@e&*&wr &w&*Bunny!
+~
+THE KILLER WABBIT.
+~
+35 201927336 0 S
+1005 0 0 0d0+0 0d0+0
+100000 0
+0 0 0
+>fight_prog 50~
+emote screams with rage!
+claw
+claw
+bite
+attack3
+attack3
+emote hops about in delight.
+~
+|
+#5002
+light wanderer anais~
+&@&cA&yn&*&wais&*~
+&@&cA&yn&wais&c, the light wanderer, walks the path of goodness.&*
+~
+&@&yYou see a woman of unguessable age. She looks as though she has the weight of the world upon her. Dressed in humble attire befitting a member of the light order, she wanders the land bringing the word of light to all.&*
+~
+77889 218114088 999 S
+400 0 0 0d0+0 0d0+0
+40000 0
+0 0 2
+>fight_prog 25~
+mpechoat $n &@&cThe light wanderer calls her &yholy &cpowers down on you!&*
+mpechoarround $n &@&cThe light wanderer calls her &yholy &cpowers down on $N!&*
+attack3
+attack3
+~
+>greet_prog 100~
+mpechoat $n &@&wA woman quietly looks up from her humble robes and says urgently...
+mpechoat $n &@&lI am Anais, servant of the light...
+mpechoat $n &@&lI seek a holy sheath for it will save all of &gPangaea
+mpechoat $n &@&lif I can obtain it. Please, you must help me!
+mpechoat $n &@&lMine is not the path of the warrior I have sworn to
+mpechoat $n &@&lnever shed the blood of another...
+mpechoat $n &@&rEven if the blood runs &bblack &rwith EVIL.&*
+~
+>speech_prog sheath~
+say When i finished my training at the Temple of Light
+say my master handed the Holy Sword of healing down to me
+say in hopes it would one day aid me in a great quest.
+say &@&gbut one night i fell asleep polishing the sword
+say &@&gand laid the sheath to the side.
+say While i slept my shadow stole it for his master.
+say The sheath powers up the blade's healing power greatly.
+say So the sword has more power when not drawn in anger.
+say &@&cI need this power now. The land of Pangaea will die without it.
+say &@&cThe spring of life upon the apex of the highest mountain
+say &@&con Pangaea must be purified to prevent this devastation&*
+~
+|
+#5003
+drifting soul~
+a &@&ydrif&wting &gsoul&*~
+&@&yA spirit is here in amniotic suspension.&*
+~
+&@&wA soul sleeps waiting to be reborn in a state of suspended animation. It is unaware of what is around it and can only act on reflex and instinct If you destroy this shadow of a half physical body it will only return to the same place in a short time for this is where everyone goes when they die. It is the waiting room to heaven and hell or the portal back to the chaos of the living.&*
+~
+131139 0 0 S
+325 0 0 0d0+0 0d0+0
+32500 2062
+0 0 0
+#5004
+goddess saleene woman~
+&@&wSale&ce&gn&we&*~
+&@&cA woman radiates &lblue flame &cbeneath the water.&*
+~
+&@&gAn emense being floats beneath the surface of the spring.
+She is the Goddess Saleene. She is so emense only her head can
+be seen from here. The rest of her body lies deeper near the source
+of the spring.&*
+~
+73795 83894824 999 S
+1 0 0 0d0+0 0d0+0
+100 2054
+0 0 2
+>greet_prog 100~
+mpechoat $n &@&lYou see a woman weeping tears of blue flame!
+mpechoat $n &@&mooo &g(&wThoughts fill your mind&g)
+mpechoat $n &@&mooo &g(&wPlease help me I cannot move!&g)
+mpechoat $n &@&mooo &g(&wSomething has bitten my foot and paralyzed me.&g)
+mpechoat $n &@&mooo &g(&wHurry, please!&g)
+mpechoat $n &@&mooo &g(&wMy fate is the fate of the land.&g)
+mpechoat $n &@&mooo &g(&wFind the &lsource &wand flush this poison from me.&g)&*
+~
+>death_prog 100~
+yell &*&rNow what will become of &@&gPangaea&*&r?&*
+~
+|
+#5005
+sleeping soul~
+a &@&wsleep&cing &ysoul&*~
+&@&yA spirit is here in amniotic suspension.&*
+~
+&@&wA soul sleeps waiting to be reborn in a state of suspended animation. It is unaware of what is around it and can only act on reflex and instinct. If you destroy this shadow of a half physical body, it will only return to the same place in a short time for this is where everyone goes after life. It is the waiting room to heaven and hell or the portal back to the chaos of the living.&*
+~
+131139 0 0 S
+325 0 0 0d0+0 0d0+0
+32500 2062
+0 0 0
+#5006
+shadow serpent~
+a &@&b()&*&r()&@&r)(&@&bShadow Serpent&@&r)(&*&r()&@&b()&*~
+&*&rA servant for his shadow turns his venomous gaze upon you!&*
+~
+Dummy~
+991297 100729512 -999 S
+400 0 0 0d0+0 0d0+0
+40000 38
+0 0 1
+#5007
+latent spirit~
+a &@&blat&went &lspirit&*~
+&@&yA spirit is here in amniotic suspension.&*
+~
+&@&wA soul sleeps wating to be reborn in a state of suspended animation. It is unaware of what is around it and can only act on reflex and instinct . If you destroy this shadow of a physical body, it will only return to the same place in a short time. For this is where everyone goes when they die. It is the waiting room to heaven and hell or the portal back to the chaos of the living.&*
+~
+131139 0 0 S
+325 0 0 0d0+0 0d0+0
+32500 2062
+0 0 0
+#5008
+ethereal essence~
+an &@&lethe&greal &bessence&*~
+&@&yA spirit is here in amniotic suspension.&*
+~
+&@&wA soul sleeps waiting to be reborn in a state of suspended animation. It is unaware of what is around it and can only act on relex and instinct. If you destroy this shadow of a physical being it will only return to the same place in a short time for this is where everyone goes when they die. It is the waiting room to heaven and hell or the portal back to the chaos of the living.&*
+~
+131139 0 0 S
+325 0 0 0d0+0 0d0+0
+32500 2062
+0 0 0
+#5009
+poisonous blind toad~
+a &@&bblind &wtoad&*~
+&@&r(&*&rpoisonous&@&r)&* A &@&bblind &wtoad&* flees from you!
+~
+&@&wA bumpy white frog is here.&*
+~
+193 16777216 0 S
+350 0 0 0d0+0 0d0+0
+35000 2062
+0 0 1
+>death_prog 10~
+mpechoat $n &@&gWith great finesse, you manage to slice the toad into
+mpechoat $n &@&gpaper thin pieces. Great for sandwiches! Yum Yum&*
+mpoload 5008
+mpoload 5008
+mpoload 5008
+mpoload 5006
+mpechoaround $n &@&gWith great finesse, $n manages to slice the toad into
+mpechoaround $n &@&gthe thinnest pieces you've ever seen. Wow cool!&*
+~
+>fight_prog 25~
+mpechoat $n &@&wThe toad secretes a sticky, burning substance from its skin!&*
+attack3
+mpechoaround $n &@&wThe from secretes something from its skin!
+mpechoaround $n &@&wIt looks like it hurt $n!&*
+~
+|
+#5010
+shadow poisonous blind toad~
+a &@&bblind &wtoad&*~
+&@&r(&*&rpoisonous&@&r)&b(shadow)&* A &@&bblind &wtoad&* flees from you!
+~
+&@&wThe shadow of a bumpy white frog is here.&*
+~
+193 16842752 0 S
+350 0 0 0d0+0 0d0+0
+35000 2058
+0 0 1
+>death_prog 10~
+mpechoat $n &@&gWith great finesse, you manage to slice the toad into
+mpechoat $n &@&gpaper thin pieces. Great for sandwiches! Yum Yum&*
+mpoload 5008
+mpoload 5008
+mpoload 5008
+mpoload 5006
+mpechoaround $n &@&gWith great finesse, $n manages to slice the toad into
+mpechoaround $n &@&gthe thinnest pieces you've ever seen. Wow cool!&*
+~
+>fight_prog 25~
+mpechoat $n &@&wThe toad secretes a sticky, burning substance from its skin!&*
+attack3
+mpechoaround $n &@&wThe from secretes something from its skin!
+mpechoaround $n &@&wIt looks like it hurt $n!&*
+~
+|
+#0
+
+
+#OBJECTS
+#5000
+sage sandlewood incense~
+&*&ysandlewood incense&*~
+&*&yA pile of sandlewood incense is here.&*~
+~
+8 64 1
+0 0 0 0
+3 10 0
+#5001
+box ziplock~
+&@&y-&c_&y-&c_&y-&bziplockbox&y-&c_&y-&c_&y-&*~
+&w&*A &@&y-&c_&y-&c_&y-&bziplockbox&y-&c_&y-&c_&y-&*&w&*~
+~
+15 0 0
+500 1 0 0
+100 0 0
+#5002
+tasty cake~
+a &@&wTasty &yCake&*~
+One of Caelum's special cakes is here.~
+~
+19 0 1
+5004 0 0 0
+11 11 0
+#5003
+spring~
+a magical &@&cs&*&cp&@&cr&*&ci&@&cn&*&cg&* of &@&gliving water&*~
+A magical &@&cs&*&cp&@&cr&*&ci&@&cn&*&cg&* of &@&gliving water&* flows from the ground here.~
+~
+27 0 0
+5004 -1 0 0
+1 10 350
+#5004
+reversed holy blade healing~
+the &@&cH&*&co&@&cl&*&cy &@&wBlade of &*&yHealing&*~
+&@&wA &choly &*&yhealing &@&wsword with a reversed blade glows with power.&*~
+~
+5 1 8193
+0 0 0 0
+25 11111 350
+#5005
+chaos sheath holy~
+&@&w(&y+&w)&c>&l{&c{&*&ySheath &@&wof the &cH&*&co&@&cl&*&cy &@&wBlade&c}&l}&c<&w(&y+&w)&*~
+&*&cA sheath blessed by the gods lays here&*~
+~
+8 1 1
+0 0 0 0
+1 10 350
+#5006
+bumpy band~
+&@&g(ewwwww) &wa &g(&yb&g)&wu&g(&ym&g)&wp&g(&yy&g) &wband&*~
+&@&wA nasty, warty, bumpy "THING" is here. Someone throw it out!&*~
+~
+9 4224 4097
+37 0 0 0
+3 11111 350
+R 128
+A
+13 100
+A
+19 12
+A
+18 12
+A
+17 -20
+#5007
+water chi~
+&@&lwa&cter &wchi&*~
+&@&gYou can actually see the power of water here!&*~
+~
+8 321 1
+5011 5015 0 0
+20 20000 325
+F 93888
+#5008
+toad fillets~
+&@&wtoad fillets&*~
+&@&g(good eatin') &wA finely sliced pile of toad fillets is here.&*~
+~
+19 0 1
+24 0 0 0
+3 10 350
+#5009
+underwater cave~
+&@&ban underwater cave&*~
+&@&bA water filled cave leads deeper into the planet.&*~
+~
+27 0 0
+5017 0 0 0
+1 10 1
+#5010
+side tube branch~
+&@&ba small dark side tube&*~
+&@&bA small nearly unseen tube branches off to one side.&*~
+~
+27 48 0
+5023 0 0 0
+1 10 1
+#5011
+fire chi~
+&@&rfi&yre &bchi&*~
+&@&bThe creative and destructive power of fire is clear to you.&*~
+~
+8 321 1
+5007 5015 0 0
+20 20000 325
+F 93888
+#5012
+newbie pill~
+&@&ca &m(yummy) &cnewbie pill&*~
+&@&cA pill for helping newbies is here.&*~
+~
+26 64 1
+28 207 55 -1
+1 10 1
+A
+25 28
+#5013
+patchouli incense~
+&*&rpatchouli incense&*~
+&*&rA pile of patchouli incense is here.&*~
+~
+8 68 0
+0 0 0 0
+5000 10 0
+#5014
+jasmine incense sage~
+&*&mjasmine incense&*~
+&*&mA pile of jasmine incense is here.&*~
+~
+8 68 0
+0 0 0 0
+5000 10 0
+#5015
+rupture chaos~
+&@&ba &rRUP&lTURE &bin the fabric of &rC&yh&ga&lo&ms&*~
+&@&bA deep &rRUP&lTURE &bleading down to the roots of &rC&yh&ga&lo&ms&b.&*~
+~
+27 0 0
+5024 5 0 0
+1 10 300
+#0
+
+
+#ROOMS
+#5000
+&@&bFalling through &@&rC&yh&ga&lo&ms&*~
+&w
+&@&w              ,,ggddY888Ybbgg,,
+&@&w           ,agd8""'   .d8888888888bga,
+&@&w        ,gdP""'     .d88888888888888888g,
+&@&w      ,dP"        ,d888888888888888888888b,
+&*&w    ,dP"         ,8888888888888888888888888b,
+&*&w   ,8"          ,8888888P"""88888888888888888,
+&*&w  ,8'           I888888I    )88888888888888888,
+&*&w ,8'            `8888888booo8888888888888888888,
+&@&b d'              `88888888888888888888888888888b
+&@&b 8                `"8888888888888888888888888888
+&@&b 8                  `"88888888888888888888888888
+&@&b 8                      `"8888888888888888888888
+&*&w Y,                        `8888888888888888888P
+&*&w `8,                         `88888888888888888'
+&*&w  `8,              .oo.       `888888888888888'
+&*&w   `8a             8888        88888888888888'
+&@&w    `Yba           `""'       ,888888888888P'
+&@&w      "Yba                   ,88888888888"
+&@&w        `"Yba,             ,8888888888P"'
+&@&w           `"Y8baa,      ,d88888888P"'
+&@&w                ``""YYba8888P""''
+&*
+~
+0 18808832 0
+D0
+~
+~
+0 0 5001
+D1
+~
+~
+0 0 5002
+P
+32768
+0 0
+~
+>speech_prog cake~
+rpecho &@&wFrom nowhere a tasty cake appears!&*
+rpoload 5002
+~
+|
+S
+#5001
+&@&wSale&ce&gn&we's &lChoker&*~
+&@&lA vortex of water spins around the neck of the goddess Saleene. It is really hard to swim here. The awesome strength of the racing waters spit you back out as you try to swim downward!&*
+&*
+&@&w            ooooOOooOoooOooooo&cssssssssssssss
+&@&w              OoooOooooOoooOooOooOo&cssssss
+&@&w                   OoOoOoOoOOO&lsssssssss
+&@&w                 OooooOooOOOOOOOoOo&csssss
+&@&w                    OOooOooOoOoooOo&lsss
+&@&w                          OOoOoOOoOoO&cssss
+&@&w                             OOOooOoooo&cssss
+&@&w                               ooOOooo&lsss
+&@&w                                  ooOO&css
+&@&w                                    ooO&ls
+&@&w                                      O&ls
+&@&w                                       o&*
+~
+14 20652085 7
+D2
+~
+~
+0 0 5000
+D4
+~
+~
+0 -1 5003
+>entry_prog 100~
+rpechoat &@&lYou try to swim downward but a spinning choker of water
+rpechoat &@&laround &wSale&ce&gn&we's &lneck will let you progress no further.
+rpechoat &@&gYou will definately have to find another way down.&*
+rptransfer 5004
+~
+|
+S
+#5002
+&@&wThe &mA&*&mx&@&mi&*&ms&*~
+&@&b
+&@&b      ....
+&@&b    .'&m.''.&b'.
+&@&b    :&m:    :&b:
+&@&b    '.&m'..'&b.'
+&@&m .    &b'::'    &m. 
+&@&b |&m>&b::::::::::&m<&b|
+&@&m '     &b::     &m'
+&@&b       ::
+&@&b       ::
+&@&b       ::
+&@&b       ::
+&@&m    _&b.'&m__&b'.&m_&*
+&@&b
+~
+0 18808832 0
+D3
+~
+~
+0 0 5000
+>speech_prog spellup~
+rpecho &@&wS&cp&we&yl&wl&ct&yi&wm&ce&w!&*
+rpcast 'water breath' 1000
+rpcast bless 1000
+rpcast 'holy aid' 1000
+rpcast armor 1000
+rpcast 'weed shield' 1000
+rpcast 'combat mind' 1000
+rpcast shield 1000
+rpcast giant 1000
+rpcast titanize 1000
+rpcast flurry 1000
+rpcast swiftness 1000
+rpcast fly 1000
+rpcast 'force shield' 1000
+rpcast 'barkskin' 1000
+rpcast foci 1000
+rpcast invis 1000
+rpcast 'natures protection' 1000
+rpcast 'body of god' 1000
+rpcast 'protection' 1000
+rpcast 'battle hymn' 1000
+rpcast 'crusade' 1000
+rpcast 'angel eyes' 1000
+~
+|
+S
+#5003
+&@&wSale&ce&gn&we's &lChoker&*~
+&@&lA vortex of water spins around the neck of the goddess Saleene. It is really hard to swim here. The awesome strength of the racing waters spit you back out as you try to swim downward!&*
+&*
+&@&w            ooooOOooOoooOooooo&cssssssssssssss
+&@&w              OoooOooooOoooOooOooOo&cssssss
+&@&w                   OoOoOoOoOOO&lsssssssss
+&@&w                 OooooOooOOOOOOOoOo&csssss
+&@&w                    OOooOooOoOoooOo&lsss
+&@&w                          OOoOoOOoOoO&cssss
+&@&w                             OOOooOoooo&cssss
+&@&w                               ooOOooo&lsss
+&@&w                                  ooOO&css
+&@&w                                    ooO&ls
+&@&w                                      O&ls
+&@&w                                       o&*
+~
+14 20652085 7
+D4
+~
+~
+0 -1 5005
+D5
+~
+~
+0 -1 5001
+>entry_prog 95~
+rpechoat &@&lYou try to swim downward but a spinning choker of water
+rpechoat &@&laround &wSale&ce&gn&we's &lneck will let you progress no further.
+rpechoat &@&gYou will definately have to find another way down.&*
+rptransfer 5004
+~
+|
+S
+#5004
+&@&cSuspended &win the &gSoul Spring&*~
+&@&wYou find yourself floating amid countless souls or spirits who
+await awakening. This is the twilight between lives. The non-living
+do not seem aware of you at all. In fact they do not seem aware
+of anything.&*
+~
+0 0 7
+D0
+~
+~
+0 -1 5006
+D1
+~
+~
+0 -1 5008
+D2
+~
+~
+0 -1 5007
+D3
+~
+~
+0 -1 5009
+D4
+~
+~
+0 -1 12727
+D5
+~
+~
+0 -1 5005
+P
+0
+349 2000
+&@&cPlease, turn back you were not meant to see this yet.&*
+~
+S
+#5005
+&@&cA Whirlpool of &lBlue Flames&*~
+&@&wHow can there be fire beneath the water? Perhaps they are
+what sparks life into the sleeping souls when it is time for their
+awakening. Small blue tear shaped flames vortex and create a gentle
+and warm whirlpool of charged water. Sometimes one of the tiny flames
+brushes past you steaming a red place on your skin.&*
+~
+0 0 7
+D4
+~
+~
+0 -1 5004
+D5
+~
+~
+0 -1 5003
+>entry_prog 25~
+rpechoat &@&lTears of blue flame steam past your skin and leave small red marks.&*
+rphurt 100 200
+~
+|
+S
+#5006
+&@&wBubbles &cSpring &lUpward!&*~
+&@&c             o                           .
+&@&w   .                     O                    ..
+&@&l        .        .       .  o         &wO
+&@&g o         . &c oo          &l .  &w      . o .
+&@&c   .    o     &g   .   O        &w  o        &cO&*
+&@&w O          o.          &lo ..         &c .  O o&*
+~
+0 270368 7
+D1
+~
+~
+0 -1 5008
+D2
+~
+~
+0 -1 5004
+D3
+~
+~
+0 -1 5009
+S
+#5007
+&@&wBubbles &cSpring &lUpward!&*~
+&@&c             o                           .
+&@&w   .                     O                    ..
+&@&l        .        .       .  o         &wO
+&@&g o         . &c oo          &l .  &w      . o .
+&@&c   .    o     &g   .   O        &w  o        &cO&*
+&@&w O          o.          &lo ..         &c .  O o&*
+~
+0 270368 7
+D0
+~
+~
+0 -1 5004
+D1
+~
+~
+0 -1 5008
+D3
+~
+~
+0 -1 5009
+S
+#5008
+&@&cLooking up Through the &gWater&*~
+&@&gBy day you can look up from here and see the underbellies of the fresh &mlotus &wblossoms &gand lily pads which float on the clear cool surface of the spring. From here it is clear the &mflowers &gspring forth from the hair of the goddess.&*
+&@&l
+By night the moon shines down like a &wdazzling pearl &llighting the way to heaven and on a moonless night...the water is black as the smoking heart of chaos.&*
+~
+0 270368 7
+D0
+~
+~
+0 -1 5006
+D2
+~
+~
+0 -1 5007
+D3
+~
+~
+0 -1 5004
+S
+#5009
+&@&cLooking up Through the &gWater&*~
+&@&gBy day you can look up from here and see the underbellies of the fresh &mlotus &wblossoms &gand lily pads which float on the clear cool surface of the spring. From here it is clear the &mflowers &gspring forth from the hair of the goddess.&*
+&@&l
+By night the moon shines down like a &wdazzling pearl &llighting the way to heaven and on a moonless night...the water is black as the smoking heart of chaos.&*
+~
+0 270368 7
+D0
+~
+~
+0 -1 5006
+D1
+~
+~
+0 -1 5004
+D2
+~
+~
+0 -1 5007
+S
+#5010
+&@&bThe underbelly of &gPangaea&*~
+&*&gA dark stream winds through the bowels of Pangaea. Somewhere down here rest the feet of &@&wSaleene &*&gthough where in this tangle of shallow waterways is a mystery.&*
+~
+0 262177 0
+D0
+~
+~
+0 -1 5015
+D3
+~
+~
+0 -1 5011
+D4
+&@&gNature &yis the key to &gforce &yentry here.&*~
+moldy stone~
+16 -1 12927
+P
+0
+350 1007
+&@&cPlease, save yourself we will need you later.&*
+~
+S
+#5011
+&@&bThe underbelly of &gPangaea&*~
+&*&gA dark stream winds through the bowels of Pangaea. Somewhere down here rest the feet of &@&wSaleene &*&gthough where in this tangle of shallow waterways is a mystery.&*
+~
+0 262177 0
+D0
+~
+~
+0 -1 5012
+D1
+~
+~
+0 -1 5010
+S
+#5012
+&@&bThe underbelly of &gPangaea&*~
+&*&gA dark stream winds through the bowels of Pangaea. Somewhere down here rest the feet of &@&wSaleene &*&gthough where in this tangle of shallow waterways is a mystery.&*
+~
+0 262177 0
+D2
+~
+~
+0 -1 5011
+D3
+~
+~
+0 -1 5013
+S
+#5013
+&@&bA Dark Tumbling &lUnderground Falls&*~
+&*&gIt is dark but ahead the sound of rushing water can be heard. Proceed with caution and pray you know how to tread water.&*
+~
+0 262177 0
+D1
+~
+~
+0 -1 5012
+D5
+~
+~
+0 -1 5014
+S
+#5014
+&@&rThrowing &yCaution &rto the Wind!&*~
+&@&lYou tumble over the falls! Jagged rocks and slippery stones offer a prime chance for you to break your neck like your elders always said you would! Definately not a ride for the faint of heart.&*
+~
+14 262177 7
+D3
+~
+~
+0 -1 5018
+>entry_prog 50~
+rpechoat &@&rBOOM!!! Your head smacks into a rock. Not good!&*
+rpechoaround &@&r$N'S head smacks into a rock. That's not good!&*
+rphurt 1000 5000
+~
+|
+S
+#5015
+&@&bThe underbelly of &gPangaea&*~
+&*&gA dark stream winds through the bowels of Pangaea. Somewhere down here rest the feet of &@&wSaleene &*&gthough where in this tangle of shallow waterways is a mystery.&*
+~
+0 262177 0
+D1
+~
+~
+0 -1 5016
+D2
+~
+~
+0 -1 5010
+S
+#5016
+&@&bThe underbelly of &gPangaea&*~
+&*&gA dark stream winds through the bowels of Pangaea. Somewhere down here rest the feet of &@&wSaleene &*&gthough where in this tangle of shallow waterways is a mystery.&*
+~
+0 262177 0
+D3
+~
+~
+0 -1 5015
+S
+#5017
+&@&lA Dark Underwater Tube&*~
+&@&lDescending, you find the pressure of the water increases and the temperature of the water becomes warmer as you navigate tubes once filled with liquid fire. You can still feel very hot spots in places indicating continuing techtonic activity.&*
+~
+14 286769 7
+D5
+~
+~
+0 -1 5019
+S
+#5018
+&@&bA Bank below the &lFalls&*~
+Dummy room~
+0 0 0
+D1
+~
+~
+0 -1 5014
+S
+#5019
+&@&lA Dark Underwater Tube&*~
+&@&lDescending, you find the pressure of the water increases and the temperature of the water becomes warmer as you navigate tubes once filled with liquid fire. You can still feel very hot spots in places indicating continuing techtonic activity.&*
+~
+14 286769 7
+D1
+~
+~
+0 -1 5020
+D3
+~
+~
+0 -1 5021
+D4
+~
+~
+0 -1 5017
+S
+#5020
+&@&lA Dark Underwater Tube&*~
+&@&lDescending, you find the pressure of the water increases and the temperature of the water becomes warmer as you navigate tubes once filled with liquid fire. You can still feel very hot spots in places indicating continuing techtonic activity.&*
+~
+14 286769 7
+D3
+~
+~
+0 -1 5019
+S
+#5021
+&@&bA &rHot Spot &bin the tube&*~
+&@&rThe water temperature dramatically increases here. It is nearly unbearable. The surrounding walls of the tube have begun to glow orange and you find it increasingly hard to go on. Hot springs are great for your health but this is going a bit overboard! You suddenly feel great compassion towards shellfish.&*
+~
+14 286769 7
+D1
+~
+~
+0 -1 5019
+S
+#5022
+&@&rO&yo&bO&yo&rO &@&wBo&ciling Wat&wer &rO&yo&bO&yo&rO&*~
+&@&bYou wish you were dead as the flesh is melted away from your body.
+&w
+...........................&r.............................
+&w.....................&r...................................
+&w.............&r...........................................
+&w.......&r........................&y.....&r....................
+&w...&r........................&y.............&r................
+&r........................&y............&r.....&b....&r...........
+&r........................&y...............&r.....&b........&r....
+&r....................&y...............&r......&b.............&r..
+&r............&y....&r...&y...........&r...............&b...........
+&r.........&y....&r........&y...............&r.............&b.......
+&r......&y....&r...&w...&r...........&y.........&r.............&b.......
+&r..&y....&r...&w.............&r........&y..............&r............
+&y.........&w...........&r....&y.....&r...........................
+&y....&w.......&r................&y..&r...........................
+&y.&w......&r.................................................
+&w...&r.....................................................
+&r........................................................
+&r........................................................
+~
+14 286769 7
+D4
+~
+~
+0 -1 5023
+>entry_prog 80~
+rpechoat &@&yYour vision flashes &rRED &ywith searing pain as you swim into boiling water!&*
+rpcast 'fire breath' 10
+~
+|
+S
+#5023
+&@&rInfernally &yWarm &cWater&*~
+&@&yThe water here is &rhellishly hot&y. The tube procedes further down but following it is most assuredly folly. The heat definately originates from down there.&*
+~
+14 286769 7
+D5
+~
+~
+0 -1 5022
+S
+#5024
+&@&bTrying to climb a very &wslippery &bchasm&*~
+&@&bJagged plates rise up on all sides. Roots and wet rock project dangerously. It is hard to keep a good grip on the slippery hot surface . Mineral Deposits glow without external light catching your eye on the way down. Perhaps you could obtain a specimen.&*
+~
+0 262200 9
+D5
+~
+~
+0 -1 5025
+>entry_prog 50~
+rpechoaround &@&r$n falls!&*
+rpechoat &@&rYou lose your grip and fall!&*
+rphurt 500 2000
+rptransfer 5028
+~
+|
+S
+#5025
+&@&bTrying to climb a very &wslippery &bchasm&*~
+&@&bJagged plates rise up on all sides. Roots and wet rock project dangerously. It is hard to keep a good grip on the slippery hot surface . Mineral Deposits glow without external light catching your eye on the way down. Perhaps you could obtain a specimen.&*
+~
+0 262201 9
+D4
+~
+~
+0 -1 5024
+D5
+~
+~
+0 -1 5026
+>entry_prog 50~
+rpechoaround &@&r$n falls!&*
+rpechoat &@&rYou lose your grip and fall!&*
+rphurt 500 1500
+rptransfer 5028
+~
+|
+S
+#5026
+&@&bTrying to climb a very &wslippery &bchasm&*~
+&@&bJagged plates rise up on all sides. Roots and wet rock project dangerously. It is hard to keep a good grip on the slippery hot surface . Mineral Deposits glow without external light catching your eye on the way down. Perhaps you could obtain a specimen.&*
+~
+0 262201 9
+D4
+~
+~
+0 -1 5025
+D5
+~
+~
+0 -1 5027
+>entry_prog 50~
+rpechoaround &@&r$n falls!&*
+rpechoat &@&rYou lose your grip and fall!&*
+rphurt 500 1000
+rptransfer 5028
+~
+|
+S
+#5027
+&@&bTrying to climb a very &wslippery &bchasm&*~
+&@&bJagged plates rise up on all sides. Roots and wet rock project dangerously. It is hard to keep a good grip on the slippery hot surface . Mineral Deposits glow without external light catching your eye on the way down. Perhaps you could obtain a specimen.&*
+~
+0 262201 9
+D4
+~
+~
+0 -1 5026
+D5
+~
+~
+0 -1 5028
+>entry_prog 50~
+rpechoaround &@&r$n falls!&*
+rpechoat &@&rYou lose your grip and fall!&*
+rphurt 500 750
+rptransfer 5028
+~
+|
+S
+#5028
+&@&bThe core of &rC&yh&ga&lo&ms&*~
+&@&gThis is the center of darkness and chaos. Far below the lands and seas of the world lie the feet of the goddess Saleene. Her feet are directly rooted to the core exchanging energy with it.&*
+~
+0 262200 0
+D1
+~
+~
+0 -1 5029
+D3
+~
+~
+0 -1 5030
+D4
+~
+~
+0 -1 5027
+S
+#5029
+&@&bThe &@&ywarm &btoes of the &cgoddess&*~
+Dummy room~
+0 262200 0
+D3
+~
+~
+0 -1 5028
+S
+#5030
+&@&bThe &@&msoft &bheel of the &cgoddess&*~
+Dummy room~
+0 262200 0
+D1
+~
+~
+0 -1 5028
+S
+#0
+
+
+#RESETS
+M 0 5004 1 5005
+M 0 5003 4 5006
+M 0 5005 4 5007
+M 0 5007 4 5008
+M 0 5008 4 5009
+D 0 5010 4 2
+O 0 5007 0 5003
+O 0 5009 0 5016
+O 0 5010 0 5021
+O 0 5011 0 5022
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 5002 spec_templar
+M 5004 spec_breath_frost
+M 5006 spec_poison
+M 5009 spec_poison
+M 5010 spec_poison
+S
+
+
+
+#$
+

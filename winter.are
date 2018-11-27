@@ -1,0 +1,5111 @@
+#AREADATA
+Name        &@&l-&r{ &y110 &g150 &r}&l-     &*&cDawn           &@&lW&ci&*&cn&@&wterland&*               ~
+Builders    none~
+VNUMs       8300 8499
+Recall      3001
+Security    1
+LEVELS      110 150
+Repop       &@&wW&ci&ln&ct&we&lr &*&ylays its grip over the land.&*~
+Norecall    God has forsaken you.~
+Sname       &@&lW&ci&*&cn&@&wterland&*~
+End
+
+
+#MOBILES
+#8300
+little boy~
+&*&ya &@&bl&*&wi&@&wttle &*&yboy&*~
+&*&yA &@&bl&*&wi&@&wttle &*&yboy plays in the &@&wsnow&*&y.&*
+~
+~
+65 67108864 500 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 1
+#8301
+littl girl~
+&*&ya &@&bl&*&wi&@&wttle &*&ygirl&*~
+&*&yA &@&bl&*&wi&@&wttle &*&ygirl makes &@&wsnow angels&*&y.&*
+~
+~
+65 0 500 S
+112 0 0 0d0+0 0d0+0
+11200 0
+0 0 2
+#8302
+Gerda~
+&@&bG&*&we&@&wrda&*~
+&*&yA sad girl is thinking of &@&rroses&*&y.&*
+~
+Gerda sits in her room buy her window. There is
+a window box next to her with a bare rose bush.
+She looks as if she waits for it to bloom.
+~
+67 67109416 1000 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>greet_prog 100~
+mpechoat $n &@&bG&*&we&@&wrda&* pleads, 'Help me find my friend..'
+mpechoat $n &@&bG&*&we&@&wrda&* says, 'He is gone and i have no idea how to find him.'
+mpechoat $n &@&bG&*&we&@&wrda&* says, 'Ask for Kay everywhere find him for me.'
+mpechoat $n &@&bG&*&we&@&wrda&* says, 'Perhaps you will have more luck.'
+~
+>give_prog kays sled~
+mpjunk kays
+hop
+thank $n
+say I am glad he is safe.
+mpoload 8305
+mpoload 8306
+drop belt
+drop gloves
+mpforce $n get gloves
+mpforce $n get belt
+say I must go see him.
+smile
+mppurge $i
+~
+>fight_prog 25~
+scream
+cry
+~
+|
+#8303
+grandmother~
+&@&bG&*&we&@&wrda's &*&yGrandmother&*~
+&*&yAn old woman is knitting warm things for the &@&cwinter&*&y.&*
+~
+She sits in her arm chair at the house door.
+With a hopeful look about her.
+~
+67 67109416 1000 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog buttercup petal~
+mpjunk petal
+smile
+emote reaches in her bag and pulls out some of her finished work
+mpoload 8308
+drop belt
+mpforce $n get belt
+~
+>rand_prog 1~
+emote sits knitting something warm
+~
+>rand_prog 2~
+emote smiles a small smile
+~
+|
+#8304
+swinging boy~
+&*&ya &@&bs&*&ww&@&winging &*&yboy&*~
+&*&yA boy blows bubbles and plays on a swing.&*
+~
+~
+67 67109416 500 S
+122 0 0 0d0+0 0d0+0
+12200 0
+0 0 1
+>give_prog frozen bubble~
+mpjunk bubble
+mpoload 8310
+drop arrow
+mpforce $n get arrow
+~
+>give_prog snow drop petal~
+mpjunk petal
+mpoload 8312
+drop belt
+mpforce $n get belt
+~
+|
+#8305
+dog~
+&*&ya &@&bdog&*~
+&*&yA &@&bdog &*&ynips at your heels.&*
+~
+~
+67 0 0 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 1
+>greet_prog 10~
+say HAU! HAU!
+~
+>greet_prog 11~
+bark $n
+~
+|
+#8306
+town man~
+&*&ya &@&bt&*&wo&@&wwnsman&*~
+&*&yA townsman is out looking for townswomen.&*
+~
+~
+65 0 500 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#8307
+town woman~
+&*&ya &@&bt&*&wo&@&wwnswoman&*~
+&*&yA townswoman tries her best to look chaste.&*
+~
+~
+65 0 500 S
+124 0 0 0d0+0 0d0+0
+12400 0
+0 0 2
+#8308
+conjuress woman~
+the &*&mConjuress&*~
+&@&mA woman tends to her &ggarden &min a mysterious manner.&*
+~
+A very old woman leaning on a crutch.
+She wears a large hat to shade her from the sun, and on it are painted all sorts of pretty flowers. A &@&rrose&* in full bloom is the centerpiece to her wonderful hat.
+~
+8259 67109032 -500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 2
+>greet_prog 100~
+mpechoat $n The &*&mConjuress&* says 'Stay a while rest forget your worries.'
+mpechoat $n The &*&mConjuress&* says 'Forget everything.....'
+~
+>speech_prog p kay~
+emote puts her finger to her lips
+say I don't know where Kay is go ask the flowers.
+say Shhhhh...forget him...be well here.
+snicker
+~
+>speech_prog p rose~
+wince
+say I removed the roses so you would not remember to leave....
+mpmload 8309
+mpecho &@&wA beautiful &rrose &gbush &wsprings from below the &*&yearth&@&w...&*
+mppurge $i
+~
+|
+#8309
+roses~
+&@&r@&*&g-&@&g.&*&g-&@&g'&*&g-&@&rRoses&*&g-&@&g,&*&g-&@&g'&*&g-&@&r@&*~
+&@&rRoses &gspring from the ground to greet you.&*
+~
+The missing flower is found at last.
+~
+67 67109032 0 S
+120 0 0 0d0+0 0d0+0
+15750 0
+0 0 1
+>speech_prog p kay~
+say No, he is not dead. 
+say We have been in the ground where all the dead lie.
+say Kay is not there.
+mptransfer all 8358
+mppurge $i
+~
+|
+#8310
+buttercups butter cup~
+&@&yButtercup&*~
+&@&gWonderful &yyellow &gflowers kiss the &ysun&g.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say The bright warm sun shone on a little court, on the first warm 
+say day of spring. His bright beams rested on the white walls of the 
+say neighboring house and close by bloomed the first yellow flower
+say of the season, glittering like gold in the sun's warm ray. An old 
+say woman sat in her arm chair at the house door, and her grand-
+say daughter, a poor and pretty servant-maid came to see her for 
+say a short visit. When she kissed her grandmother there was gold 
+say everywhere -the gold of the heart in that holy kiss it was a golden
+say morning there was gold in the beaming sunlight, gold in the leaves 
+say of the lowly flower, and on the lips of the maiden. 
+say There, that is my story.....
+~
+>death_prog 100~
+mpecho &@&gA &@&yButtercup petal &gfloats to the ground.&*
+mpoload 8307
+~
+|
+#8311
+convolvulus~
+&@&wC&mo&wn&gv&wo&yl&wv&gu&wl&mu&ws&*~
+&@&gA flower blows in the breeze.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say Near yonder narrow road stands an old knight's castle 
+say thick ivy creeps over the old ruined walls, leaf over leaf, 
+say even to the balcony, in which stands a beautiful maiden. 
+say She bends over the balustrades, and looks up the road. 
+say No rose on its stem is fresher than she no apple-blossom, 
+say wafted by the wind, floats more lightly than she moves. 
+sayHer rich silk rustles as she bends over and exclaims, 
+say `Will he not come?'
+say I am only speaking of a story of my dream.....
+~
+>death_prog 100~
+mpoload 8314
+mpecho &@&gA &wpetal &gfalls to the wind.&*
+~
+|
+#8312
+snow drop~
+&@&wSnow&g-&wdrop&*~
+&@&gA little flower grows from the ground.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say Between two trees a rope is hanging there is a piece 
+say of board upon it it is a swing. Two pretty little girls, in 
+say dresses white as snow, and with long green ribbons 
+say fluttering from their hats, are sitting upon it swinging.
+say Their brother who is taller than they are, stands in the 
+say swing he has one arm round the rope, to steady himself 
+say in one hand he holds a little bowl, and in the other a clay 
+say pipe he is blowing bubbles. As the swing goes on, the 
+say bubbles fly upward, reflecting the most beautiful varying 
+say colors. The last still hangs from the bowl of the pipe, and 
+say sways in the wind. On goes the swing and then a little 
+say black dog comes running up. He is almost as light as the 
+say bubble, and he raises himself on his hind legs, and wants to
+say be taken into the swing; but it does not stop, and the dog 
+say falls then he barks and gets angry. The children stoop 
+say towards him, and the bubble bursts. A swinging plank, a 
+say light sparkling foam picture.
+say That is my story.....
+~
+>death_prog 100~
+mpecho &@&gA &wwhite petal &gfalls from the flower.&*
+mpoload 8311
+~
+|
+#8313
+hyacinth~
+&@&mH&gy&ya&mcinth&*~
+&@&gA desolate bloom sways gently.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say There were three beautiful sisters, fair and delicate. The 
+say dress of one was red, of the second blue, and of the third 
+say pure white. Hand in hand they danced in the bright moonlight, 
+say by the calm lake but they were human beings, not fairy elves. 
+say The sweet fragrance attracted them, and they disappeared in 
+say the wood here the fragrance became stronger. Three coffins, 
+say in which lay the three beautiful maidens, glided from the thickest 
+say part of the forest across the lake. The fire-flies flew lightly over 
+say them, like little floating torches. Do the dancing maidens sleep, 
+say or are they dead? The scent of the flower says that they are 
+say corpses. The evening bell tolls their knell.
+recho "Cling, clang,'' tolled the hyacinth bells.
+say We are not tolling for little Kay 
+say we do not know him. We sing our song, the only one we know.
+~
+>death_prog 100~
+mpecho &@&gA &@&mH&gy&ya&mcinth petal &gfalls to the ground.&*
+mpoload 8315
+~
+|
+#8314
+tiger lily~
+&@&yT&*&yi&@&yg&be&yr&*&yl&@&yi&bl&*&yy&*~
+&@&gA striped lily grows beautiful and wet.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say Hark, do you hear the drum?-- `turn, turn,'--there are only 
+say two notes, always, `turn, turn.' Listen to the women's song 
+say of mourning! Hear the cry of the priest! In her long red robe 
+say stands the Hindu widow by the funeral pile. The flames 
+say rise around her as she places herself on the dead body of 
+say her husband but the Hindu woman is thinking of the living 
+say one in that circle of him, her son, who lighted those flames. 
+say Those shining eyes trouble her heart more painfully than 
+say the flames which will soon consume her body to ashes. 
+say Can the fire of the heart be extinguished in the flames of
+say the funeral pile?
+say That is my story.....
+~
+>death_prog 100~
+mpoload 8313
+mpecho &@&gA &@&yT&*&yi&@&yg&be&yr&*&yl&@&yi&bl&*&yy petal &@&gfalls slowly from the flower.&*
+~
+|
+#8315
+narcissus~
+&@&yNarc&*&yi&@&yssus&*~
+&@&gA &yflower &gstands admiring itself.&*
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 0
+>speech_prog p kay~
+say I can see myself, I can see myself
+say Oh, how sweet is my perfume! Up in a little room with a bow
+say window, stands a little dancing girl, half undressed she stands
+say sometimes on one leg, and sometimes on both, and looks as if
+say she would tread the whole world under her feet. She is nothing 
+say but a delusion. She is pouring water out of a tea-pot on a piece
+say of stuff which she holds in her hand; it is her bodice. `Cleanliness 
+say is a good thing,' she says. Her white dress hangs on a peg it has 
+say also been washed in the tea-pot, and dried on the roof. She puts 
+say it on, and ties a saffron-colored handkerchief round her neck, 
+say which makes the dress look whiter. See how she stretches out 
+say her legs, as if she were showing off on a stem. 
+say I can see myself, I can see myself.
+~
+>death_prog 100~
+mpecho &@&gA &@&yNarc&*&yi&@&yssus petal &gis cut from the flower.&*
+mpoload 8316
+~
+|
+#8316
+deer~
+&*&ya deer&*~
+&*&yA shy deer rushes for the trees.&*
+~
+~
+65 0 0 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 1
+#8317
+owl~
+&*&yan &@&wowl&*~
+&*&yA &@&wsnow white owl &*&yturns her head &@&cskyward&*&y.&*
+~
+~
+65 0 0 S
+116 0 0 0d0+0 0d0+0
+11600 0
+0 0 2
+>greet_prog 10~
+say Huhuu!
+~
+|
+#8318
+vole~
+&*&ya &@&bvole&*~
+&*&yA animal begins burrowing under the leaves.&*
+~
+~
+65 0 0 S
+114 0 0 0d0+0 0d0+0
+11400 0
+0 0 1
+#8319
+squirrel~
+&*&ya &@&bs&*&yq&@&bu&*&yi&@&br&*&yr&@&be&*&yl&*~
+&*&yA &@&bs&*&yq&@&bu&*&yi&@&br&*&yr&@&be&*&yl scampers up a tree.&*
+~
+~
+197 0 0 S
+114 0 0 0d0+0 0d0+0
+11400 0
+0 0 2
+#8320
+wolfe~
+&*&ya &rwolfe&*~
+&*&yA lean &rwolfe &ysees dinner in you!&*
+~
+~
+97 67109416 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 1
+#8321
+possum~
+&*&ya &@&bpossu&mm&*~
+&*&yA &@&bpossu&mm &*&yis looking for food.&*
+~
+~
+65 512 0 S
+115 0 0 0d0+0 0d0+0
+11500 0
+0 0 2
+#8322
+red tailed fox~
+&*&ya &rred&@&w-&*&rtailed f&@&wo&*&rx&*~
+&*&yA sly fox darts into the shade.&*
+~
+~
+65 512 0 S
+116 0 0 0d0+0 0d0+0
+11600 0
+0 0 1
+#8323
+hunt dream~
+&@&wDream of the &*&rHunt&*~
+&@&wA dream of a triumpant &*&rhunt &@&wcrosses your mind.&*
+~
+~
+262209 67142184 -500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8324
+king dream~
+&@&wA &lKing's &wDream&*~
+&@&wA dream of &lcoronation &wand &rleadership &wswells before you.&*
+~
+~
+262209 67142184 500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8325
+queen dream~
+&@&wA &*&mQueen's &@&wDream&*~
+&@&wA powerful &*&mwoman &@&wof vast power and pride glides across your thoughts.&*
+~
+~
+262209 33320 500 S
+129 0 0 0d0+0 0d0+0
+12900 0
+0 0 0
+#8326
+lover dream~
+&@&wA Dream of &rL&mo&wv&re&mr&ws&*~
+&@&wTwo people stand quietly &llost &win each others dream.&*
+~
+~
+262209 33320 500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8327
+death dream~
+&@&wA Dream of &@&bDeath&*~
+&@&wA lonsome man on a &bp&*&wa&@&wle horse beckons to you.&*
+~
+~
+262241 67142184 -500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8328
+thieves dream~
+&@&wA Dream of &rT&bh&ri&be&rv&be&rs&*~
+&@&wA &bdark figure &wwants everything you have.&*
+~
+~
+262241 67207720 -500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8329
+dancing dream~
+&@&wA Dream of &cDancing&*~
+&@&wBeautiful men and women dance timeless dances of &maffection&w.&*
+~
+~
+262209 33320 500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8330
+war dream~
+&@&wA Dream of &rWar&*~
+&@&rRaging fire &wand &*&rscreaming soldiers &@&wspread &rred &wacross the night.&*
+~
+~
+262241 67142184 -500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8331
+princess dream~
+&@&wA &cPrincess's &wDream&*~
+&@&wA young &cmaid &wlooks out the window waiting for true &rl&wo&mv&re&w.&*
+~
+~
+262209 33320 500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 0
+#8332
+princess~
+&@&wThe &cPrincess&*~
+A quiet gentle girl rests here.
+~
+No rose on its stem is fresher than she; 
+no apple-blossom, wafted by the wind, 
+floats more lightly than she moves.
+~
+67 67150504 500 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 2
+>greet_prog 100~
+mpechoat $n The &@&cprincess&* stirs and wakes.
+mpechoat $n The young man arises... It isn't Kay.
+mpechoat $n The &@&cprincess&* asks 'How did you get in here?'
+mpechoat $n The &@&cprincess&* asks 'Who let you in?'
+mpechoat $n The young man eyes you suspiciously.
+~
+>give_prog convolvulus petal~
+mpjunk convolvulus
+say O these grow near to me
+say Very beautiful thank you.
+mpoload 8341
+drop gloves
+mpforce $n get gloves
+~
+>speech_prog p crow~
+mpecho &@&lYou explain the story of the missing boy to the princess.&*
+mpecho &@&cThe princess nods in understanding and the young boy smiles.&*
+say That is a very sad story indeed...
+say Please take this to keep you warm on your journey.
+mpoload 8320
+drop muffler
+mpforce $n get muffler
+say Rest here a while and tell me when you are ready
+say to resume your travels.
+~
+>speech_prog p ready~
+smile
+wave
+mpforce betrothed wave
+mptransfer all 8405
+~
+|
+#8333
+betrothed young man~
+&@&wA &*&yYoung &@&lMan&*~
+A dark skinned man rests near the princess.
+~
+~
+67 67150504 500 S
+135 0 0 0d0+0 0d0+0
+13500 0
+0 0 1
+#8334
+tame crow~
+&@&wA &lTame &bCrow&*~
+The &@&bcrow's &msweetheart&*, the tame crow, eyes you carefully.
+~
+~
+67 67117736 0 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 2
+>speech_prog p sweetheart~
+emote takes a tiny kitchen key from beneath her wing
+mpoload 8329
+emote holds the key in her beak and unlocks the door.
+unl west
+mpjunk key
+~
+>rand_prog 2~
+say Kraak! Kraak!
+~
+|
+#8335
+clumsy trapper~
+&@&wThe &yClumsy &*&yTrapper&*~
+A clumsy trapper trips and drops a couple of traps.
+~
+~
+131137 67109544 0 S
+135 0 0 0d0+0 0d0+0
+13500 0
+0 0 1
+>greet_prog 100~
+mpechoat $n &@&wThe &yClumsy &*&yTrapper&* says 'I'll never catch that tiger.'
+mpechoat $n &@&wThe &yClumsy &*&yTrapper&* says 'If you can get me his tail I'll make you a belt.'
+~
+>give_prog tiger tail~
+mpjunk tiger
+howl $n
+grin
+emote quickly takes some tools out of his pack and makes a nice belt.
+mpoload 8302
+drop belt
+mpforce $n get belt
+thank $n
+~
+|
+#8336
+moose~
+a &*&ymoose&*~
+A huge moose slowly crosses the path.
+~
+~
+65 552 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 1
+#8337
+snow tiger~
+a &@&wsnow t&bi&wg&be&wr&*~
+A lean tiger hunts for food.
+~
+~
+97 67109416 0 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 2
+>death_prog 80~
+mpecho The &@&wsnow t&bi&wg&be&wr's tail&* is sliced from its body!
+mpoload 8301
+~
+|
+#8338
+snow bird~
+a &@&wsnowbird&*~
+A tiny winter bird pecks at the ground.
+~
+~
+65 552 0 S
+122 0 0 0d0+0 0d0+0
+12200 0
+0 0 2
+>greet_prog 10~
+say Piip piip!
+~
+|
+#8339
+ice wolf~
+an &@&wIce &*&rWolfe&*~
+A starved wolfe stalks you.
+~
+~
+97 67109416 0 S
+135 0 0 0d0+0 0d0+0
+13500 0
+0 0 1
+#8340
+snow bunny~
+a &@&wsnow &*&ybunny&*~
+A tiny snow bunny hops across the path.
+~
+~
+65 552 0 S
+124 0 0 0d0+0 0d0+0
+12400 0
+0 0 2
+#8341
+A robber woman~
+a &@&rrobber &bwoman&*~
+A woman waits in the shadows.
+~
+~
+67 67207850 0 S
+138 0 0 0d0+0 0d0+0
+13800 0
+0 0 2
+>greet_prog 100~
+mptransfer all 8427
+tell $n &*&rYou will make an excellent toy for my girl!&*
+~
+|
+#8342
+robber girl~
+a &@&rrobber &bgirl&*~
+A little robber girl shows off her prized loot.
+~
+~
+67 67109544 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>greet_prog 100~
+wear knife
+mpechoat $n A &@&rrobber &bgirl&* says 'All this is mine!'
+~
+>give_prog fur muffler~
+mpjunk muffler
+mpecho The &@&rrobber &bgirl&* straps you on the &@&lr&wa&li&wn&*&ydeer's&* back.
+mpecho Away flies the &@&lr&wa&li&wn&*&ydeer&*, over stumps and stones, 
+mpecho Through the great forest, over marshes and plains, 
+mpecho as quickly as he can. The wolves howl, and the 
+mpecho &@&bravens&* scream while up in the sky quiver red
+mpecho lights like &@&rflames&* of &@&rfire&*.
+mpecho The &@&lr&wa&li&wn&*&ydeer&* slows as he sees signs of life...
+mpforce raindeer mpgoto 8429
+mptransfer all 8429
+mpat 8429 mpforce raindeer fol $n
+~
+|
+#8343
+raindeer~
+a &@&lr&wa&li&wn&*&ydeer&*~
+A tied raindeer is here.
+~
+~
+131139 67633832 0 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 1
+>speech_prog lapland~
+say Yes, there is always snow and ice and it is a glorious place 
+say you can leap and run about freely on the sparkling ice plains. 
+say The &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* has her summer tent there, but her strong 
+say castle is at the North Pole, on an island called Spitzbergen.
+mpforce robber say Lie still, or I shall run my knife into your body.
+mpforce robber say Do you know where lapland is?
+nod
+say Who should know better than I do?
+say I was born and brought up there, and used to run about the 
+say snow-covered plains.
+mpforce robber think
+mpforce robber say I shall let this raindeer lead you there but...
+mpforce robber say You must give me that beautiful muffler you have.
+~
+|
+#8344
+wood pigeon~
+a &*&ywood &@&wpigeon&*~
+A wood pigeon roosts and watches you.
+~
+~
+67 524840 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 2
+>speech_prog p kay~
+say Coo, coo 
+say We have seen little &@&cKay&*. A &@&wwhite fowl&* carried his sledge, 
+say and he sat in the carriage of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&*, which 
+say drove through the wood while we were lying in our nest. 
+say She blew upon us, and all the young ones died excepting us two. 
+say Coo, coo.
+say She was most likely travelling to &@&wL&capland&*, where there is 
+say always snow and ice. Ask the &@&lr&wa&li&wn&*&ydeer&*.
+~
+>rand_prog 2~
+say Kyyhkynen kujertaa
+~
+|
+#8345
+little girl~
+a &@&wlittle &*&ygirl&*~
+A little girl sits washing her &@&wclothes&* with her teapot.
+~
+She is the cleanest little girl you ever saw.
+She wears a pure white dress and a saffron scarf
+tied around her neck.
+~
+67 67117736 500 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog narcissus petal~
+mpjunk petal
+mpoload 8342
+drop shield
+mpforce $n get shield
+emote runs home to show her mother.
+mppurge $i
+~
+|
+#8346
+brown bear~
+a &*&ybrown bear&*~
+A &*&ybrown bear&* is looking for a good place to sleep.
+~
+~
+65 0 0 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 1
+#8347
+black grouse~
+a &@&bblack grouse&*~
+A small black bird stands out against the snow.
+~
+~
+65 0 0 S
+121 0 0 0d0+0 0d0+0
+12100 0
+0 0 2
+#8348
+willow grouse~
+a willow grouse~
+A bird leaves small tracks in the snow.
+~
+~
+65 0 0 S
+122 0 0 0d0+0 0d0+0
+12200 0
+0 0 2
+#8349
+northern hare~
+a &*&ynorthern hare&*~
+A hare hops in the snow.
+~
+~
+193 0 0 S
+123 0 0 0d0+0 0d0+0
+12300 0
+0 0 1
+#8350
+racoon dog~
+a &@&br&wa&bc&wo&bo&wn &*&ydog&*~
+A racoon dog sniffs a bush.
+~
+~
+65 0 0 S
+124 0 0 0d0+0 0d0+0
+12400 0
+0 0 2
+#8351
+white tailed deer~
+a &@&wwhite-tailed &*&ydeer&*~
+A deer flips her tail as she sprints into the brush.
+~
+~
+65 0 0 S
+123 0 0 0d0+0 0d0+0
+12300 0
+0 0 2
+#8352
+mallard~
+a &@&bm&*&ya&@&wl&*&glard&*~
+A colorful duck waddles off to the pond.
+~
+~
+65 0 0 S
+122 0 0 0d0+0 0d0+0
+12200 0
+0 0 1
+>greet_prog 10~
+say Kvaak!
+~
+|
+#8353
+badger~
+a &*&ybadger&*~
+A little furry creature is here.
+~
+~
+65 0 0 S
+119 0 0 0d0+0 0d0+0
+11900 0
+0 0 2
+#8354
+lynx~
+a &*&ylynx&*~
+A slinky lynx springs from the woods.
+~
+~
+97 67108904 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 2
+#8355
+mink~
+a &*&ymink&*~
+A mink cleans his shiny fur.
+~
+~
+65 0 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 1
+#8356
+hazel grouse~
+a &*&yhazel grouse&*~
+A young bird hops around.
+~
+~
+65 0 0 S
+119 0 0 0d0+0 0d0+0
+11900 0
+0 0 2
+#8357
+brown hare~
+a &*&ybrown hare&*~
+A long earred animal hops across the trail.
+~
+~
+193 0 0 S
+118 0 0 0d0+0 0d0+0
+11800 0
+0 0 1
+#8358
+wolf~
+a &@&wwolf&*~
+A white wolf looks as if it were made of snow.
+~
+~
+193 0 0 S
+125 0 0 0d0+0 0d0+0
+12500 0
+0 0 2
+#8359
+old woman~
+an &@&wold &cwoman&*~
+An old woman is here cooking fish.
+~
+~
+8259 67109544 0 S
+130 0 0 0d0+0 0d0+0
+13000 0
+0 0 2
+>greet_prog 100~
+if isnpc($n)
+   if number($n) == 8343
+mpechoaround $n Terve travellers, what brings you this long way?
+mpforce raindeer emote tells the lapland woman the story of your search.
+gasp
+frown
+say Oh, you poor things,
+say you have a long way to go yet. 
+say The &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* lives there now, and she 
+say burns Bengal lights every evening.
+say I will help you on your way.
+say Little &@&cKay&* is really with the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&*, but he finds 
+say everything there so much to his taste and his liking, 
+say that he believes it is the finest place in the world but 
+say this is because he has a piece of broken glass in his
+say heart, and a little piece of glass in his eye. These must 
+say be taken out, or he will never be a human being again, 
+say and the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* will retain her power over him.
+say To get to the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* you must traverse the blizzard.
+mpoload 8328
+mpforce raindeer mpgoto 8428
+endif
+~
+|
+#8360
+snow angel~
+a &@&wsnow &ya&wngel&*~
+A snow angel helps you find your way.
+~
+~
+270403 67109544 1000 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 2
+>greet_prog 100~
+mpechoat $n A &@&wsnow &ya&wngel&* points north.
+~
+|
+#8361
+snow porcupine~
+a &@&wsnow &*&yporcupine&*~
+A spikey snow guard blocks the way!
+~
+~
+262241 67109416 -500 S
+138 0 0 0d0+0 0d0+0
+13800 0
+0 0 1
+>fight_prog 25~
+bite
+bite
+~
+|
+#8362
+ice serpent~
+an &@&wice &gs&*&ge&@&gr&*&gp&@&ge&*&gn&@&gt&*~
+A serpent of ice hisses at you!
+~
+~
+262241 67109416 -500 S
+139 0 0 0d0+0 0d0+0
+13900 0
+0 0 2
+>fight_prog 25~
+attack3
+bite
+~
+|
+#8363
+living snowflake~
+a &@&cliving &wsnowflake&*~
+A flowery crystal of snow is here.
+~
+~
+262209 552 0 S
+135 0 0 0d0+0 0d0+0
+13500 0
+0 0 0
+#8364
+ice guard~
+an &@&wice &*&rguard&*~
+An ice guard protects the way to the castle!
+~
+~
+99 67109416 -500 S
+148 0 0 0d0+0 0d0+0
+14800 0
+0 0 1
+#8365
+ice bear~
+an &@&wice &bbear&*~
+An angry bear made of ice comes to guard the snow queens lair.
+~
+~
+262241 67109416 -500 S
+145 0 0 0d0+0 0d0+0
+14500 0
+0 0 1
+>fight_prog 25~
+claw
+claw
+claw
+~
+|
+#8366
+evil one~
+&@&cKay&*~
+A small boy sits aranging tiny pieces of glass.
+~
+Little Kay was quite blue with cold, indeed 
+almost black, but he did not feel it for the 
+&@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* had kissed away the icy shiverings, 
+and his heart was already a lump of ice. He 
+dragged some sharp, flat pieces of ice to and 
+fro, and placed them together in all kinds of 
+positions, as if he wished to make something 
+out of them; just as we try to form various 
+figures with little tablets of wood which we 
+call ``a Chinese puzzle.'' He composed many 
+complete figures, forming different words, but
+here was one word he never could manage to form, 
+although he wished it very much. It was the word
+``Eternity.'' The &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* had said to him, 
+``When you can find out this, you shall be your 
+own master, and I will give you the whole world 
+and a new pair of skates.'' But he could not 
+accomplish it.
+~
+270435 67117736 0 S
+150 0 0 0d0+0 0d0+0
+18750 0
+0 0 1
+>hitprcnt_prog 50~
+emote cries out in pain!
+mpecho &@&rTears roll from his eyes and down his chest
+mpecho &@&rwashing away the shards of mirror from both
+mpecho &@&rhis heart and his eyes.
+emote rubs his eyes slowly as if waking from a nightmare.
+mpecho &@&cThe pieces of glass come together and form a word...&*
+mpmload 8368
+mppurge $i
+~
+|
+#8367
+snow queen~
+&@&wThe &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+A woman of cold beauty is here.
+~
+The figure of a woman, dressed in garments of white 
+gauze, which looked like millions of starry snow-flakes
+linked together. She was fair and beautiful, but made 
+of ice...shining and glittering ice. Still she was alive and 
+her eyes sparkled like bright stars, but there was 
+neither peace nor rest in their glance.
+~
+8259 67117736 -500 S
+150 0 0 0d0+0 0d0+0
+38750 0
+0 0 2
+>give_prog eternity~
+mpjunk eternity
+mpoload 8304
+say &@&rI lied....&*
+mpkill $n
+~
+>fight_prog 30~
+attack3
+attack3
+mpechoat $n &@&cThe Snow Queen brings the winds down on you!&*
+mpechoaround $n &@&cThe Snow Queen summons the winds down on $n!&*
+~
+>fight_prog 45~
+mpecho &@&lThe Snow Queen spins like a winter cyclone!!&*
+spin
+spin
+circle
+~
+|
+#8368
+kay boy~
+&@&cKay&*~
+A young boy stands scared and confused.
+~
+He looks very cold
+~
+8259 67117736 0 S
+150 0 0 0d0+0 0d0+0
+18750 0
+0 0 1
+>speech_prog friend~
+gasp
+say I remember now!
+say Have you seen my good friend?
+~
+>speech_prog p gerda~
+sob
+say Gerda!
+say She sent you to rescue me?
+say I must get back at once to see her
+mpoload 8323
+drop eternity
+mpforce $n get eternity
+say Take this to the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen&* as proof that i may be free.
+say I must go now...
+thank $n
+mppurge $i
+~
+|
+#8369
+crow~
+A &@&bCrow&*~
+A crow sits in a tree.
+~
+~
+67 67642024 0 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 1
+>greet_prog 10~
+say Kraak Kraak!
+~
+>speech_prog p kay~
+emote nods his head very gravely
+say Perhaps I have--it may be.
+say I believe I know. I think it may be little Kay 
+say but he has certainly forgotten all by this time 
+say for the &@&cprincess&*...
+~
+>speech_prog p princess~
+say Yes, listen...
+say but it is so difficult to speak your language.
+say I will explain as well as I can, 
+say although it will be very badly done
+say In this kingdom where we now are, 
+say there lives a princess. A short time ago, as she 
+say was sitting on her throne, she began to sing 
+say a song which commences in these words:
+say `Why should I not be married?' 
+say So she determined to marry if she could find a 
+say husband who knew what to say when he was
+say spoken to.
+say She gave notice that every young man who was 
+say handsome was free to visit the castle and speak 
+say with the princess.
+say It was on the third day, there came marching 
+say cheerfully along to the palace a little personage, 
+say without horses or carriage, his eyes sparkling he 
+say had beautiful long hair, but his clothes were poor.
+say He is at the Castle where my tame &@&msweetheart&* is....
+~
+>speech_prog p castle~
+say I saw a handsome young man go there...
+say It might be Kay.
+say Perhaps my tame sweetheart who lives in the castle
+say knows more.
+~
+>speech_prog p sweetheart~
+say Yes I shall take you to her.
+mptransfer all 8382
+~
+|
+#8370
+ghostly dancing maiden~
+A &@&wghostly &rm&*&raiden&*~
+A ghostly maiden dances gracefully.
+~
+~
+67 67642024 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog hyacinth petal~
+mpjunk petal
+mpoload 8336
+drop sleeves
+mpforce $n get sleeves
+~
+>rand_prog 2~
+dance
+~
+|
+#8371
+ghostly singing maiden~
+A &@&wghostly &cm&*&caiden&*~
+A young maid sings an eerie song.
+~
+~
+67 67642024 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog hyacinth petal~
+mpjunk petal
+mpoload 8333
+drop globe
+mpforce $n get globe
+~
+>rand_prog 2~
+sing
+~
+|
+#8372
+ghostly dancing maiden~
+A &@&wghostly &wm&*&waiden&*~
+A beautiful young girl dances.
+~
+~
+67 67642024 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog hyacinth petal~
+mpjunk petal
+mpoload 8337
+drop vision
+mpforce $n get vision
+~
+>rand_prog 2~
+skiss singing
+smile
+~
+|
+#8373
+evil snowman~
+an &@&rE&*&gv&@&ri&*&gl &@&wSnowman&*~
+An &@&rE&*&gv&@&ri&*&gl &@&wSnowman&* lurks here!
+~
+~
+99 67642024 -500 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 1
+>fight_prog 25~
+gore $n
+~
+|
+#8374
+veiled mourning woman~
+a &@&rveiled woman&*~
+A woman stands over her husband's funeral pyre, about to join him in the flames.
+~
+Can the fire of the heart be extinguished in the flames of
+the funeral pile?
+~
+67 67642024 0 S
+120 0 0 0d0+0 0d0+0
+12000 0
+0 0 2
+>give_prog tigerlily petal~
+mpjunk petal
+emote takes the flames in her hands.
+mpoload 8331
+drop flames
+mpforce $n get flames
+wail
+~
+>give_prog simple shuriken~
+if ispc ($n)
+if isnja ($n)
+if level ($n) > 100
+say Take this to the demi-god of nothing.
+mpoload 9701
+drop glowing
+mpforce $n get glowing
+mpjunk simple
+say He will do what he can to help.
+endif
+~
+|
+#8375
+The Giving Tree~
+&@&wThe &cGiving &*&gTree&*~
+&@&wThe &cGiving &*&gTree&*
+~
+&@&wGive to the Giving tree.&* 
+&@&w        :
+&@&w        :
+&@&w       /&c|&w\
+&@&w     .'.&lo&w.'.
+&@&w --&c<&l<&wo&c:&w(&y+&w)&c:&wo&l>&c>&w--
+&@&w     '.'&lo&w'.'
+&@&w       \&c|&w/
+&@&w        :
+&@&w        :&*
+~
+8259 201337512 1000 S
+198 0 0 0d0+0 0d0+0
+19800 0
+0 0 0
+>all_greet_prog 100~
+if isnpc($n)
+ mppurge $n
+   endif
+~
+>give_prog all~
+if rand(17)
+ mpoload 8343
+ mprename giving &@&m.&bo&*&wO&@&w(&m(&bs&*&wo&@&wmethi&*&wn&@&bg&m)&w)&*&wO&@&bo&m. &wfrom &b$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+else
+if rand(20)
+ mpoload 8343
+ mprename giving &*&l-&@&l=&wo&*&l(&@&l(&@&bs&*&wo&@&wmethi&*&wn&@&bg&l)&*&l)&@&wo&l=&*&l- &@&wfrom &l$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+else
+if rand(25)
+ mpoload 8343
+ mprename giving &*&g.&@&go&w'&b/&w/&*&gs&@&go&wmethi&gn&*&gg&@&w\&b\&w'&go&*&g. &@&wfrom &g$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+else
+if rand(34)
+ mpoload 8343
+ mprename giving &*&c-&@&c=&wo&c]&*&cs&@&co&wmethi&cn&*&cg&@&c[&wo&c=&*&c- &@&wfrom &c$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+else
+ if rand(50)
+ mpoload 8343
+ mprename giving &@&w-&*&y+&@&y<&w<&*&ys&@&yo&wmethi&yn&*&yg&@&w>&y>&*&y+&@&w- from &*&y$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+else
+ mpoload 8343
+ mprename giving &*&r-&@&r-&w=&r<&b(&*&rs&@&ro&wmethi&rn&*&rg&@&b)&r>&w=&r-&*&r- &@&wfrom &r$n&*
+ mpoload 3378
+ mpat 1 put $o giving
+ mpat 1 put cheese giving
+mpat 1 put giving 2.giving
+ drop giving
+ mpforce $n get box
+ tell $n &@&cThe keyword is box&*
+endif
+~
+|
+#8376
+moose~
+a &*&ymoose&*~
+The moose stand erect claiming his territory.
+~
+The moose shows off his antlers proudly reminding you who is boss.
+~
+1 67109416 0 S
+125 0 0 0d0+0 0d0+0
+12500 2062
+0 0 1
+>greet_prog 100~
+if ispc ($n)
+if level ($n) > 149
+tell $n There is one from a time forgotten..
+tell $n Who wants the hide of my brethren..
+tell $n Bring him the hide...you won't regret it.
+mppurge self
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#8300
+chamber key~
+a &@&cc&mhamber key&*~
+A key is here.~
+~
+18 64 1
+0 0 0 0
+1 0 0
+#8301
+tiger tail~
+the &@&wt&bi&wg&be&wr's &wt&ba&wi&bl&*~
+A tiger tail is here.~
+~
+13 0 1
+0 0 0 0
+3 0 130
+#8302
+tiger tail belt~
+&@&b-&w-&b-&wtiger&r=&btail&r=&wbelt&b-&w-&b-&*~
+A belt made from a tiger's tail flips.~
+~
+9 64 2049
+0 0 0 0
+3 0 130
+A
+12 50
+A
+19 8
+#8303
+sharp knife~
+a &*&rsharp &@&bknife&*~
+A sharp knife glints menacingly.~
+~
+5 0 8193
+0 0 0 2
+5 0 0
+A
+19 5
+A
+18 5
+#8304
+kays sled~
+kay's &*&ysled&*~
+A small sled is ready to play with.~
+~
+12 0 1
+0 0 0 0
+10 0 150
+#8305
+belt roses~
+&*&g-&@&g,&*&g-&@&r@&*&g-&@&g'&wbelt of &rroses&g'&*&g-&@&r@&*&g-&@&g,&*&g-&*~
+A white leather belt with roses braided into is lies here.~
+~
+9 0 2049
+0 0 0 0
+5 0 150
+A
+12 100
+A
+13 50
+A
+24 -3
+#8306
+black leather gloves~
+&@&bblack leather gloves&*~
+Some black gloves are here.~
+~
+9 64 129
+0 0 0 0
+5 0 150
+A
+19 8
+A
+13 55
+A
+18 6
+#8307
+buttercup petal~
+a &@&ybuttercup petal&*~
+A buttercup petal lies here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8308
+wool belt~
+a &@&bw&*&wo&@&bo&*&wl &@&wbelt&*~
+A wool belt has been left.~
+~
+9 0 2049
+0 0 0 0
+2 0 120
+A
+12 120
+A
+1 1
+A
+3 1
+#8309
+frozen bubble~
+a &@&wfrozen b&cu&wb&mb&wl&ye&*~
+A frozen bubble rests delicately on the ground.~
+~
+13 0 1
+0 0 0 0
+0 0 120
+#8310
+ice arrow~
+&@&w&b=&w)&b=&ci&wce&b=&ca&wrrow&b=&w>&c>&*~
+An arrow of ice is here.~
+~
+9 0 16385
+0 0 0 0
+5 0 120
+A
+19 7
+A
+13 55
+#8311
+snow drop petal~
+a &@&wsnow&g-&wdrop petal&*~
+A flower petal lies here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8312
+frosted belt~
+&@&w-&c+&l=&c+&w-&bfrosted belt&w-&c+&l=&c+&w-&*~
+An icy belt is here.~
+~
+9 64 2049
+0 0 0 0
+3 0 120
+A
+2 1
+A
+1 1
+A
+19 7
+A
+18 4
+A
+13 25
+#8313
+tigerlily petal~
+a &@&yt&*&yi&@&yg&be&yr&*&yl&@&yi&bl&*&yy petal&*~
+A flower petal is here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8314
+convolvulus petal~
+a &@&wc&mo&wn&gv&wo&yl&wv&gu&wl&mu&ws petal&*~
+A flower petal is here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8315
+hyacinth petal~
+a &@&mh&gy&ya&mcinth petal&*~
+A flower petal is here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8316
+narcissus petal~
+a &@&ynarc&*&yi&@&yssus petal&*~
+A flower petal is here.~
+~
+13 0 1
+0 0 0 0
+1 0 120
+#8317
+supple hides of leather~
+&*&csupple hides of leather&*~
+&*&cWell aged hides that are soft but strong lie before you&*~
+~
+8 0 1
+0 0 0 0
+1 10 701
+#8320
+fur muffler~
+a &*&yfur &@&wmuffler&*~
+A furry muffler is here.~
+~
+9 0 129
+0 0 0 0
+5 0 120
+#8321
+top hat~
+a &@&bT&wop &bHat&*~
+An old black top hat lies here.~
+~
+9 4160 17
+0 0 0 0
+3 0 140
+A
+12 -50
+A
+13 40
+A
+19 10
+A
+18 5
+#8323
+eternity~
+&@&cE&wT&lE&wR&cN&wI&lT&wY&*~
+The word eternity is spelled out in small pieces of glass.~
+~
+8 64 1
+0 0 0 0
+3 0 120
+#8324
+crown snowflakes~
+&*&c\&@&c^&w/&c^&*&c\&@&wS&cn&*&co&@&wwfla&*&ck&@&ce&ws&*&c/&@&c^&w\&c^&*&c/&*~
+A crown of snowflakes shine royally.~
+~
+9 0 17
+0 0 0 0
+5 0 150
+A
+12 150
+A
+13 50
+A
+19 -10
+A
+24 -3
+#8325
+frost earring~
+&*&c-&@&c+&w<&c<&wF&cr&*&co&@&wst E&ca&*&cr&@&wring&c>&w>&c+&*&c-&*~
+A frosty shard is here.~
+~
+9 64 32769
+0 0 0 0
+2 0 150
+A
+19 10
+A
+18 10
+A
+1 1
+A
+2 1
+A
+5 1
+#8326
+castle key~
+the &@&wcastle &ckey&*~
+A key melts here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#8327
+mirror reason lake portal~
+&@&b(&w(&cThe &wMirror &cof Reason&w)&b)&*~
+&@&b(&w(&cThe &wMirror &cof Reason&w)&b)&*~
+~
+27 64 0
+8493 0 0 0
+5 0 0
+#8328
+raging blizzard~
+&@&w<&*&c<&@&c<&wA &lRaging &wBlizzard!&c>&*&c>&@&w>&*~
+&@&w<&*&c<&@&c<&wA &lRaging &wBlizzard!&c>&*&c>&@&w>&*~
+~
+27 0 0
+8457 5 0 0
+5 0 0
+#8329
+tiny black key~
+a tiny &@&bblack&* key~
+A key is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#8330
+ice spear~
+an &@&wice &*&rspear&*~
+A spear of ice is here.~
+~
+5 0 8193
+0 0 0 10
+5 0 0
+A
+19 5
+A
+18 10
+#8331
+flames~
+&*&r-&@&r-&y-&w\&!&y^&*&@&w/&rF&*&rl&@&ra&*&rm&@&re&*&rs&@&w\&!&y^&*&@&w/&y-&r-&*&r-&*~
+The eternal flames of &@&rlove&*.~
+~
+1 0 1
+0 0 -1 0
+1 0 120
+A
+12 50
+A
+19 7
+A
+24 -2
+A
+25 44
+A
+25 230
+#8332
+stocking~
+a &@&rs&wt&ro&wc&rk&wi&rn&wg&*~
+A long stocking is hung here.~
+~
+15 64 1
+450 0 0 0
+3 0 1
+#8333
+ice globe~
+an &@&w(&*&w(&@&b(&@&wi&*&wc&@&be &@&wg&*&wl&@&bo&wbe&@&b)&*&w)&@&w)&*~
+A globe of ice slowly melts~
+~
+1 257 1
+0 0 -1 0
+1 0 120
+A
+19 9
+A
+18 4
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+#8334
+diamond earring~
+a &@&wdiamond earring &c-&y<&w*&y>&c-&*~
+A diamond earring glitters with dazzeling brilliance.~
+~
+9 192 32769
+0 0 0 0
+1 0 120
+A
+19 8
+A
+18 8
+#8335
+hat flowers~
+&*&y__[&@&mF&yl&wo&gw&re&yr&me&gd &yH&wa&mt&*&y]__&*~
+A hat with all flowers is here.~
+~
+9 64 17
+0 0 0 0
+2 0 0
+#8336
+ghostly sleeves~
+&@&wg&*&wh&@&bo&wstly sleeves&*~
+Some ghostly silk is here.~
+~
+9 0 257
+0 0 0 0
+2 0 120
+A
+12 70
+A
+19 6
+#8337
+ghostly vision~
+&@&w.&*&w'&@&b-&*&w.&@&wG&*&wh&@&bo&wstly V&*&wi&@&bs&wion&*&w.&@&b-&*&w'&@&w.&*~
+A ghostly vision appears before you.~
+~
+9 0 65537
+0 0 0 0
+2 0 120
+A
+12 130
+#8338
+wool sleeves~
+&@&bw&*&wo&@&bo&*&wl &@&wsleeves&*~
+Some wool sleeves are here.~
+~
+9 0 257
+0 0 0 0
+3 0 115
+A
+12 115
+#8339
+Mistletoe~
+&*&g-&@&g,&wo&g'&*&g-&@&wm&ri&ws&rt&wl&re&wt&ro&we&*&g-&@&g,&wo&g'&*&g-&*~
+&*&g-&@&g,&wo&g'&*&g-&@&wm&ri&ws&rt&wl&re&wt&ro&we&*&g-&@&g,&wo&g'&*&g-&*~
+~
+8 64 0
+0 0 0 0
+5 0 0
+#8340
+candycane~
+a &*&gc&@&wa&rn&wd&*&gy&@&wc&ra&wn&*&ge&*~
+A &*&gc&@&wa&rn&wd&*&gy&@&wc&ra&wn&*&ge&*!~
+~
+26 68 1
+100 36 -1 -1
+1 0 1
+#8341
+fur-lined gloves~
+&@&wfur&b-&wlined &*&ygloves&*~
+Some furry gloves are here.~
+~
+9 0 129
+0 0 0 0
+3 0 120
+A
+12 130
+#8342
+snowflake shield~
+&@&wsnowflake &yshield&*~
+A tiny snowflake is here.~
+~
+9 0 513
+0 0 0 0
+5 0 120
+A
+19 7
+A
+12 60
+#8343
+giving gift box~
+&@&wA &cgift &wbox&*~
+&@&wA &cgift &wbox.&*~
+~
+15 64 1
+400 1 0 0
+3 0 1
+#8344
+chaos chaotic gem~
+&@&wa &rC&yh&gA&co&lT&mi&rC &w<&r*&w>Gem&w<&r*&w>&*~
+A chaotic element lies here.~
+~
+20 68 1
+1000000 0 0 0
+1 1111 201
+#0
+
+
+#ROOMS
+#8300
+&*&yTrail to a &@&wLarge &bTown&*~
+&*&yA cobblestone path leads toward a good-sized town filled with the sounds of children and life.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8301
+D2
+~
+~
+0 -1 607
+S
+#8301
+&*&yTrail to a &@&wLarge &bTown&*~
+&*&yA cobblestone path leads toward a good-sized town filled with the sounds of children and life.&*
+~
+0 262144 1
+D1
+~
+~
+0 -1 8302
+D2
+~
+~
+0 -1 8300
+S
+#8302
+&*&yTrail to a &@&wLarge &bTown&*~
+&*&yA cobblestone path leads toward a good-sized town filled with the sounds of children and life.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8303
+D3
+~
+~
+0 -1 8301
+S
+#8303
+&*&yTrail to a &@&wLarge &bTown&*~
+&*&yA cobblestone path leads toward a good-sized town filled with the sounds of children and life.&*
+~
+0 262148 1
+D0
+~
+~
+0 -1 8304
+D2
+~
+~
+0 -1 8302
+S
+#8304
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8305
+D2
+~
+~
+0 -1 8303
+S
+#8305
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8314
+D1
+~
+~
+0 -1 8310
+D2
+~
+~
+0 -1 8304
+D3
+~
+~
+0 -1 8306
+S
+#8306
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8315
+D1
+~
+~
+0 -1 8305
+D2
+~
+~
+0 -1 8307
+D3
+~
+~
+0 -1 8308
+S
+#8307
+&@&wA &yPleasant &*&yHome&*~
+&*&yA small but pleasant home of one of the many families living in this town.&*
+~
+0 262144 0
+D0
+~
+~
+0 -1 8306
+S
+#8308
+&@&wA &lFine &*&yDwelling&*~
+&*&yThis is one of the better houses in the neighborhood. Stairs lead to a second story. The house is &@&ywarm &*&ycompared to the &@&wsnowy &bstreets&*&y.&*
+~
+0 262144 0
+D1
+~
+~
+0 -1 8306
+D4
+~
+~
+0 -1 8309
+S
+#8309
+&@&wUpstairs &*&yBedroom&*~
+&*&yThis is a small upstairs bedroom. &@&mFlower &wboxes &*&yline the windows waiting for spring to bring them new &@&rblooms&*&y. Strange &@&wicy patterns &cfrost &*&ythe window panes.&*
+~
+0 262144 0
+D5
+~
+~
+0 -1 8308
+S
+#8310
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8317
+D1
+~
+~
+0 -1 8312
+D2
+~
+~
+0 -1 8311
+D3
+~
+~
+0 -1 8305
+S
+#8311
+&@&wA &yPleasant &*&yHome&*~
+&*&yA small but pleasant home of one of the many families living in this town.&*
+~
+0 262144 0
+D0
+~
+~
+0 -1 8310
+S
+#8312
+&@&wA &lFine &*&yDwelling&*~
+&*&yThis is one of the better houses in the neighborhood. Stairs lead to a second story. The house is &@&ywarm &*&ycompared to the &@&wsnowy &bstreets&*&y.&*
+~
+0 262144 0
+D3
+~
+~
+0 -1 8310
+D4
+~
+~
+0 -1 8313
+S
+#8313
+&@&wUpstairs &*&yBedroom&*~
+&*&yThis is a small upstairs bedroom. &@&mFlower &wboxes &*&yline the windows waiting for spring to bring them new &@&rblooms&*&y. Strange &@&wicy patterns &cfrost &*&ythe window panes.&*
+~
+0 262144 0
+D5
+~
+~
+0 -1 8312
+S
+#8314
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 0
+D0
+~
+~
+0 -1 8319
+D1
+~
+~
+0 -1 8317
+D2
+~
+~
+0 -1 8305
+D3
+~
+~
+0 -1 8315
+S
+#8315
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 0
+D0
+~
+~
+0 -1 8320
+D1
+~
+~
+0 -1 8314
+D2
+~
+~
+0 -1 8306
+D3
+~
+~
+0 -1 8316
+S
+#8316
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 0
+D1
+~
+~
+0 -1 8315
+S
+#8317
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8324
+D1
+~
+~
+0 -1 8318
+D2
+~
+~
+0 -1 8310
+D3
+~
+~
+0 -1 8314
+S
+#8318
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D3
+~
+~
+0 -1 8317
+S
+#8319
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8328
+D1
+~
+~
+0 -1 8324
+D2
+~
+~
+0 -1 8314
+D3
+~
+~
+0 -1 8320
+S
+#8320
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8321
+D1
+~
+~
+0 -1 8319
+D2
+~
+~
+0 -1 8315
+D3
+~
+~
+0 -1 8322
+S
+#8321
+&@&wA &yPleasant &*&yHome&*~
+&*&yA small but pleasant home of one of the many families living in this town.&*
+~
+0 262144 0
+D2
+~
+~
+0 -1 8320
+S
+#8322
+&@&wA &lFine &*&yDwelling&*~
+&*&yThis is one of the better houses in the neighborhood. Stairs lead to a second story. The house is &@&ywarm &*&ycompared to the &@&wsnowy &bstreets&*&y.&*
+~
+0 279572 0
+D1
+~
+~
+0 -1 8320
+D4
+~
+~
+0 -1 8323
+S
+#8323
+&@&wUpstairs &*&yBedroom&*~
+&*&yThis is a small upstairs bedroom. &@&mFlower &wboxes &*&yline the windows waiting for spring to bring them new &@&rblooms&*&y. Strange &@&wicy patterns &cfrost &*&ythe window panes.&*
+~
+0 262144 0
+D5
+~
+~
+0 -1 8322
+S
+#8324
+&*&yA Crowded &@&bTown &*&yin &@&wWinter&*~
+&@&wSnow &*&ylines the streets and children run in and out of closely packed buildings wearing thick wool clothes and red faces.&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8325
+D1
+~
+~
+0 -1 8326
+D2
+~
+~
+0 -1 8317
+D3
+~
+~
+0 -1 8319
+S
+#8325
+&@&wA &yPleasant &*&yHome&*~
+&*&yA small but pleasant home of one of the many families living in this town.&*
+~
+0 262144 0
+D2
+~
+~
+0 -1 8324
+S
+#8326
+&@&wA &lFine &*&yDwelling&*~
+&*&yThis is one of the better houses in the neighborhood. Stairs lead to a second story. The house is &@&ywarm &*&ycompared to the &@&wsnowy &bstreets&*&y.&*
+~
+0 262144 0
+D3
+~
+~
+0 -1 8324
+D4
+~
+~
+0 -1 8327
+S
+#8327
+&@&wUpstairs &*&yBedroom&*~
+&*&yThis is a small upstairs bedroom. &@&mFlower &wboxes &*&yline the windows waiting for spring to bring them new &@&rblooms&*&y. Strange &@&wicy patterns &cfrost &*&ythe window panes.&*
+~
+0 262144 0
+D5
+~
+~
+0 -1 8326
+S
+#8328
+&@&wNorthern &bGate &*&yof Town&*~
+&*&yThis is a gate leading out of town and towards a large &@&lriver&*&y.&*
+~
+0 262148 1
+D0
+~
+~
+0 -1 8329
+D2
+~
+~
+0 -1 8319
+S
+#8329
+&@&lA &wSnowy &lRiver&*&ybank&*~
+&*&yThe &@&wsnow &*&yis very deep and hard to traverse without a sleigh.&*
+~
+0 262148 1
+D2
+~
+~
+0 -1 8328
+D5
+~
+~
+0 -1 8330
+S
+#8330
+&@&wS&cN&wO&cW&wS&cL&wI&cD&wE&c!&w!&c!&*~
+&@&lWOOSH!
+&wThe snow slides quickly down into
+the nearly frozen &lriver &wand you follow
+swiftly.
+&@&l__&w'&l__ _&c, &l___&w` ^&l___&c' &l_ &c.&l___&w^&l___&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8331
+D4
+~
+~
+0 -1 8329
+S
+#8331
+&@&lAn &wIcy &lRiver&*~
+&@&cFrigid &lwater &csplashes in the air and strong currents drag you through the &wice&c.&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8332
+D3
+~
+~
+0 -1 8330
+S
+#8332
+&@&lAn &wIcy &lRiver&*~
+&@&cFrigid &lwater &csplashes in the air and strong currents drag you through the &wice&c.&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8333
+S
+#8333
+&@&lAn &wIcy &lRiver&*~
+&@&cFrigid &lwater &csplashes in the air and strong currents drag you through the &wice&c.&*
+~
+0 262144 6
+D5
+~
+~
+0 -1 8334
+S
+#8334
+&@&lC&co&ll&cd &wDrop&*~
+&@&cThe &lriver &cdips abruptly and &wice &cand &lwater &ccrash in a spinning mix.&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8335
+S
+#8335
+&@&lAn &wIcy &lRiver&*~
+&@&cFrigid &lwater &csplashes in the air and strong currents drag you through the &wice&c.&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8336
+S
+#8336
+&@&lAn &wIcy &lRiver&*~
+&@&cFrigid &lwater &csplashes in the air and strong currents drag you through the &wice&c.&*
+~
+0 262144 6
+D1
+~
+~
+0 -1 8337
+S
+#8337
+&@&lRiver &wRests&*~
+&*&yThe &@&lriver &*&ycomes to rest on the summery shores of a &@&mbeautiful &ggarden&*&y.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8338
+D3
+~
+~
+0 -1 8336
+S
+#8338
+&@&wEntrace &gto a &ySummery &gGarden&*~
+&@&ySun &gshines down on the &*&gleaves &@&gand &wblossoms &gof a &ysummery &ggarden. The &mflowers &gwhisper quiet stories to themselves.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8339
+D3
+~
+~
+0 -1 8337
+S
+#8339
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8340
+D3
+~
+~
+0 -1 8338
+S
+#8340
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8341
+D1
+~
+~
+0 -1 8343
+D3
+~
+~
+0 -1 8339
+S
+#8341
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8342
+D2
+~
+~
+0 -1 8340
+S
+#8342
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8344
+D1
+~
+~
+0 -1 8352
+D2
+~
+~
+0 -1 8343
+D3
+~
+~
+0 -1 8341
+S
+#8343
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8342
+D3
+~
+~
+0 -1 8340
+S
+#8344
+&@&bShadow &gin the Garden&*~
+&@&gSoft &bshade &gfrom &rcherry &*&gtrees &@&gsprinkles the garden grass with cool &bshadow&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8345
+D1
+~
+~
+0 -1 8355
+D2
+~
+~
+0 -1 8342
+S
+#8345
+&@&bShadow &gin the Garden&*~
+&@&gSoft &bshade &gfrom &rcherry &*&gtrees &@&gsprinkles the garden grass with cool &bshadow&g.&*
+~
+0 262144 2
+D2
+~
+~
+0 -1 8344
+D3
+~
+~
+0 -1 8346
+S
+#8346
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8347
+D1
+~
+~
+0 -1 8345
+D3
+~
+~
+0 -1 8349
+S
+#8347
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D2
+~
+~
+0 -1 8346
+D3
+~
+~
+0 -1 8348
+S
+#8348
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8351
+D1
+~
+~
+0 -1 8347
+D2
+~
+~
+0 -1 8349
+S
+#8349
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8348
+D1
+~
+~
+0 -1 8346
+D3
+~
+~
+0 -1 8350
+S
+#8350
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wLight&*~
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&ysunlight &gflutters down from between the clouds making &*&ybronze &@&gthe earth beneath the &wf&ml&wo&mw&we&mr&ws&g.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8349
+D2
+~
+~
+0 -1 8351
+S
+#8351
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8350
+D2
+~
+~
+0 -1 8348
+S
+#8352
+&@&bShadow &gin the Garden&*~
+&@&gSoft &bshade &gfrom &rcherry &*&gtrees &@&gsprinkles the garden grass with cool &bshadow&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8355
+D1
+~
+~
+0 -1 8353
+D3
+~
+~
+0 -1 8342
+S
+#8353
+&@&gA Garden for all &wS&re&*&ra&@&ys&*&go&@&wn&ls&*~
+&@&gHow &mf&*&mragrant &@&gand beautiful it is! Every &mflower &gthat can be thought of for every season of the year is here in full bloom, except one of great &rbeauty&g, no picture-book ever had more beautiful &mc&yo&gl&wo&mr&rs&g.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8354
+D3
+~
+~
+0 -1 8352
+S
+#8354
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wLight&*~
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&ysunlight &gflutters down from between the clouds making &*&ybronze &@&gthe earth beneath the &wf&ml&wo&mw&we&mr&ws&g.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8356
+D2
+~
+~
+0 -1 8353
+D3
+~
+~
+0 -1 8355
+S
+#8355
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&wLight&*~
+&@&yG&*&yo&@&yl&*&yd&@&ye&*&yn &@&ysunlight &gflutters down from between the clouds making &*&ybronze &@&gthe earth beneath the &wf&ml&wo&mw&we&mr&ws&g.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8354
+D2
+~
+~
+0 -1 8352
+D3
+~
+~
+0 -1 8344
+S
+#8356
+&@&gBefore a &bSturdy &*&yCottage&*~
+&@&gYou stand before a small &*&ycottage&@&g. &mFlower &wboxes &gline the windows and &*&givy &@&gcreeps up the walls in delicate patterns.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8357
+D3
+~
+~
+0 -1 8354
+S
+#8357
+&@&gA &*&yCottage &@&gof &*&yTanned &rBricks&*~
+&*&yA small house with braided carpets and cool walls stands sturdy in a sunny corner of the &@&ggarden&*&y.&*
+~
+0 262148 0
+D2
+~
+~
+0 -1 8356
+S
+#8358
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8359
+S
+#8359
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8360
+D2
+~
+~
+0 -1 8358
+S
+#8360
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&yYellow&*&y, brown, and &@&bgrey &*&yleaves pour from the trees and blow crisp across the path.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8361
+D3
+~
+~
+0 -1 8359
+S
+#8361
+&*&yCrisp &rFall &gForest&*~
+&@&bNot far behind the trees unseen creatures stir and rustle making you wonder what is really there.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8377
+D1
+~
+~
+0 -1 8362
+D2
+~
+~
+0 -1 8360
+S
+#8362
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&yYellow&*&y, brown, and &@&bgrey &*&yleaves pour from the trees and blow crisp across the path.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8363
+D3
+~
+~
+0 -1 8361
+S
+#8363
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8364
+D3
+~
+~
+0 -1 8362
+S
+#8364
+&@&bTrail Through &wCool &*&gTrees&*~
+&@&bTall trees block the &ysun &bfrom warming the forest floor and chills creep between the stands of trees and spread down the trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8365
+D2
+~
+~
+0 -1 8363
+S
+#8365
+&*&yCrisp &rFall &gForest&*~
+&@&bNot far behind the trees unseen creatures stir and rustle making you wonder what is really there.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8366
+D3
+~
+~
+0 -1 8364
+S
+#8366
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8367
+D2
+~
+~
+0 -1 8365
+S
+#8367
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&yYellow&*&y, brown, and &@&bgrey &*&yleaves pour from the trees and blow crisp across the path.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8368
+D3
+~
+~
+0 -1 8366
+S
+#8368
+&*&yCrisp &rFall &gForest&*~
+&@&bNot far behind the trees unseen creatures stir and rustle making you wonder what is really there.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8369
+D2
+~
+~
+0 -1 8367
+S
+#8369
+&*&yCrisp &rFall &gForest&*~
+&@&bNot far behind the trees unseen creatures stir and rustle making you wonder what is really there.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8370
+D2
+~
+~
+0 -1 8368
+D3
+~
+~
+0 -1 8371
+S
+#8370
+&*&yA &@&gWide &*&gTree&*~
+&@&bA Large &gt&*&gree &@&bis here with a hole pecked out of its trunk.&*
+~
+0 263172 3
+D2
+~
+~
+0 -1 8369
+S
+#8371
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8369
+D3
+~
+~
+0 -1 8372
+S
+#8372
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&yYellow&*&y, brown, and &@&bgrey &*&yleaves pour from the trees and blow crisp across the path.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8371
+D2
+~
+~
+0 -1 8373
+S
+#8373
+&*&yCrisp &rFall &gForest&*~
+&@&bNot far behind the trees unseen creatures stir and rustle making you wonder what is really there.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8372
+D3
+~
+~
+0 -1 8374
+S
+#8374
+&@&bTrail Through &wCool &*&gTrees&*~
+&@&bTall trees block the &ysun &bfrom warming the forest floor and chills creep between the stands of trees and spread down the trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8373
+D3
+~
+~
+0 -1 8375
+S
+#8375
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&bEverything looks cold and bleak. The long willow-leaves are quite &yyellow&b. The dew-drops fall like &crain&b, leaf after leaf drops from the trees, the sloe-thorn alone still bear fruit, but the sloes are sour, and set the teeth on edge. Oh, how dark and weary the whole world appears!&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8374
+D2
+~
+~
+0 -1 8376
+S
+#8376
+&@&wAn &rA&yu&*&rt&gu&@&ym&*&yn Woods&*~
+&@&yYellow&*&y, brown, and &@&bgrey &*&yleaves pour from the trees and blow crisp across the path.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8375
+D2
+~
+~
+0 -1 8377
+S
+#8377
+&@&bTrail Through &wCool &*&gTrees&*~
+&@&bTall trees block the &ysun &bfrom warming the forest floor and chills creep between the stands of trees and spread down the trail.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8376
+D2
+~
+~
+0 -1 8361
+D3
+~
+~
+0 -1 8378
+S
+#8378
+&*&yA &@&bLonely &*&yTrail&*~
+&*&yA thin trail leads off into a &mlonesome &ypart of the &gforest&y. In the distance you can hear faint, but beautiful &@&csinging&*&y.&*
+~
+0 262148 3
+D1
+~
+~
+0 -1 8377
+D3
+~
+~
+0 -1 8379
+S
+#8379
+&*&yA &@&bLonely &*&yTrail&*~
+&*&yA thin trail leads off into a &mlonesome &ypart of the &gforest&y. In the distance you can hear faint, but beautiful &@&csinging&*&y.&*
+~
+0 262148 3
+D1
+~
+~
+0 -1 8378
+D3
+~
+~
+0 -1 8380
+S
+#8380
+&*&wNear a &@&cM&*&cisty &@&lLake&*~
+&@&cTo the north, cold &*&wmist &@&crises off a still lake.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8381
+D1
+~
+~
+0 -1 8379
+S
+#8381
+&@&wAround the &cM&*&wi&@&cs&*&wt&@&cy &lLake&*~
+&*&gWillows &@&cdip into the lakes waters and taste them. Soft &@&ggrass &cwispers along the shore of the lake and the trees vibrate a windy song over the surface of the water.&*
+~
+0 278528 3
+D2
+~
+~
+0 -1 8380
+S
+#8382
+&@&wA &gTree &wBehind the Castle&*~
+&*&yBehind a castle, by the kitchens, there is a tall &@&gtree&*&y. A door here leads into the rear of the castle.&*
+~
+0 262144 1
+D3
+~
+kitchen door~
+8 8329 8383
+S
+#8383
+&*&yThe Kitchen&*~
+&*&yPots and washtubs line the floor some stacked and some in use washing and preparing food for the various occupants of the castle.&*
+~
+0 262148 1
+D1
+~
+kitchen door~
+8 8329 8382
+D3
+~
+~
+0 -1 8384
+S
+#8384
+&*&yKitchen&*~
+&*&yGood smells fill the room. Sizzling pots hang over an open &@&rfire&*&y. Across the room over another &@&rfire &*&ylarge birds roast and crackle. Evidently there was a good hunt this afternoon.&*
+~
+0 262148 1
+D1
+~
+~
+0 -1 8383
+D4
+~
+~
+0 -1 8385
+S
+#8385
+&@&bStairs &*&yfrom the Kitchen&*~
+&*&yStairs lead from the kitchen to a long corridor in the castle. It is very &@&bdark &*&yand &@&wdreams &*&yfloat from room to room.&*
+~
+0 262148 0
+D3
+~
+~
+0 -1 8386
+D5
+~
+~
+0 -1 8384
+S
+#8386
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThe walls are hung with &rr&mo&rs&me&r-&mcolored &rsatin&b, embroidered with artificial &wflowers&b. The castle sleep but the halls are awake with the dreams of a thousand kings and queens. &cSpirits &bfrom the past and dreams of the night.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8385
+D3
+~
+~
+0 -1 8387
+S
+#8387
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThe walls are hung with &rr&mo&rs&me&r-&mcolored &rsatin&b, embroidered with artificial &wflowers&b. The castle sleep but the halls are awake with the dreams of a thousand kings and queens. &cSpirits &bfrom the past and dreams of the night.&*
+~
+0 262145 0
+D0
+~
+~
+0 -1 8391
+D1
+~
+~
+0 -1 8386
+D3
+~
+~
+0 -1 8388
+S
+#8388
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThe walls are hung with &rr&mo&rs&me&r-&mcolored &rsatin&b, embroidered with artificial &wflowers&b. The castle sleep but the halls are awake with the dreams of a thousand kings and queens. &cSpirits &bfrom the past and dreams of the night.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8387
+D2
+~
+~
+0 -1 8392
+D3
+~
+~
+0 -1 8389
+S
+#8389
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThe walls are hung with &rr&mo&rs&me&r-&mcolored &rsatin&b, embroidered with artificial &wflowers&b. The castle sleep but the halls are awake with the dreams of a thousand kings and queens. &cSpirits &bfrom the past and dreams of the night.&*
+~
+0 262145 0
+D0
+~
+~
+0 -1 8393
+D1
+~
+~
+0 -1 8388
+D3
+~
+~
+0 -1 8390
+S
+#8390
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThe walls are hung with &rr&mo&rs&me&r-&mcolored &rsatin&b, embroidered with artificial &wflowers&b. The castle sleep but the halls are awake with the dreams of a thousand kings and queens. &cSpirits &bfrom the past and dreams of the night.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8389
+D2
+~
+~
+0 -1 8394
+D3
+~
+~
+0 -1 8395
+S
+#8391
+&@&wA &bL&*&yi&@&wbrary&*~
+&@&bThousands of books line shelves which stand embedded into the walls. Ladders are attached to the shelves and roll across them so it is easy to reach the ones which lie 20 feet above you.&*
+~
+0 262145 0
+D2
+~
+~
+0 -1 8387
+S
+#8392
+&@&wA &bS&*&wm&@&woking &*&yRoom&*~
+&@&bGreat men of court come here to discuss plans for the kingdom and &*&wsmoke &@&btheir treasured &*&ytobacco&@&b.&*
+~
+0 262145 0
+D0
+~
+~
+0 -1 8388
+S
+#8393
+&@&wThe &mL&*&madies' &@&wParlour&*~
+&@&mSilk chairs &band fine sculptured tables rest on a beautiful rug with floral patterns resembling linked crosses.&*
+~
+0 262145 0
+D2
+~
+~
+0 -1 8389
+S
+#8394
+&@&wA &*&yWooden &@&yRotunda&*~
+&@&bA small &*&ywooden &@&broom used for &wprayer&b. Where the lords and ladies of the castle come to pray for &cpeace &band &wsalvation &bfor their thriving kingdom. Round colored windows circle the room like port holes on a ship.&*
+~
+0 262145 0
+D0
+~
+~
+0 -1 8390
+S
+#8395
+&@&wA Grand Curving &mStairway&*~
+&@&bA stairway of &mpink marble &bcurves upward to a higher part of the castle.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8390
+D4
+~
+~
+0 -1 8396
+S
+#8396
+&@&wTop of a Curved &mStairway&*~
+&@&bThis hall trails off into the darkness. Your footsteps echo loudly off the closed chamber doors.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8397
+D5
+~
+~
+0 -1 8395
+S
+#8397
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThis hall trails off into the darkness. Your footsteps echo loudly off the closed chamber doors.&*
+~
+0 262145 0
+D1
+~
+~
+0 -1 8398
+D2
+~
+bedroom door~
+1 -1 8401
+D3
+~
+~
+0 -1 8396
+S
+#8398
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThis hall trails off into the darkness. Your footsteps echo loudly off the closed chamber doors.&*
+~
+0 262145 0
+D0
+~
+bedroom door~
+1 -1 8402
+D1
+~
+~
+0 -1 8399
+D3
+~
+~
+0 -1 8397
+S
+#8399
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThis hall trails off into the darkness. Your footsteps echo loudly off the closed chamber doors.&*
+~
+0 262145 0
+D1
+~
+bedroom door~
+1 -1 8400
+D2
+~
+bedroom door~
+1 -1 8403
+D3
+~
+~
+0 -1 8398
+S
+#8400
+&@&wA Long &bDark &rH&ma&rl&ml&*~
+&@&bThis hall trails off into the darkness. Your footsteps echo loudly off the closed chamber doors.&*
+~
+0 262145 0
+D0
+~
+bedroom door~
+8 8300 8404
+D3
+~
+~
+0 -1 8399
+S
+#8401
+&@&wA &lRoyal &cBedroom&*~
+&@&bA quiet and ornately furnished sleeping room. A grand bed with &*&mviolet curtains &@&blies in its center.&*
+~
+0 262145 0
+D0
+~
+bedroom door~
+1 -1 8397
+S
+#8402
+&@&wA &lRoyal &cBedroom&*~
+&@&bThis is an &@&lo&cc&*&ceanic &@&lblue &broom with &*&cteal rugs &@&band a &@&lbright blue &band &wwhite bed&b. Murals of &gfish &bstretch across every wall.&*
+~
+0 262145 0
+D2
+~
+bedroom door~
+1 -1 8398
+S
+#8403
+&@&wA &lRoyal &cBedroom&*~
+&@&bThis is a totally &*&ywooden room &@&bwith an enormous &*&ywooden poled bed&@&b. The dressers and paneling are &*&ywood&@&b. The ceiling is made of different colored &*&ywooden &@&ydiamonds&b.&*
+~
+0 262145 0
+D0
+~
+bedroom door~
+1 -1 8399
+S
+#8404
+&@&wA &lRoyal &cBedroom&*~
+&@&bThe ceiling is like a great &*&gpalm&@&b-&*&ytree&@&b, with &wglass leaves &bof the most costly &wcrystal&b, and over the centre of the floor two beds, each resembling a &ylily&b, hung from a stem of &*&ygold&@&b.&*
+~
+0 262145 0
+D2
+~
+bedroom door~
+8 8300 8400
+S
+#8405
+&@&bIn Front of the &wCastle&*~
+&@&bA path here leads from the front of the &wcastle &binto a deep &*&gforest&@&b.&*
+~
+0 262148 3
+D0
+~
+~
+0 -1 8406
+S
+#8406
+&@&bA &lCold &*&gForest&*~
+&@&bThe ground is hard &wfrozen &band the trees stand barren and grey. &wSnow &bwill soon blanket the &*&gforest&@&b.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8407
+D1
+~
+~
+0 -1 8417
+D2
+~
+~
+0 -1 8405
+S
+#8407
+&@&bGrey &*&wSky&*~
+&@&bGrey &*&wsky &@&bshows beyond the treetops. &wWinter &lcold &bdrops down on the land.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8408
+D2
+~
+~
+0 -1 8406
+D3
+~
+~
+0 -1 8416
+S
+#8408
+&@&wFrozen &cCreek&*~
+&@&cThe trees part and a tiny, twisting, frozen creek slides through woods like a silver snake. It is easily crossable.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8409
+D1
+~
+~
+0 -1 8424
+D2
+~
+~
+0 -1 8407
+S
+#8409
+&@&lCold &cCold &bGround&*~
+&@&bAshen trees spring baren from the &lcold&b, &ccold &bground. Heavy coated animals stick their heads out of &wwinter &bburrows and sniff the air.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8410
+D2
+~
+~
+0 -1 8408
+S
+#8410
+&@&bA &lCold &*&gForest&*~
+&@&bThe ground is hard &wfrozen &band the trees stand barren and grey. &wSnow &bwill soon blanket the &*&gforest&@&b.&*
+~
+0 262144 3
+D2
+~
+~
+0 -1 8409
+D3
+~
+~
+0 -1 8411
+S
+#8411
+&@&bA &lCold &*&gForest&*~
+&@&bThe ground is hard &wfrozen &band the trees stand barren and grey. &wSnow &bwill soon blanket the &*&gforest&@&b.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8410
+D3
+~
+~
+0 -1 8412
+S
+#8412
+&@&bGrey &*&wSky&*~
+&@&bGrey &*&wsky &@&bshows beyond the treetops. &wWinter &lcold &bdrops down on the land.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8411
+D2
+~
+~
+0 -1 8413
+D3
+~
+~
+0 -1 8425
+S
+#8413
+&@&wFrozen &cCreek&*~
+&@&cThe trees part and a tiny, twisting, frozen creek slides through woods like a silver snake. It is easily crossable.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8412
+D2
+~
+~
+0 -1 8414
+S
+#8414
+&@&lCold &cCold &bGround&*~
+&@&bAshen trees spring baren from the &lcold&b, &ccold &bground. Heavy coated animals stick their heads out of &wwinter &bburrows and sniff the air.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8413
+D2
+~
+~
+0 -1 8415
+S
+#8415
+&@&lCold &cCold &bGround&*~
+&@&bAshen trees spring baren from the &lcold&b, &ccold &bground. Heavy coated animals stick their heads out of &wwinter &bburrows and sniff the air.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8414
+D1
+~
+~
+0 -1 8416
+S
+#8416
+&@&lCold &cCold &bGround&*~
+&@&bAshen trees spring baren from the &lcold&b, &ccold &bground. Heavy coated animals stick their heads out of &wwinter &bburrows and sniff the air.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8407
+D3
+~
+~
+0 -1 8415
+S
+#8417
+&@&bGrey &*&wSky&*~
+&@&bGrey &*&wsky &@&bshows beyond the treetops. &wWinter &lcold &bdrops down on the land.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8418
+D3
+~
+~
+0 -1 8406
+S
+#8418
+&@&bGrey &*&wSky&*~
+&@&bGrey &*&wsky &@&bshows beyond the treetops. &wWinter &lcold &bdrops down on the land.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8419
+D3
+~
+~
+0 -1 8417
+S
+#8419
+&@&bS&wl&*&yi&@&wd&be!&*~
+&@&bLose rocks and mud slide beneath your feet and you 
+&wS
+&b L
+&*&y  I
+&@&w   D
+&b    E&*
+~
+0 262144 3
+D2
+~
+~
+0 -1 8418
+D5
+~
+~
+0 -1 8420
+S
+#8420
+&@&lCold &cCold &bGround&*~
+&@&bAshen trees spring baren from the &lcold&b, &ccold &bground. Heavy coated animals stick their heads out of &wwinter &bburrows and sniff the air.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8421
+S
+#8421
+&@&bA &lCold &*&gForest&*~
+&@&bThe ground is hard &wfrozen &band the trees stand barren and grey. &wSnow &bwill soon blanket the &*&gforest&@&b.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8422
+D2
+~
+~
+0 -1 8420
+S
+#8422
+&@&bA &lCold &*&gForest&*~
+&@&bThe ground is hard &wfrozen &band the trees stand barren and grey. &wSnow &bwill soon blanket the &*&gforest&@&b.&*
+~
+0 262144 3
+D2
+~
+~
+0 -1 8421
+D3
+~
+~
+0 -1 8423
+S
+#8423
+&@&bGrey &*&wSky&*~
+&@&bGrey &*&wsky &@&bshows beyond the treetops. &wWinter &lcold &bdrops down on the land.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8422
+D3
+~
+~
+0 -1 8424
+S
+#8424
+&@&wFrozen &cCreek&*~
+&@&cThe trees part and a tiny, twisting, frozen creek slides through woods like a silver snake. It is easily crossable.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8423
+D3
+~
+~
+0 -1 8408
+S
+#8425
+&*&yThe &@&bShady Way&*~
+&@&bThe &ysun &bhides behind a hill and shadow fills the path. Tangled and sleeping trees densely hide their shady secrets.&*
+~
+0 262148 3
+D0
+~
+~
+0 -1 8426
+D1
+~
+~
+0 -1 8412
+S
+#8426
+&*&yThe &@&bShady Way&*~
+&@&bThe &ysun &bhides behind a hill and shadow fills the path. Tangled and sleeping trees densely hide their shady secrets.&*
+~
+0 262148 3
+D2
+~
+~
+0 -1 8425
+S
+#8427
+&*&yA Small &@&bLocked &wRoom&*~
+&@&bThis is a dirty and small locked room. Around the room lie animals and piles of stolen goods.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8428
+S
+#8428
+&*&yA Small &@&bLocked &wRoom&*~
+&@&bThis is a dirty and small locked room. Around the room lie animals and piles of stolen goods.&*
+~
+0 262160 0
+D2
+~
+~
+0 -1 8427
+S
+#8429
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8430
+S
+#8430
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8431
+D2
+~
+~
+0 -1 8429
+S
+#8431
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8446
+D1
+~
+~
+0 -1 8432
+D2
+~
+~
+0 -1 8430
+S
+#8432
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8433
+D3
+~
+~
+0 -1 8431
+S
+#8433
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8434
+D3
+~
+~
+0 -1 8432
+S
+#8434
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8435
+D3
+~
+~
+0 -1 8433
+S
+#8435
+&@&wA &*&ySmall &@&wClearing&*~
+&*&yThe trees briefly part and leave the &@&wsnow &*&ycovered ground naked to the &@&csky&*&y.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8436
+D3
+~
+~
+0 -1 8434
+S
+#8436
+&@&bLonely &*&yWoods&*~
+&*&yOnly the animals dare tread in this wild, &@&wsnow &*&ycovered, lonely land. Light tracks pepper the ground as proof of their existance.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8437
+D2
+~
+~
+0 -1 8435
+S
+#8437
+&@&wA &*&ySmall &@&wClearing&*~
+&*&yThe trees briefly part and leave the &@&wsnow &*&ycovered ground naked to the &@&csky&*&y.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8438
+D2
+~
+~
+0 -1 8436
+D3
+~
+~
+0 -1 8449
+S
+#8438
+&@&bLonely &*&yWoods&*~
+&*&yOnly the animals dare tread in this wild, &@&wsnow &*&ycovered, lonely land. Light tracks pepper the ground as proof of their existance.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8439
+D2
+~
+~
+0 -1 8437
+S
+#8439
+&@&wBeautiful White&*~
+&@&wThe land here is beautiful and white. Snow rests like a shawl over a gentle hill. It looks like a fine place for children to play.&*
+~
+0 262148 3
+D2
+~
+~
+0 -1 8438
+D3
+~
+~
+0 -1 8440
+S
+#8440
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8441
+D1
+~
+~
+0 -1 8439
+D3
+~
+~
+0 -1 8442
+S
+#8441
+&@&wA &lLapland &*&yHut&*~
+&*&yThis little hut it is very mean looking. The roof slopes nearly down to the ground, and the door is so low the family has to creep in on their hands and knees, when they go in and out.&*
+~
+0 262148 0
+D2
+~
+~
+0 -1 8440
+S
+#8442
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8440
+D3
+~
+~
+0 -1 8443
+S
+#8443
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8442
+D2
+~
+~
+0 -1 8444
+S
+#8444
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8443
+D2
+~
+~
+0 -1 8445
+D3
+~
+~
+0 -1 8456
+S
+#8445
+&@&bLonely &*&yWoods&*~
+&*&yOnly the animals dare tread in this wild, &@&wsnow &*&ycovered, lonely land. Light tracks pepper the ground as proof of their existance.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8444
+D1
+~
+~
+0 -1 8447
+D2
+~
+~
+0 -1 8446
+S
+#8446
+&@&wA &*&ySmall &@&wClearing&*~
+&*&yThe trees briefly part and leave the &@&wsnow &*&ycovered ground naked to the &@&csky&*&y.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8445
+D2
+~
+~
+0 -1 8431
+D3
+~
+~
+0 -1 8450
+S
+#8447
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8448
+D3
+~
+~
+0 -1 8445
+S
+#8448
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8449
+D3
+~
+~
+0 -1 8447
+S
+#8449
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8437
+D3
+~
+~
+0 -1 8448
+S
+#8450
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8446
+D3
+~
+~
+0 -1 8451
+S
+#8451
+&@&wA &*&ySmall &@&wClearing&*~
+&*&yThe trees briefly part and leave the &@&wsnow &*&ycovered ground naked to the &@&csky&*&y.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8452
+D1
+~
+~
+0 -1 8450
+S
+#8452
+&@&bLonely &*&yWoods&*~
+&*&yOnly the animals dare tread in this wild, &@&wsnow &*&ycovered, lonely land. Light tracks pepper the ground as proof of their existance.&*
+~
+0 262144 3
+D0
+~
+~
+0 -1 8453
+D2
+~
+~
+0 -1 8451
+S
+#8453
+&@&wWinter &*&yWoods&*~
+&*&yDead twigs snap beneath your weight. &@&wSnow &*&ycovers the ground and the trees. A Slow &@&bmist &*&ydrifts across the narrow trail.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8456
+D2
+~
+~
+0 -1 8452
+D3
+~
+~
+0 -1 8454
+S
+#8454
+&@&wOn the &cIce&*~
+&@&cA frozen pond is here. It would be easy to walk atop it.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8453
+D3
+~
+~
+0 -1 8455
+S
+#8455
+&@&wFrozen &lLake&*~
+&@&cThis is the center of a frozen lake. The &wice cracks &cslightly as you tread on it. Be prepared to make a hasty retreat.&*
+~
+0 262148 3
+D1
+~
+~
+0 -1 8454
+S
+#8456
+&@&wA &@&wS&*&gi&@&wd&*&ye&@&wt&*&gr&@&wa&*&yi&@&wl&*~
+&*&yA small path threads away from the main trail making an west to east passage.&*
+~
+0 262144 3
+D1
+~
+~
+0 -1 8444
+D3
+~
+~
+0 -1 8453
+S
+#8457
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262148 2
+D0
+~
+~
+0 -1 8458
+S
+#8458
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8459
+D1
+~
+~
+0 -1 8465
+D2
+~
+~
+0 -1 8457
+D3
+~
+~
+0 -1 8469
+S
+#8459
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8460
+D1
+~
+~
+0 -1 8464
+D2
+~
+~
+0 -1 8458
+D3
+~
+~
+0 -1 8470
+S
+#8460
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+18 262144 2
+D0
+~
+~
+0 -1 8461
+D1
+~
+~
+0 -1 8463
+D2
+~
+~
+0 -1 8459
+D3
+~
+~
+0 -1 8471
+S
+#8461
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8462
+D2
+~
+~
+0 -1 8460
+S
+#8462
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8468
+D2
+~
+~
+0 -1 8463
+D3
+~
+~
+0 -1 8461
+S
+#8463
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+8 262144 2
+D0
+~
+~
+0 -1 8462
+D1
+~
+~
+0 -1 8467
+D2
+~
+~
+0 -1 8464
+D3
+~
+~
+0 -1 8460
+S
+#8464
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8463
+D1
+~
+~
+0 -1 8457
+D2
+~
+~
+0 -1 8465
+D3
+~
+~
+0 -1 8459
+S
+#8465
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8464
+D1
+~
+~
+0 -1 8466
+D3
+~
+~
+0 -1 8458
+S
+#8466
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+4 262144 2
+D3
+~
+~
+0 -1 8465
+S
+#8467
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8468
+D3
+~
+~
+0 -1 8463
+S
+#8468
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262148 2
+D0
+~
+~
+0 -1 8475
+D2
+~
+~
+0 -1 8467
+D3
+~
+~
+0 -1 8462
+S
+#8469
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8470
+D1
+~
+~
+0 -1 8458
+D3
+~
+~
+0 -1 8474
+S
+#8470
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+8 262144 2
+D0
+~
+~
+0 -1 8471
+D1
+~
+~
+0 -1 8459
+D2
+~
+~
+0 -1 8469
+D3
+~
+~
+0 -1 8457
+S
+#8471
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8457
+D1
+~
+~
+0 -1 8460
+D2
+~
+~
+0 -1 8470
+D3
+~
+~
+0 -1 8472
+S
+#8472
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D0
+~
+~
+0 -1 8473
+D1
+~
+~
+0 -1 8471
+S
+#8473
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D2
+~
+~
+0 -1 8472
+S
+#8474
+&@&bLost &win a &lBlizzard&*~
+&@&wThe wind screams over the snowy ground and slices at your face. You can see nothing but blinding white snow in all directions.&*
+~
+0 262144 2
+D1
+~
+~
+0 -1 8469
+S
+#8475
+&@&wPath to a &cCastle &wof Ice&*~
+&@&c      .
+&@&w      :
+&@&c'&w.___/&l*&w\___.&c'
+&@&w  \&l*&w \ / &l*&w/
+&@&w   >--&cX&w--<
+&@&w  /&l*&w_/ \_&l*&w\
+&@&c.&w'   \&l*&w/   '&c.
+&@&w      :
+&@&c      '&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8476
+D2
+~
+~
+0 -1 8468
+S
+#8476
+&@&wPath to a &cCastle &wof Ice&*~
+&@&c      .
+&@&w      :
+&@&c'&w.___/&l*&w\___.&c'
+&@&w  \&l*&w \ / &l*&w/
+&@&w   >--&cX&w--<
+&@&w  /&l*&w_/ \_&l*&w\
+&@&c.&w'   \&l*&w/   '&c.
+&@&w      :
+&@&c      '&*
+~
+0 262144 1
+D0
+~
+~
+0 -1 8477
+D2
+~
+~
+0 -1 8475
+S
+#8477
+&@&wThe &cCastle &bGates&*~
+&@&c   O &l.   .   .   .   .   . &cO
+&@&w   |/&c^&w\=/&c^&w\=/&c^&w\ /&c^&w\=/&c^&w\=/&c^&w\|
+&@&w   ||         |||         || 
+&@&w   ||&b:&c>&b-&lo&b-&lo&b-&c<&b:&w|||&b:&c>&b-&lo&b-&lo&b-&c<&b:&w||
+&@&w   ||       &c(&b:&w|&lX&w|&b:&c)       &w||
+&@&w   ||&b:&c>&b-&lo&b-&lo&b-&c<&b:&w|||&b:&c>&b-&lo&b-&lo&b-&c<&b:&w||
+&@&w   ||_________|||_________||&*
+~
+0 262160 1
+D0
+~
+castle gate~
+8 8326 8478
+D2
+~
+~
+0 -1 8476
+S
+#8478
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262144 0
+D0
+~
+~
+0 -1 8479
+D1
+~
+~
+0 -1 8488
+D2
+~
+castle gate~
+8 8326 8477
+D3
+~
+~
+0 -1 8487
+S
+#8479
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8480
+D1
+~
+~
+0 -1 8489
+D2
+~
+~
+0 -1 8478
+D3
+~
+~
+0 -1 8486
+S
+#8480
+&@&b(&w(&cThe &wMirror &cof Reason&w)&b)&*~
+&@&cIn the midst of its empty, endless hall of snow was a frozen lake, broken on 
+its surface into a thousand forms each piece resembled another, from being 
+in itself perfect as a work of art, and in the centre of this lake sat the Snow 
+Queen, when she was at home. She called the lake ``The Mirror of Reason,'' 
+and said that it was the best, and indeed the only one in the world.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8481
+D1
+~
+~
+0 -1 8490
+D2
+~
+~
+0 0 8479
+D3
+~
+~
+0 -1 8485
+S
+#8481
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8482
+D1
+~
+~
+0 -1 8491
+D2
+~
+~
+0 -1 8480
+D3
+~
+~
+0 -1 8484
+S
+#8482
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D1
+~
+~
+0 -1 8492
+D2
+~
+~
+0 0 8481
+D3
+~
+~
+0 -1 8483
+S
+#8483
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D1
+~
+~
+0 -1 8482
+D2
+~
+~
+0 -1 8484
+D3
+~
+~
+0 -1 8488
+S
+#8484
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8483
+D1
+~
+~
+0 -1 8481
+D2
+~
+~
+0 -1 8485
+S
+#8485
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8484
+D1
+~
+~
+0 -1 8480
+D2
+~
+~
+0 -1 8486
+S
+#8486
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8485
+D1
+~
+~
+0 -1 8479
+D2
+~
+~
+0 -1 8487
+S
+#8487
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8486
+D1
+~
+~
+0 -1 8478
+D3
+~
+~
+0 -1 8492
+S
+#8488
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8489
+D1
+~
+~
+0 -1 8483
+D3
+~
+~
+0 -1 8478
+S
+#8489
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8490
+D2
+~
+~
+0 0 8488
+D3
+~
+~
+0 -1 8479
+S
+#8490
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8491
+D2
+~
+~
+0 0 8489
+D3
+~
+~
+0 -1 8480
+S
+#8491
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wEmpty, vast, and cold were the halls of the &@&wS&cn&*&co&@&ww Q&cu&*&ce&@&wen. The 
+flickering flame of the northern lights could be plainly seen, whether they 
+rose high or low in the &cheavens&w, from every part of the castle.&*
+~
+0 262160 0
+D0
+~
+~
+0 -1 8492
+D2
+~
+~
+0 0 8490
+D3
+~
+~
+0 -1 8481
+S
+#8492
+&@&cCastle &wof the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&*~
+&@&wThe walls of the palace are formed of drifted snow, and the windows 
+and doors of the cutting winds. There are more than a hundred rooms 
+in it, all as if they had been formed with snow blown together. The largest 
+of them extends for several miles. They are all lit by the vivid 
+light of the &ma&wu&cr&bo&mr&wa, and they are so large and empty, so icy cold and 
+glittering!&*
+~
+0 262160 0
+D1
+~
+~
+0 -1 8487
+D2
+~
+~
+0 0 8491
+D3
+~
+~
+0 -1 8482
+S
+#8493
+&@&wInside a &lFrozen &cLake&*~
+&@&wThe center of &@&b(&w(&cThe &wMirror &cof Reason&w)&b)&* &@&wwhere the S&cn&*&co&@&ww Q&cu&*&ce&@&wen&* &@&wis strongest.&*
+~
+0 262192 0
+S
+#8494
+&@&wThe &@&cGiving &*&gTree&*~
+&@&y *               *
+&@&y                         :                     *
+&@&y                       -&c<&w*&c>&y-         &w.
+&*&g                        /&@&y:&*&g\        &@&w-<&c*&w>-
+&@&w        .              &*&g/   \         &@&w'
+&@&w      -<&m*&w>-           &*&g/     \    &@&y*
+&@&w        '             &*&g/&@&g^^^^^&*&g\             &@&y*
+&@&y                *    &*&g/       \
+&*&g                    /         \
+&@&w              .     &*&g/&@&g^^^^^^^^^&*&g\
+&@&w            -<&y*&w>-  &*&g/           \        &@&w.
+&@&w              '   &*&g/      &@&w.      &*&g\     &@&w-<&g*&w>-
+&@&y     *            &*&g/&@&g^^^^^ &w: &g^^^^^&*&g\       &@&w'       &y*
+&*&g                 /      &@&w/&c|&w\      &*&g\
+&@&w   .            &*&g/     &@&w.'.&lo&w.'.     &*&g\
+&@&w -<&y*&w>-          &*&g/&@&g^^^&c<&l<&wo&c:&w(&y+&w)&c:&wo&l>&c>&g^^^&*&g\         &@&y*
+&@&w   '           &*&g/      &@&w'.'&lo&w'.'      &*&g\
+&*&g              /         &@&w\&c|&w/         &*&g\          &@&w.
+&@&y          *   &*&g/&@&g^^^^^^^^^ &w: &g^^^^^^^^^&*&g\        &@&w-<&m*&w>-
+&*&g             /           &@&w'           &*&g\         &@&w'
+&@&y*           &*&g/                         \            &@&y*
+&@&g            ^^^^^^^^^^^^^^^^^^^^^^^^^^^&*
+~
+17 279568 0
+D5
+~
+~
+0 -1 3014
+S
+#0
+
+
+#RESETS
+D 0 8401 0 1
+D 0 8397 2 1
+D 0 8402 2 1
+D 0 8398 0 1
+D 0 8403 0 1
+D 0 8399 2 1
+D 0 8404 2 2
+D 0 8400 0 2
+D 0 8478 2 2
+D 0 8477 0 2
+M 0 8302 1 8323
+M 0 8303 1 8322
+M 0 8305 3 8314
+M 0 8307 3 8315
+E 0 8338 100 10
+M 0 8306 5 8315
+M 0 8305 3 8316
+M 0 8300 5 8316
+M 0 8300 5 8317
+M 0 8301 2 8317
+M 0 8306 5 8318
+M 0 8307 3 8318
+E 0 8338 100 10
+M 0 8300 5 8319
+M 0 8306 5 8319
+M 0 8306 5 8320
+M 0 8306 5 8320
+M 0 8300 5 8321
+M 0 8301 2 8324
+M 0 8305 3 8324
+M 0 8307 3 8325
+E 0 8338 100 10
+M 0 8300 5 8326
+M 0 8304 1 8303
+M 0 8310 1 8339
+M 0 8311 1 8342
+M 0 8312 1 8345
+M 0 8313 1 8348
+M 0 8314 1 8351
+M 0 8315 1 8354
+M 0 8308 1 8357
+E 0 8335 1 6
+M 0 8317 3 8358
+M 0 8318 4 8359
+M 0 8319 4 8359
+M 0 8320 1 8361
+M 0 8321 1 8361
+M 0 8322 3 8362
+M 0 8317 3 8362
+M 0 8319 4 8363
+M 0 8316 3 8365
+M 0 8321 1 8366
+M 0 8320 1 8367
+M 0 8317 3 8367
+M 0 8321 1 8368
+M 0 8319 4 8369
+M 0 8322 3 8371
+M 0 8318 4 8371
+M 0 8318 4 8373
+M 0 8320 1 8374
+M 0 8321 1 8374
+M 0 8316 3 8376
+M 0 8318 4 8377
+M 0 8319 4 8377
+M 0 8370 1 8381
+M 0 8371 1 8381
+M 0 8372 1 8381
+M 0 8334 1 8382
+M 0 8323 1 8386
+M 0 8324 1 8387
+M 0 8325 1 8388
+M 0 8326 1 8389
+M 0 8327 1 8390
+M 0 8328 1 8391
+M 0 8329 1 8392
+M 0 8330 1 8396
+M 0 8331 1 8397
+G 0 8300 0
+M 0 8323 1 8398
+M 0 8327 1 8399
+M 0 8326 1 8400
+M 0 8332 1 8404
+M 0 8333 1 8404
+D 0 8382 3 2
+D 0 8383 1 2
+M 0 8338 3 8407
+M 0 8338 3 8408
+M 0 8340 2 8409
+M 0 8322 3 8409
+M 0 8337 1 8411
+M 0 8336 3 8412
+M 0 8338 3 8413
+M 0 8339 3 8415
+M 0 8336 3 8416
+M 0 8339 3 8417
+M 0 8336 3 8420
+M 0 8316 3 8421
+M 0 8335 1 8422
+G 0 212 0
+M 0 8340 2 8423
+M 0 8339 3 8424
+M 0 8341 1 8426
+M 0 8342 1 8428
+G 0 8303 0
+E 0 8334 1 18
+M 0 8343 1 8428
+M 0 8344 1 8428
+M 0 8359 1 8441
+M 0 8345 1 8439
+G 0 8309 0
+M 0 8373 1 8455
+E 0 8321 0 6
+M 0 8346 2 8429
+M 0 8347 2 8429
+M 0 8348 3 8430
+M 0 8349 3 8431
+M 0 8350 2 8431
+M 0 8351 3 8432
+M 0 8352 2 8433
+M 0 8353 3 8433
+M 0 8354 2 8434
+M 0 8355 3 8435
+M 0 8356 3 8436
+M 0 8357 2 8436
+M 0 8358 2 8437
+M 0 8346 2 8438
+M 0 8347 2 8440
+M 0 8348 3 8442
+M 0 8349 3 8443
+M 0 8350 2 8443
+M 0 8351 3 8444
+M 0 8352 2 8445
+M 0 8353 3 8446
+M 0 8354 2 8446
+M 0 8355 3 8447
+M 0 8356 3 8448
+M 0 8356 3 8449
+M 0 8357 2 8449
+M 0 8358 2 8450
+M 0 8351 3 8451
+M 0 8355 3 8452
+M 0 8348 3 8452
+M 0 8353 3 8453
+M 0 8349 3 8456
+M 0 8361 2 8458
+M 0 8362 2 8459
+M 0 8363 3 8461
+M 0 8360 1 8468
+M 0 8363 3 8463
+M 0 8365 2 8465
+M 0 8362 2 8467
+M 0 8361 2 8469
+M 0 8363 3 8471
+M 0 8365 2 8473
+M 0 8364 2 8477
+E 0 8330 100 16
+M 0 8364 2 8477
+E 0 8330 100 16
+G 0 8326 100
+M 0 8366 1 8480
+O 0 8327 100 8480
+M 0 8367 1 8493
+E 0 8324 100 6
+E 0 8325 1 18
+M 0 8369 1 8370
+M 0 8374 1 9788
+M 0 8375 1 8494
+M 0 8376 1 8429
+S
+
+
+#SHOPS
+8335 5 0 0 0 0 110 90 0 23
+0
+
+
+#SPECIALS
+M 8308 spec_cast_mage
+M 8328 spec_rogue
+M 8362 spec_breath_frost
+M 8364 spec_guard
+M 8374 spec_cast_adept
+S
+
+
+
+#$
+

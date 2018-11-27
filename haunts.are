@@ -1,0 +1,1148 @@
+#AREADATA
+Name        &@&l-&r{  &y10  &g25 &r}&l-     &*&cDawn           &@&bH&*&wa&@&wunts&*                   ~
+Builders    none~
+VNUMs       10100 10199
+Recall      3001
+Security    1
+LEVELS      10 25
+Repop       &@&bYou get the feeling you are being &rwatched&b.&*~
+Norecall    God has forsaken you.~
+Sname       &@&bH&*&wa&@&wunts&*~
+End
+
+
+#MOBILES
+#10100
+ghost~
+a &@&wghost&*~
+&@&wA lost spirit hovers in the air.&*
+~
+~
+65 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 1
+#10101
+skeleton~
+a &@&ws&*&wk&@&we&*&wl&@&we&*&wt&@&wo&*&wn&*~
+&@&rAn animated skeleton rattles in a scarey fashion.&*
+~
+~
+99 2 -1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 1
+#10102
+witch~
+&*a &@&bw&*&mi&@&lt&*&mc&@&bh&*~
+&*&mA crone sits in a corner spinning spells.&*
+~
+~
+67 0 -1000 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 2
+#10103
+boogieman~
+&*The &@&rB&*&ro&@&bogieman&*~
+&*&rQuick turn on the lights!&*
+~
+~
+99 0 -1000 S
+25 0 0 0d0+0 0d0+0
+13750 0
+0 0 1
+#10104
+bat~
+&*a &@&bbat&*~
+&@&bA bat claws at you.&*
+~
+~
+97 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 1
+#10105
+scarey monster~
+&*a &@&rs&*&rc&@&ra&*&rr&@&re&*&ry &@&gmonster&r!&*~
+&@&rA monster is here with more heads than you have fingers!&*
+~
+~
+99 0 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 0
+#10106
+zombie~
+&*a &@&gz&mo&gm&bb&gi&me&*~
+&@&gA walking corpse reaches for you.&*
+~
+~
+65 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 1
+#10107
+sinister shadow~
+&*a &*&rsinister &@&bshadow&*~
+&@&bA strange shadow looms toward you.&*
+~
+~
+65 32768 -1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 1
+#10108
+chained angel~
+&*a &@&bChained &wA&cn&wg&ce&wl&*~
+&@&cA fallen angel is chained to the ground.&*
+~
+~
+67 0 1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 2
+#10109
+roaches~
+&*&yroaches&*~
+&@&rRAID!!!&*
+~
+~
+65 0 -1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#10110
+bloody eye~
+&*a &@&rbloody &@&w<&r(&beye&r)&w>&*~
+&@&wLook out!&*
+~
+~
+97 0 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 0
+#10111
+corpse~
+&*a &*&ycorpse&*~
+&*&yA corpse rises from the grave!&*
+~
+~
+99 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 0
+#10112
+maggots~
+&@&wmaggots&*~
+&@&wMaggots writhe in a pool of blood.&*
+~
+~
+65 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 0
+#10113
+ghoul~
+&*a &@&gG&bh&go&bu&gl&*~
+&@&gA ghoul appears from a wall.&*
+~
+~
+65 0 -1000 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#10114
+wraith~
+&*a &rW&@&braith&*~
+&*&rA wraith tries to absorb you!&*
+~
+~
+97 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 0
+#10115
+ghast~
+&@&wa &bG&*&wh&@&wast&*~
+&@&wA haunt floats by.&*
+~
+~
+65 32768 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 1
+#10116
+murderous fiend~
+&@&ba &*&rmurderous &@&bfiend&*~
+&*&rA fiend tries to waylay you!&*
+~
+~
+99 32768 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#10117
+mummy~
+&@&wa &wm&*&wummy&*~
+&*&wA wrapped figure moans pitifully.&*
+~
+~
+99 32768 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 0
+#10118
+bloodsucker~
+&@&wa &rblood&*&rsucker&*~
+A horrible worm devours blood.
+~
+~
+99 0 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 0
+#10119
+poltergeist~
+&@&wa &bP&*&wo&@&wltergei&rs&*&rt&*~
+&@&rA violent spirit spreads havock.&*
+~
+~
+99 0 -1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 0
+#10120
+ankle grabber~
+&@&ban &*&mankle &@&ggrabber&*~
+&@&gA flat monster with many arms tries to grab your feet.&*
+~
+~
+99 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 1
+#10121
+haunt~
+a &*&mh&@&ra&*&mu&@&rn&*&mt&*~
+&*&mA dreadful haunt floats eerily.&*
+~
+~
+97 0 -1000 S
+10 0 0 0d0+0 0d0+0
+1000 0
+0 0 0
+#0
+
+
+#OBJECTS
+#10100
+restless wings~
+&@&cRestless &wWings&*~
+An angel's wings are here.~
+~
+9 0 257
+0 0 0 0
+5 0 20
+A
+12 20
+#10101
+sickle~
+&@&wa &bS&*&wi&@&wckle&*~
+Deaths weapon is here.~
+~
+5 512 131073
+0 0 0 1
+5 0 25
+A
+19 4
+A
+18 2
+#10102
+bloody eye~
+&@&bthe &@&rbloody &weye&*~
+An eye rolls on the floor.~
+~
+9 576 65537
+0 0 0 0
+5 0 20
+A
+19 2
+#10103
+spiked ring~
+&*&r-&@&r-&bspiked ring&r-&*&r-&*~
+A ring pricks you.~
+~
+9 64 3
+0 0 0 0
+2 0 20
+A
+19 2
+#10104
+finger bone~
+&@&wa &rfinger &wbone&*~
+A tiny bone is here.~
+~
+9 512 32769
+0 0 0 0
+2 0 20
+A
+19 2
+#10105
+moldy corpse~
+&@&wa &gm&*&mo&@&gl&*&md&@&gy &bcorpse&*~
+A carcass smells up the room.~
+~
+9 512 1025
+10 0 0 0
+5 0 16
+A
+5 1
+A
+4 1
+A
+3 2
+#10106
+silk shackles~
+&@&csilk &wshackles&*~
+Ties for binding are here.~
+~
+9 64 4097
+0 0 0 0
+2 0 20
+A
+19 2
+#10107
+spiked belt~
+&*&r-&@&r-&bspiked belt&r-&*&r-&*~
+A spiked belt is here.~
+~
+9 64 2049
+0 0 0 0
+5 0 20
+A
+19 2
+#10108
+blood~
+&*&r<&@&r<&w-&rb&*&rl&@&ro&*&ro&@&rd&w-&r>&*&r>&*~
+A pool of blood is here.~
+~
+9 512 1025
+0 0 0 0
+5 0 20
+A
+19 2
+#10109
+silk shirt~
+&@&bs&*&wi&@&wlk shirt&*~
+A shirt has been removed here.~
+~
+9 0 9
+0 0 0 0
+5 0 25
+A
+12 10
+A
+13 10
+A
+17 -5
+#10110
+bed~
+the bed~
+A bed is here. You can see something moving beneath it....~
+~
+27 0 0
+10138 0 0 0
+5 0 0
+#10112
+gauze~
+&@&wg&*&wauze&*~
+Strips of cloth have unraveled.~
+~
+9 0 33
+0 0 0 0
+5 0 20
+A
+12 10
+A
+13 10
+#10113
+violent key~
+&@&rviolent key&*~
+A key gets red with you!~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#10114
+mystical charm bracelet~
+&@&lm&cy&ws&lt&ci&wc&la&cl &ycharm &cbracelet&*~
+A charm bracelet shines mysteriously.~
+~
+9 0 4097
+10 0 0 0
+5 0 25
+A
+3 1
+A
+5 1
+A
+4 1
+A
+17 -10
+#10115
+crystal ball~
+&@&w(&c(&y(&wCrystalBall&y)&c)&w)&*~
+&@&w(&c(&y(&wCrystalBall&y)&c)&w)&*~
+~
+27 0 0
+10120 0 0 0
+5 0 0
+#10116
+closet key~
+the closet key~
+A sleepy key rests here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#10117
+crypt key~
+the crypt key~
+A dead key is here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#10118
+study key~
+the study key~
+A studious key is here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#10119
+dresser~
+the &*&ydresser&*~
+~
+~
+15 0 0
+10 0 0 0
+5 0 0
+E
+dresser~
+A dresser with many drawers is here.~
+#10120
+fingers crack~
+&@&rGIANT fingers&*~
+&@&rThere is a &bcrack &rbetween the fingers you might be able to squeeze through.&*~
+~
+27 0 0
+1158 0 0 0
+5 0 0
+#10121
+frightening key~
+a &*&lfrightening key&*~
+A scarey key is here.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+#10122
+tomb~
+the &*&ytomb&*~
+~
+~
+15 0 0
+20 0 0 0
+5 0 0
+#0
+
+
+#ROOMS
+#10100
+&@&bOutside a &rFrightful &*&mHouse&*~
+&@&bAhead lies a great door which leads into the
+most illreputed &@&whaunts &bin the land.&*
+~
+0 0 1
+D0
+~
+great door~
+1 -1 10101
+D1
+~
+~
+0 0 869
+S
+#10101
+&@&bA &*&mForboding &@&lFoyer&*~
+&*&mThis is the entrance to a dark and long vacated
+house. It has for centuries been reported as
+haunted. Enter if you dare.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 10102
+D2
+~
+great door~
+1 -1 10100
+S
+#10102
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10106
+D1
+~
+crypt door~
+1 10117 10103
+D2
+~
+~
+0 0 10101
+S
+#10103
+&@&bA &rCrypt&*~
+&*&yThe smell of decay fills the air. There are
+marks along the floor, perhaps where something
+heavy was once dragged.&*
+~
+0 5 0
+D3
+~
+crypt door~
+1 10117 10102
+D5
+~
+door~
+1 -1 10104
+S
+#10104
+&@&bA &rCrypt&*~
+&*&yThe smell of decay fills the air. There are
+marks along the floor, perhaps where something
+heavy was once dragged.&*
+~
+0 1 0
+D4
+~
+door~
+1 -1 10103
+D5
+~
+door~
+1 -1 10105
+S
+#10105
+&@&bA &rTomb&*~
+&*&rA large and ornate tomb fills most of this room.
+A horrible smell rises from within it.&*
+~
+0 8193 0
+D4
+~
+door~
+1 -1 10104
+S
+#10106
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10107
+D2
+~
+~
+0 0 10102
+S
+#10107
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 10108
+D2
+~
+~
+0 0 10106
+D3
+~
+door~
+1 -1 10121
+S
+#10108
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D3
+~
+~
+0 -1 10107
+D4
+~
+~
+0 -1 10109
+S
+#10109
+&@&bA &*&rStairway&*~
+&*&yA cobwebbed line stairway creaks up into the
+darkness.&*
+~
+0 5 0
+D0
+~
+~
+0 -1 10110
+D5
+~
+~
+0 -1 10108
+S
+#10110
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D2
+~
+~
+0 0 10109
+D4
+~
+~
+0 -1 10111
+S
+#10111
+&@&bA &*&rStairway&*~
+&*&yA cobwebbed line stairway creaks up into the
+darkness.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 10112
+D5
+~
+~
+0 -1 10110
+S
+#10112
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 10113
+D3
+~
+~
+0 -1 10111
+S
+#10113
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10114
+D2
+~
+~
+0 -1 10117
+D3
+~
+~
+0 -1 10112
+S
+#10114
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+study door~
+1 10118 10115
+D1
+~
+cell door~
+1 10113 10116
+D2
+~
+~
+0 -1 10113
+S
+#10115
+&@&wThe &*&yStudy&*~
+&@&bShelves of dusty books line the walls. A table
+sits in the center of the room with an enormous
+&@&ccrystal &yball &bseated on top of it.&*
+~
+0 1 0
+D2
+~
+study door~
+1 10118 10114
+S
+#10116
+&@&wA &*&mLonesome &@&bCell&*~
+&*&yThere is no light, no furniture, nothing in this
+barren lonesome cell. A prison of boredom.&*
+~
+0 1 0
+D3
+~
+cell door~
+1 10113 10114
+S
+#10117
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10113
+D2
+~
+~
+0 -1 10118
+S
+#10118
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10117
+D1
+~
+frightening door~
+1 10121 10119
+S
+#10119
+&@&rB&*&rO&@&rO&*&rM&@&r!!!!&*~
+&@&bA &@&rGIANT HAND &bcomes crashing down on you!!!!&*
+~
+0 8193 0
+S
+#10120
+&@&wInside the &cCrystal &yBall&*~
+&@&rC&yo&gl&co&lr&*&ms &@&wswirl around you. A woman chants and
+recites ancient spells. Spirits are released
+into the house from here.&*
+~
+0 1 0
+D4
+~
+~
+0 0 10115
+S
+#10121
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D1
+~
+door~
+1 -1 10107
+D4
+~
+~
+0 -1 10122
+S
+#10122
+&@&bA &*&rStairway&*~
+&*&yA cobwebbed line stairway creaks up into the
+darkness.&*
+~
+0 5 0
+D0
+~
+~
+0 -1 10123
+D2
+~
+~
+0 -1 10130
+D5
+~
+~
+0 -1 10121
+S
+#10123
+&*&mDark &@&rDescent&*~
+&*&lA cold passage leads downward from here. Wet
+sounds echo off the walls.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 10122
+D5
+~
+~
+0 -1 10124
+S
+#10124
+&@&bA &*&yRicketty &mPassage&*~
+&*&yLong without use, these stairs look as if they
+could collapse under your weight at any second.&*
+~
+0 1 0
+D4
+~
+~
+0 -1 10123
+D5
+~
+~
+0 -1 10125
+S
+#10125
+&@&bA &*&yRicketty &mPassage&*~
+&*&yLong without use, these stairs look as if they
+could collapse under your weight at any second.&*
+~
+0 1 0
+D4
+~
+~
+0 -1 10124
+D5
+~
+cold door~
+1 -1 10126
+S
+#10126
+&@&bA &lC&co&ll&cd &*&yRoom&*~
+&@&lThe air here is unnaturally cold. It chills
+your very core.&*
+~
+0 1 0
+D3
+~
+grave~
+1 -1 10127
+D4
+~
+cold door~
+1 -1 10125
+S
+#10127
+&@&bA &*&lHidden &yGrave&*~
+&*&yHuman remains lay strewn without thought. Some
+remains are less restful than others. Some of
+the bones in the pile shake and rattle with
+their own will.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10128
+D1
+~
+grave~
+1 -1 10126
+S
+#10128
+&@&bA &*&lHidden &yGrave&*~
+&*&yHuman remains lay strewn without thought. Some
+remains are less restful than others. Some of
+the bones in the pile shake and rattle with
+their own will.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 10127
+D5
+~
+~
+0 0 10129
+S
+#10129
+&@&bAn Open &*&rPit&*~
+&*&yYou have fallen into a pit! Rotting flesh and
+half eaten bodies pile up around you. The only
+escape is recalling.&*
+~
+0 1 0
+S
+#10130
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10122
+D4
+~
+~
+0 -1 10131
+S
+#10131
+&@&bA &*&rStairway&*~
+&*&yA cobwebbed line stairway creaks up into the
+darkness.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 10132
+D5
+~
+~
+0 -1 10130
+S
+#10132
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10131
+D4
+~
+~
+0 -1 10133
+S
+#10133
+&@&bA &*&rStairway&*~
+&*&yA cobwebbed line stairway creaks up into the
+darkness.&*
+~
+0 1 0
+D3
+~
+~
+0 -1 10134
+D5
+~
+~
+0 -1 10132
+S
+#10134
+&@&bA &*&yHallway &@&bin the &*&mHouse&*~
+&*&rA creaking hallway filled with cobwebs and
+bloodstained walls and floors. Mournful wails
+can be heard from far away.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 10133
+D2
+~
+~
+1 -1 10135
+S
+#10135
+&@&bA &lGloomy &*&yBedroom&*~
+&*&mDust and cobwebs cover the furniture. There is
+a large dresser with many drawers here. To the
+south of the room, loud noises come from under
+a large canopied bed. There is a closet to the
+west.&*
+~
+0 5 0
+D0
+~
+~
+1 -1 10134
+D2
+~
+~
+0 -1 10136
+D3
+~
+closet door~
+1 10116 10137
+S
+#10136
+&@&wA &*&yDusty &@&wBed&*~
+&@&bA huge bed sits in a dark corner. Scratching
+&rnoises &bcome from beneath it. &rWatch out&b!!&*
+~
+0 1 0
+D0
+~
+~
+0 -1 10135
+S
+#10137
+&@&bA &*&mDank &@&bCloset&*~
+&*&rEvil lurks in &@&bdark &*&rplaces....&*
+~
+0 1 0
+D1
+~
+closet door~
+1 10116 10135
+S
+#10138
+&@&bUnder the &wBed&*~
+&*&rYour worst fears have become real!&*
+~
+0 1 0
+D4
+~
+~
+0 0 10136
+S
+#0
+
+
+#RESETS
+D 0 10101 2 1
+D 0 10100 0 1
+D 0 10103 3 2
+D 0 10102 1 2
+D 0 10103 5 1
+D 0 10104 4 1
+D 0 10104 5 1
+D 0 10105 4 1
+M 0 10111 2 10103
+M 0 10111 2 10104
+M 0 10117 1 10105
+E 0 10112 100 7
+O 0 10122 100 10105
+D 0 10115 2 2
+D 0 10114 0 2
+D 0 10116 3 2
+D 0 10114 1 2
+D 0 10118 1 2
+M 0 10108 1 10116
+E 0 10100 100 10
+E 0 10106 100 15
+O 0 10115 100 10115
+M 0 10102 1 10120
+E 0 10109 100 5
+E 0 10114 100 15
+M 0 10100 1 10112
+M 0 10104 2 10113
+M 0 10106 1 10114
+M 0 10107 1 10117
+M 0 10109 1 10118
+D 0 10121 1 1
+D 0 10107 3 1
+D 0 10126 4 1
+D 0 10125 5 1
+D 0 10127 1 1
+D 0 10126 3 1
+M 0 10116 1 10122
+E 0 10103 100 1
+E 0 10107 100 13
+G 0 10113 100
+M 0 10101 2 10127
+G 0 10104 100
+M 0 10101 2 10128
+G 0 10104 100
+M 0 10112 3 10129
+M 0 10112 3 10129
+M 0 10112 3 10129
+G 0 10117 100
+M 0 10110 1 10133
+E 0 10102 1 20
+O 0 10119 100 10135
+M 0 10120 1 10136
+O 0 10110 100 10136
+D 0 10137 1 2
+D 0 10135 3 2
+M 0 10103 1 10137
+E 0 10101 1 21
+M 0 10113 2 10130
+M 0 10114 2 10131
+M 0 10115 2 10132
+M 0 10121 2 10134
+M 0 10118 1 10109
+G 0 10118 100
+M 0 10113 2 10106
+M 0 10114 2 10107
+M 0 10115 2 10108
+M 0 10121 2 10110
+M 0 10104 2 10111
+M 0 10105 1 10138
+G 0 10108 0
+P 0 10105 1 10122
+P 0 10116 1 10119
+D 0 10134 2 1
+D 0 10135 0 1
+O 0 10120 0 10119
+M 0 10119 1 10126
+G 0 10121 0
+G 0 391 0
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+S
+
+
+
+#$
+

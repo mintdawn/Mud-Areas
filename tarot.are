@@ -1,0 +1,2214 @@
+#AREADATA
+Name        &@&l-&r{  &y15  &g30 &r}&l-     &*&cDawn           &@&wT&*&wa&@&wr&*&wo&@&wt&*                    ~
+Builders    none~
+VNUMs       12500 12599
+Recall      3001
+Security    1
+LEVELS      15 30
+Repop       &@&wAnother &*&ycard &@&wis turned.&*~
+Norecall    God has forsaken you.~
+Sname       &@&wT&*&wa&@&wr&*&wo&@&wt&*~
+End
+
+
+#MOBILES
+#12500
+fool tarot~
+&*The &@&bF&*&wo&@&wol&*~
+&@&wA fools card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12501
+magician tarot~
+&*The &@&mM&*&ma&@&wgicia&ln&*~
+&@&mThe Magician card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12502
+high priestess tarot~
+&*The &@&wH&yi&*&yg&@&wh P&yr&*&yi&@&westess&*~
+&@&wThe High Priestess card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 2
+#12503
+empress tarot~
+&*The &@&lE&cm&@&wpress&*~
+&@&lThe Empress card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 2
+#12504
+emperor tarot~
+&*The &@&lE&cm&wperor&*~
+&@&lThe Emperor card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12505
+hierophant tarot~
+&*The &@&cHierophant&*~
+&@&cThe hierophant card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12506
+lovers tarot~
+&*The &@&rL&mo&rv&me&rr&ms&*~
+&@&rThe lovers card is here.&*
+~
+~
+65 40 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+>greet_prog 100~
+if ispc ($n)
+if ismag ($n)
+say If you can bring me a flower from that garden,
+say I will reward you with my heart.
+endif
+~
+>give_prog flower water~
+if ismag ($n)
+say Thank you so much, this is so beautiful.
+mpjunk flower
+fkiss $n
+say Here take this to show you my gratitude.
+mpoload 8281
+drop mage
+mpforce $n get mage
+endif
+~
+|
+#12507
+chariot tarot~
+&*The &@&yC&*&yhariot&*~
+&*&yThe chariot card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12508
+strength tarot~
+&@&gStrength&*~
+&@&gThe card of strength is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12509
+hermit tarot~
+&*The &*&yHermit&*~
+&*&yThe hermit card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12510
+wheel fortune tarot~
+&*&yWheel&* of &@&wF&co&wr&ct&wu&cn&we&*~
+&@&cFortune's card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12511
+justice tarot~
+&@&lJustice&*~
+&@&lThe card of justice is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12512
+hanged man tarot~
+&*The &*&rHanged &yMan&*~
+&*&rThe hanged man is here.&*
+~
+~
+65 0 -1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12513
+death tarot~
+&@&bDeath&*~
+&@&bThe card of death is here.&*
+~
+~
+97 0 -1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12514
+temperance tarot~
+&@&yTemperance&*~
+&@&yThe card of temperance is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12515
+devil tarot~
+&*The &@&rD&*&revil&*~
+&@&rThe devil's card is here.&*
+~
+~
+97 0 -1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12516
+tower tarot~
+&*The &@&bT&ro&bw&re&br&*~
+&@&bThe tower card is here.&*
+~
+~
+97 0 -1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12517
+star tarot~
+&*The &@&yS&wt&ya&wr&*~
+&@&yThe star card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12518
+moon tarot~
+&*The &@&wM&*&woon&*~
+&@&wThe card of the moon is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12519
+sun tarot~
+&*The &@&ySun&*~
+&@&yThe card of the sun is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12520
+judgement tarot~
+&@&wJ&cu&ld&cg&wement&*~
+&*&cThe card of judgement is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12521
+world tarot~
+&*The &@&cW&go&cr&gl&cd&*~
+&@&gThe world card is here.&*
+~
+~
+65 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 0
+#12522
+page staves tarot~
+&@&cPage&* of &*&yStaves&*~
+A young page with a staff is here.
+~
+~
+99 0 500 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#12523
+queen staves tarot~
+&*&mQueen&* of &*&yStaves&*~
+The queen of wands is here.
+~
+~
+99 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12524
+king staves tarot~
+&@&lKing&* of &*&yStaves&*~
+The king of wands stands proudly.
+~
+~
+99 0 500 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12525
+knight staves tarot~
+&@&wKnight&* of &*&yStaves&*~
+A knight sits atop his horse with a staff in his hand.
+~
+~
+99 0 500 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 1
+#12526
+king pentacles tarot~
+&@&lKing&* of &@&yPentacles&*~
+The king of prosperity counts his coins.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12527
+queen pentacles tarot~
+&@&mQueen&* of &@&yPentacles&*~
+A wealthy queen.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 2
+#12528
+page pentacles tarot~
+&@&cPage&* of &@&yPentacles&*~
+A wealthy youth is here.
+~
+~
+99 0 1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#12529
+knight pentacles tarot~
+&@&wKnight&* of &@&yPentacles&*~
+A richly clothed knight gallops past.
+~
+~
+99 0 1000 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 1
+#12530
+king cups tarot~
+&@&lKing&* of &@&wCups&*~
+A compassionate king rules well.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12531
+queen cups tarot~
+&@&mQueen&* of &@&wCups&*~
+A loving queen stands strong.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 2
+#12532
+page cups tarot~
+&@&cPage&* of &@&wCups&*~
+A careful page serves his master.
+~
+~
+99 0 1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#12533
+knight of cups~
+&@&wKnight&* of &@&wCups&*~
+A knight, with a chalice, sits atop his steed.
+~
+~
+99 0 1000 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 1
+#12534
+king swords tarot~
+&@&lKing&* of &@&rSwords&*~
+A strong king draws his sword.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 1
+#12535
+queen swords tarot~
+&@&mQueen&* of &@&rSwords&*~
+A dark woman watches you.
+~
+~
+99 0 1000 S
+30 0 0 0d0+0 0d0+0
+3000 0
+0 0 2
+#12536
+page swords tarot~
+&@&cPage&* of &@&rSwords&*~
+A young man carries the sword of his mistress.
+~
+~
+99 0 1000 S
+20 0 0 0d0+0 0d0+0
+2000 0
+0 0 1
+#12537
+knight swords tarot~
+&@&wKnight&* of &@&rSwords&*~
+A dark knight carries a heavy sword.
+~
+~
+99 0 1000 S
+25 0 0 0d0+0 0d0+0
+2500 0
+0 0 1
+#12538
+ace staves tarot~
+Ace of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12539
+two staves tarot~
+Two of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12540
+three of staves~
+Three of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12541
+Four staves tarot~
+Four of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12542
+five staves tarot~
+Five of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12543
+six staves tarot~
+Six of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12544
+seven staves tarot~
+Seven of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12545
+eight staves tarot~
+Eight of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12546
+nine staves tarot~
+Nine of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12547
+Ten staves tarot~
+Ten of &*&yStaves&*~
+A card of &*&ystaves&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12548
+ace pentacles tarot~
+Ace of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12549
+two pentacles tarot~
+Two of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12550
+three pentacles tarot~
+Three of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12551
+four pentacles tarot~
+Four of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12552
+five pentacles tarot~
+Five of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12553
+Six of pentacles~
+Six of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12554
+seven pentacles tarot~
+Seven of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12555
+eight pentacles tarot~
+Eight of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12556
+nine pentacles tarot~
+Nine of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12557
+ten pentacles tarot~
+Ten of &@&yPentacles&*~
+A card of &@&ypentacles&* is here.
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12558
+ace cups tarot~
+Ace of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12559
+two cups tarot~
+Two of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12560
+three cups tarot~
+Three of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12561
+four cups tarot~
+Four of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12562
+five cups tarot~
+Five of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12563
+six cups tarot~
+Six of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12564
+seven cups tarot~
+Seven of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12565
+eight cups tarot~
+Eight of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12566
+nine cups tarot~
+Nine of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12567
+ten cups tarot~
+Ten of &@&wCups&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12568
+ace swords tarot~
+Ace of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12569
+two swords tarot~
+Two of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12570
+three swords tarot~
+Three of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12571
+four swords tarot~
+Four of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12572
+five swords tarot~
+Five of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12573
+six swords tarot~
+Six of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12574
+seven swords tarot~
+Seven of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12575
+eight swords tarot~
+Eight of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12576
+nine swords tarot~
+Nine of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#12577
+ten swords tarot~
+Ten of &@&rSwords&*~
+~
+~
+65 0 500 S
+15 0 0 0d0+0 0d0+0
+1500 0
+0 0 0
+#0
+
+
+#OBJECTS
+#12500
+portal pentacles~
+&@&yO&*&yo&@&yO Pentacles &yO&*&yo&@&yO&*~
+&@&yO&*&yo&@&yO Pentacles &yO&*&yo&@&yO&*~
+~
+27 0 0
+12510 0 0 0
+5 0 0
+#12501
+cups portal~
+&@&wO&*&wo&@&wO &@&wCups O&*&wo&@&wO&*~
+&@&wO&*&wo&@&wO &@&wCups O&*&wo&@&wO&*~
+~
+27 0 0
+12520 0 0 0
+5 0 0
+#12502
+swords portal~
+&@&rO&*&ro&@&rO Swords &rO&*&ro&@&rO&*~
+&@&rO&*&ro&@&rO Swords &rO&*&ro&@&rO&*~
+~
+27 0 0
+12530 0 0 0
+5 0 0
+#12503
+major arcana~
+&@&rO&yo&gO &wThe &lMajor &wArcana &gO&yo&rO&*~
+&@&rO&yo&gO &wThe &lMajor &wArcana &gO&yo&rO&*~
+~
+27 0 0
+12540 0 0 0
+5 0 0
+#12504
+cup~
+&*a &@&c<&y*&c>&wCup&c<&y*&c>&*~
+A cup is here.~
+~
+17 64 16385
+200 200 10 0
+5 11111 30
+A
+5 2
+A
+4 1
+A
+3 1
+A
+17 -15
+#12505
+stars eyes~
+&@&y*&w*&y*&wStars&y*&w*&y*&*~
+Starry eyes watch you.~
+~
+9 1 65537
+0 0 0 0
+5 11111 30
+A
+12 30
+#12506
+bright staff~
+&*a &@&yb&wrigh&yt &*&ystaff&*~
+A bright staff lights the room.~
+~
+1 1 1
+0 0 -1 0
+5 11111 30
+A
+13 30
+#12507
+wooden bracelet~
+&*a &@&yw&*&yo&@&yo&*&yd&@&ye&*&yn bracelet&*~
+A bracelet has been crafted of small wooden beads.~
+~
+9 0 4097
+0 0 0 0
+2 11111 30
+A
+3 1
+A
+12 25
+#12508
+pentacle earring~
+&*a &@&ypentacle e&*&ya&@&wrring&*~
+An earring made from a coin is here.~
+~
+9 0 32769
+0 0 0 0
+2 11111 30
+A
+12 30
+#12509
+crown strength~
+&@&yCrown &wof &gStrength&*~
+A strong crown holds up the world.~
+~
+9 0 17
+0 0 0 0
+5 11111 30
+A
+1 1
+A
+13 25
+#12510
+belt coins~
+&@&bBelt&* of &@&yCoins&*~
+A belt strung with coins.~
+~
+9 0 2049
+0 0 0 0
+5 11111 30
+A
+13 30
+#12511
+charm~
+a &@&wCharm&*~
+A glowing charm looks lucky.~
+~
+9 64 5
+0 0 0 0
+5 11111 30
+A
+12 15
+A
+13 15
+#12512
+curved sword ~
+&*a &@&bcurved &rs&*&rword&*~
+A long curved sword catches the light.~
+~
+5 0 131073
+0 0 0 10
+5 11111 30
+A
+13 25
+A
+2 1
+A
+19 3
+#12513
+bloodred hands~
+&@&rb&*&rl&@&ro&*&ro&@&rd&*&rr&@&re&*&rd &*&yhands&*~
+Bloody handprints tell the tale.~
+~
+9 0 129
+0 0 0 0
+5 11111 30
+A
+12 30
+#12514
+robes~
+&@&mR&*&mo&@&wbe&ls&*~
+Magical robes rest here.~
+~
+9 0 9
+0 0 0 0
+5 11111 30
+A
+12 30
+#12515
+heart sleeves~
+&@&rh&*&re&@&wart &@&rs&*&rl&@&weeves&*~
+A heart on a sleeve.~
+~
+9 0 257
+0 0 0 0
+5 11111 30
+A
+13 15
+A
+12 15
+#12516
+lonesome cape~
+a &*&ylonesome &@&rcape&*~
+A lonesome cape dodges your company.~
+~
+9 0 1025
+0 0 0 0
+5 11111 30
+A
+19 3
+#0
+
+
+#ROOMS
+#12500
+&*&yThat Which Covers You&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12501
+D1
+~
+~
+0 -1 12504
+D2
+~
+~
+0 -1 12502
+D3
+~
+~
+0 -1 12503
+D4
+~
+~
+0 -1 12509
+S
+#12501
+&*&yThat Which is Known&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D2
+~
+~
+0 -1 12500
+S
+#12502
+&*&yThat Which is Beneath You&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12500
+S
+#12503
+&*&yThe Past&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12500
+S
+#12504
+&*&yThe Future&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12505
+D3
+~
+~
+0 -1 12500
+S
+#12505
+&*&yThat Which You Are&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 4 0
+D0
+~
+~
+0 -1 12506
+D3
+~
+~
+0 -1 12504
+S
+#12506
+&*&yThat Which Surrounds You&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12507
+D2
+~
+~
+0 -1 12505
+S
+#12507
+&*&yHopes and Fears&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12508
+D2
+~
+~
+0 -1 12506
+S
+#12508
+&*&yWhat May Come to Pass&*~
+&@&w
+&@&y  \ | /
+&@&w  <&c<&y*&c>&w>
+&*&y    \\
+&*&y    //
+&*&y    \\
+&*&y    // 
+&*&y    ||
+&*&y    ||
+&*&y    ||
+&*&y    ||&*
+~
+0 0 0
+D2
+~
+~
+0 -1 12507
+S
+#12509
+&*&yThat Which is Crossing You&*~
+~
+0 4 0
+D5
+~
+~
+0 -1 12500
+S
+#12510
+&@&yThat Which Covers You&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D0
+~
+~
+0 -1 12512
+D1
+~
+~
+0 -1 12515
+D2
+~
+~
+0 -1 12513
+D3
+~
+~
+0 -1 12514
+D4
+~
+~
+0 -1 12511
+S
+#12511
+&@&yThat Which is Crossing You&*~
+~
+0 4 0
+D5
+~
+~
+0 -1 12510
+S
+#12512
+&@&yThat Which is Known&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D0
+~
+~
+0 -1 12516
+D2
+~
+~
+0 -1 12510
+S
+#12513
+&@&yThat Which is Beneath You&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D0
+~
+~
+0 -1 12510
+S
+#12514
+&@&yThe Past&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D1
+~
+~
+0 -1 12510
+S
+#12515
+&@&yThe Future&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D3
+~
+~
+0 -1 12510
+S
+#12516
+&@&yThat Which You Are&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 4 0
+D2
+~
+~
+0 -1 12512
+D3
+~
+~
+0 -1 12517
+S
+#12517
+&@&yThat Which Surrounds You&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D1
+~
+~
+0 -1 12516
+D3
+~
+~
+0 -1 12518
+S
+#12518
+&@&yHopes and Fears&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D1
+~
+~
+0 -1 12517
+D3
+~
+~
+0 -1 12519
+S
+#12519
+&@&yWhat May Come to Pass&*~
+&@&w
+&@&y    ...
+&@&y  .' &bO &y'.
+&@&y  : &b--- &y:
+&@&y  '. &b| &y.'
+&@&y    '''&* 
+~
+0 0 0
+D1
+~
+~
+0 -1 12518
+S
+#12520
+&@&wThat Which Covers You&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12522
+D1
+~
+~
+0 -1 12524
+D2
+~
+~
+0 -1 12523
+D3
+~
+~
+0 -1 12525
+D4
+~
+~
+0 -1 12521
+S
+#12521
+&@&wThat Which is Crossing You&*~
+~
+0 4 0
+D5
+~
+~
+0 -1 12520
+S
+#12522
+&@&wThat Which is Known&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D2
+~
+~
+0 -1 12520
+S
+#12523
+&@&wThat Which is Beneath You&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12520
+S
+#12524
+&@&wThe Future&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D3
+~
+~
+0 -1 12520
+S
+#12525
+&@&wThe Past&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12520
+D3
+~
+~
+0 -1 12526
+S
+#12526
+&@&wThat Which You Are&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 4 0
+D1
+~
+~
+0 -1 12525
+D2
+~
+~
+0 -1 12527
+S
+#12527
+&@&wThat Which Surrounds You&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12526
+D2
+~
+~
+0 -1 12528
+S
+#12528
+&@&wHopes and Fears&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12527
+D2
+~
+~
+0 -1 12529
+S
+#12529
+&@&wWhat May Come to Pass&*~
+&@&w
+&@&w<&y*&w>&c:&w<&y*&w>&c:&w<&y*&w>
+&@&w '.     .'
+&@&w   '. .'
+&@&w    : :
+&@&w    <&g*&w>
+&@&w    : :
+&@&w   /___\&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12528
+S
+#12530
+&@&rThat Which Covers You&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12532
+D1
+~
+~
+0 -1 12535
+D2
+~
+~
+0 -1 12533
+D3
+~
+~
+0 -1 12534
+D4
+~
+~
+0 -1 12531
+S
+#12531
+&@&rThat Which is Crossing You&*~
+~
+0 4 0
+D5
+~
+~
+0 -1 12530
+S
+#12532
+&@&rThat Which is Known&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D2
+~
+~
+0 -1 12530
+S
+#12533
+&@&rThat Which is Beneath You&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12530
+D2
+~
+~
+0 -1 12536
+S
+#12534
+&@&rThe Past&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12530
+S
+#12535
+&@&rThe Future&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D3
+~
+~
+0 -1 12530
+S
+#12536
+&@&rThat Which You Are&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 4 0
+D0
+~
+~
+0 -1 12533
+D1
+~
+~
+0 -1 12537
+S
+#12537
+&@&rThat Which Surrounds You&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12538
+D3
+~
+~
+0 -1 12536
+S
+#12538
+&@&rHopes and Fears&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12539
+D3
+~
+~
+0 -1 12537
+S
+#12539
+&@&rWhat May Come to Pass&*~
+&@&w
+&@&y    <^>
+&*&y    |-|
+&*&y    |-|
+&@&y  <&r*&y---&r*&y>
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    | |
+&@&w    |/
+&@&r    V
+&@&r    V
+&@&r    V&*
+~
+0 0 0
+D3
+~
+~
+0 -1 12538
+S
+#12540
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 4 0
+D0
+~
+~
+0 -1 12555
+D1
+~
+~
+0 -1 12541
+S
+#12541
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12542
+D3
+~
+~
+0 -1 12540
+S
+#12542
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12543
+D3
+~
+~
+0 -1 12541
+S
+#12543
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12544
+D3
+~
+~
+0 -1 12542
+S
+#12544
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12545
+D3
+~
+~
+0 -1 12543
+S
+#12545
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12546
+D2
+~
+~
+0 -1 12544
+S
+#12546
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12547
+D2
+~
+~
+0 -1 12545
+S
+#12547
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12548
+D2
+~
+~
+0 -1 12546
+S
+#12548
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D2
+~
+~
+0 -1 12547
+D3
+~
+~
+0 -1 12549
+S
+#12549
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12548
+D3
+~
+~
+0 -1 12550
+S
+#12550
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12549
+D3
+~
+~
+0 -1 12551
+S
+#12551
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12550
+D3
+~
+~
+0 -1 12552
+S
+#12552
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D1
+~
+~
+0 -1 12551
+D2
+~
+~
+0 -1 12553
+S
+#12553
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12552
+D2
+~
+~
+0 -1 12554
+S
+#12554
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12553
+D2
+~
+~
+0 -1 12555
+S
+#12555
+&@&wThe &lMajor &wArcana&*~
+&@&bThe past,
+the present
+and the future
+spread before you.....&*
+~
+0 0 0
+D0
+~
+~
+0 -1 12554
+D2
+~
+~
+0 -1 12540
+S
+#0
+
+
+#RESETS
+M 0 12522 1 12505
+M 0 12525 1 12506
+M 0 12523 1 12507
+E 0 12507 100 14
+M 0 12524 1 12508
+E 0 12506 100 0
+M 0 12528 1 12516
+M 0 12529 1 12517
+M 0 12527 1 12518
+E 0 12508 1 18
+M 0 12526 1 12519
+E 0 12510 100 13
+M 0 12532 1 12526
+M 0 12533 1 12527
+M 0 12531 1 12528
+E 0 12511 100 3
+M 0 12530 1 12529
+E 0 12504 100 17
+M 0 12536 1 12536
+M 0 12537 1 12537
+M 0 12535 1 12538
+E 0 12513 100 9
+M 0 12534 1 12539
+E 0 12512 1 21
+M 0 12538 1 12500
+M 0 12539 1 12500
+M 0 12540 1 12501
+M 0 12541 1 12501
+M 0 12542 1 12502
+M 0 12543 1 12502
+M 0 12544 1 12503
+M 0 12545 1 12503
+M 0 12546 1 12504
+M 0 12547 1 12504
+M 0 12548 1 12510
+M 0 12549 1 12510
+M 0 12550 1 12512
+M 0 12551 1 12512
+M 0 12552 1 12513
+M 0 12553 1 12513
+M 0 12554 1 12514
+M 0 12555 1 12514
+M 0 12556 1 12515
+M 0 12557 1 12515
+M 0 12558 1 12520
+M 0 12559 1 12520
+M 0 12560 1 12522
+M 0 12561 1 12522
+M 0 12562 1 12523
+M 0 12563 1 12523
+M 0 12564 1 12524
+M 0 12565 1 12524
+M 0 12566 1 12525
+M 0 12567 1 12525
+M 0 12568 1 12530
+M 0 12569 1 12530
+M 0 12570 1 12532
+M 0 12571 1 12532
+M 0 12572 1 12533
+M 0 12573 1 12533
+M 0 12574 1 12534
+M 0 12575 1 12534
+M 0 12576 1 12535
+M 0 12577 1 12535
+O 0 12500 100 12509
+O 0 12503 100 12531
+O 0 12502 100 12521
+O 0 12501 100 12511
+M 0 12500 1 12541
+M 0 12501 1 12542
+E 0 12514 100 5
+M 0 12502 1 12543
+M 0 12503 1 12544
+M 0 12504 1 12545
+M 0 12505 1 12546
+M 0 12506 1 12547
+E 0 12515 100 10
+M 0 12507 1 12548
+M 0 12508 1 12549
+E 0 12509 100 6
+M 0 12509 1 12550
+E 0 12516 1 12
+M 0 12510 1 12551
+M 0 12511 1 12552
+M 0 12512 1 12553
+M 0 12513 1 12554
+M 0 12514 1 12555
+M 0 12515 1 12545
+M 0 12516 1 12547
+M 0 12517 1 12549
+E 0 12505 1 20
+M 0 12518 1 12551
+M 0 12519 1 12553
+M 0 12520 1 12555
+M 0 12521 1 12542
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+S
+
+
+
+#$
+

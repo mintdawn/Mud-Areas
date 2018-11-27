@@ -1,0 +1,5235 @@
+#AREADATA
+Name        &@&l-&r{&g  Event  &r}&l-     &*&cImmortals      &@&rSolace &wGhost &*&yTown&w&*        ~
+Builders    prysm~
+VNUMs       10200 10399
+Recall      3001
+Security    2
+LEVELS      1001 1006
+Repop       &@&wAn eerie, &ccold&w wind blows across the town.&*~
+Norecall    God has forsaken you.~
+Sname       &@&rSolace &wGhost &*&yTown&w&*~
+End
+
+
+#MOBILES
+#10200
+Dummy~
+Dummy~
+Dummy~
+Dummy~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 2062
+0 0 0
+#10201
+undead captain guard solace~
+&*&yCaptain of the &@&rGuard&*~
+The Walking Corpse of the Captain of the Guard is here.
+~
+The Captain of the Guard was an older, powerful man, now 
+he is long dead and quite.... fermented. His obsidian armor 
+seems to glow faintly. The crest of the town of Solace is 
+displayed with pride on his chestplate. The gold crest of two 
+coins seems to match the wealth of this town.
+~
+4163 201329320 -700 S
+300 0 0 0d0+0 0d0+0
+30000 14
+0 0 1
+>fight_prog 25~
+cackle
+mpecho &lThe Captian summons one of his minions&*
+mpmload 10202
+~
+>fight_prog 20~
+bite
+~
+>fight_prog 50~
+attack1
+attack1
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10202
+undead guard solace~
+&*&rUndead &@&rGuard &*&yof &@&wSolace&*~
+The Walking Corpse of a Solace Guard.
+~
+A rancid corpse of a Solace Guardsman is here twiddling his
+thumbs.
+~
+4195 201329320 -700 S
+300 0 0 0d0+0 0d0+0
+30000 14
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10203
+plague rat~
+&*&ya &@&gp&*&yl&@&ga&*&yg&@&gu&*&ye rat&*~
+A large pox ridden rat is here.
+~
+DISEASE! Gross
+~
+229 37632 -700 S
+60 0 0 0d0+0 0d0+0
+6000 14
+0 0 1
+>fight_prog 25~
+mpechoat $n &yThe rat bites at your knees&*
+mpechoaround $n &yThe rat bites at $n's knees!!!&*
+bite
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10204
+mutant cockroach~
+&*&ya &@&lmutant &*&ycockroach&*~
+A goblinoid-cockroach crossbreed lunges at you!
+~
+A large "thing" about the same height as a goblin
+and with the outershell of a cockroach lurks in
+front of you.
+~
+229 134316584 -200 S
+63 0 0 0d0+0 0d0+0
+6300 0
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10205
+skeleton red~
+&@&rRed &*&rBoned &@&wSkeleton&*~
+A Skeleton of blood red is waiting here.
+~
+It looks bored, you dont know how because you can
+see straight through its skull and it has no brain.
+~
+97 512 -500 S
+60 0 0 0d0+0 0d0+0
+6000 14
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10206
+adolecent vampire~
+&*&yan Adolecent &@&rV&*&rampire&*~
+A young pimply vampire stalks the streets.
+~
+Yuck pimples on a vampire, somehow you're visions
+of these nightstalkers has been shattered.
+~
+97 33322 -450 S
+66 0 0 0d0+0 0d0+0
+6600 14
+0 0 1
+>fight_prog 25~
+mpechoat $n &rThe teenaged vampire tries to suck your blood&*
+mpechoaround &n &rThe teenaged vampire lunges at $n's neck&*
+bite
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10207
+bugaboo~
+&@&gB&bu&gg&ba&gb&bo&go&*~
+A giant.... Bugaboo!
+~
+Its a giant.. bugaboo!?! what else?
+~
+97 100696616 0 S
+55 0 0 0d0+0 0d0+0
+5500 112
+0 0 1
+>fight_prog 25~
+tailslap
+~
+>fight_prog 50~
+bite
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10208
+pigeon werepigeon~
+&*&ya &rwere&ypigeon&*~
+A flying disease ridden rat is here nibbling at the air.
+~
+A black rat with scaley ominous wings looks back at you.
+~
+65 0 0 S
+60 0 0 0d0+0 0d0+0
+6000 140
+0 0 1
+>fight_prog 50~
+attack1
+attack1
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10209
+doom doomsayer~
+&*&yThe &@&rD&*&roomsayer&*~
+A dark hooded being rants about the end of the world.
+~
+Garbed in all black, and its hood pulled down, its hard
+to tell exactly what this being is.
+~
+65 2088 0 S
+85 0 0 0d0+0 0d0+0
+8500 62
+0 0 1
+>greet_prog 8~
+if ispc ($n)
+say This is a test of the emergency broadcast system....
+mpforce $n 911 HELP HELP IM BEING REPRESSED!
+say If this had been an actual emergency you would have seen....
+mpechoaround $n $n is DEAD!!
+mpechoaround $n &@&mINFO: $n&* has been slain by &*&yThe &@&rD&*&roomsayer&*
+mpechoat $n You have been KILLED!!
+mpechoat $n &@&lThe forces of evil claim your soul for&*
+mpechoat $n &@&lthe evil you have done, but the Lord of&*
+mpechoat $n &@&lDead offers you another chance at life&*
+mpechoat $n &@&lso you may continue your evil ways!&*
+mpechoat $n &@&mINFO: $n&* has been slain by &*&yThe &@&rD&*&roomsayer&*
+endif
+~
+>rand_prog 1~
+say Eat at Joe's!
+~
+>rand_prog 2~
+say Repent now the end of the world is at hand!
+~
+>rand_prog 3~
+say We're all gonna die!
+~
+>rand_prog 4~
+say The sky is falling!
+~
+>fight_prog 50~
+claw
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10210
+mummy~
+&*&ya &@&wM&*&wu&@&wm&*&wm&@&wy&*~
+A perserved corpse is lying here.
+~
+A corpse wrapped in many bandages and reeking of 
+noxious perserves is slowly deteriorating here.
+~
+65 131072 0 S
+400 0 0 0d0+0 0d0+0
+40000 0
+0 0 1
+>fight_prog 25~
+mpechoat $n &cThe Mummy grasps at your heart&*
+mpechoaround $n &cThe Mummy tries to put its hand into $n's chest!!!&*
+attack3
+~
+>fight_prog 50~
+mpechoat $n &cDeathly bandaged hands reach for you!!&*
+mpechoaround &n &cThe Mummy reaches for $n!!&*
+claw
+claw
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10211
+soul dog~
+&*&ya &@&lS&*&louldog&*~
+An ethereal dog is here foaming at the mouth
+~
+Made of an insubstantial substance is here stalking
+its long dead prey.
+~
+101 33312 -450 S
+85 0 0 0d0+0 0d0+0
+8500 44
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10212
+pink winged demon~
+&*&ya &@&mPink &*&yWinged &@&rDemon&*~
+One of the Demons army hovers above the ground here.
+~
+This is a demon with large scaled, pink wings.
+~
+97 134744584 0 S
+95 0 0 0d0+0 0d0+0
+9500 46
+0 0 1
+>fight_prog 25~
+mpechoat $n &@&mThe Demons wings start to glow and attempt to envelop you!!&*
+mpechoaround &n &@&mWings begin glowing and start to envelop $n&*
+attack3
+~
+>fight_prog 50~
+claw
+claw
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10213
+hell cat~
+&*&ya &@&rH&*&re&@&rl&*&rl&ycat&*~
+One of hells minions is here in the form of a large cat.
+~
+This is one Huge cat... whats that burning you smell?
+~
+69 35368 0 S
+250 0 0 0d0+0 0d0+0
+25000 44
+0 0 1
+>fight_prog 25~
+claw
+claw
+bite
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10214
+bone gnasher~
+&@&wBone &*&yGnasher&*~
+A Bone Gnasher weilding a large sledge is here.
+~
+The "thing" is here making sure everything is good
+and dead.
+~
+67 0 0 S
+95 0 0 0d0+0 0d0+0
+9500 14
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10215
+walking corpse~
+&*&ya Walking &mCorpse&*~
+A Dead body is here wandering aimlessly
+~
+This long dead and smelly corpse is walking...
+~
+69 67108904 0 S
+0 0 0 0d0+0 0d0+0
+0 14
+0 0 1
+>give_prog pez~
+mpjunk pez
+thank $n
+~
+>death_prog 100~
+mpecho &wAs the mysterious corpse hits the ground, another claws its&*
+mpecho &wway out of the ground!&*
+mpmload 10215
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10216
+shaking skeleton~
+a &*&rshaking &@&ws&bk&we&bl&we&bt&wo&bn&*~
+&*&yRaged &@&wbones &*&yshake you!&*
+~
+&*&yA skeleton with bleached &@&wbones&*&y.&*
+~
+99 67108904 -500 S
+140 0 0 0d0+0 0d0+0
+14000 0
+0 0 0
+>fight_prog 20~
+mpechoat $n &*&rA &@&wS&bk&we&bl&we&bt&wo&bn &*&rtries to rattle your &@&wbones&*&r!&*
+mpechoaround $n &*&rA &@&wS&bk&we&bl&we&bt&wo&bn &*&rtries to rattle $n's &@&wbones&*&r!&*
+attack2
+~
+>fight_prog 15~
+mpecho &*&rThe &@&wS&bk&we&bl&we&bt&wo&bn &*&rtears off its arm and throws it at you!&*
+attack3
+~
+>death_prog 100~
+mpecho &rThe &@&wS&bk&we&bl&we&bt&wo&bn &*&rhits the ground with a dusty thump!&*
+mpoload 10201
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10217
+toy doll animated~
+&*An &@&mA&*&mn&ri&@ma&*&rt&me&@d &@&rT&*&roy &@&mD&*&moll&*~
+&*&rAn &@&mA&*&mnimated &@&rT&*&roy &@&mD&*&moll &ris &@&cD&*&cancin&@g &*&mhere&*.
+~
+Once an innocent child's doll, Now something just a wee bit
+more.
+~
+67 201329320 0 S
+500 0 0 0d0+0 0d0+0
+50000 14
+0 0 2
+>greet_prog 100~
+if isthi($n)
+ point $n  
+ say God I hate thieves!
+ slap $n
+endif
+~
+>speech_prog pez~
+say No! Mine!
+ mpkill $n
+~
+>fight_prog 10~
+mpforce all flee
+~
+>fight_prog 25~
+bite
+bite
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10218
+giant spider~
+a &@&rGIANT &rS&bpider&*~
+A &@&rGIANT &rS&bpider&* tries to wrap you for dinner.
+~
+A very very nasty critter with a large appetite.
+~
+99 67108904 -500 S
+420 0 0 0d0+0 0d0+0
+42000 4
+0 0 2
+>fight_prog 20~
+mpecho &*&rA &@&rGIANT &rS&bpider &*&rtries to bite you!&*
+bite
+bite
+~
+>fight_prog 15~
+attack3
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10219
+tiny spider slave~
+a &@&rtiny &rs&bpider &wslave&*~
+A &@&rtiny &rs&bpider &wslave&* serves his mistress.
+~
+A tiny spider does the bidding of his queen.
+~
+97 67108904 -500 S
+100 0 0 0d0+0 0d0+0
+10000 4
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10220
+great pumpkin~
+&@&rT&yh&re &rG&yr&re&ya&rt &rP&yu&rm&yp&rk&yi&rn&*~
+&@&rT&yh&re &rG&yr&re&ya&rt &rP&yu&rm&yp&rk&yi&rn&* is here!&*
+~
+Just what you've been waiting for.
+~
+8259 128 500 S
+600 0 0 0d0+0 0d0+0
+60000 0
+0 0 1
+>fight_prog 20~
+mpecho &@&rT&yh&re &rG&yr&re&ya&rt &rP&yu&rm&yp&rk&yi&rn &*&yrises out of the
+mpecho &@&rP&yu&rm&yp&rk&yi&rn &@&gPatch &*&yand spits seeds at you!&*
+jump
+attack2
+attack3
+~
+>fight_prog 15~
+cackle
+attack2
+attack3
+~
+>fight_prog 22~
+mpforce $n rem chaos
+laugh $n
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10221
+raggedy witch~
+a &@&rR&wa&rg&wg&re&wd&ry &bWitch&*~
+A tattered old crone is here.
+~
+She is in dire need of some things for her next spell.
+Maybe you should find out what she needs.
+~
+12355 67109032 -500 S
+300 0 0 0d0+0 0d0+0
+30000 8
+0 0 2
+>speech_prog pc spell~
+say Yes, I need quite a few things.
+~
+>speech_prog pc need~
+mpat 10270 mpmload 10222
+say Bring me the tooth of a hellish dog....
+~
+>give_prog hellhound tooth~
+sneer $n
+emote hides the tooth in her cloak.
+mpjunk hellhound
+mpat 10312 mpmload 10223
+mpoload 10209
+mpat 10237 give cleaver butcher
+mpoload 10211
+drop raw
+mpforce $n get raw
+say Take this to one of the butchers and bring it back diced....
+poke $n
+~
+>give_prog diced raw meat~
+emote crams the meat into a small bag and puts it in her cloak.
+mpat 10285 mpmload 10224
+mpjunk diced
+say Bring me a hollow bone and be quick about it!
+say The &*&yFlesh &@&yEater&* should have one.
+~
+>give_prog hollow bone quest~
+mpjunk quest
+mpoload 10215
+mpoload 10216
+mpecho The &@&rR&wa&rg&wg&re&wd&ry &bWitch&* drinks &@&rb&*&rl&@&ro&*&ro&@&rd&* from a &@&whollow bone.&*
+drop blood
+mpat 10258 mpmload 10225
+mpecho The &@&rR&wa&rg&wg&re&wd&ry &bWitch&* spins into her cloak and is gone!
+mpzsound &*&rThe smell of &@&wDeath &*&rwraps you in cold fear.&*
+mpgoto 20
+~
+>fight_prog 25~
+mpecho &@&wThe &rR&wa&rg&wg&re&wd&ry &bWitch &wtries to turn you into a &gf&*&grog&@&w!&*
+attack2
+~
+>fight_prog 30~
+cackle
+attack1
+attack1
+~
+>death_prog 10~
+mpoload 10217
+~
+>death_prog 50~
+mpecho &@&wThe &rR&wa&rg&wg&re&wd&ry &bWitch &wscreams 'I'm melting!!!'&*
+mpat 20 mpmload 10221
+~
+|
+#10222
+hellhound hell hound~
+a &@&rH&*&rellhound&*~
+A hellish dog has got your scent!
+~
+Your average everyday devildog.
+~
+99 67109032 -500 S
+340 0 0 0d0+0 0d0+0
+34000 2048
+0 0 1
+>fight_prog 30~
+bark $n
+bite
+bite
+~
+>fight_prog 35~
+growl $n
+claw
+~
+>death_prog 100~
+mpoload 10210
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10223
+butcher~
+the &@&rB&*&ru&@&rt&*&rc&@&rh&*&re&@&rr&*~
+The &@&rB&*&ru&@&rt&*&rc&@&rh&*&re&@&rr&* is here chopping his meat.
+~
+He looks very eager to do his job.
+~
+8259 67109032 -500 S
+400 0 0 0d0+0 0d0+0
+40000 2048
+0 0 1
+>greet_prog 100~
+wear cleaver
+~
+>give_prog whole raw meat~
+mpjunk whole
+mpoload 10212
+emote quickly dices the meat with a razor sharp cleaver.
+mpecho The &@&rB&*&ru&@&rt&*&rc&@&rh&*&re&@&rr screams 'MORE MEAT!'&*
+mpkill $n
+~
+>fight_prog 30~
+slash
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10224
+flesh eater~
+a &*&yFlesh &@&yEater&*~
+A &*&yFlesh &@&yEater&* wants to eat your skin!
+~
+It looks very hungry.
+~
+8291 67109032 -500 S
+390 0 0 0d0+0 0d0+0
+39000 0
+0 0 0
+>fight_prog 25~
+howl
+bite
+bite
+~
+>fight_prog 30~
+lick $n
+drool
+attack1
+attack2
+attack3
+~
+>fight_prog 32~
+mpecho a &*&yFlesh &@&yEater &@&rstarts in on the fight!&*
+claw
+~
+>death_prog 100~
+bloodlust
+mpoload 10213
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10225
+death~
+&@&wDeath&*~
+&@&wDeath&* awaits you.
+~
+How long will death wait for you to accompany it?
+~
+8291 67633832 0 S
+600 0 0 0d0+0 0d0+0
+60000 0
+0 0 0
+>fight_prog 30~
+mpecho &@&wDeath &rtaps your shoulder with its &ccold &rfinger.&*
+attack3
+attack3
+claw
+~
+>fight_prog 20~
+mpechoat $n &@&wDeath &rmarks &*&ryou as its next victim!&*
+mpechoaround $n &@&wDeath &rmarks &y$n &*&ras its next victim!&*
+death $n
+death $n
+~
+>death_prog 100~
+mpoload 10214
+mpoload 10214
+mpoload 10219
+mpoload 10220
+mpoload 10221
+mpoload 10372
+~
+|
+#10226
+clan asylum lunatic mbattle~
+the &@&m_&w=&l[&rl&cuNATi&rc&l]&w=&m_&*~
+A crazed lunatic stares wildly at you.
+~
+A &@&m_&w=&l[&rl&cuNATi&rc&l]&w=&m_&* stands wildeyed and violent.
+~
+8291 67633832 0 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 1
+>fight_prog 15~
+sneer $n
+dragon
+dragon
+~
+>fight_prog 20~
+snarl $n
+attack1
+attack2
+attack3
+~
+|
+#10227
+clan veritas mbattle~
+&@&wV&*&werita&@&ws&*~
+A vision of &*&rt&@&rr&@&wu&rt&*&rh&* is here.
+~
+The most elusive of all the gods. &*&rT&@&rr&@&wu&rt&*&rh&* is seldom seen
+and rarely sought after.
+~
+8291 67633832 0 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 0
+>fight_prog 15~
+illusion
+mpecho &@&wV&*&werita&@&ws &rstarts in on the fight!&*
+spin $n
+jump $n
+cackle
+~
+>fight_prog 20~
+smack $n
+attack2
+attack3
+~
+|
+#10228
+clan viking mbattle~
+a &@&rV&yi&cking&*~
+A thunderous &@&rV&yi&cking&* shakes your soul.
+~
+This must be who Thor turns to when he
+needs advice. He is the most powerful
+&@&rV&yi&cking&* in the land.
+~
+8291 67633832 0 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 1
+>fight_prog 15~
+mpechoat $n &@&wLightning &cstrikes you!&*
+mpechoaround $n &@&wLightning &cstrikes $n!&*
+slash $n
+~
+>fight_prog 20~
+hack $n
+hack $n
+~
+|
+#10229
+clan rogue mbattle~
+A &@&rR&bo&rg&bu&re&*~
+A &@&rR&bo&rg&bu&re&* appears from the shadows.
+~
+A master of the shadows and sly ways.
+~
+8291 67633832 0 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 1
+>fight_prog 15~
+emote tries a sneak attack!
+hide
+circle $n
+attack3
+~
+>fight_prog 20~
+stab $n
+stab $n
+attack3
+~
+|
+#10230
+clan narnia lion mbattle~
+A &@&cMighty &yL&wi&yo&wn&*~
+The &@&ye&ws&ys&we&yn&wc&ye&* of royalty.
+~
+He is everything a king should be.
+~
+8291 67633832 0 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 1
+>fight_prog 15~
+emote roars and lunges!
+gore $n
+~
+>fight_prog 20~
+claw
+claw
+~
+|
+#10231
+cookie~
+&@&yC&*&yookie&*~
+The ghost of &@&yC&*&yookie&* is here for eternity.
+~
+~
+67 67633832 0 S
+198 0 0 0d0+0 0d0+0
+19800 0
+0 0 2
+>greet_prog 50~
+mpechoat $n &@&yC&*&yookie &@&yentices 'Buy some cookies perhaps someone'&*
+mpechoat $n &@&yC&*&yookie &@&yentices 'will trade treats with you in Twilight'&*
+~
+|
+#10232
+ghost~
+a &*&wghost&*~
+A lost spirit drifts lonely through this world.
+~
+~
+65 1048576 0 S
+50 0 0 0d0+0 0d0+0
+5000 0
+0 0 0
+>rand_prog 10~
+emote becomes watery and fades away.
+mpblink
+emote fades slowly into existance.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10233
+shadow maiden~
+a &@&bShadow &*&mM&@&ma&widen&*~
+A sweet female whispers in and out of shadow.
+~
+A woman formed of shadow. Maybe one of the
+former citizens of Solace.
+~
+8257 524288 0 S
+100 0 0 0d0+0 0d0+0
+10000 96
+0 0 2
+>greet_prog 10~
+if ispc ($n)
+mpecho A glass tear rolls down a &@&bShadow &*&mM&@&ma&widen&*'s cheek....
+mpoload 10226
+give tear $n
+endif
+~
+>rand_prog 20~
+emote vanishes through a wall.
+mpblink
+emote emerges from a wall.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10234
+tiny devil~
+&*a &@&wTiny &rD&*&re&@&rv&*&ri&@&rl&*~
+&*A &@&wTiny &rD&*&re&@&rv&*&ri&@&rl&* tries to burn you up!
+~
+~
+97 0 -500 S
+20 0 0 0d0+0 0d0+0
+20000 0
+0 0 0
+>death_prog 10~
+mpoload 10217
+~
+|
+#10235
+zombie fish~
+&@&gZombie &@&b<&r*&*&w)}}}&@&b><<&*~
+An &@&gundead fish&* quivers by.
+~
+~
+97 0 0 S
+80 0 0 0d0+0 0d0+0
+80000 0
+0 0 0
+>death_prog 10~
+mpoload 10217
+~
+|
+#10240
+mashed potatoes~
+&@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&*~
+A &@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&* slowly digests itself here.
+~
+Potatoes, and thier mashed.
+~
+67 67109544 0 S
+350 0 0 0d0+0 0d0+0
+35000 0
+0 0 0
+>fight_prog 25~
+mpechoat $n &@&wPotatoes try to Mash you!&*
+mpechoaround $n &@&wThe Mound trys to Mash $n!!&*
+attack1
+attack2
+attack1
+attack2
+~
+>fight_prog 50~
+mpechoat $n &wYou have a funny feeling underneath your clothes.&*
+mpechoaround $n &wMashed potatoes flow underneath $n's clothes!&*
+attack1
+attack1
+attack1
+~
+>rand_prog 4~
+mpasound &@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&* &@&g yells 'bwah?'&*.
+mpecho &@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&* &@&g yells 'bwah?'&*.
+~
+>rand_prog 3~
+mpasound &@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&* &@&g yells 'i dare someone to eat me'&*.
+mpecho &@&wG&*&wiant &@&wM&*&wound of &@M&*&washed &@P&*&wotatoes&* &@&g yells 'i dare someone to eat me'&*
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10241
+rutabega~
+a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&*~
+A &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* is contemplating your bellybutton.
+~
+Its got eyes, eyes which are staring straight at you.
+Big round eyes, that look like large dinnerplates. mmm 
+dinner.... wheres your fork?
+~
+67 67111424 0 S
+320 0 0 0d0+0 0d0+0
+32000 0
+0 0 0
+>fight_prog 50~
+mpecho a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* &@&gyells 'BANZAIII'&*.
+attack3
+~
+>rand_prog 4~
+mpasound a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* &@&gyells 'Someone shut these jerks up!'&*.
+mpecho a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* &@&gyells 'Someone shut these jerks up!'&*.
+~
+>rand_prog 3~
+mpasound a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* &@&gyells 'Help i'm surrounded by idiots!'&*.
+mpecho a &@&rR&*&yu&@&rt&*&ya&@&rb&*&ye&@&rg&*&ya&* &@&gyells 'Help i'm surrounded by idiots!'&*.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10242
+baby carrot~
+a &rBaby Carrot&*~
+A &rBaby Carrot&* is here trying to nap.
+~
+Awww its a baby carrot.
+~
+67 1 0 S
+50 0 0 0d0+0 0d0+0
+50000 0
+0 0 2
+>rand_prog 3~
+yawn
+rest
+~
+>rand_prog 5~
+stand
+sigh
+say &@&rHush yalls i'm twying to sweep.&*
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10243
+obnoxious corn~
+an &yO&@bnox&*&yious &@C&*&yorn&*~
+Some mighty &yO&@bnox&*&yious &@C&*&yorn&* is sitting here leering.
+~
+This walking vegie should have "Loser" tattooed
+on its forehead
+~
+67 67110912 0 S
+260 0 0 0d0+0 0d0+0
+26000 0
+0 0 1
+>fight_prog 25~
+mpecho an &yO&@bnox&*&yious &@C&*&yorn&* &@&rsays 'i got a can o whoopass!'&*
+attack1
+attack1
+attack1
+attack1
+cackle
+~
+>fight_prog 50~
+laugh $n
+bite
+~
+>rand_prog 3~
+mpasound an &yO&@bnox&*&yious &@C&*&yorn&* &@&gyells 'Korn Rulez!'&*.
+mpecho an &yO&@bnox&*&yious &@C&*&yorn&* &@&gyells 'Korn Rulez!'&*.
+~
+>rand_prog 4~
+mpasound an &yO&@bnox&*&yious &@C&*&yorn&* &@&gyells 'Hear the one about the cantalope and the cucumber?'&*.
+mpecho an &yO&@bnox&*&yious &@C&*&yorn&* &@&gyells 'Hear the one about the cantalope and the cucumber?'&*.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10244
+aged brocolli~
+an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&*~
+An an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&* stoops here.
+~
+Old.. rotten moldy broccoli.
+~
+71 2688 0 S
+400 0 0 0d0+0 0d0+0
+40000 0
+0 0 1
+>rand_prog 4~
+mpasound an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&* &@&gyells 'someone get me some nice tender asparagus'&*.
+mpecho an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&* &@&gyells 'someone get me some nice tender asparagus'&*.
+cackle
+~
+>rand_prog 3~
+mpasound an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&* &@&gyells 'where'd all the wimin go?'&*.
+mpecho an &@&gA&*&gged &@B&*&gro&@co&*&gll&@i&* &@&gyells 'where'd all the wimin go?'&*.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10245
+wild strawberry~
+a &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&*~
+A &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&* sulks here.
+~
+Strawberry, mmm sweet, mmm tangy.
+And Alive?
+My lord whatever would those treehuggers say?
+~
+71 2048 0 S
+300 0 0 0d0+0 0d0+0
+30000 0
+0 0 2
+>fight_prog 20~
+bite
+bite
+~
+>rand_prog 3~
+curtsey
+say Hello sexy!
+~
+>rand_prog 4~
+mpasound a &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&* &@&gyells 'hey darlin bring me a coke?'&*.
+mpecho a &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&* &@&gyells 'hey darlin bring me a coke?'&*.
+~
+>give_prog can coke~
+mpoload 10218
+say thanks hun
+emote looks around.
+give pill $n
+say shhhhh....
+drink coke
+mpjunk coke
+~
+>rand_prog 4~
+mpasound a &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&* &@&gyells 'Well suga wheres the party?'&*.
+mpecho a &@&mW&*&mi&@l&*&md &@&rSt&*&raw&@b&*&rer&@ry&* &@&gyells 'Well suga wheres the party?'&*.
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10246
+overweight tomato~
+an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&*~
+A vastly overweight &rT&@o&*&rm&@a&*&rt&@o&* is here avoiding exersize.
+~
+~
+71 2048 0 S
+250 0 0 0d0+0 0d0+0
+25000 0
+0 0 1
+>rand_prog 2~
+scratch self
+~
+>rand_prog 4~
+mpasound an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &@&gyells 'Fruit, Vegetable, Whatever, does it really matter?'&*.
+mpecho an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &@&gyells 'Fruit, Vegetable, Whatever, does it really matter?'&*.
+~
+>rand_prog 3~
+mpasound an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &@&gyells 'No i dont want any pasta with that!'&*.
+mpecho an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &@&gyells 'No i dont want any pasta with that!'&*.
+~
+>fight_prog 50~
+mpechoat $n an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &wattempts to jump on you!&*
+mpechoaround $n an &wOverweight &rT&@o&*&rm&@a&*&rt&@o&* &wattempts to jump on $n!!&*
+attack3
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10247
+silent kiwi~
+a &cS&li&cl&le&cn&lt &@&gKiwi&*~
+A Buff &@&gKiwi&*, you dont want to mess with him.
+~
+Cant you read? Dont mess with Him!
+
+&@&rSomeone says 'duh!'&*.
+~
+8259 67108904 0 S
+340 0 0 0d0+0 0d0+0
+34000 0
+0 0 1
+>greet_prog 100~
+mpforce kiwi wear knife
+~
+>speech_prog pc knife~
+say Yes, My knife, now go away.
+  glare $n
+~
+>fight_prog 50~
+mpechoat $n The &*&gKiwi&* attempts to &@&r-&*&rstab&@-&* you in the chest.
+mpechoaround $n The &@&gKiwi&* attempts to &@&r-&*&rstab&@-&* $n in the chest.
+stab
+stab
+~
+>fight_prog 25~
+hide
+attack3
+mpechoat $n The &*&gKiwi&* comes out of nowhere and trys to &@&rbackstab&* you.
+mpechoaround $n The &*&gKiwi&* comes out of nowhere and trys to &@&rbackstab&* $n
+~
+>fight_prog 10~
+rem knife
+wear knife
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10248
+jack lantern jackolantern pumpkin~
+&*a &yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&*~
+A Large animated &yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&* is floating here.
+~
+Pumpkin, holes, light from inside...
+must be a jackolantern.. i guess.
+~
+8263 2984 0 S
+350 0 0 0d0+0 0d0+0
+250000 0
+0 0 1
+>rand_prog 6~
+mpecho &@&rA &*&yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&* &@&rsays 'Mmmmm i could go for a magic mushroom about now.'&*.
+~
+>rand_prog 4~
+howl
+~
+>rand_prog 2~
+cackle
+~
+>give_prog food mushroom mm~
+mpecho The &yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&* drops the mushroom into its &@&rfire&*.
+mpecho &wPooof! its gone.&*
+mpjunk mm
+mpjunk dust
+mpoload 10241
+~
+>fight_prog 20~
+mpecho &@&rA &yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&* &@&r says now your in trouble!'.&*
+attack1
+attack1
+attack2
+attack2
+attack3
+attack3
+~
+>fight_prog 50~
+claw
+claw
+~
+>fight_prog 15~
+kick $n
+spin $n
+kick $n
+~
+>death_prog 10~
+mpoload 10217
+~
+>death_prog 100~
+mpecho The &yJ&ra&yc&rk&@&w-&yO&w-&*&yL&ra&yn&rt&ye&rr&yn&* explodes into several &rchunks&*.
+mpecho A &wEerie Fire&* hovers inside its mangeled corpse.
+mpoload 10242
+~
+|
+#10249
+godzilla~
+&@&gG&*&godzill&@&ga&*~
+&@&gA huge dinosaur is here!&*
+~
+~
+8259 201329320 0 S
+560 0 0 0d0+0 0d0+0
+56000 0
+0 0 1
+>fight_prog 3~
+emote &@&rSTOMPS&w around the room in a blind rage!!!
+stun
+attack3
+attack3
+attack2
+~
+>fight_prog 6~
+emote becomes &@&r&!EnRaGeD!!&*
+claw
+bite
+tailslap
+bodyslam
+tailslap
+stun
+~
+>fight_prog 8~
+emote has an &@&rI&bdentit&ry &yC&rr&yi&rs&yi&rs&*
+stun
+gouge
+kendo
+slash
+stun
+kendo
+gouge
+garott
+kendo
+stun
+heart
+bodyslam
+~
+>fight_prog 11~
+mpecho &gGodzilla&*'s sheer &gUGLYNESS&* &@&b<<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>><&w+&b<&w+&b<&rERADICATES&b>&w+&b>&w+&b><<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>>&* you!!
+gouge
+horny &n
+mpecho &gGodzilla&*'s lust &@&b<<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>><&w+&b<&w+&b<&rERADICATES&b>&w+&b>&w+&b><<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>>&* you!!
+~
+>death_prog 10~
+mpoload 10217
+~
+>death_prog 50~
+mpoload 10243
+~
+|
+#10250
+were emu~
+a &@&rWere&b-&wemu&*~
+&@&rA dangerous bird watches you.&*
+~
+~
+8259 201329320 0 S
+560 0 0 0d0+0 0d0+0
+56000 50000
+0 0 2
+>death_prog 10~
+mpoload 10217
+~
+>death_prog 50~
+mpoload 10244
+~
+|
+#10251
+frankenstein~
+&@&gF&brankenstei&gn&*~
+The creation of man stands forlorn.
+~
+~
+8259 67111464 0 S
+560 0 0 0d0+0 0d0+0
+56000 2054
+0 0 1
+>fight_prog 1~
+emote calls upon his &@&rC&breato&rr&w!!&*
+emote begs his &@&rC&breato&rr&w for help!!&*
+emote receives some help from his &@&rC&breato&rr&w!!&*
+emote is about to be &@&yr&restore&yd&w!!
+restore frankenstein
+~
+>fight_prog 6~
+emote &@&rcalls upon his memories of prior fights!&*
+kendo
+gouge
+stun
+kendo
+gouge
+stun
+kendo
+gouge
+stun
+attack3
+~
+>fight_prog 7~
+emote begins &@&rs&yt&ro&ym&rp&yi&rn&yg&* around the room!
+emote works himself up into a blind &!&rRaGe!!&*
+attack3
+attack2
+attack1
+attack3
+~
+>fight_prog 9~
+say Me &rF&@&brankenstei&rn&*&*&r! You &gmince meat&y!!&r
+attack2
+attack3
+primal
+banzai
+disarm
+~
+>fight_prog 10~
+mpecho &@gF&brankenstei&gn&w's&* &yd&geat&yh p&ginc&yh&* &@&b<<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>><&w+&b<&w+&b<&rERADICATES&b>&w+&b>&w+&b><<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>>&* you!
+mpecho &@gF&brankenstei&gn&w's&* &ybad breath&* &@&b<<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>><&w+&b<&w+&b<&rERADICATES&b>&w+&b>&w+&b><<&r--&yo&w+&b<&r(&yX&r)&b>&w+&yo&r--&b>>&* you!
+attack3
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10260
+headless horseman man~
+the &@&rHeadless &@&wH&borseman&*~
+A large man on an even larger horse seems rather distressed by his lack of a head!
+~
+Man, I've heard of having bad days, but this poor guy is having the worst!  He wolled
+out of bed this morning to discover some sneaky bastard had stolen, of all things,
+his head!  Now he's literally dying to get it back!
+~
+8259 67111464 0 S
+400 0 0 0d0+0 0d0+0
+40000 2054
+0 0 1
+>greet_prog 100~
+tell $n Oh no!  It's terrible!  I woke up this morning to find my head
+   tell $n has been stolen!  
+   tell $n When I opened my eyes, a sneaky little bastard grinned at me and
+   tell $n stuffed me in a sack, so now I don't know where my head is.
+   tell $n Will you help me?
+~
+>speech_prog p yes~
+say 'Oh thank you, thank you kind sir!  But please be quick,
+   say 'Or I may fade away and die.
+   mpmload 10261
+   mpgoto 20
+~
+|
+#10261
+headless horseman man~
+the &@&rHeadless &@&wH&borseman&*~
+A large man on an even larger horse seems rather distressed by his lack of a head!
+~
+Man, I've heard of having bad days, but this poor guy is having the worst!  He wolled
+out of bed this morning to discover some sneaky bastard had stolen, of all things,
+his head!  Now he's literally dying to get it back!
+~
+8259 67111464 0 S
+400 0 0 0d0+0 0d0+0
+40000 2054
+0 0 1
+>give_prog disembodied head~
+gasp
+   say Oh thank you!  I am complete again!
+   mpecho The &@&rHeadless &@&wH&borseman&* reattaches his head to his neck!
+   say Oh yes, this is just grand!
+   mpoload 10262
+   drop token
+   mpforce $n get token
+   say Here is a token of my gratitude, please enjoy it.
+   mpecho The &@&rHeadless &@&wH&borseman&* gallops off on his midnight steed.
+   mpgoto 20
+~
+|
+#10262
+bastard sneaky graverobber grave robber~
+the &b&@Sneaky Graverobber&*~
+A sneaky little bastard is here, carrying a round parcel that drips &rblood&*.
+~
+What could this little worthless being be doing?  He ducks from object to
+object, trying to always stay in cover.  What could he be carrying?
+~
+8389 134316546 0 S
+75 0 0 0d0+0 0d0+0
+7500 2062
+0 0 1
+>death_prog 10~
+mpoload 10217
+~
+|
+#10264
+happy halloween cow bovine~
+a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&*~
+An orange and black bovine is here, chewing her cud.
+~
+MOOOOOO!!!
+What an odd cow think is?  Wonder what kinda of milk she makes?
+~
+8291 201329340 0 S
+650 0 0 0d0+0 0d0+0
+65000 2604
+0 0 2
+>fight_prog 10~
+mpechoat $n a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&* hits you with an &w&@EARTHSHATTERING MOOOOOOOOOOOOO&*!!!!
+   mpechoaround $n a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&* lets out a loud MOOOOO, $n reels backwards.
+   attack3
+~
+>fight_prog 20~
+mpechoat $n a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&*'s kick sends you flying into a wall!
+   mpechoaround $n &n is kicked by a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&*, and goes flying!  Oof!
+   attack2
+~
+>fight_prog 30~
+mpechoat $na &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&* spits a ball of cud at you!  Ewwwwwww!
+   mpechoaround $n $n is hit by a ball of acidic cud!
+   attack1
+~
+>hitprcnt_prog 25~
+mpecho a &r&@HAPPY &yH&rA&yL&rL&yO&rW&yE&rE&yN &bC&wO&bW&* goes &@&!&rBERZERK!!!!!!&*
+   attack3
+   attack3
+   attack2
+   attack1
+~
+>rand_prog 2~
+yell MooooooooooOOOOOooooOOooooooo!!!!!
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10265
+ghost kid~
+the &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&*~
+A kid with a sheet over his head is here, &@&btrick&* or &@&rt&yr&re&ya&rt&yi&rn&yg&*.
+~
+This is the classic trick or treating costume.  An old stinky
+bedsheet with two eye holes cut out of it, and BANG, you've got
+a ghost.  Stunning.
+~
+197 0 0 S
+60 0 0 0d0+0 0d0+0
+60000 2062
+0 0 1
+>greet_prog 100~
+mpechoat $n &l&@the trick or treater &ytells you 'Trick or Treat, Gimme something good to eat!'&*
+~
+>give_prog pumpkin candy~
+mpechoat $n &l&@the trick or treater &ytells you 'Thank you very much!'&*
+   smile
+   eat candy
+   mpecho The &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&* suddenly clutches his chest!
+   mpecho The &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&* falls over, dead!!!!
+   mppurge $i
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10266
+kid princess~
+the &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&*~
+A kid dressed up as a &@&mprincess&* is here, &@&btrick&* or &@&rt&yr&re&ya&rt&yi&rn&yg&*.
+~
+Awww....how special.  This little girl thinks she's a little
+princess.  Kill her!
+~
+197 0 0 S
+60 0 0 0d0+0 0d0+0
+60000 2062
+0 0 2
+>greet_prog 100~
+mpechoat $n The &@&wlittle &mprincess&* looks at you with BIG puppy dog eyes. :(
+   mpechoat $n &l&@the trick or treater &ytells you 'Trick or Treat, Gimme something good to eat!'&*
+~
+>give_prog pumpkin candy~
+mpechoat $n &l&@the trick or treater &ytells you 'Thank you very much!'&*
+   smile
+   eat candy
+   mpecho The &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&*'s eyes suddenly go wide!
+   mpecho &rDEMONIC&* power fills the little &@&mprincess&*!!!!
+   mpkill $n
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10267
+kid tough~
+the &@&rtough &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&*~
+A big kid is here, ready to bully you for candy.
+~
+~
+69 201326760 0 S
+100 0 0 0d0+0 0d0+0
+100000 2062
+0 0 1
+>greet_prog 100~
+mpechoat $n &@&rThe tough trick or treater says 'You got til i count to ten to give me some candy!&*
+~
+>rand_prog 2~
+say 1
+~
+>rand_prog 4~
+say 2
+~
+>rand_prog 6~
+say 6
+~
+>rand_prog 8~
+say 11
+~
+>rand_prog 10~
+say 33
+~
+>rand_prog 12~
+say 10374889
+~
+>rand_prog 14~
+say 100
+~
+>rand_prog 16~
+say 76
+~
+>rand_prog 18~
+say 9.6
+~
+>rand_prog 20~
+say 10!!!!
+   guh
+   think
+   ponder
+   say What was I counting for???
+~
+>greet_prog 10~
+if ispc($n)
+      say HEY!  I REMEMBER WHY I WAS COUNTING!!!
+      growl
+      mpkill $n
+   endif
+~
+>give_prog pumpkin candy~
+eat candy
+burp
+fart
+yawn
+nap
+sleep
+~
+>death_prog 10~
+mpoload 10217
+~
+|
+#10268
+kid tough~
+the &@&rtough &@&btrick&* or &@&rt&yr&re&ya&rt&ye&rr&*~
+A big kid is here, ready to bully you for candy.
+~
+~
+69 201326760 0 S
+100 0 0 0d0+0 0d0+0
+100000 2062
+0 0 1
+>rand_prog 2~
+say 1
+~
+>rand_prog 4~
+say 2
+~
+>rand_prog 6~
+say 6
+~
+>rand_prog 8~
+say 11
+~
+>rand_prog 10~
+say 33
+~
+>rand_prog 12~
+say 10374889
+~
+>rand_prog 14~
+say 100
+~
+>rand_prog 16~
+say 76
+~
+>rand_prog 18~
+say 9.6
+~
+>rand_prog 20~
+say 10!!!!
+   guh
+   think
+   ponder
+   say What was I counting for???
+~
+>greet_prog 25~
+if ispc($n)
+      say HEY!  I REMEMBER WHY I WAS COUNTING!!!
+      growl
+      mpkill $n
+   endif
+~
+|
+#10269
+spirit god~
+&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&*~
+&@&mA &@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&m floats here looking for his body.&*
+~
+&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&m looks around 
+trying to find his body, you wonder how he lost his body.&*
+~
+8259 172 900 S
+550 0 0 0d0+0 0d0+0
+55000 2062
+0 0 1
+>hitprcnt_prog 15~
+mpecho &@&m&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&m goes &@&w&!&rBERZERK!!!!!!&*
+   attack3
+   attack3
+   attack2
+   attack1
+~
+>fight_prog 10~
+dragon
+~
+>fight_prog 10~
+spirit dragon
+~
+>fight_prog 20~
+attack3
+   attack3
+~
+>death_prog 100~
+mpoload 10367
+mpoload 10369
+~
+|
+#10270
+spirit goddess~
+&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&*~
+&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&*&@&m floats here looking for her Lover's body.&*
+~
+&@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&m looks around 
+trying to find his body, you wonder how he lost his body.&*
+~
+8259 172 900 S
+550 0 0 0d0+0 0d0+0
+55000 2062
+0 0 2
+>hitprcnt_prog 15~
+mpecho &@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&@&m screams for her lost love!!&*
+   attack3
+   attack3
+   attack2
+   attack1
+~
+>fight_prog 10~
+mpecho &@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&@&m practices what her lost love taught her.&*
+   gore
+~
+>fight_prog 10~
+mpecho &@&mS&*&mp&@&mi&*&mr&@&mi&*&mt &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&@&m practices what her lost love taught her.&*
+   heart
+~
+>fight_prog 20~
+attack3
+   attack3
+~
+>death_prog 100~
+mpoload 10368
+mpoload 10370
+~
+|
+#10271
+impatient scavenger~
+the &@&gimpatient &@&rs&*&rc&@&ra&*&rv&@&re&*&rn&@&rg&*&re&@&rr&*~
+A necrophelic diner eyes you with expectation.
+~
+~
+99 67109036 900 S
+550 0 0 0d0+0 0d0+0
+55000 2062
+0 0 2
+>fight_prog 5~
+mpforce $n 911 Help! It's gonna eat me!
+~
+>fight_prog 10~
+emote &@&rtries to subdue you.&*
+kendo
+kendo
+kendo
+~
+>fight_prog 30~
+lick
+mmm $n
+claw
+claw
+stab
+gore
+~
+>death_prog 50~
+mpecho &@&rA claw is sliced from the scavengers body!!&*
+mpoload 10373
+~
+|
+#10272
+immortal~
+the &@&wimmortal&*~
+An immortal stands with his head in the stars.
+~
+~
+8259 67109036 900 S
+1005 0 0 0d0+0 0d0+0
+100500 2062
+0 0 1
+>greet_prog 10~
+if ispc ($n)
+mpechoat $n &@&lThe &@&wimmortal &lsays 'Yes, you may kiss my hand.'&*
+mpechoaround $n &@&lThe &@&wimmortal &lsays to $n 'Yes, you may kiss my hand.'&*
+endif
+~
+>speech_prog trick~
+say I know plenty of tricks, little one.
+~
+>speech_prog treat~
+say If your looking for treats visit Cookie or go to Twilight.
+say I hear they are a bunch of trick or treating fools over there.
+~
+>give_prog reeces candy treat~
+eye
+clap
+smile $n
+say Woooo! Good candy!
+eat recees
+mpjunk candy
+tell $n &@&wWhen you meet the creator honor her with a gold coin.&*
+mptransfer $n 17823
+~
+|
+#10273
+creator~
+the &@&ccreator&*~
+&@&cThe creator imagines what she could change you into.&*
+~
+~
+67 67109036 900 S
+1006 0 0 0d0+0 0d0+0
+100600 2062
+0 0 2
+>greet_prog 100~
+sac all
+~
+>bribe_prog 1~
+mpjunk coins
+if level($n) < 50
+mpoload 10398
+mpoload 10399
+drop all
+else
+if level($n) < 100
+mpoload 10375
+mpoload 10376
+drop all
+else
+if level($n) < 150
+mpoload 10377
+mpoload 10378
+drop all
+else
+if level($n) < 200
+mpoload 10379
+mpoload 10380
+drop all
+else
+if level($n) < 250
+mpoload 10386
+mpoload 10387
+drop all
+endif
+wave
+bitchslap creator
+~
+|
+#10274
+creator~
+the &@&ccreator&*~
+&@&cThe creator imagines what she could change you into.&*
+~
+~
+67 67109036 900 S
+1006 0 0 0d0+0 0d0+0
+100600 2062
+0 0 2
+>greet_prog 100~
+sac all
+~
+>bribe_prog 1~
+mpjunk coins
+if level($n) < 300
+mpoload 10388
+mpoload 10389
+drop all
+else
+if level($n) < 350
+mpoload 10390
+mpoload 10391
+drop all
+else
+if level($n) < 400
+mpoload 10392
+mpoload 10393
+drop all
+else
+if level($n) < 450
+mpoload 10394
+mpoload 10395
+drop all
+else
+if level($n) < 500
+mpoload 10396
+mpoload 10397
+drop all
+else
+if legen_level($n) < 20
+mpoload 10200
+mpoload 10227
+drop all
+else
+if legen_level($n) < 50
+mpoload 10228
+mpoload 10229
+drop all
+else
+if legen_level($n) < 100
+mpoload 10300
+mpoload 10301
+drop all
+else
+if legen_level($n) < 150
+mpoload 10302
+mpoload 10303
+drop all
+else
+if legen_level($n) < 200
+mpoload 10304
+mpoload 10305
+drop all
+else
+if legen_level($n) > 199
+mpoload 10306
+mpoload 10307
+drop all
+endif
+wave
+bitchslap creator
+~
+|
+#0
+
+
+#OBJECTS
+#10200
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65538 1025
+0 0 0 0
+7 0 1
+A
+25 36
+A
+13 225
+A
+18 16
+A
+19 16
+A
+4 2
+A
+6 2
+#10201
+bone dust~
+some &@&wbone &*&ydust&*~
+Some &@&wbone &*&ydust&* lies here.~
+~
+26 0 1
+200 83 -1 -1
+1 1111 1001
+#10202
+pez dispenser~
+&@&M&wP E&R Z &YD I&G S &CP E&L N &MS E&R R &*~
+A small candy dispenser is lying here.~
+~
+15 0 1
+5 1 0 1
+5 5 1
+#10203
+pez candy~
+&@&rP&gE&lZ&*~
+&@&mP&*&mez &@&rP&*&rez &@&yP&*&yez &@&gP&*&gez &@&cP&*&cez &@&lP&*&lez.&*~
+~
+26 0 1
+5 -1 -1 -1
+1 1 1
+#10204
+pumpkin candy~
+&@&rP&yu&rm&yp&rk&yi&rn &yCandy&*~
+Some &@&rP&yu&rm&yp&rk&yi&rn &yCandy&* is here.~
+~
+26 0 1
+1000 117 -1 -1
+1 1111 1001
+#10205
+clean skeleton~
+a &@&wClean Skeleton&*~
+A &@&wclean skeleton&* kicks back in its eternal resting place.~
+~
+15 0 0
+5 0 0 0
+100 0 0
+#10206
+skull~
+a &@&wS&*&wk&@&wu&*&wl&@&wl&*~
+A &@&ws&*&wk&@&wu&*&wl&@&wl&* wobbles on the ground.~
+~
+15 524338 1
+400 1 0 0
+3 0 1
+#10207
+fountain~
+an &@&cexquisite &wmarble &*fountain~
+An &@&cexquisite &wmarble &*fountain sparkles here.~
+~
+25 0 0
+9 0 0 0
+5 0 0
+#10208
+keg beer~
+a &mm&go&ml&gd&my &@&yb&*&ye&@&ye&*&yr &*keg~
+A &mm&go&ml&gd&my &@&yb&*&ye&@&ye&*&yr &*keg is here.~
+~
+25 0 0
+4 0 0 0
+100 0 0
+#10209
+razor sharp cleaver~
+a &*&rRazor &@&wSharp &@&rC&*&rleaver&*~
+A &*&rRazor &@&wSharp &@&rC&*&rleaver&* is here.~
+~
+5 64 8193
+0 0 0 1
+1 0 120
+A
+19 20
+A
+18 20
+A
+25 197
+A
+25 47
+#10210
+hellhound tooth~
+a &@&rH&*&rellhound &@&wTooth&*~
+A &@&rH&*&rellhound &@&wTooth&* rests here.~
+~
+12 0 1
+0 0 0 0
+1 0 1001
+#10211
+whole raw meat~
+some &@&rraw &*&rmeat&*~
+Some &@&rraw &*&rmeat&* rests here.~
+~
+12 0 1
+0 0 0 0
+1 0 1001
+#10212
+diced raw meat~
+some &@&rdiced &*&rmeat&*~
+Some &@&rdiced &*&rmeat&* rests here.~
+~
+12 0 1
+0 0 0 0
+1 0 1001
+#10213
+hollow bone quest~
+a &*&whollow &@&wbone&*~
+A &*&whollow &@&wbone&* is here.~
+~
+17 64 1
+200 200 13 0
+2 0 1001
+#10214
+bonus point token~
+a &@&rB&yo&ln&gu&ms &wPoint Token!&*~
+A &@&rB&yo&ln&gu&ms &wPoint Token!&*~
+~
+12 6 1
+0 0 0 0
+1 0 1
+#10215
+death door~
+&@&wDeath's &*&yDoor&*~
+&@&wDeath's &*&yDoor&*~
+~
+27 64 0
+10258 50 0 0
+100 0 1001
+#10216
+hollow bone blood~
+a &*&whollow &@&wbone&*~
+A &*&whollow &@&wbone&* is here.~
+~
+17 64 1
+200 200 13 0
+2 0 100
+#10217
+golden pumpkin~
+a &*&ygolden &@&rp&yu&rm&yp&rk&yi&rn&*~
+A &*&ygolden &@&rp&yu&rm&yp&rk&yi&rn&* rests here.~
+~
+20 0 1
+200000 0 0 0
+1 0 1
+#10218
+little pink pill~
+a &@&wLittle &mPink &@&w(&mpill&w)&*~
+A &@&wLittle &mPink &@&w(&mpill&w)&* is here.~
+~
+26 4 1
+200 83 160 90
+1 1111 1006
+#10219
+instill scroll~
+a &@&cscroll&* of &@&mi&*&mn&@&ms&*&mt&@&mi&*&ml&@&ml &cenergy&*~
+A &@&cscroll&* of &@&mi&*&mn&@&ms&*&mt&@&mi&*&ml&@&ml &cenergy&* hums here.~
+~
+2 536870976 1
+200 68 -1 -1
+3 1111 1
+#10220
+enchant weapon scroll~
+a &@&cscroll&* of &@&wenchant &rweapon&*~
+A &@&cscroll&* of &@&wenchant &rweapon&* glows here.~
+~
+2 536870976 1
+200 24 -1 -1
+3 1111 1
+#10221
+enchant armor scroll~
+a &@&cscroll&* of &@&wenchant &larmor&*~
+A &@&cscroll&* of &@&wenchant &rarmor&* glows here.~
+~
+2 536870976 1
+200 122 -1 -1
+3 1111 1
+#10222
+pumpkin pie~
+&@&rP&yu&rm&yp&rk&yi&rn&y &*&yPie with &@&wwhipped cream&*~
+A &@&rP&yu&rm&yp&rk&yi&rn&y &*&yPie with &@&wwhipped cream&* looks really good.~
+~
+19 0 1
+40 -1 0 0
+10 15 0
+#10223
+walnut cookie~
+&@&bW&*&ya&@&bl&*&yn&@&bu&*&yt &@&yCookie&*~
+A sweet &@&bW&*&ya&@&bl&*&yn&@&bu&*&yt &@&yCookie&* is here.~
+~
+19 0 1
+20 0 0 0
+2 10 0
+#10224
+bright red apple~
+an &@&rapple&*~
+A bright red &@&rapple&* is here.~
+~
+19 0 1
+20 0 0 0
+2 10 0
+#10225
+chocolate chip cookie~
+&*&yChocolate Chip &@&yCookie&*~
+A &*&yChocolate Chip &@&yCookie&* beckons you to eat it.~
+~
+19 0 1
+20 0 0 0
+2 10 0
+#10226
+glass tear~
+a &*&mG&@&ml&wass &cTear&*~
+A &*&mG&@&ml&wass &cTear&* is here.~
+~
+26 0 1
+200 46 46 46
+5 1111 1001
+#10227
+danger trick mana ~
+A &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+~
+9 65542 1025
+36 0 0 0
+1 10 1
+A
+4 3
+A
+3 3
+A
+13 275
+A
+12 275
+A
+25 36
+A
+5 1
+#10228
+danger trick damage~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+1 10 20
+A
+5 1
+A
+4 2
+A
+3 1
+A
+2 1
+A
+1 1
+A
+6 2
+A
+19 17
+A
+18 17
+A
+25 36
+#10229
+danger trick mana~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+1 10 20
+A
+25 36
+A
+12 290
+A
+6 1
+A
+5 1
+A
+3 3
+A
+4 3
+A
+1 1
+#10240
+big bloody knife~
+&@&wBi&*&wg &@&rBl&*&roo&@dy &@&cK&ln&ci&lf&ce&*~
+A wicked knife lays here.~
+~
+5 0 8193
+0 0 0 11
+15 15000 0
+A
+25 90
+A
+25 103
+A
+25 156
+A
+25 65
+A
+25 129
+A
+25 171
+A
+25 179
+A
+25 45
+A
+25 186
+#10241
+magic dust~
+&@&wSome Magic Dust&*~
+A pile of &@&wmagic dust&* sits here.~
+~
+26 0 1
+80 83 52 66
+5 100 1001
+#10242
+fire ouch~
+&@&rf&yi&*&rr&ye &@&r.&y.&*&r.&y. &@O&*&yuch!&*~
+A burning &@&rf&yi&*&rr&ye &*is floating around you.~
+~
+1 1 1
+0 0 -1 0
+5 1 1
+#10243
+scroll energy vortex~
+&@&cA Scroll of &yE&gn&le&cr&rg&my &cVortex&*~
+An old and precious scroll is here.~
+~
+2 0 1
+200 173 -1 -1
+5 100000 1
+#10244
+scroll ghostly steed~
+&@&cA Scroll of &*&wGhostly Steed&*~
+An ancient scroll of wisdom lays here.~
+~
+2 0 1
+200 132 -1 -1
+5 100000 1
+#10245
+scroll summon~
+&@&cA Scroll of &*&rSummoning&*~
+An scroll riddled with runes lays in the dust.~
+~
+2 0 1
+200 40 -1 -1
+5 100000 1
+#10260
+disembodied head~
+a &rDisembodied Head&*~
+A bloody head is lying here.  That musta hurt.~
+~
+18 4 1
+0 0 0 0
+10 13 1001
+#10261
+bloody sack~
+a &rbloody&* sack~
+A &rblood&* soaked sack lies here, just about the right size to hold a
+head!~
+~
+15 4 1
+100 0 0 0
+10 155 1001
+#10262
+bloody token battle~
+a &*&rSpecial &*&wBattle or &@&bBitchslapping Time Token &w(Redeem with an imm)&*~
+Yes you could get Bitchslapped or you could get a special battle approved.. it all depends~
+~
+8 321 1
+0 0 0 0
+1 100000 1
+#10263
+corpse headless horseman~
+the &mcorpse&* of the headless horseman~
+A headless corpse lies here, bleeding from the neck.~
+~
+18 0 0
+0 0 0 0
+10 13 0
+#10300
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 50
+A
+13 240
+A
+18 18
+A
+19 18
+A
+25 36
+A
+6 2
+A
+1 2
+A
+5 2
+A
+4 2
+A
+3 2
+A
+2 2
+#10301
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 50
+A
+12 300
+A
+13 300
+A
+4 3
+A
+3 3
+A
+1 1
+A
+5 1
+A
+2 1
+A
+6 1
+A
+25 36
+#10302
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 100
+A
+13 280
+A
+18 19
+A
+19 19
+A
+25 36
+A
+1 3
+A
+2 3
+A
+6 4
+A
+4 4
+#10303
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 100
+A
+12 315
+A
+13 315
+A
+25 36
+A
+3 4
+A
+4 4
+A
+14 275
+A
+1 3
+#10304
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 150
+A
+13 295
+A
+18 20
+A
+19 20
+A
+4 4
+A
+6 4
+A
+2 3
+A
+1 3
+A
+25 36
+#10305
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 150
+A
+12 330
+A
+13 330
+A
+25 36
+A
+1 3
+A
+4 4
+A
+3 4
+A
+14 300
+A
+5 3
+#10306
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 200
+A
+13 310
+A
+18 21
+A
+19 21
+A
+12 325
+A
+6 5
+A
+4 5
+A
+2 4
+A
+5 4
+A
+1 4
+A
+25 36
+#10307
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 65542 1025
+0 0 0 0
+7 0 200
+A
+12 350
+A
+13 350
+A
+3 5
+A
+4 5
+A
+5 4
+A
+1 4
+A
+6 3
+A
+14 325
+A
+25 36
+#10308
+dummy object~
+a Dummy object&*~
+A dummy object has been left here.~
+~
+12 0 0
+0 0 0 0
+0 0 0
+#10364
+light shadow~
+a &*&wlight &@&bshadow&*~
+A light shadow is barely visable here.~
+~
+9 16 129
+20 0 0 0
+5 1111 80
+A
+19 4
+A
+18 4
+A
+13 20
+#10365
+halloween portal~
+&@&yH&rA&yL&rL&yO&rW&yE&rE&yN &wPortal&*~
+&@&yH&rA&yL&rL&yO&rW&yE&rE&yN &wPortal&*~
+~
+27 64 0
+10250 -1 0 0
+1000 0 0
+#10366
+chaos buzz~
+&*a &@&rC&yh&ga&lo&ms &wBuzz!&*~
+A powerful pill buzzes.~
+~
+26 4 1
+1 -1 -1 -1
+1 0 1001
+#10367
+pill body god~
+&@&rThe Body of a &!&wGOD&*~
+&@&rThe Body of a &!&wGOD&*&@&r lays here&*~
+~
+26 4 1
+500 117 145 -1
+1 1000000 1006
+#10368
+pill body goddess~
+&@&rThe Body of a &!&wGODDESS&*~
+&@&rThe Body of a &!&wGODDESS&*&@&r lays here&*~
+~
+26 4 1
+500 145 -1 -1
+1 1000000 1006
+#10369
+armor god~
+&@&mA&*&mr&@&mm&@&mo&*&mr &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&*~
+&@&mA&*&mr&@&mm&@&mo&*&mr &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&*~
+~
+9 65536 9
+0 0 0 0
+5 0 1
+A
+18 10
+A
+19 16
+A
+13 280
+#10370
+armor goddess~
+&@&mA&*&mr&@&mm&@&mo&*&mr &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&*~
+&@&mA&*&mr&@&mm&@&mo&*&mr &@&mo&*&mf &@&ma &*&mG&@&mo&*&md&@&md&*&me&@&ms&*&ms&*~
+~
+9 65536 9
+0 0 0 0
+5 0 1
+A
+12 300
+A
+13 250
+#10371
+raggedy hat~
+a &@&rR&wa&rg&wg&re&wd&ry &bHat&*~
+A wretched and loud striped hat rolls on the wind.~
+~
+9 4 17
+0 0 0 0
+11 0 280
+A
+13 300
+#10372
+reapers shroud~
+&*the &@&bR&*&re&@&ba&*&rp&@&be&*&rr&@&b'&*&rs &@&bShroud&*~
+&@&bDeath's bathrobe floats menacingly before you!&*~
+~
+9 4 1025
+50 0 0 0
+11 0 420
+A
+13 300
+A
+12 140
+#10373
+hooked claw~
+a &@&r)&y<&b<&r<&bhooked claw&r>&b>&y>&r(&*~
+A bloody claw rips at you!~
+~
+9 68 129
+50 0 0 0
+11 0 350
+A
+19 13
+A
+13 220
+A
+25 47
+#10374
+striped silk sleeves~
+&@&bs&*&wt&@&br&*&wi&@&bp&*&we&@&bd &wsilk &bsleeves&*~
+&@&bSome slick striped sleeves stalk your arms!&*~
+~
+9 68 257
+50 0 0 0
+11 0 280
+A
+13 150
+A
+12 150
+A
+3 1
+A
+4 1
+A
+25 171
+#10375
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+15 0 0 0
+7 0 50
+A
+19 5
+A
+1 1
+#10376
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+15 0 0 0
+7 0 50
+A
+13 50
+A
+1 1
+#10377
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+20 0 0 0
+7 0 100
+A
+19 10
+A
+1 2
+#10378
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+20 0 0 0
+7 0 100
+A
+13 100
+A
+1 2
+#10379
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+25 0 0 0
+7 0 150
+A
+19 10
+A
+18 10
+A
+1 3
+#10380
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+25 0 0 0
+7 0 150
+A
+13 100
+A
+12 50
+A
+1 3
+#10381
+mnm candy treat~
+&@&r(&wm&r) &w& &g(&wm&g)&*~
+A &@&rt&yr&re&ya&rt&* is here.~
+~
+26 0 1
+1000 223 114 -1
+1 800000 1006
+#10382
+snickers candy treat~
+&*&y{[&@&wSnickers&*&y]}&*~
+A &@&rt&yr&re&ya&rt&* is here.~
+~
+26 0 1
+1000 38 -1 -1
+1 800000 1006
+#10383
+mint candy treat~
+&@&b(&l(&wmint&l)&b)&*~
+A &@&rt&yr&re&ya&rt&* is here.~
+~
+26 0 1
+1000 162 139 -1
+1 800000 1006
+#10384
+reeces candy treat~
+&@&r{[&*&y(&@&yreeces&*&y)&@&r]}&*~
+A &@&rt&yr&re&ya&rt&* is here.~
+~
+26 0 1
+1000 90 160 -1
+1 800000 1006
+#10385
+twizzler candy treat~
+&@&r\&mt&r\&mw&r\&mi&r\&mz&r\&mz&r\&ml&r\&me&r\&mr&r\&*~
+A &@&rt&yr&re&ya&rt&* is here.~
+~
+26 0 1
+1000 85 97 -1
+1 800000 1006
+#10386
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+35 0 0 0
+7 0 200
+A
+19 10
+A
+18 10
+A
+13 50
+A
+1 2
+A
+2 2
+#10387
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+35 0 0 0
+7 0 200
+A
+13 150
+A
+12 50
+A
+1 2
+A
+2 2
+#10388
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+40 0 0 0
+7 0 250
+A
+19 11
+A
+18 11
+A
+13 80
+A
+1 2
+A
+2 2
+#10389
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+40 0 0 0
+7 0 250
+A
+13 160
+A
+12 100
+A
+1 2
+A
+2 2
+#10390
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+45 0 0 0
+7 0 300
+A
+19 12
+A
+18 12
+A
+13 90
+A
+1 2
+A
+2 2
+#10391
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+45 0 0 0
+7 0 300
+A
+13 160
+A
+12 160
+A
+1 2
+A
+2 2
+#10392
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+50 0 0 0
+7 0 350
+A
+19 13
+A
+18 13
+A
+13 125
+A
+1 2
+A
+2 2
+#10393
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+50 0 0 0
+7 0 350
+A
+13 180
+A
+12 180
+A
+1 2
+A
+2 2
+#10394
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+55 0 0 0
+7 0 400
+A
+19 14
+A
+18 14
+A
+13 155
+A
+1 2
+A
+2 2
+#10395
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+55 0 0 0
+7 0 400
+A
+13 210
+A
+12 210
+A
+1 2
+A
+2 2
+#10396
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+60 0 0 0
+7 0 450
+A
+19 15
+A
+18 15
+A
+13 185
+A
+1 2
+A
+2 2
+#10397
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+60 0 0 0
+7 0 450
+A
+13 240
+A
+12 240
+A
+1 2
+A
+2 2
+#10398
+danger damage trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A dangerous trick is here!~
+~
+9 6 1025
+10 0 0 0
+7 0 20
+A
+19 1
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+#10399
+magic caster trick~
+a &@&b{{&rt&yr&ri&yc&rk&b}}&*~
+A magical trick is here!~
+~
+9 6 1025
+10 0 0 0
+7 0 20
+A
+12 10
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+#0
+
+
+#ROOMS
+#10201
+&*&yGateway to &@&wSolace&*~
+&*&yThis is the gateway to the town of Solace. It keeps the monsters in and
+the people out.
+There is a &@&wSign &*&yhere.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10202
+D1
+~
+~
+0 -1 10216
+D3
+~
+~
+0 -1 10217
+E
+sign~
+**&@&rWELCOME TO SOLACE&***
+
+Long ago Solace was built by Strahd
+however it has long since been destroyed
+by evil undead forces.
+
+Welcome to Solace Traveler.
+Rest your weary feet and enjoy our small town.
+Please don't feed the animals.
+And please behave yourself.
+Gates will be closed and lock at night 
+to keep the town safe.
+
+-Captain of the Guard-
+~
+E
+plaque~
+*************
+&*&mTown of Solace
+&@&BEWARE!!&*
+*************
+
+~
+S
+#10202
+&@&rMain &*&yRoad&*~
+&*&yThis is the main road in &@&wSolace&*&y. Down the street you can see various
+shops and houses.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10203
+D1
+a door~
+door~
+1 -1 10257
+D2
+~
+~
+0 -1 10201
+D3
+You see a house.
+a door~
+door~
+1 -1 10246
+T
+20
+&@&rA&yu&*&yt&gu&@&rm&yn&* leaves rustle down the street.
+~
+S
+#10203
+&@&rMain &*&yRoad&*~
+&*&yThis is the main road in &@&wSolace&*&y. Down the street you can see various
+shops and houses.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10204
+D2
+~
+~
+0 -1 10202
+D3
+~
+~
+0 -1 10245
+S
+#10204
+&@&rMain &*&yRoad&*~
+&*&yThis is the main road in &@&wSolace&*&y. Down the street you can see various
+shops and houses.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10205
+D2
+~
+~
+0 -1 10203
+S
+#10205
+&@&rIntersection &*&yat Main Road.&*~
+&*&yHere there is an intersection at the main road.
+You see to the east and west, smaller houses and some more shops.
+To the road continues to the north. Its much to &@&wquiet&*&y.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10228
+D1
+~
+~
+0 -1 10206
+D2
+~
+~
+0 -1 10204
+D3
+~
+~
+0 -1 10227
+S
+#10206
+&*&yEast &@&wGullen &*&yWay&*~
+&*&yThis is the road called East &@&wGullen &*&yWay. It is lined with small houses and
+empty shops.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10207
+D2
+a door~
+door~
+1 -1 10251
+D3
+~
+~
+0 -1 10205
+S
+#10207
+&*&yEast &@&wGullen &*&yWay&*~
+&*&yThis is the road called East &@&wGullen &*&yWay. It is lined with small houses and
+empty shops.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10208
+D2
+~
+~
+0 -1 10252
+D3
+~
+~
+0 -1 10206
+S
+#10208
+&*&yEast &@&wGullen &*&yWay&*~
+&*&yThis is the road called East &@&wGullen &*&yWay. It is lined with small houses and
+empty shops.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10209
+D3
+~
+~
+0 -1 10207
+S
+#10209
+&*&yCorner of East &@&wGullen &*&yand &@&rKetra &*&yRoad.&*~
+&*&yThis is the Corner of East &@&wGullen &*&yWay and &@&rKetra &*&yRoad.
+The road is covered in a thick &@&ggreen slime &*&yand the
+nearby buildings are nearly fallen to the ground in
+disrepair.&*
+~
+0 6553648 1
+D2
+~
+~
+0 -1 10210
+D3
+~
+~
+0 -1 10208
+S
+#10210
+&@&rKetra &*&yRoad.&*~
+&*&yIt is one of the sidestreets of &@&wSolace&*&y. There used to be shops here.
+Most of it is run down houses and shacks.
+This looks like the poorer part of town, it is amazingly filthy.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10209
+D2
+~
+~
+0 -1 10211
+S
+#10211
+&@&rKetra &*&yRoad.&*~
+&*&yIt is one of the sidestreets of &@&wSolace&*&y. There used to be shops here.
+Most of it is run down houses and shacks.
+This looks like the poorer part of town, it is amazingly filthy.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10210
+D2
+~
+~
+0 -1 10212
+D3
+a door~
+door~
+1 -1 10254
+S
+#10212
+&@&rKetra &*&yRoad.&*~
+&*&yIt is one of the sidestreets of &@&wSolace&*&y. There used to be shops here.
+Most of it is run down houses and shacks.
+This looks like the poorer part of town, it is amazingly filthy.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10211
+D2
+~
+~
+0 -1 10213
+D3
+~
+door~
+1 -1 10255
+S
+#10213
+&*&ySoutheast &@&rGuardpost &*&yand Watchtower.&*~
+&*&yThis is the Southeast guardpost and guardpost of Solace.
+It used to be a watch station and coffee break area for the town guards.
+Who knows what lurks there now.....&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10212
+D3
+~
+~
+0 -1 10214
+D4
+~
+~
+0 -1 10260
+E
+sign~
+** &@&rWARNING&* **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be jailed or killed.
+
+-Captain of the Guard-
+~
+S
+#10214
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10213
+D3
+~
+~
+0 -1 10215
+S
+#10215
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D0
+a door~
+door~
+1 -1 10256
+D1
+~
+~
+0 -1 10214
+D3
+~
+~
+0 -1 10216
+S
+#10216
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10215
+D3
+~
+~
+0 -1 10201
+T
+20
+&@&rA&yu&*&yt&gu&@&rm&yn&* leaves rustle down the street.
+~
+S
+#10217
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10201
+D3
+~
+~
+0 -1 10218
+S
+#10218
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D0
+a door~
+door~
+1 -1 10247
+D1
+~
+~
+0 -1 10217
+D3
+~
+~
+0 -1 10219
+S
+#10219
+&@&rSmall &*&yAlleyway&*~
+&*&yYou are walking down a small alleyway along the north wall of the town.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10218
+D3
+~
+~
+0 -1 10220
+S
+#10220
+&*&ySouthwest &@&rGuardpost &*&yand Watchtower&*~
+&*&yThis is the Southwest &@&rguardpost &*&yof &@&wSolace&*&y. It used to 
+be a watch station and coffee break area for the town guards.
+Who knows what lurks there now.....&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10221
+D1
+~
+~
+0 -1 10219
+D4
+~
+~
+0 -1 10261
+E
+sign~
+** &@&rWARNING&* **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be jailed or killed.
+
+-Captain of the Guard-
+~
+S
+#10221
+&@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*~
+&*&yYou are walking down &@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*&y.
+It is dreadfully quiet here and the smell of rotting
+flesh fills the air.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10222
+D1
+~
+~
+0 -1 10248
+D2
+~
+~
+0 -1 10220
+S
+#10222
+&@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*~
+&*&yYou are walking down &@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*&y.
+It is dreadfully quiet here and the smell of rotting
+flesh fills the air.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10223
+D1
+a door~
+door~
+1 -1 10249
+D2
+~
+~
+0 -1 10221
+T
+20
+&@&rA&yu&*&yt&gu&@&rm&yn&* leaves rustle down the street.
+~
+S
+#10223
+&@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*~
+&*&yYou are walking down &@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*&y.
+It is dreadfully quiet here and the smell of rotting
+flesh fills the air.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10224
+D2
+~
+~
+0 -1 10222
+S
+#10224
+&*&yCorner of West &@&wGullen &*&yWay and &@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*~
+&*&yThis is the corner of West &@&wGullen&*&y and &@&rH&ya&gr&*&yv&@&re&*&rs&@&yt &*&yRoad&*&y.
+You smell something cooking in the air...
+Are you sure you want to find out what?&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10225
+D2
+~
+~
+0 -1 10223
+S
+#10225
+&*&yA Small &rP&yu&rm&yp&rk&yi&rn &@&gPatch&*~
+&*&yRows and rows of &@&rp&yu&rm&yp&rk&yi&rn&ys &*&ysit waiting to
+be harvested.&*
+~
+9 6553652 2
+D1
+~
+~
+0 -1 10226
+D2
+~
+~
+0 -1 10242
+D3
+~
+~
+0 -1 10224
+S
+#10226
+&*&yWest &@&wGullen &*&yWay&*~
+&*&yThis is the road called West &@&wGullen &*&yWay. It is lined with small houses 
+and empty shops.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10227
+D2
+a door~
+door~
+1 -1 10243
+D3
+~
+~
+0 -1 10225
+T
+20
+&@&rA&yu&*&yt&gu&@&rm&yn&* leaves rustle down the street.
+~
+S
+#10227
+&*&yWest &@&wGullen &*&yWay&*~
+&*&yThis is the road called West &@&wGullen &*&yWay. It is lined with small houses 
+and empty shops.&*
+~
+0 6553648 1
+D1
+~
+~
+0 -1 10205
+D2
+a door~
+door~
+1 -1 10244
+D3
+~
+~
+0 -1 10226
+S
+#10228
+&@&rMain &*&yRoad&*~
+&*&yThis is the &@&rmain &*&yroad in &@&wSolace&*&y. Down the street you can see various
+deserted shops and run-down houses.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10229
+D2
+~
+~
+0 -1 10205
+S
+#10229
+&*&rFinish &yof the &@&rMain &*&yRoad&*~
+&*&yThe main road of &@&wSolace &*&ystops here. Other smaller roadways lead 
+off in various directions. &@&rScreams &*&ycan be heard from inside some 
+of the buildings.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10272
+D1
+~
+~
+0 -1 10262
+D2
+~
+~
+0 -1 10228
+D3
+~
+~
+0 -1 10230
+S
+#10230
+&@&gMarketplace&*~
+&*&yThis was the &@&wSolace &gmarketplace&*&y, before an 
+evil wash of monsters raided and destroyed the
+town.
+There is a sign at the entrance to the market.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10241
+D1
+~
+~
+0 -1 10229
+D2
+~
+~
+0 -1 10237
+D3
+~
+~
+0 -1 10231
+E
+sign~
+**&@&rNOTICE&***
+
+Stealing will NOT be tolerated.
+Any sort of shady actions will be punishable by death.
+
+-Captain of the Guard-
+~
+S
+#10231
+&@&gMarketplace&*~
+&*&yThis was the &@&wSolace &gmarketplace&*&y, before an 
+evil wash of monsters raided and destroyed the
+town.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10240
+D1
+~
+~
+0 -1 10230
+D2
+~
+~
+0 -1 10236
+D3
+~
+~
+0 -1 10232
+S
+#10232
+&@&gMarketplace&*~
+&*&yThis was the &@&wSolace &gmarketplace&*&y, before an 
+evil wash of monsters raided and destroyed the
+town.&*
+~
+0 6553652 1
+D0
+~
+~
+0 -1 10239
+D1
+~
+~
+0 -1 10231
+D2
+~
+~
+0 -1 10235
+D3
+~
+~
+0 -1 10233
+S
+#10233
+&@&gMarketplace&*~
+&*&yThis was the &@&wSolace &gmarketplace&*&y, before an 
+evil wash of monsters raided and destroyed the
+town.
+These are the last stalls in the marketplace. Next 
+to you stands the West wall of the town.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10238
+D1
+~
+~
+0 -1 10232
+D2
+~
+~
+0 -1 10234
+S
+#10234
+&*&yA &rDeserted &yShop&*~
+&*&yThis is a dark and dusty shop the boards creak
+beneath you as you walk across the floor...
+there is an excellent chance you will fall through.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10233
+S
+#10235
+&*&yA &rDeserted &yShop&*~
+&*&yThis is a &@&bdark &*&yshop with crumbling walls. Rats
+crawl in and out of the walls searching for some
+of the &@&rf&yr&gu&*&mi&@&yt &*&ythe shop used to sell.&*
+~
+0 6553660 1
+D0
+~
+~
+0 -1 10232
+S
+#10236
+&*&yA &rDeserted &yShop&*~
+&*&yBroken glass cases are tossed around the shop.
+The &@&rb&*&rl&@&ro&*&ro&@&rd &*&yof careless monsters streaks the broken
+glass and dryly coats the floorboards.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10231
+S
+#10237
+&*&yA &rDeserted &yShop&*~
+&*&yThis shop is very &@&ccold&*&y. A wind screams through it
+ceaselessly. Frozen &wcobwebs &ycover the walls and
+&@&wice &*&ycoats the floor.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10230
+S
+#10238
+&*&yA &rDeserted &yShop&*~
+&*&yThis is a dark and rundown shop. It seems to have been
+left for dead long long ago.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10233
+S
+#10239
+&*&yA &rDeserted &yShop&*~
+&*&yThe smell of &mrotten &@&rv&ye&gg&re&yt&ga&*&yb&@&rl&*&ge&@&gs &*&yrolls up from the
+floor and spreads across the room heavy and wet.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10232
+S
+#10240
+&*&yA &rDeserted &yShop&*~
+&*&yStrange hoses and &rrusted &ydive equiptment are strewn
+about the store. Some of the pieces seem to have been
+chewed straight through.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10231
+S
+#10241
+&*&yA &rDeserted &yShop&*~
+&*&yThis used to be a container shop now spiders crawl in
+and out of empty rings and boxes.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10230
+S
+#10242
+&*&yA &rDeserted &yShop&*~
+&*&mMoldy &ykegs of old beer lay cracked and overturned
+in the floor. Mushrooms have begun to grow out of
+some of the more rancid barrels.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10225
+S
+#10243
+&*&yA House&*~
+&*&yThis is a small house off of West &@&wGullen &*&yWay. It is not your house and you
+were not invited. Why are you here?&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10226
+S
+#10244
+&*&yA House&*~
+&*&yThis is a small house off of West &@&wGullen &*&yWay. It is dusty and cold
+the walls creak and groan as if they will soon fall in crush you.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10227
+S
+#10245
+&@&yC&*&yookie's &@&yCookie &*&yCookery&*~
+&*&yThis shop used to belong to &@&yC&*&yookie, one of the finest 
+bakers in &@&wSolace &*&yuntil she met with an untimely demise.&*
+~
+2 6553660 1
+D1
+~
+~
+0 -1 10203
+D3
+a door~
+door~
+1 -1 10250
+S
+#10246
+&*&yA House&*~
+&*&yThis is a small house off of West &@&wGullen &*&yWay. It is dusty and cold
+the walls creak and groan as if they will soon fall in crush you.&*
+~
+0 6553656 1
+D1
+a door~
+door~
+1 -1 10202
+S
+#10247
+&*&yOld &@&rGambling &*&yParlor&*~
+&*&yThis used to be a very popular and busy gambling parlor. But the Captain
+of the Guard lost big here once and thereafter declared gambling illegal.
+It has been closed for many years. It is dusty and full of cobwebs.&*
+~
+0 6553656 1
+D2
+a door~
+door~
+1 -1 10218
+S
+#10248
+&*&yAn Old &@&bDirty &*&yShop&*~
+&*&yNothing remains of this shop but the beams which once
+held the walls in place.&*
+~
+0 6553656 1
+D3
+~
+~
+0 -1 10221
+S
+#10249
+&*&yA House&*~
+&*&yThis is a small house off of the &@&rmain &*&ystreet. It is dusty and cold
+the walls creak and groan as if they will soon fall in crush you.&*
+~
+0 6553656 1
+D3
+a door~
+door~
+1 -1 10222
+S
+#10250
+&*&yA &@&rTorn &*&yRoom&*~
+&*&yWhere once there were couches and comfortable chairs there
+are now shredded and torn remnants of furniture. Bite and claw
+marks scar the wood and the walls.&*
+~
+0 6553660 1
+D1
+a door~
+door~
+1 -1 10245
+S
+#10251
+&*&yA House&*~
+&*&yThis is a small house off of West Gullen Way. It is not your house and you
+were not invited. Why are you here?&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10206
+S
+#10252
+&*&yA &rDeserted &yPet Shop&*~
+&*&yThe faint smell of cooked birds fills the musty air.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10207
+S
+#10253
+&@&bA Storage &*&yRoom&*~
+&*&yPiles of feathers and bird bones lie discarded on the ground.&*
+~
+0 6553656 1
+S
+#10254
+&@&bStorage &*&yBuilding&*~
+&*&yThis is an abandon storage building. Its empty walls used to house large
+amounts of surplus equipment for the market and various vendors. Now it
+houses rats and various other dark creatures.&*
+~
+0 6553656 1
+D1
+a door~
+door~
+1 -1 10211
+S
+#10255
+&@&wJander's&*~
+&@&wJander's &cb&wa&cr &*&yused to be a very popular &@&cb&wa&cr &*&yin &@&wSolace&*&y. For some reason or
+another it is now empty. Dust and cobwebs cover everything. It looks as if
+nobody has tread here in years. The bar is hidden beneath broken bottles
+and shattered glasses. Tables and chairs are scattered all over the floor.
+There is a sign on the wall.&*
+~
+0 6553656 1
+D1
+a door~
+door~
+1 -1 10212
+D3
+~
+~
+0 -1 10256
+E
+sign~
+Welcome to Jander's!
+Drink and be Merry!!!!
+But Remember don't Marry after you drink....
+
+-Jander-
+~
+S
+#10256
+&@&wJander's &*&gPoolhall&*~
+&@&wJander's &cb&wa&cr &*&yused to be a very popular &@&cb&wa&cr &*&yin &@&wSolace&*&y. For some reason or
+another it is now empty. Dust and cobwebs cover everything. It looks as if
+nobody has tread here in years. The bar is to the east. The &gpooltables &yare
+broken in half and lie in a heap on the floor. &*
+~
+0 6553656 1
+D0
+a door~
+office door~
+1 -1 10259
+D1
+~
+~
+0 -1 10255
+D2
+a door~
+door backdoor~
+1 -1 10215
+D3
+~
+~
+0 -1 10257
+S
+#10257
+&@&wJander's &gRestaurant&*~
+&@&wJander's &cb&wa&cr &*&yand &@&grestaurant &*&yused to be a very popular &@&wb&ca&wr &*&yin &@&wSolace&*&y.
+For some reason or another it is now empty. Dust and cobwebs cover
+everything. It looks as if nobody has tread here in years.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10256
+D3
+a door~
+door~
+1 -1 10202
+S
+#10258
+&@&rDeath's &*&yChambers&*~
+&*&yThis is the Chamber of &@&rDeath&*&y. If you are lucky, he isn't here right now.
+The walls are covered with twisted faces of a countless tortured
+souls crying out in agony. The floor is made of &@&bblack marble &*&yas is the 
+ceiling. The air smells of brimstone and makes your lungs burn with
+every breath. 
+There is a sign floating in front of you.&*
+~
+0 6553656 1
+E
+sign~
+Please sit and wait.
+&@&rDeath&* will be with you shortly.
+
+"Those who wait for death are indeed lost souls..."
+~
+S
+#10259
+&@&wJander's &*&yOffice&*~
+&*&yThis is &@&wJander's &*&yOffice is dusty and abandon like the rest of the bar, but is
+otherwise in the same condition as when it was occupied. An oak desk
+sits in the middle of the room. A bookcase rests against the wall. Various
+chairs are set in front of the desk. An employee that was called into Jander's
+office was not likely to leave. &@&wJander &*&ywas rarely if ever seen. He mostly
+stayed in his office and did office stuff. He was never in a good mood.&*
+~
+0 6553656 1
+D2
+a door~
+door ~
+1 -1 10256
+S
+#10260
+&*&yInside Southeast Watchtower&*~
+&*&yYou are inside the Southeast Watchtower.
+Guards used to stand here to watch for approaching
+enemies. Unfortunately, they didn't see the ghostly horde
+which now rules the city, in time.&*
+~
+0 6553660 1
+D5
+~
+~
+0 -1 10213
+S
+#10261
+&*&yInside Southwest Watchtower&*~
+&*&yThere is a &@&wskeleton &*&ywhich has been picked clean.
+Maybe they should have equipt the guards a little better.&*
+~
+0 6553660 1
+D5
+~
+~
+0 -1 10220
+T
+50
+&*&rA small &@&wbone &*&rcracks beneath your foot.&*
+~
+S
+#10262
+&@&bDusty &*&yroad&*~
+&*&yThis &@&bdusty &*&yroad looks well traveled. To the East you see a &@&rb&yu&rr&yn&re&yd
+&*&yand tumbling building.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10263
+D3
+~
+~
+0 -1 10229
+S
+#10263
+&*&rTownguard &yAdministration Building&*~
+&*&yBefore you stands the Townguard Administration Building. It looks as
+if it has been &@&rb&yu&rr&yn&re&yd &*&yand torn down with savage claws &rbrick &yby &rbrick&y.&*
+~
+0 6553660 1
+D1
+a door~
+door~
+1 -1 10264
+D3
+~
+~
+0 -1 10262
+S
+#10264
+&@&wEntrance &*&yHall&*~
+&*&yThe &@&wentrance &*&yhall is made entirely of marble and granite coated in
+soot. Strange footprints leave pseudo clean marks on the cracked
+tiles.&*
+~
+0 6553656 1
+D1
+some doors~
+doors~
+1 -1 10270
+D2
+~
+~
+0 -1 10265
+D3
+a door~
+door~
+1 -1 10263
+S
+#10265
+&@&wMarble &*&yCorridor&*~
+&*&yBroken &@&wmarble &*&ycolumns and slashed works of art
+litter the corridor and make passage slow.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10264
+D1
+~
+~
+0 -1 10268
+D3
+a door~
+door officedoor~
+1 -1 10266
+S
+#10266
+&*&yTown &@&gClerk&*~
+&*&yThis is where you pay your fines and taxes.
+A skeletal form hangs here from the rafters. Evidently
+someone found solace's taxes too high.&*
+~
+0 6553656 1
+D1
+~
+~
+1 -1 10265
+D3
+a safe~
+safe~
+1 10305 10267
+S
+#10267
+&@&yDeposits &*&yRoom&*~
+&*&yThis is a large safe like room. All payments for taxes and fines are deposited
+here by the clerk. The walls are made of &@&wwhite marble &*&yand have &@&ygold &*&ydeposit
+boxes set into them.
+The safe door is to the east.&*
+~
+0 6553656 1
+D1
+a safe~
+safe~
+1 10305 10266
+S
+#10268
+&@&wMarble &*&yCorridor&*~
+&*&yThis corridor was once lushly decorated, but now only 
+torn pictures and charred wallpaper remain. Dusty crystal 
+&@&wchandeliers &*&yhang from the ceiling.
+A pair of heavy double doors lie to the north.&*
+~
+0 6553656 1
+D0
+some doors~
+doors~
+1 -1 10270
+D1
+~
+~
+0 -1 10269
+D3
+~
+~
+0 -1 10265
+S
+#10269
+&@&wFountain&*~
+&*&yThere is a very large &@&wfountain &*&yhere. &mPurple slime &*&yflows from
+marble lion heads where once &@&wclear &cwater &*&ybubbled.&*
+~
+0 6553656 1
+D3
+~
+~
+0 -1 10268
+S
+#10270
+&*&yHallway Intersection&*~
+&*&yThis is the intersection of four large hallways. Light streams in from the 
+stainglass &@&cskylight &*&yabove. Large double doors close off each hallway.
+The doors are made of oak and encrusted with &@&ggold &*&ypatterns.
+A pair of double doors are in each direction.&*
+~
+0 6553656 1
+D0
+some doors~
+doors~
+1 -1 10276
+D1
+some doors~
+doors~
+1 -1 10271
+D2
+some doors~
+doors~
+1 -1 10268
+D3
+some doors~
+doors~
+1 -1 10264
+S
+#10271
+&@&rTermination &*&yof a Long Hall&*~
+&*&yThis is the &@&rtermination &*&yof a long and lavish hallway.
+Defaced paintings and statues line the walls. The 
+ceilings are covered with &@&gmoldy &*&ymosaics. A pair of 
+double doors lie to the west.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10277
+D3
+some doors~
+doors~
+1 -1 10270
+S
+#10272
+&@&bC&*&yo&@&bb&*&yb&@&bl&*&ye&@&bs&*&yt&@&bo&*&yn&@&be &*&yPath&*~
+&*&yYou are walking on a &@&bc&*&yo&@&bb&*&yb&@&bl&*&ye&@&bs&*&yt&@&bo&*&yn&@&be &*&ypath. It leads to a 
+large building to the north.&*
+~
+0 6553648 1
+D0
+~
+~
+0 -1 10282
+D2
+~
+~
+0 -1 10229
+S
+#10273
+&*&rSergeant's &yReception Room&*~
+&*&yThis room is decorated with various swords and other ornamental artifacts
+of combat. Pictures of &@&rbloody &*&ybattles adorn the walls. If you have an
+appointment to see the &rSergeant &yat Arms....You are &@&rMUCH &*&ytoo late.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10283
+D1
+a door~
+door~
+1 -1 10274
+S
+#10274
+&*&yA &@&bDark &*&yHallway&*~
+&*&yThis was once a grand hallway with an arching ceiling
+but now it is just &@&bgrey &*&yand curses whisper through its &mshadows&y.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10284
+D1
+~
+~
+0 -1 10275
+D3
+a door~
+door~
+1 -1 10273
+S
+#10275
+&*&yA &@&bDark &*&yHallway&*~
+&*&yThis was once a grand hallway with an arching ceiling
+but now it is just &@&bgrey &*&yand curses whisper through its &mshadows&y.&*
+~
+0 6553656 1
+D0
+a door~
+oak door~
+1 -1 10285
+D1
+~
+~
+0 -1 10276
+D3
+~
+~
+0 -1 10274
+S
+#10276
+&*&yA &@&bDark &*&yHallway&*~
+&*&yThis was once a grand hallway with an arching ceiling
+but now it is just &@&bgrey &*&yand curses whisper through its &mshadows&y.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10286
+D2
+some doors~
+doors~
+1 -1 10270
+D3
+~
+~
+0 -1 10275
+S
+#10277
+&*&yLong &mShadowed &yHallway&*~
+&*&yThis hallway is sparse compared to some of the others. It seems to go
+on and on. The &@&wmarble &*&yfloors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10287
+D2
+~
+~
+0 -1 10271
+S
+#10278
+&*&yLarge &mSleeping &yRoom&*~
+&*&yThis was once a common sleeping room for poor travellers.
+&@&bDark &*&yshapes edge from the corners of the room and throw
+shadows on the dusty beds.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10279
+S
+#10279
+&*&yLarge &mSleeping &yRoom&*~
+&*&yThis was once a common sleeping room for poor travellers.
+&@&bDark &*&yshapes edge from the corners of the room and throw
+shadows on the dusty beds.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10289
+D3
+~
+~
+0 -1 10278
+S
+#10280
+&*&yWest Side of the &@&cB&wa&cr&*~
+&*&yYou are standing in the west side of the &@&cb&wa&cr&*&y. This is a darker corner where
+anything can occur.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10281
+S
+#10281
+&*&yAn &mAbandoned &yInn&*~
+&*&yOnce warm with laughter and travellers now only
+the dark remains and the only visitors are left to be
+greeted with &@&wsilence&*&y.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10291
+D1
+a door~
+door~
+1 -1 10282
+D3
+~
+~
+0 -1 10280
+D4
+~
+~
+0 -1 10290
+T
+20
+&*&yWooden boards&* creak beneath your steps.
+~
+S
+#10282
+&*&yOutside a &mDesolate &yInn&*~
+&*&yAn Inn has been carved out of a dead and &rtwisted &yt&gr&ye&ge&y.
+It was once a warm place of commerce but is now a
+cold and dark skeleton of its former glory.&*
+~
+0 6553656 1
+D0
+a tree~
+tree~
+1 -1 10292
+D2
+~
+~
+0 -1 10272
+D3
+a door~
+door~
+1 -1 10281
+S
+#10283
+&*&yA &@&bDirty &*&yRoom&*~
+&*&yIt looks to have once been an office and a coat
+of arms adorns the wall. The remains of many
+battles are strewn across the room and pile in the
+corners.&*
+~
+0 6553656 1
+D2
+a door~
+door~
+1 -1 10273
+S
+#10284
+&*&yA &@&mT&bw&mi&bs&mt&be&md &*&yHallway&*~
+&*&yThis once grandhallway has had its foundation
+&@&mT
+&b  w
+&l     i
+&b  S
+&rT
+&b  e
+&yd.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10294
+D2
+~
+~
+0 -1 10274
+S
+#10285
+&@&gSmelly &*&yStore Room&*~
+&*&yThere are many barrels and chests of food in here. All of it looks spoiled.&*
+~
+0 6553656 1
+D2
+a door~
+door~
+1 -1 10275
+S
+#10286
+&*&yA &@&mT&bw&mi&bs&mt&be&md &*&yHallway&*~
+&*&yThis once grandhallway has had its foundation
+&@&mT
+&b  w
+&l     i
+&b  S
+&rT
+&b  e
+&yd.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10296
+D2
+~
+~
+0 -1 10276
+S
+#10287
+&*&yA &@&wNarrow &*&yHallway&*~
+&*&yThis hallway is sparse compared to some of the others. It seems to go
+on and on. The &@&wmarble &*&yfloors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10297
+D2
+~
+~
+0 -1 10277
+T
+20
+&*&yWooden boards&* creak beneath your steps.
+~
+S
+#10288
+&*&yHallway&*~
+&*&yYou are standing in an old vallenwood hallway.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10298
+D1
+~
+~
+0 -1 10289
+S
+#10289
+&*&yAn &@&wEmpty &*&yRoom&*~
+&*&yOnly air fills this room. It has been stripped clean.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10290
+D2
+a door~
+door~
+1 -1 10279
+D3
+~
+~
+0 -1 10288
+S
+#10290
+&*&ySecond Floor of the Inn&*~
+&*&yYou are at the top of a wooden staircase. Its weak
+cracked boards groan beneath you.&*
+~
+0 6553656 1
+D3
+~
+~
+0 -1 10289
+D5
+~
+~
+0 -1 10281
+T
+20
+&*&yWooden boards&* creak beneath your steps.
+~
+S
+#10291
+&*&yNorth Side of a &@&cB&wa&cr&*&y.&*~
+&*&yA &@&bblackened &*&ycold stove sits in the corner, many
+unidentifiable bones lie within.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10281
+S
+#10292
+&*&yA &@&rD&*&readly &yChamber&*~
+&*&yThis was in the long past a room of great importance.
+It now looks to be a place of great danger. &@&rB&*&rl&@&ro&*&ro&@&rd &*&yspeckles
+the walls and some of it is fresh.&*
+~
+0 6553656 1
+D0
+some doors~
+doors~
+1 -1 10302
+D2
+a wall~
+wall~
+0 -1 10282
+S
+#10293
+&*&yA &@&gW&ca&lrp&ce&gd &*&yHallway&*~
+&*&ySomething has shaken this hallway and left it
+&@&gW
+&c  a
+&l    r
+    p
+&c  e
+&gd&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10303
+D1
+~
+~
+0 -1 10294
+S
+#10294
+&*&yA &@&gW&ca&lrp&ce&gd &*&yHallway&*~
+&*&ySomething has shaken this hallway and left it
+&@&gW
+&c  a
+&l    r
+    p
+&c  e
+&gd&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10295
+D2
+~
+~
+0 -1 10284
+D3
+~
+~
+0 -1 10293
+S
+#10295
+&*&yA &rCruel &yRoom&*~
+&*&yThe remnants of many twisted bodies line the walls.
+They are hung like portraits.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10305
+D3
+~
+~
+0 -1 10294
+S
+#10296
+&*&yA &@&gW&ca&lrp&ce&gd &*&yHallway&*~
+&*&ySomething has shaken this hallway and left it
+&@&gW
+&c  a
+&l    r
+    p
+&c  e
+&gd&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10306
+D2
+~
+~
+0 -1 10286
+S
+#10297
+&*&yHall of &@&bShadows&*~
+A trail of shadows mimic every move you make
+and spread grim blackness through the hall.
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10307
+D2
+~
+~
+0 -1 10287
+S
+#10298
+&*&yHallway&*~
+&*&yYou are standing in an old vallenwood hallway.&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10308
+D2
+~
+~
+0 -1 10288
+S
+#10299
+&*&yThe &@&bWitch's &*&yAbode&*~
+&*&yThis is the chambers of one of the strangest
+&@&mmagic &*&yusers in the realm.&*
+~
+0 6553660 1
+D0
+a door~
+door~
+1 -1 10309
+S
+#10300
+&*&yA &@&wSmall &*&yRoom&*~
+&*&yThis is a private room with a bed of &@&wcobwebs &*&yin
+its center.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10310
+D1
+~
+~
+0 -1 10318
+S
+#10301
+&*&yA &@&wSmall &*&yRoom&*~
+&*&yThis is a private room with a bed of &@&wcobwebs &*&yin
+its center.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10311
+D3
+~
+~
+0 -1 10318
+S
+#10302
+&*&yA &@&wGrand &*&yRoom&*~
+&*&yLong tables run through the center of the room.
+Meetings were once held here. The tables now
+appear to be used for less than friendly purposes.&*
+~
+0 6553656 1
+D0
+some doors~
+doors~
+1 -1 10312
+D2
+some doors~
+doors~
+1 -1 10292
+S
+#10303
+&@&rS&bpidery &*&yHallway&*~
+&*&yGiant &@&rs&bpiderwebs &*&yhold full-grown animals in
+a silky grip. It is best to avoid the &@&rs&bpider &*&ywhich
+weaved these sinister webs.&*
+&@&w        \         |         /       &*&r|&y|&*
+&@&w         \       /|\       /        &*&r|&y|&*
+&@&w'.       /\'.__.' : '.__.'/\       .&*&r|&y|&*
+&@&w  '. __.'  \      |      /  '.__ .' &*&r|&y|&*
+&@&w   \'.     /\`---':'---'/\     .'/  &*&r|&y|&*
+&@&w    \ '. /`  \__ _|_ __/  `\ .' /   &*&r|&y|&*
+&@&w     |  /.   /\ ` : ` /\   .\  |    &*&r|&y|&*
+&@&w     |  | './  \ _|_ /  \.' |  |    &*&r|&y|&*
+&@&w    / '/.  /'. /&r\ : /&w\ .'\  .\ '\   &*&r|&y|&*
+&@&w___/__/___/___/&r__\./__&w\___\___\__\__&*&r|&y|&*
+&@&w   \  \   \.  \&r  /'\  &w/   /   /   / &*&r|&y|&*
+&@&w    \ .\'  \.' \&r/&w_&r:&w_&r\&w/ './  '/.  /  &*&r|&y|&*
+&@&w    |  |  .'\  /  |  \  /'. |   |   &*&r|&y|&*
+&@&w    |   \'   \/_._:_._\/   '/   |   &*&r|&y|&*
+&@&w    / .' \   /    |    \   / '. \   &*&r|&y|&*
+&@&w   /.:_   `\/.---.:.---.\/`   _:.\  &*&r|&y|&*
+&@&w  .'   '.  / __   |   __ \  .'   '. &*&r|&y|&*
+&@&w.'       \/.'  '. : .'  '.\/       '&*&r|&y|&*
+&@&w         /       \|/       \        &*&r|&y|&*
+&*&r________&@&w/&*&r_________&@&w|&*&r_________&@&w\&*&r_______|&y|&*
+&*&y-------------------------------------'&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10313
+D2
+~
+~
+0 -1 10293
+S
+#10304
+&*&yA &rWrecked &yRoom&*~
+&yAcross the floor lies a &@&rshredded &*&ymess. It is
+impossible to tell what it once was.&*
+~
+0 6553656 1
+D0
+a door~
+door~
+1 -1 10314
+T
+75
+&@&rGiant &wwebs &rfall down on you!!&*
+~
+S
+#10305
+&*&yA &@&mStrange &*&yRoom&*~
+&@&rF&gi&yn&lg&me&yr&wp&ga&ci&yn&lt&mi&rn&wg &*&ytacked to all the walls. Small &@&mplastic &*&yfurniture and 
+&@&mplastic &yf&wl&yo&ww&ye&wr&ys &*&yare placed neatly around the room.&* 
+&*&c*Shiver*  &yIt's very &@&geerie&*&y.&*
+~
+0 6553656 1
+D2
+a door~
+door~
+1 -1 10295
+S
+#10306
+&@&rS&bpidery &*&yHallway&*~
+&*&yGiant &@&rs&bpiderwebs &*&yhold full-grown animals in
+a silky grip. It is best to avoid the &@&rs&bpider &*&ywhich
+weaved these sinister webs.&*
+&@&w        \         |         /       &*&r|&y|&*
+&@&w         \       /|\       /        &*&r|&y|&*
+&@&w'.       /\'.__.' : '.__.'/\       .&*&r|&y|&*
+&@&w  '. __.'  \      |      /  '.__ .' &*&r|&y|&*
+&@&w   \'.     /\`---':'---'/\     .'/  &*&r|&y|&*
+&@&w    \ '. /`  \__ _|_ __/  `\ .' /   &*&r|&y|&*
+&@&w     |  /.   /\ ` : ` /\   .\  |    &*&r|&y|&*
+&@&w     |  | './  \ _|_ /  \.' |  |    &*&r|&y|&*
+&@&w    / '/.  /'. /&r\ : /&w\ .'\  .\ '\   &*&r|&y|&*
+&@&w___/__/___/___/&r__\./__&w\___\___\__\__&*&r|&y|&*
+&@&w   \  \   \.  \&r  /'\  &w/   /   /   / &*&r|&y|&*
+&@&w    \ .\'  \.' \&r/&w_&r:&w_&r\&w/ './  '/.  /  &*&r|&y|&*
+&@&w    |  |  .'\  /  |  \  /'. |   |   &*&r|&y|&*
+&@&w    |   \'   \/_._:_._\/   '/   |   &*&r|&y|&*
+&@&w    / .' \   /    |    \   / '. \   &*&r|&y|&*
+&@&w   /.:_   `\/.---.:.---.\/`   _:.\  &*&r|&y|&*
+&@&w  .'   '.  / __   |   __ \  .'   '. &*&r|&y|&*
+&@&w.'       \/.'  '. : .'  '.\/       '&*&r|&y|&*
+&@&w         /       \|/       \        &*&r|&y|&*
+&*&r________&@&w/&*&r_________&@&w|&*&r_________&@&w\&*&r_______|&y|&*
+&*&y-------------------------------------'&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10316
+D2
+~
+~
+0 -1 10296
+S
+#10307
+&@&rShAkinG &*&yHallway&*~
+&*&yThe corridor rattles and ShaKeS beneath you!
+&@&!&rRunaway!!!&*
+~
+0 6553656 1
+D0
+~
+~
+0 -1 10317
+D2
+~
+~
+0 -1 10297
+S
+#10308
+&*&yA Room of &@&wBooks&*~
+&@&wBooks &*&ylie all over this room. &wLight &cshines &yin from
+a large broken window but fails to brighten the room.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10309
+D2
+~
+~
+0 -1 10298
+S
+#10309
+&*&yHallway&*~
+&*&yYou are standing in an old vallenwood hallway.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10310
+D2
+a door~
+door~
+1 -1 10299
+D3
+~
+~
+0 -1 10308
+T
+20
+&*&yWooden boards&* creak beneath your steps.
+~
+S
+#10310
+&*&yHallway&*~
+&*&yYou are standing in an old vallenwood hallway.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10311
+D2
+a door~
+door~
+1 -1 10300
+D3
+~
+~
+0 -1 10309
+S
+#10311
+&*&yHallway&*~
+&*&yYou are standing in an old vallenwood hallway.&*
+~
+0 6553656 1
+D2
+a door~
+door~
+1 -1 10301
+D3
+~
+~
+0 -1 10310
+S
+#10312
+&*&yA &rGutted &yRoom&*~
+&*&yThe walls of this empty room seem to breathe.
+A strange &@&rhot &*&ysmell comes from the walls you
+could swear smelled like the breath of a wolf.&*
+~
+6 6553656 1
+D1
+a door~
+door~
+1 -1 10313
+D2
+some doors~
+doors~
+1 -1 10302
+S
+#10313
+&@&lWet &*&yCorridor&*~
+&*&yThe walls and floor of this corridor are drenched.
+&@&lWater &*&lseeps &yfrom every joint and sprays down.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10314
+D2
+~
+~
+0 -1 10303
+D3
+a door~
+door~
+1 -1 10312
+S
+#10314
+&@&rF&yl&ri&gc&rk&c&re&wr&ri&ln&rg &*&yHall&*~
+&*&gStrange &@&rc&yo&rll&ro&yr&re&cd &@&wlights &*&yflicker across the hall.
+They whisper softly words you can almost 
+understand.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10315
+D2
+a door~
+door~
+1 -1 10304
+D3
+~
+~
+0 -1 10313
+S
+#10315
+&@&rF&yl&ri&gc&rk&c&re&wr&ri&ln&rg &*&yHall&*~
+&*&gStrange &@&rc&yo&rll&ro&yr&re&cd &@&wlights &*&yflicker across the hall.
+They whisper softly words you can almost 
+understand.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10316
+D3
+~
+~
+0 -1 10314
+S
+#10316
+&@&rF&yl&ri&gc&rk&c&re&wr&ri&ln&rg &*&yHall&*~
+&*&gStrange &@&rc&yo&rll&ro&yr&re&cd &@&wlights &*&yflicker across the hall.
+They whisper softly words you can almost 
+understand.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10317
+D2
+~
+~
+0 -1 10306
+D3
+~
+~
+0 -1 10315
+S
+#10317
+&@&lWet &*&yCorridor&*~
+&*&yThe walls and floor of this corridor are drenched.
+&@&lWater &*&lseeps &yfrom every joint and sprays down.&*
+~
+0 6553656 1
+D2
+~
+~
+0 -1 10307
+D3
+~
+~
+0 -1 10316
+S
+#10318
+&*&yA &@&wSmall &*&yRoom&*~
+&*&yThis is a private room with a bed of &@&wcobwebs &*&yin
+its center.&*
+~
+0 6553656 1
+D1
+~
+~
+0 -1 10301
+D3
+~
+~
+0 -1 10300
+S
+#0
+
+
+#RESETS
+D 0 10202 3 1
+D 0 10246 1 1
+D 0 10218 0 1
+D 0 10247 2 1
+D 0 10202 1 1
+D 0 10257 3 1
+D 0 10215 0 1
+D 0 10256 2 1
+D 0 10212 3 1
+D 0 10255 1 1
+D 0 10222 1 1
+D 0 10249 3 1
+D 0 10245 3 1
+D 0 10250 1 1
+D 0 10256 0 1
+D 0 10259 2 1
+D 0 10211 3 1
+D 0 10254 1 1
+D 0 10226 2 1
+D 0 10243 0 1
+D 0 10227 2 1
+D 0 10244 0 1
+D 0 10206 2 1
+D 0 10251 0 1
+D 0 10266 3 1
+D 0 10267 1 1
+D 0 10265 3 1
+D 0 10266 1 1
+D 0 10263 1 1
+D 0 10264 3 1
+D 0 10276 2 1
+D 0 10270 0 1
+D 0 10271 3 1
+D 0 10270 1 1
+D 0 10268 0 1
+D 0 10270 2 1
+D 0 10264 1 1
+D 0 10270 3 1
+D 0 10289 2 1
+D 0 10279 0 1
+D 0 10282 3 1
+D 0 10281 1 1
+D 0 10273 0 1
+D 0 10283 2 1
+D 0 10275 0 1
+D 0 10285 2 1
+D 0 10302 2 1
+D 0 10292 0 1
+D 0 10282 0 1
+D 0 10309 2 1
+D 0 10299 0 1
+D 0 10310 2 1
+D 0 10300 0 1
+D 0 10311 2 1
+D 0 10301 0 1
+D 0 10312 2 1
+D 0 10302 0 1
+D 0 10314 2 1
+D 0 10304 0 1
+D 0 10295 0 1
+D 0 10305 2 1
+D 0 10313 3 1
+D 0 10312 1 1
+M 0 10201 1 10292
+M 0 10202 1 10292
+M 0 10203 4 10217
+M 0 10203 4 10202
+M 0 10203 4 10224
+M 0 10203 4 10229
+M 0 10204 5 10201
+M 0 10204 5 10202
+M 0 10204 5 10223
+M 0 10204 5 10210
+M 0 10204 5 10213
+M 0 10205 4 10215
+M 0 10205 4 10225
+M 0 10205 4 10227
+M 0 10205 4 10211
+M 0 10206 2 10249
+M 0 10206 2 10249
+M 0 10207 5 10201
+M 0 10207 5 10203
+M 0 10207 5 10216
+M 0 10207 5 10225
+M 0 10207 5 10223
+M 0 10209 1 10282
+M 0 10210 1 10244
+M 0 10208 4 10206
+M 0 10208 4 10207
+M 0 10208 4 10220
+M 0 10208 4 10208
+M 0 10215 1 10220
+M 0 10216 2 10307
+M 0 10216 2 10307
+M 0 10219 4 10303
+M 0 10219 4 10303
+M 0 10219 4 10306
+M 0 10219 4 10306
+M 0 10218 1 10304
+M 0 10217 1 10305
+G 0 10202 0
+P 0 10203 0 10202
+M 0 10220 1 10225
+G 0 10204 0
+O 0 10205 0 10261
+P 0 10206 0 10205
+O 0 10207 0 10269
+O 0 10208 0 10242
+M 0 10240 1 10239
+M 0 10241 1 10239
+M 0 10242 1 10239
+M 0 10243 1 10239
+M 0 10244 1 10239
+O 0 87 0 10232
+M 0 10245 1 10235
+M 0 10246 1 10235
+M 0 10247 1 10235
+G 0 10240 0
+M 0 10221 1 10299
+E 0 10371 0 6
+E 0 10374 0 10
+M 0 10231 1 10245
+G 0 10222 0
+G 0 10223 0
+G 0 10224 0
+G 0 10225 0
+M 0 10232 10 10251
+M 0 10232 10 10247
+M 0 10232 10 10256
+M 0 10232 10 10272
+M 0 10232 10 10298
+M 0 10232 10 10279
+M 0 10232 10 10310
+M 0 10232 10 10233
+M 0 10232 10 10271
+M 0 10260 1 10267
+M 0 10262 1 10205
+G 0 10261 1
+P 0 10260 1 10261
+O 0 87 0 10250
+O 0 90 0 10250
+M 0 10264 1 10260
+M 0 10233 5 10252
+M 0 10233 5 10273
+M 0 10233 5 10299
+M 0 10233 5 10311
+M 0 10233 5 10304
+M 0 10265 2 10203
+M 0 10265 2 10209
+M 0 10266 2 10212
+M 0 10266 2 10220
+M 0 10267 1 10201
+M 0 10248 1 10255
+M 0 10249 1 10300
+M 0 10250 1 10301
+M 0 10251 1 10318
+M 0 10234 10 10216
+M 0 10234 10 10218
+M 0 10234 10 10220
+M 0 10234 10 10213
+M 0 10234 10 10228
+M 0 10235 5 10313
+M 0 10235 5 10317
+M 0 10235 5 10270
+M 0 10235 5 10286
+M 0 10235 5 10296
+M 0 10269 1 10213
+M 0 10270 1 10224
+M 0 10272 1 10281
+M 0 10271 1 10261
+S
+
+
+#SHOPS
+10231 0 0 0 0 0 150 50 0 23
+0
+
+
+#SPECIALS
+M 10215 spec_fido
+M 10216 spec_warrior
+M 10217 spec_rogue
+M 10218 spec_poison
+M 10219 spec_poison
+M 10221 spec_mage
+M 10223 spec_warrior
+M 10226 spec_mage
+M 10229 spec_rogue
+M 10232 spec_rogue
+M 10234 spec_rogue
+M 10235 spec_pestilence
+M 10244 spec_cleric
+M 10247 spec_backstab
+M 10248 spec_cleric
+M 10249 spec_monk
+M 10250 spec_warrior
+M 10251 spec_necromancer
+S
+
+
+
+#$
+

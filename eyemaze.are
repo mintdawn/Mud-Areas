@@ -1,0 +1,1475 @@
+#AREADATA
+Name        &@&l-&r{ &y220 &g240 &r}&l-     &*&cDawn           &*&rLair &@&wof the &@&lB&cl&lu&ce &wDragon&*  ~
+Builders    none~
+VNUMs       700 799
+Recall      1400
+Security    1
+LEVELS      220 240
+Repop       &*&cDense fog &@&cfills the &lcatacombs &cand &wlightning &yflickers &call around.&*~
+Norecall    God has forsaken you.~
+Sname       &*&rLair &@&wof the &@&lB&cl&lu&ce &wDragon&*~
+End
+
+
+#MOBILES
+#700
+blue dragon~
+the &@&lB&cl&lu&ce &wDragon&*~
+&@&lAn enormous dragon the color of a summer sky toys with you.&*
+~
+~
+99 67109544 -1000 S
+240 0 0 0d0+0 0d0+0
+23000 0
+0 0 1
+>fight_prog 25~
+tailslap
+~
+>death_prog 100~
+mpecho &@&rA &cr&wu&cn&we &rtumbles from beneath one of the &lDragon's &cScales&r.&*
+mpoload 709
+~
+|
+#701
+eyewing~
+an &@&bEyewing&*~
+&@&bA winged eye watches your progress.&*
+~
+A fat egg-shaped ball covered with matted black fur. 
+It has a pair of leathery batwings which are tipped 
+with razor sharp talons. It has a long whiplike tail 
+with a spur at the end. This creature has no feet and 
+has never been seen to land.
+~
+97 67109544 -1000 S
+220 0 0 0d0+0 0d0+0
+22000 0
+0 0 0
+#702
+feyr~
+the &@&gF&we&my&lr&*~
+&@&gA many eyed monster attempts to halt your progress.&*
+~
+&@&yAn inhuman monster with a mottled and warped hide. 
+It has two tentacles for legs and many smaller ones all 
+over its wretched body. Beneath the monster lie its many 
+mouths. It watches you intently with its five snakelike 
+eyes.&*
+~
+99 67109544 -1000 S
+230 0 0 0d0+0 0d0+0
+53750 0
+0 0 0
+#703
+glass golem~
+a &@&yg&class &wgolem&*~
+&@&yA translucent woman fights for her master.&*
+~
+A woman formed entirely of stained glass blocks your 
+progress. She is one of the many women the blue dragon 
+has transformed from a woman of flesh to a mindless 
+golem of glass.
+~
+262241 67142186 -1000 S
+210 0 0 0d0+0 0d0+0
+21000 0
+0 0 2
+#704
+glass golem~
+a &@&rg&glass &bgolem&*~
+&@&gA translucent woman fights for her master.&*
+~
+A woman formed entirely of stained glass blocks your 
+progress. She is one of the many women the blue dragon 
+has transformed from a woman of flesh to a mindless 
+golem of glass.
+~
+262241 67142186 -1000 S
+217 0 0 0d0+0 0d0+0
+21700 0
+0 0 2
+#705
+death kiss~
+a &*&rDeath &@&rK&bi&rs&bs&*~
+&@&bA blood-sucking eye turns its deadly gaze on you!&*
+~
+Its dreadful body resembles that of a beholder. The 
+eyestalks of this creature are blood-sucking tentacles 
+with hooked-tooth orafices.
+~
+97 67109416 -1000 S
+215 0 0 0d0+0 0d0+0
+21500 0
+0 0 1
+#706
+glass golem~
+a &@&wg&llass &*&wgolem&*~
+&@&wA translucent woman fights for her master.&*
+~
+A woman formed entirely of stained glass blocks your 
+progress. She is one of the many women the blue dragon 
+has transformed from a woman of flesh to a mindless 
+golem of glass.
+~
+262243 67142186 -1000 S
+222 0 0 0d0+0 0d0+0
+22222 0
+0 0 2
+#0
+
+
+#OBJECTS
+#700
+glass woman's body~
+the &@&wbody of a &cglass &mwoman&*~
+&@&mThe glass body of a woman lies lifeless waiting to be animated.&*~
+~
+8 96 1
+0 0 0 0
+100 0 220
+E
+body~
+The &@&cglass woman&* has &@&gbright green glass hair&* and 
+the tail of a fish. She could not have found her 
+way to this underground lair alone.
+~
+#701
+pirate boots~
+&@&b[&rX&b] &lP&yi&lr&ya&lt&ye &lB&yo&lo&yt&ls &b[&rX&b]&*~
+&@&lSome seaworthy boots stand the test of time.&*~
+~
+9 513 65
+0 0 0 0
+10 0 220
+A
+1 2
+A
+19 10
+A
+13 135
+#702
+bottle of souls~
+a &@&cbottle&* of &@&bs&*&wo&@&wuls&*~
+&@&wThe souls of a hundred maidens are sealed tightly in this jar.&*~
+~
+10 129 1
+200 28 28 28
+5 0 220
+#703
+stained glass leggings~
+&@&l(&c>&w+&g<&mstained&w=&yglass&w=&mleggings&g>&w+&c<&l)&*~
+&@&mA thin panel of stained glass is here.&*~
+~
+9 32 33
+0 0 0 0
+5 0 220
+A
+3 1
+A
+4 1
+A
+13 210
+#704
+a velvet shroud~
+&*&m-&@&m=&w<&*&w{&@&b(&mv&*&melvet &@&ms&*&mhroud&@&b)&*&w}&@&w>&m=&*&m-&*~
+&*&mA funeral shroud lies forsaken.&*~
+~
+9 0 9
+35 0 0 0
+5 0 220
+A
+4 2
+A
+3 1
+A
+13 110
+A
+12 110
+#705
+fine glass box~
+a &@&wfinely &ycrafted &cglass &wbox&*~
+~
+~
+15 0 0
+500 15 706 0
+5 0 200
+E
+box~
+&@&cA glass box is here. An inanimate glass golem is inside 
+waiting for the Blue Dragon to breathe life into her. This 
+golem differs from the rest, however, because it has the 
+great and finely scaled tail of a fish.&*
+~
+#706
+strange talon~
+a &@&gstrange &lt&*&lalon&*~
+&*&lA talon has been trimmed to fit a lock.&*~
+~
+18 128 1
+0 0 0 0
+5 0 200
+#707
+sage fire rune~
+&*&y[&@&w-&r<&w+&r>&w-&*&y] &@&rR&*&rune &@&bof &@&rF&*&rire &*&y[&@&w-&r<&w+&r>&w-&*&y]&*~
+&@&rA flaming rune floats just above the ground.&*~
+~
+8 64 1
+0 0 0 0
+2 0 101
+#708
+druid water rune~
+&*&y[&@&w-&l<&w+&l>&w-&*&y] &@&lR&*&lune &@&bof &@&lW&*&later &*&y[&@&w-&l<&w+&l>&w-&*&y]&*~
+&@&lA magical rune thunders and storms.&*~
+~
+8 192 1
+0 0 0 0
+2 0 400
+#709
+air rune sage~
+&*&y[&w-&@&c<&w+&c>&*&w-&y] &@&cR&*&cune &@&bof &@&cA&*&cir &*&y[&w-&@&c<&w+&c>&*&w-&y]&*~
+&@&cA small wind swirls around an airy rune.&*~
+~
+8 64 1
+0 0 0 0
+2 0 190
+#710
+sage rune stone~
+&*&y[&@&w-&b<&w+&b>&w-&*&y] &@&wR&*&wune &@&bof &@&wS&bt&wo&bn&we &*&y[&@&w-&b<&w+&b>&w-&*&y]&*~
+&@&bA stoney rune rests here.&*~
+~
+8 192 1
+0 0 0 0
+2 0 280
+#711
+sage rune resurrection~
+&*&y[&@&w-&g<&w+&g>&w-&*&y] &@&wRune &*&yof &@&gR&*&ge&@&gs&*&gu&@&gr&*&gr&@&ge&*&gc&@&gt&*&gi&@&go&*&gn &*&y[&@&w-&g<&w+&g>&w-&*&y]&*~
+&@&gA spiritual rune floats above the ground surrounded by a halo of light.&*~
+~
+8 192 1
+0 0 0 0
+2 0 500
+#712
+A girl's best friend~
+&@&m[&w<&c*&w>&m] &wA &mG&*&mirl&@&w'&ms &cB&*&ce&ms&@&mt &cF&*&crien&@&cd &@&m[&w<&c*&w>&m]&*~
+&@&wA &cS&*&cp&@&ca&*&cr&@&ck&*&cl&@&ci&*&cn&@&cg &@&wobject is here. &*&mHrm &@&mW&*&monder what is is?&*~
+~
+26 4 1
+1006 179 197 234
+1 1000000 1006
+#713
+A guy's best friend~
+&@&l[&r<&*&r<&@&l<&@&b&rA&@&l:&b&l:&rG&*&ruy&@&r's&l:&@&b&l:&rB&*&res&@&rt&l:&@&b&l:&rF&*&rrien&@&rd&@&b&l>&*&r>&@&r>&l]&*~
+&@&lNow &@&rW&*&rhat &@&lcould this be?&*~
+~
+26 4 1
+500 145 -1 -1
+1 1000000 1006
+#714
+Aint Life Grand?~
+&@&y:&w:&c:&*&c: &@&wA&yint &@&wL&cif&we &cG&*&crand&@&w? &*&c:&@&c:&w:&y:&*~
+&@&wLarge &cbeyond &ybelief.&*~
+~
+26 0 1
+117 145 207 212
+1 1000000 1006
+#726
+spellup group heal pill~
+&@&w(&l(&rheal&mheal&rheal&l)&w)&*~
+A powerful pill is here.~
+~
+26 4 1
+100 131 131 131
+0 1000000 1006
+#727
+spellup armor pill~
+&@&w(&r(&yarmor&garmor&yarmor&r)&w)&*~
+A powerful pill is here.~
+~
+26 4 1
+1000 223 214 47
+0 1000000 1006
+#728
+spellup damroll for days pill~
+&*&r<&@&r<&yDamroll for Days&r>&*&r>&*~
+A powerful pill is here.~
+~
+26 4 1
+1000 130 128 212
+0 1000000 1006
+#729
+feyr eyes~
+&@&w(&lO&w)(&gO&w)(&mO&w)&*~
+Strange glowing eyes watch you.~
+~
+9 514 65537
+42 0 0 0
+10 111111 225
+A
+13 200
+A
+1 1
+A
+6 1
+#0
+
+
+#ROOMS
+#700
+&@&cM&*&ci&@&cs&*&ct&@&cy &lBlue &*&lCupola&*~
+&@&cA &@&cm&*&ci&@&cs&*&ct&@&cy &lblue &carmored ceiling rises high above the room. Turquoise 
+colored fog rolls in cool clouds about a foot above the tiled floor. 
+The maze of the eye lies ahead. Only an unwise traveller would procede 
+alone from here, for it is said there is no way out of the maze except 
+through use of powerful magic or death. You must pass this to find the 
+Lair of the &@&lB&cl&lu&ce &wDragon&c.&*
+~
+0 36 0
+D1
+~
+~
+0 -1 701
+S
+#701
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 710
+D1
+~
+~
+0 -1 702
+D3
+~
+~
+0 -1 700
+S
+#702
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 709
+D1
+~
+~
+0 -1 703
+D3
+~
+~
+0 -1 701
+S
+#703
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 708
+D1
+~
+~
+0 -1 704
+D2
+~
+~
+0 -1 711
+D3
+~
+~
+0 -1 702
+S
+#704
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 707
+D1
+~
+~
+0 -1 705
+D3
+~
+~
+0 -1 703
+S
+#705
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 706
+D1
+~
+~
+0 -1 711
+D3
+~
+~
+0 -1 704
+S
+#706
+&@&wA &rF&yl&ri&yc&rk&ye&rr&yi&rn&yg &bVaulted Chamber&* ~
+&@&yLight &rf&yl&ri&yc&rk&ye&rr&ys &cacross the wall and domed ceiling. An inscription 
+marks the wall above an arched gate...&*
+
+~
+0 270388 0
+D0
+~
+glass gate~
+16 -1 714
+D2
+~
+~
+0 -1 705
+D3
+~
+~
+0 -1 707
+E
+wall inscription~
+&@&yIn the window she sat weeping.
+And with each tear her life went seeping.&*
+~
+>speech_prog candle~
+rpecho &@&cThe door magically unlocks...&*
+rpecho &@&lYou continue your exploration northward.&*
+rptransfer all 714
+rpat 714 rpecho &@&cThe door locks behind you.&*
+~
+|
+S
+#707
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 706
+D2
+~
+~
+0 -1 704
+D3
+~
+~
+0 -1 708
+S
+#708
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 713
+D1
+~
+~
+0 -1 707
+D2
+~
+~
+0 -1 703
+D3
+~
+~
+0 -1 709
+S
+#709
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 712
+D1
+~
+~
+0 -1 708
+D2
+~
+~
+0 -1 702
+D3
+~
+~
+0 -1 710
+S
+#710
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 711
+D1
+~
+~
+0 -1 709
+D2
+~
+~
+0 -1 701
+D3
+~
+~
+0 -1 713
+S
+#711
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 703
+D1
+~
+~
+0 -1 712
+D2
+~
+~
+0 -1 710
+D3
+~
+~
+0 -1 705
+S
+#712
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 713
+D2
+~
+~
+0 -1 709
+D3
+~
+~
+0 -1 711
+S
+#713
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 710
+D2
+~
+~
+0 -1 708
+D3
+~
+~
+0 -1 712
+S
+#714
+&@&wThe &cObservation &yChamber&*~
+&@&wFar above a glass panel allows the sun to look down on you. 
+Light winks through the portal and makes a circle of light on 
+the ground. An inscription is carved above a glass gate...&*
+
+~
+0 270388 0
+D0
+~
+glass gate~
+16 -1 715
+D2
+~
+glass gate~
+16 -1 706
+E
+inscription~
+&@&yI am a window, I am a lamp, I am clouded, I am
+shining, and I am coloured; set in white, I fill
+with water and overflow. I say much, but I have
+no words. What am I?&*
+~
+>speech_prog eye~
+rpecho &@&cThe door magically unlocks...&*
+rpecho &@&lYou continue your exploration northward.&*
+rptransfer all 715
+rpat 715 rpecho &@&cThe door locks behind you.&*
+~
+|
+S
+#715
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270388 0
+D0
+~
+~
+0 -1 727
+D1
+~
+~
+0 -1 716
+D2
+~
+glass gate~
+16 -1 714
+S
+#716
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 726
+D1
+~
+~
+0 -1 717
+D3
+~
+~
+0 -1 715
+S
+#717
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 725
+D1
+~
+~
+0 -1 718
+D2
+~
+~
+0 -1 722
+D3
+~
+~
+0 -1 716
+S
+#718
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 724
+D1
+~
+~
+0 -1 719
+D2
+~
+~
+0 -1 721
+D3
+~
+~
+0 -1 717
+S
+#719
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 723
+D1
+~
+~
+0 -1 727
+D2
+~
+~
+0 -1 720
+D3
+~
+~
+0 -1 718
+S
+#720
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 719
+D3
+~
+~
+0 -1 721
+S
+#721
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 8192 0
+D0
+~
+~
+0 -1 718
+D1
+~
+~
+0 -1 720
+D3
+~
+~
+0 -1 722
+S
+#722
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 717
+D1
+~
+~
+0 -1 721
+D2
+~
+~
+0 -1 724
+S
+#723
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 0 728
+D2
+~
+~
+0 -1 719
+D3
+~
+~
+0 -1 724
+S
+#724
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 8192 0
+D0
+~
+~
+0 -1 722
+D1
+~
+~
+0 -1 723
+D2
+~
+~
+0 -1 718
+D3
+~
+~
+0 -1 725
+S
+#725
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 724
+D2
+~
+~
+0 -1 717
+D3
+~
+~
+0 -1 726
+S
+#726
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 725
+D2
+~
+~
+0 -1 716
+D3
+~
+~
+0 -1 727
+S
+#727
+&@&cMaze of the &lE&gy&le&*~
+&@&w<&l(&c-&go&c-&l)&w> &*&cThis is a twisting maze filled with a thousand 
+eyes. Blue smoke hangs menacingly throughout every passage 
+of the maze.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 726
+D2
+~
+~
+0 -1 715
+D3
+~
+~
+0 -1 719
+S
+#728
+&@&wA &ySeamless &*&yCell&*~
+&*&yAn amber colored cell angles around you. Closing in 
+a seamless hexoganal shape. An inscription lines a 
+golden panel...
+~
+0 270388 0
+E
+inscription~
+&@&yGolden treasures I contain, guarded by hundreds
+and thousands. Stored in a labyrinth where no
+man walks, yet men come often to seize my
+gold. By smoke I am overcome and robbed, then
+left to build my treasure anew. What am I?&*
+~
+>speech_prog beehive~
+rptransfer all 729
+rpat 729 rpecho &*&cA cloud of thick blue smoke fills the room...&*
+rpat 729 rpecho &@&lWhen it clears you notice you are somewhere else.&*
+~
+|
+S
+#729
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wI &*&y>&@&y>
+
+&@&bThe great and good silver dragon was about
+to hatch a huge egg but, the men of the land 
+had begun to fear her and had started trying to
+kill her. She feared for her unhatched brood.&*
+~
+0 270388 0
+D1
+~
+~
+0 -1 730
+S
+#730
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wII &*&y>&@&y>
+
+&@&bThe silver dragon took to the air grasping
+the egg in her claws. She flew high above the
+sea where no man might send arrows or cast
+magic towards her.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 731
+D3
+~
+~
+0 -1 729
+S
+#731
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wIII &*&y>&@&y>
+
+&@&bAfter several days she became very tired but
+she kept aloft over the roaring sea waiting,
+clutching her clutch, and hoping for the great
+egg to open. Finally it did.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 732
+D3
+~
+~
+0 -1 730
+S
+#732
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wIV &*&y>&@&y>
+
+&@&bThe egg began to hatch. But when the silver
+mother saw the chromatic head of a blue dragon
+starting to breech the shell, she knew she
+would have to end its miserable existance.&*
+~
+0 8224 0
+D2
+~
+~
+0 -1 733
+D3
+~
+~
+0 -1 731
+S
+#733
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wV &*&y>&@&y>
+
+&@&bCromatic dragons were the bane of the earth.
+Their frail, shrunken hearts only pained
+them and all life around them. This offspring
+could bring nothing but death and misery to
+all around it.&*
+~
+0 270388 0
+D0
+~
+~
+0 -1 732
+D1
+~
+~
+0 -1 734
+S
+#734
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wVI &*&y>&@&y>
+
+&@&bThe brave silver dragon let the tiny hatchling
+fall, tumbling into the sea far below.  She was
+sad her first child had failed. It was the way
+with metallic dragons though. She would live long
+and could have many more and she knew from ancient
+stories the havoc such young could grow to bring.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 735
+D3
+~
+~
+0 -1 733
+S
+#735
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&*&y<&@&y< &wVII &*&y>&@&y>
+
+&@&bShe prayed for his demise to be a fast and gentle
+one, for she did not wish to hurt him. A chromatic
+dragon just could not be allowed to live if it could
+be helped. She watched his descent into the churning
+sea below and flew to shore in devastated mourning.&*
+~
+0 270384 0
+D2
+~
+~
+0 -1 736
+D3
+~
+~
+0 -1 734
+S
+#736
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wVIII &*&y>&@&y>
+
+&bThe first thing the hatchling saw was the
+sky, the second the sea, and the third was
+the beautiful face of a mermaid pulling him
+to the shore. He had never even seen his mother.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 735
+D1
+~
+~
+0 -1 737
+S
+#737
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wIX &*&y>&@&y>
+
+&bThe hatchling's green heart remained beating
+for many years always causing him great pain.
+He remembered the day the beautiful green
+haired mermaid saved him and he hated her for
+it. He vowed he would have revenge on all
+women for their stupidity.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 738
+D3
+~
+~
+0 -1 736
+S
+#738
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wX &*&y>&@&y>
+
+&bEach day the blue dragon would swoop down from
+the skies and wreak havok on the land. He would
+catch maidens in his claws and return with them
+to his lair. There he would practice the magics
+he had learned on them.&*
+~
+0 270384 0
+D3
+~
+~
+0 -1 737
+D5
+~
+~
+0 -1 739
+S
+#739
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXI &*&y>&@&y>
+
+&bThe blue dragon knew how to remove the soul of
+a woman and turn her mortal shell to glass. He
+kept each of the women's souls sealed tightly
+in a glass bottle. The women's bodys would be
+sealed in a glass case with a velvet shroud for
+the transformation to occur.&*
+~
+0 270384 0
+D4
+~
+~
+0 -1 738
+D5
+~
+~
+0 -1 740
+S
+#740
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXII &*&y>&@&y>
+
+&bThe women would turn to glass from the inside out.
+The first to go would be the woman's heart because
+without her soul, she could no longer feel and love.
+Each part of the maid would follow until finally
+her hair and skin formed a smooth and perfect glass
+vessel.&*
+~
+0 270384 0
+D4
+~
+~
+0 -1 739
+D5
+~
+~
+0 -1 741
+S
+#741
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXIII &*&y>&@&y>
+
+&bThe golem the woman had become would then be released
+to guard the maze from intruders. She knew nothing
+of her former life. She knew only she must protect
+the dragon who had given her shelter and life.&*
+~
+0 270384 0
+D4
+~
+~
+0 -1 740
+D5
+~
+~
+0 -1 742
+S
+#742
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXIV &*&y>&@&y>
+
+&bThe blue dragon had captured and drained many woman
+in his lifetime. He was still not satisfied. He returned
+again and again to the place where he had fallen into
+the sea, searching for the green haired maid who had
+done the evil of saving his wretched life.&*
+~
+0 270384 0
+D3
+~
+~
+0 -1 743
+D4
+~
+~
+0 -1 741
+S
+#743
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXV &*&y>&@&y>
+
+&bIt consumed him completely. He would swoop over the sea
+intently watching the rocks and waves. Every once in a
+while, he would see the tail of a merfolk dodge below the
+water. They would dive with fear below the surface as
+soon as they saw him everytime, to their haven far below.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 742
+D3
+~
+~
+0 -1 744
+S
+#744
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXVI &*&y>&@&y>
+
+&bThe dragon grew angrier and weaker everyday. He could
+hardly leave his lair for he was too pained to defend
+himself. One rare day, long after his life started and
+asuredly shortly before it would end, he saw a green
+haired mermaid sunning herself on a jagged stone in the
+sea.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 743
+D2
+~
+~
+0 -1 745
+S
+#745
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXVII &*&y>&@&y>
+
+&bHe marveled at her near perfection of form. Then he silently
+swooped down on her as she watched the sea and plucked
+her from the water. She was his at last! He did not care
+to think if this was the same maiden who had dragged him
+from the sea. It did not matter.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 744
+D3
+~
+~
+0 -1 746
+S
+#746
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXVIII &*&y>&@&y>
+
+&bHe immediately extracted her soul and instead of storing it
+in the bottle...he drank it himself. She could never be
+restored now. Only his death could release her fragile soul
+to the heavens above.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 745
+D3
+~
+~
+0 -1 747
+S
+#747
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXIX &*&y>&@&y>
+
+&bAfter tasting the last precious drop of her existance he placed
+her in the glass box and sat back to admire his work. He waited
+for the pride of triumph to shine through and deliver him from
+his pain, but alas, nothing had changed and his pain still boiled
+within him.&*
+~
+0 270384 0
+D1
+~
+~
+0 -1 746
+D2
+~
+~
+0 -1 748
+S
+#748
+&@&lA&*&lrcades &@&wof &*&cSmoke&*~
+&w
+&@&y<&*&y< &@&wXX &*&y>&@&y>
+
+&bThe blue dragon could not even finish his greatest creation and
+left the glass box undisturbed. He smoked and fumed and waited
+for time to bring him death. Never again did he leave the dark
+walls of his lair to let sky blend with his skin or the sun
+glint off his scales. He simply awaited death and the peace it
+would bring him.&*
+~
+0 270384 0
+D0
+~
+~
+0 -1 747
+D5
+~
+~
+0 -1 749
+S
+#749
+&@&wA &!&@&cF&ll&ca&ws&ch&li&cn&wg&* &@&bRecess&*~
+&@&wLight flickers and flashes through the cracks where the 
+walls join. The lair of the blue dragon must be close. A 
+final inscription is etched into the wall before you...
+~
+0 270388 0
+E
+inscription~
+&@&yMy tines are long.
+My tines are short.
+My tines end ere
+My first report.&*
+~
+>speech_prog lightning~
+rpecho &@&cBlue lightning &lhits the ground before you!!&*
+rpecho &@&rYou are hit by the blast!!&*
+rphurt 500 1000
+rptransfer all 750
+rpat 750 rpecho &@&lYou feel the room turn around you and all is displaced!&*
+~
+|
+S
+#750
+&@&bA &cS&lm&co&ll&cd&le&cr&li&cn&lg &*&lLair&*~
+&@&bSmoke thunders through the lair forming blinding
+clouds. Through the smoke you can barely make out the
+shape of something long and rectangular in the center
+of the room.
+&@&w//////////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+&c//////////////////////////////////////////
+//////////////////////////////////////////
+&l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\&*
+~
+0 45 0
+S
+#0
+
+
+#RESETS
+R 0 709 4
+R 0 710 3
+R 0 702 2
+R 0 703 4
+R 0 704 4
+R 0 708 4
+R 0 711 4
+R 0 712 4
+R 0 713 4
+D 0 706 0 2
+D 0 714 2 2
+D 0 714 0 2
+D 0 715 2 2
+R 0 717 4
+R 0 718 4
+R 0 719 4
+R 0 720 4
+R 0 721 4
+R 0 722 4
+R 0 724 4
+R 0 725 4
+R 0 726 4
+M 0 702 1 714
+E 0 729 0 20
+O 0 705 100 750
+P 0 704 1 705
+P 0 700 1 705
+M 0 700 1 750
+G 0 702 100
+G 0 706 100
+M 0 703 4 730
+M 0 703 4 732
+M 0 703 4 734
+M 0 703 4 736
+M 0 704 4 738
+M 0 704 4 740
+M 0 704 4 742
+M 0 704 4 744
+M 0 706 1 748
+E 0 703 1 7
+M 0 701 6 702
+M 0 701 6 704
+M 0 701 6 711
+M 0 701 6 726
+M 0 701 6 721
+M 0 701 6 720
+M 0 705 4 708
+M 0 705 4 707
+M 0 705 4 716
+M 0 705 4 715
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 700 spec_breath_lightning
+M 702 spec_breath_acid
+M 705 spec_undead
+M 706 spec_cleric
+S
+
+
+
+#$
+

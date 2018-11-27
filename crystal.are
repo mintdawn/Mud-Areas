@@ -1,0 +1,2066 @@
+#AREADATA
+Name        &@&l-&r{   &yAll   &r}&l-     &*&cDawn           &@&cKr&gi&cs&wta&gl&cl&gyn &@&bCaverns&*       ~
+Builders    none~
+VNUMs       2300 2399
+Recall      2379
+Security    2
+LEVELS      1 400
+Repop       A &@&ccool &wdraft&* tumbles through the &@&bcaverns&*.~
+Norecall    God has forsaken you.~
+Sname       &@&cKr&gi&cs&wta&gl&cl&gyn &@&bCaverns&*~
+End
+
+
+#MOBILES
+#2300
+Kristallyn~
+a &@&cK&lr&wi&cstallyn &bWorker&*~
+&@&cA worker helps to carve a house.&*
+~
+~
+65 0 1000 S
+365 0 0 0d0+0 0d0+0
+36500 0
+0 0 1
+#2301
+thin kristallyn~
+&@&cKr&gi&cs&wta&gl&cl&gyn&* &@&wC&ci&gtizzyn&*~
+&@&gLight shines through a thin Kristallyn making her appear green.&*
+~
+&@&cWhen kristallyns reproduce they divide. Their crystal form splits in two producing two identical parts. Both very thin and both having shared experiences. They quickly separate to form their own memories and individuality.&*
+~
+65 0 1000 S
+343 0 0 0d0+0 0d0+0
+34300 0
+0 0 2
+#2302
+kristallyn overseer~
+&*a &@&cK&lr&wi&cstallyn &wO&lv&we&lr&ws&le&we&lr&*~
+A leader offers guidance to the other Kristallyn citizens.
+~
+~
+67 0 1000 S
+376 0 0 0d0+0 0d0+0
+37600 0
+0 0 1
+#2303
+kristallyn silk tailor~
+&@&lKr&ci&ls&wta&cl&ll&cyn &*&yTailor&*~
+A male &@&lKr&ci&ls&wta&cl&ll&cyn&* stands amidst the silk.
+~
+~
+67 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 1
+>give_prog red and golden silk cloth~
+emote stitches a fine garment from the cloth.
+mpjunk cloth
+mpoload 2337
+give robes $n
+~
+>give_prog blue and green silk cloth~
+emote stitches a fine garment from the cloth.
+mpjunk cloth
+mpoload 2301
+give silken $n
+~
+|
+#2304
+kristallyn merchant~
+a &@&lKr&ci&ls&wta&cl&ll&cyn &@&gMerchant&*~
+A &@&lKr&ci&ls&wta&cl&ll&cyn&* sells his wares.
+~
+~
+67 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 1
+#2305
+kristallyn harvester~
+&@&lKr&ci&ls&wta&cl&ll&cyn&* &wsi&@l&*&wk &@&yharvester&*~
+A Kristallyn harvests silk.
+~
+~
+65 0 1000 S
+360 0 0 0d0+0 0d0+0
+36000 0
+0 0 1
+#2306
+kristallyn gardener~
+&@&lKr&ci&ls&wta&cl&ll&cyn&* &@&gGa&*r&@&gd&*&ge&@&gn&*&ger&*~
+A gardener grooms the rocks into lines and patterns.
+~
+~
+65 0 1000 S
+368 0 0 0d0+0 0d0+0
+36800 0
+0 0 1
+#2307
+kristallyn citizzyn~
+&@&lKr&ci&ls&wta&cl&ll&cyn&* &@&wC&li&ctizzyn&*~
+A citizzyn lives his life in the caverns.
+~
+~
+65 0 1000 S
+364 0 0 0d0+0 0d0+0
+36400 0
+0 0 1
+#2308
+kristallyn medyk~
+&@&lKr&ci&ls&wta&cl&ll&cyn&* &@&wMe&rd&wyk&*~
+A &@&lKr&ci&ls&wta&cl&ll&cyn&* &@&wMe&rd&wyk&* folds &@&wsilk bandages&*.
+~
+~
+67 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 2
+#2309
+kristallyn priest~
+&@&lKr&ci&ls&wta&cl&ll&cyn&* &@&lP&wr&ciest&*~
+A &@&lKr&ci&ls&wta&cl&ll&cyn&* &@&lP&wr&ciest&* guards the temple from unholy creatures.
+~
+~
+8259 8872 1000 S
+1000 0 0 0d0+0 0d0+0
+100000 0
+0 0 1
+>greet_prog 100~
+if level($n) > 300
+tell $n Ahh greetings adventurer would you like to learn something about the kristallyn race?
+endif
+~
+>speech_prog yes~
+tell $n Then i shall need a favor first for my body is torn.
+~
+>speech_prog no~
+bow $n
+mptransfer $n 2313
+~
+>speech_prog favor~
+tell $n Bring me a bright stone of the upmost value to the human race.
+~
+>speech_prog what~
+tell $n Bring me a bright stone of the upmost value to the human race.
+~
+>give_prog brilliant diamond~
+thank $n
+mpecho &@&yThe priest pulls back his silk robe to reveal a deep chip...
+mpecho &@&wAs he places the diamond to his side it shines brightly
+mpecho &@&cand seemlessly becomes a part of his body.&*
+mpjunk brilliant
+tell $n It is tradition here if you can defeat the elders in combat
+tell $n you may obtain a piece of their essence which possesses great
+tell $n power. The elders hold all experiences from all the generations
+tell $n within them. You have my permission to challenge them.
+mpoload 2343
+drop consent
+mpforce $n get consent
+~
+|
+#2310
+kristallyn citizzyn~
+&@&lKr&ci&ls&wta&cl&ll&cyn &cC&wi&ltizzyn&*~
+A rigid yet curvy female Kristallyn stands transparently before you.
+~
+~
+65 0 1000 S
+360 0 0 0d0+0 0d0+0
+36000 0
+0 0 2
+#2311
+rock shaman~
+The &@&bRock &cSh&la&wm&ban&*~
+The &@&bRock &cSh&la&wm&ban&* chants over his stones.
+~
+~
+67 67117736 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 1
+>give_prog pet rock~
+emote chants a soft prayer to the rock.
+emote rattles a noisy stone staff over the rock.
+if rand(20)
+mpat 1 mprename pet &@&w$n's &@&b<&l(&w-&b<&lFlayS&b>&w-&l)&b> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else 
+if rand(40)
+mpat 1 mprename pet &@&w$n's &@&b<&g(&w-&b<&gRazeS&b>&w-&g)&b> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else
+if rand(50)
+mpat 1 mprename pet &@&w$n's &@&b<&m(&w-&b<&mBatterS&b>&w-&m)&b> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit $n damroll pet rock
+else
+if rand(60)
+mpat 1 mprename pet &@&w$n's &@&b<&r(&w-&b<&rAgonizeS&b>&w-&r)&b> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else
+if rand(70)
+mpat 1 mprename pet &@&w$n's &@&b<<&l(&w-&b<<&lWarpS&b>>&w-&l)&b>> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else
+if rand(80)
+mpat 1 mprename pet &@&w$n's &@&b<<&g(&w-&b<<&gMangleS&b>>&w-&g)&b>> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else
+if rand(90)
+mpat 1 mprename pet &@&w$n's &@&b<<&m(&w-&b<<&mEnflameS&b>>&w-&m)&b>> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+else
+mpat 1 mprename pet &@&w$n's &@&b<<&r(&w-&b<<&rDiminisheS&b>>&w-&r)&b>> &@&b()&*&yPet Rock&@&b()&*
+mpat 1 mpnameit pet $n damroll pet rock
+endif
+say Now hand over the gold. Even a Shaman has to make a living.
+~
+>greet_prog 100~
+if ispc ($n)
+if isshm ($n)
+if level ($n) > 149
+say Hello my fellow Shaman.
+say I see you have travelled a good distance 
+say to find me among these dark caves. Of course,
+say the darkness has always been my home.
+endif
+~
+>speech_prog p home~
+say Yes, I did live in a cave where these &*&ggreen&*
+say creatures made all of our kind leave.
+say One of our brothers still lives there,
+say find him and give him this totem.
+say It will let him know we have not forgotten
+say about him in the cave below the great park.
+mpoload 10810
+drop totem
+mpforce $n get totem
+~
+>give_prog rock totem 3~
+say This is wonderful!
+say You have saved all of us from imminent danger!
+say For your hard work, I hope this gift will
+say be worthy enough for you.
+mpjunk rock
+mpoload 10814
+drop totem
+mpforce $n get totem
+~
+|
+#2312
+kristallyn alchemist~
+&@&wThe &@&lKr&ci&ls&wta&cl&ll&cyn &@&bAlchemist&*~
+An alchemist is here combining elements to form magical concoctions.
+~
+~
+67 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 1
+#2313
+kristallyn smith~
+&@&bThe &@&lKr&ci&ls&wta&cl&ll&cyn &@&bSmith&*~
+&@&bA strong crystal form bends over flames to work metal.&*
+~
+~
+16451 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 2
+#2314
+silk worm silkworm~
+a &@&wsilk&gworm&*~
+A giant worm emerges from the ground.
+~
+~
+65 0 0 S
+360 0 0 0d0+0 0d0+0
+36000 0
+0 0 0
+#2315
+spider~
+a &@&bspider&*~
+A spider spins a web.
+~
+~
+65 0 0 S
+360 0 0 0d0+0 0d0+0
+36000 0
+0 0 2
+#2318
+rock lobster~
+a &@&brock &rlobster&*~
+You stepped on a lobster!
+~
+~
+99 0 0 S
+355 0 0 0d0+0 0d0+0
+35500 0
+0 0 1
+#2319
+kristallyn breeder~
+a &@&lKr&ci&ls&wta&cl&ll&cyn &@&wS&*&wilk &@&gBreeder&*~
+A breeder sets out food for the silk producers.
+~
+~
+65 552 1000 S
+360 0 0 0d0+0 0d0+0
+36000 0
+0 0 1
+#2320
+talisman dealer~
+&@&bThe &yTalisman &gDealer&*~
+A vendor of powerful talismans watches his wares.
+~
+~
+67 8872 1000 S
+319 0 0 0d0+0 0d0+0
+31900 0
+0 0 1
+#2321
+otter~
+&*&yo&wt&yt&we&yr&*~
+&*&wAn &*&yo&wt&yt&we&yr&*&w swims here.&*
+~
+&*&wBasking in the sun this otter doesn't have a care
+in the world&*
+~
+131137 0 400 S
+370 0 0 0d0+0 0d0+0
+82750 2092
+0 0 1
+>death_prog 100~
+mpoload 180
+mpecho &*&wA tooth is knocked from the otters jaws.&*
+~
+|
+#2322
+vellura~
+&@&cV&@&ge&@&ml&@&wl&@&ru&@&yr&@&la&*~
+&@&cV&@&ge&@&ml&@&wl&@&ru&@&yr&@&la&*, the Kristallyn elder, dances in the light.
+~
+&@&mYou are confused when you look at her. Light swirls 
+inside her body putting you in a trance. She seems 
+to pay you no mind when you look at her. She dances 
+in the light. Her curves are not rigid and sharp 
+like the ones on the younger kristallyn females 
+hers are smoother and more defining. You notice a 
+swirling light is eminating from within her. 
+Could something be there?&*
+~
+67 0 400 S
+330 0 0 0d0+0 0d0+0
+33000 0
+0 0 2
+>death_prog 100~
+mpecho &@&cV&@&ge&@&ml&@&wl&@&ru&@&yr&@&la &@&cshatters into razor sharp shards of crystal!&*
+mpecho &@&cV&@&ge&@&ml&@&wl&@&ru&@&yr&@&la&*'s -=eXpLoSiOn=- leaves behind a stone!
+mpoload 2344
+~
+|
+#2323
+vesper~
+&@&wV&@&ce&@&wsp&@&cer&*~
+The elder Kristallyn, &@&wV&@&ce&@&wsp&@&cer&* is here.
+~
+&@&cHe stares back at you and all you see are eyes. His clear 
+body glows with luminance from the reflected light all around. 
+This one looks smoother than the others for his age has 
+taken a toll. If you peer closely at him you can see shards 
+of impurities. Your eyes are drawn to am impurity that seems 
+to glow where a heart should be.&*
+~
+67 0 400 S
+330 0 0 0d0+0 0d0+0
+33000 0
+0 0 1
+>death_prog 100~
+mpecho &@&wV&@&ce&@&wsp&@&cer &@&cshatters into razor sharp shards of crystal!&*
+mpecho &@&wV&@&ce&@&wsp&@&cer&*'s -=eXpLoSiOn=- leaves behind a stone!
+mpoload 2345
+~
+|
+#0
+
+
+#OBJECTS
+#2301
+silken cape~
+a &@&ls&ci&glken &ccape&*~
+A soft cape.~
+~
+9 1024 1025
+45 0 0 0
+2 0 350
+A
+12 300
+A
+13 50
+#2302
+quartz crystal~
+&*a &@&mq&cu&ma&cr&mt&cz &wcrystal&*~
+A six sided crystal spins colors within.~
+~
+9 4128 16385
+48 0 0 0
+5 0 375
+A
+13 300
+A
+24 -15
+#2303
+quartz band~
+&*a &@&cq&wu&ca&wr&ct&wz &gband&*~
+A quartz band plays quietly.~
+~
+9 1024 3
+43 0 0 0
+5 0 340
+A
+19 10
+A
+18 10
+A
+13 120
+A
+12 70
+#2304
+crystal prism~
+&@&c/&g/&yCrystal Prism&g\&c\&*~
+A prism refracts light.~
+~
+9 2048 65537
+42 0 0 0
+5 0 360
+A
+19 13
+A
+13 100
+A
+12 100
+#2305
+braided silken strand~
+&*a &ybraided &@&ws&*&wi&@&wl&*&wk&@&we&*&wn &@&wstrand&*~
+A sticky, long braid of silk is here.~
+~
+9 2176 4097
+43 0 0 0
+5 0 360
+A
+12 200
+A
+13 160
+#2306
+silk purse~
+a &@&ws&*&wilk &@&wp&*&wurse&*~
+A silk purse is here.~
+~
+15 128 1
+500 0 0 0
+5 11111 0
+#2307
+silk slippers~
+&@&ws&*&wilk &@&ws&*&wlippers&*~
+Soft slippers sleep here.~
+~
+9 1 65
+0 0 0 0
+5 11111 319
+A
+2 1
+A
+9 5
+#2308
+silk scarf~
+&@&ws&*&wilk &@&ws&*&wcarf&*~
+A silky scarf blows across the ground.~
+~
+9 1 5
+0 0 0 0
+5 11111 319
+A
+14 1
+#2309
+silken strand~
+a &@&ws&*&wilken &@&ws&*&wtrand&*~
+A thin strand of silk lies here.~
+~
+9 1025 3
+0 0 0 0
+5 11111 319
+A
+5 1
+A
+3 1
+A
+17 -5
+#2310
+stone well~
+a &@&b[&w[&*&wStone Well&@&w]&b]&*~
+A &@&b[&w[&*&wStone Well&@&w]&b]&*~
+~
+25 0 0
+0 0 0 0
+5 0 0
+#2311
+stone well~
+a &@&b[&w[&*&wStone Well&@&w]&b]&*~
+A &@&b[&w[&*&wStone Well&@&w]&b]&*~
+~
+27 0 0
+2341 0 0 0
+5 0 0
+#2312
+raw silk~
+some &@&wraw silk&*~
+Some raw silk is here.~
+~
+13 0 1
+0 0 0 0
+40 0 0
+#2313
+crystal axe~
+&@&cCr&wyst&lal A&wx&ce&*~
+A clear axe is coming to get you!!!~
+~
+5 1025 8193
+0 0 0 10
+10 0 0
+A
+19 50
+A
+18 50
+A
+12 200
+A
+13 50
+#2314
+slinky~
+a &@&b(((&wSlinky&b)))&*~
+The mystic spring is here.~
+~
+8 64 16385
+0 0 0 0
+5 11111 12
+A
+5 3
+#2315
+pet rock~
+a &@&b()&*&yPet Rock&@&b()&*~
+Take me home with you!~
+~
+9 64 16385
+15 0 0 0
+5 11111 15
+A
+19 1
+A
+18 1
+#2316
+potato head~
+&@&rMr. &lPotato &yHead&*~
+A friendly spud greets you.~
+~
+8 64 16385
+0 0 0 0
+5 11111 12
+A
+3 3
+#2317
+tinker toy~
+&@&wa &rT&yi&ln&yk&re&lr&w-Toy&*~
+A strange building block is here.~
+~
+8 64 16385
+0 0 0 0
+5 11111 12
+A
+4 3
+#2318
+stiffy tub toy~
+&@&cMr. &wS&ltiffy &wT&cub&w-&lT&coy&*~
+A strange bath toy winks at you.~
+~
+8 576 16385
+0 0 0 0
+5 11111 12
+A
+2 3
+#2319
+rose quartz~
+&@&wa &mrose &wq&*&wu&@&mar&*&wt&@&wz&*~
+A pink stone is here.~
+~
+26 0 1
+50 133 -1 -1
+5 11111 100
+#2320
+moonstone~
+a &@&wm&*&woonston&@&we&*~
+A moonstone is here.~
+~
+26 0 1
+50 34 -1 -1
+5 11111 100
+#2321
+hematite~
+a &@&bhematite&*~
+A grey stone is here.~
+~
+26 0 1
+50 165 -1 -1
+5 11111 100
+#2322
+small stone box~
+a small &@&bstone box&*~
+~
+~
+15 0 0
+30 0 0 0
+5 11111 0
+E
+box~
+A small stone box is here.~
+#2323
+stone door knob~
+a &@&bstone door knob&*~
+A stone door knob has fallen off.~
+~
+18 0 1
+0 0 0 0
+8 0 0
+#2324
+smooth stone bucket~
+a &@&bsmooth stone bucket&*~
+A smooth stone bucket attached to a rope, which leads up the shaft, is here.~
+~
+15 0 0
+400 0 0 0
+5 0 0
+#2325
+tattered blue silk~
+a piece of tattered &@&cblue &lsilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2326 2330 0 0
+5 0 0
+#2326
+blue torn silk~
+a piece of torn &@&lblue &csilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2325 2330 0 0
+5 0 0
+#2327
+green silk swatch~
+a &@&ggreen&* swatch of &@&gsilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2328 2329 0 0
+5 0 0
+#2328
+green piece silk~
+a &@&ggreen&* piece of &@&gsilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2327 2329 0 0
+5 0 0
+#2329
+long green silk piece~
+a piece of long &@&ggreen silk&*~
+Some silk lies here.~
+~
+13 0 1
+2330 2338 0 0
+5 0 0
+#2330
+long blue silk~
+a long piece of &@&lblue &csilk&*~
+Some silk is here.~
+~
+13 0 1
+2329 2338 0 0
+5 0 0
+#2331
+ripped red silk~
+ripped &@&rred &*&rsilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2332 2335 0 0
+5 0 0
+#2332
+round red silk~
+a round piece of &@&rred &*&rsilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2331 2335 0 0
+5 0 0
+#2333
+golden silk swatch~
+a swatch of &@&yg&*&yolden &@&ysilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2334 2336 0 0
+5 0 0
+#2334
+threads golden silk~
+some threads of &@&yg&*&yolden &@&ysilk&*~
+A piece of silk is here.~
+~
+13 0 1
+2333 2336 0 0
+5 0 0
+#2335
+long red silk piece~
+a long piece of &@&rred &*&rsilk&*~
+Some silk is here.~
+~
+13 0 1
+2336 2339 0 0
+5 0 0
+#2336
+long golden silk piece~
+a long piece of &@&yg&*&yolden &@&ysilk&*~
+Some silk is here.~
+~
+13 0 1
+2335 2339 0 0
+5 0 0
+#2337
+golden blood silk robes~
+&@&yg&*&yo&@&yl&*&yd&@&ye&*&yn &@&rb&*&rl&@&ro&*&ro&@&rd &@&ysilk &rrobes&*~
+Robes are here.~
+~
+9 1024 9
+45 0 0 0
+5 0 350
+A
+13 300
+A
+17 -10
+A
+24 -5
+A
+3 1
+#2338
+blue and green silk cloth~
+some &@&lblue&* and &@&ggreen&* cloth~
+Some silk cloth is here.~
+~
+8 0 1
+0 0 0 0
+5 0 0
+#2339
+red and golden silk cloth~
+some &@&rred&* and &@&ygolden&* silk cloth~
+Some silk cloth is here.~
+~
+8 0 1
+0 0 0 0
+5 0 0
+#2340
+quartz key~
+a &@&wquartz key&*~
+A key is here.~
+~
+18 0 1
+0 0 0 0
+2 0 0
+#2341
+spinning portal twilight~
+a &@&cs&lp&wi&cn&ln&wi&ln&cg&w &lp&wo&cr&lt&ca&wl&*~
+Through a &@&cs&lp&wi&cn&ln&wi&ln&cg&w &lp&wo&cr&lt&ca&wl&* you can see &@&rT&yw&wilig&ch&lt&*.~
+~
+27 64 0
+1400 -1 0 0
+100 0 0
+#2342
+thin silk cape~
+a &*&wthin &@&ws&*&wi&@&wl&*&wk &@&wcape&*~
+A &@&wsilk cape&* lies on the ground.~
+~
+9 536870912 1025
+5 0 0 0
+2 0 1
+A
+3 1
+#2343
+priest consent~
+&@&lP&@&wr&@&ciest's &@&lCo&@&cn&@&ls&@&wen&@&ct&*~
+The priest has left a letter here.~
+~
+18 0 1
+2 0 0 0
+2 0 320
+#2344
+shining stone heritage~
+&@&l/&@&c*&@&w\ &@&yShining &@&rStone &yof &@&gHeritage &@&w/&@&c*&@&l\&*~
+&@&l/&@&c*&@&w\ &@&yShining &@&rStone &yof &@&gHeritage &@&w/&@&c*&@&l\&*~
+~
+8 0 1
+2345 2346 0 0
+5 0 325
+E
+shining stone heritage~
+Your heart races as images of the kristallyn people fill your sight. 
+You cannot help but feel the emense pain, suffering, and joy of this 
+mysterious race as you hold the clear, warm stone close to you bossom
+as though forced by a god.
+~
+#2345
+dazzling stone knowledge~
+&@&w/&@&c*&@&l\ &@&mDazzling &@&lStone &@&mOf &@&wKnowledge &@&l/&@&c*&@&w\&*~
+&@&w/&@&c*&@&l\ &@&mDazzling &@&lStone &@&mOf &@&wKnowledge &@&l/&@&c*&@&w\&*~
+~
+8 0 1
+2344 2346 0 0
+5 0 325
+E
+dazzling stone knowledge~
+You feel a shocking wave of pain through your mind. As this stone of the purest 
+crystal invades your thoughts filling you with overwhelming knowledge.
+~
+#2346
+earring generations~
+&@&c|&@&w|&@&c|&@&w*&@&c|&@&w|&@&c|&@&gE&@&wa&@&yr&@&lr&@&ri&@&mn&@&gg &@&wO&@&yf &@&lG&@&gE&@&mN&@&rE&@&yR&@&wA&@&cT&@&lI&@&mO&@&rN&@&gS&@&c|&@&w|&@&c|&@&w*&@&c|&@&w|&@&c|&*~
+&@&c|&@&w|&@&c|&@&w*&@&c|&@&w|&@&c|&@&gE&@&wa&@&yr&@&lr&@&ri&@&mn&@&gg &@&wO&@&yf &@&lG&@&gE&@&mN&@&rE&@&yR&@&wA&@&cT&@&lI&@&mO&@&rN&@&gS&@&c|&@&w|&@&c|&@&w*&@&c|&@&w|&@&c|&*~
+~
+9 0 32769
+46 0 0 0
+5 0 325
+A
+13 275
+A
+17 -20
+A
+6 1
+#0
+
+
+#ROOMS
+#2300
+&*&yWinding Down a Mountain&*~
+&@&bA dark cave descends into the mountain. Cool shadows rapidly replace the crisp mountain air and sunshine. The sound of dripping water can be heard coming from some far off corner of the caverns.&*
+~
+0 5 0
+D1
+~
+~
+0 -1 12723
+D5
+~
+~
+0 -1 2301
+S
+#2301
+&*&yWinding Down a Mountain&*~
+&@&bA dark cave descends into the mountain. Cool shadows rapidly replace the crisp mountain air and sunshine. The sound of dripping water can be heard coming from some far off corner of the caverns.&*
+~
+0 5 0
+D1
+~
+~
+0 -1 2302
+D4
+~
+~
+0 -1 2300
+S
+#2302
+&*&yWinding Down a Mountain&*~
+&@&bA dark cave descends into the mountain. Cool shadows rapidly replace the crisp mountain air and sunshine. The sound of dripping water can be heard coming from some far off corner of the caverns.&*
+~
+0 5 0
+D3
+~
+~
+0 -1 2301
+D5
+~
+~
+0 -1 2303
+S
+#2303
+&*&yWinding Down a Mountain&*~
+&@&bA dark cave descends into the mountain. Cool shadows rapidly replace the crisp mountain air and sunshine. The sound of dripping water can be heard coming from some far off corner of the caverns.&*
+~
+0 5 0
+D1
+~
+~
+0 -1 2304
+D4
+~
+~
+0 -1 2302
+S
+#2304
+&*&yWinding Down a Mountain&*~
+&@&bA dark cave descends into the mountain. Cool shadows rapidly replace the crisp mountain air and sunshine. The sound of dripping water can be heard coming from some far off corner of the caverns.&*
+~
+0 5 0
+D2
+~
+~
+0 -1 2305
+D3
+~
+~
+0 -1 2303
+S
+#2305
+&*&yDim &@&bCaverns&*~
+&@&bThe caverns begin to glow with a &@&ybright yellow light&b. An amber moss grows along the cavern walls and glows warmly.&*
+~
+0 4 0
+D0
+~
+~
+0 -1 2304
+D2
+~
+~
+0 -1 2306
+S
+#2306
+&*&yDim &@&bCaverns&*~
+&@&bThe caverns begin to glow with a &@&ybright yellow light&b. An amber moss grows along the cavern walls and glows warmly.&*
+~
+0 4 0
+D0
+~
+~
+0 -1 2305
+D5
+~
+~
+0 -1 2307
+S
+#2307
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 4 0
+D2
+~
+~
+0 -1 2308
+D4
+~
+~
+0 -1 2306
+S
+#2308
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2307
+D1
+~
+~
+0 -1 2312
+D2
+~
+~
+0 -1 2309
+D3
+~
+stone door~
+1 -1 2314
+S
+#2309
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2308
+D1
+~
+stone door~
+1 -1 2316
+D2
+~
+~
+0 -1 2310
+D3
+~
+~
+1 -1 2318
+S
+#2310
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2309
+D1
+~
+~
+0 -1 2319
+D2
+~
+~
+0 -1 2311
+D3
+~
+stone door~
+1 -1 2321
+S
+#2311
+&@&bAn Underground &wT&*&we&@&wm&*&wp&@&wl&*&we&*~
+&@&bA small &wcircle of stones &bmarks this as a spot of &choly power&b. Once long ago, legend says, visitors from another world entered the caverns magically at this very location.
+~
+0 4 0
+D0
+~
+~
+0 -1 2310
+D1
+~
+~
+0 -1 2323
+D2
+~
+~
+0 -1 2326
+D3
+~
+~
+0 -1 2324
+D5
+~
+~
+0 -1 2325
+S
+#2312
+&@&bA &rH&*&re&@&ra&*&rl&@&ri&*&rn&@&rg &wCrystal &bCave&*~
+&@&bThis cave has been long reknowned for it healing powers. &@&cK&lr&wi&cstallyns &bdoctor their many &*&gills &@&bhere.&*
+~
+0 132100 0
+D1
+~
+~
+0 -1 2313
+D3
+~
+~
+0 -1 2308
+S
+#2313
+&@&wThe &@&cK&lr&wi&cstallyn &wChamber of Peace&*~
+&@&bWhen they are weak from life's &*&gills &@&cK&lr&wi&cstallyns &bcome here to rest peacefully and recover.&*
+~
+0 4 0
+D3
+~
+~
+0 -1 2312
+S
+#2314
+&@&bA &@&cK&lr&wi&cstallyn &bHouse&*~
+&@&bA grand house cut directly out of the rock has been built here. A Kristallyn family resides here. The walls glow with the same yellow plants as the rest of the caverns.&*
+~
+0 0 0
+D1
+~
+stone door~
+1 -1 2308
+D3
+~
+~
+0 -1 2315
+S
+#2315
+&@&bA Stone Sleeping Room&*~
+&@&bThis is where the family sleeps and dresses. Even though Kristallyns are made of stone they still have many customs of modesty.&*
+~
+0 0 0
+D1
+~
+~
+0 -1 2314
+S
+#2316
+&@&bA &@&cK&lr&wi&cstallyn &bHouse&*~
+&@&bA grand house cut directly out of the rock has been built here. A Kristallyn family resides here. The walls glow with the same yellow plants as the rest of the caverns.&*
+~
+0 0 0
+D1
+~
+~
+1 -1 2317
+D3
+~
+stone door~
+1 -1 2309
+S
+#2317
+&@&bA Stone Sleeping Room&*~
+&@&bThis is where the family sleeps and dresses. Even though Kristallyns are made of stone they still have many customs of modesty.&*
+~
+0 0 0
+D3
+~
+stone door~
+1 -1 2316
+S
+#2318
+&@&bA &@&cK&lr&wi&cstallyn &yShop&*~
+&@&bHere is a shop filled with everyday needs. Even the counters and shelves are cut from the rocks of the cavern.&*
+~
+0 0 0
+D1
+~
+stone door~
+1 -1 2309
+S
+#2319
+&@&bThe &wS&*&wi&@&wl&*&wk &@&yShop&*~
+&@&cK&lr&wi&cstallyns &bwear mostly &ws&*&wi&@&wl&*&wk &@&bbecause of the great abundance of spiders and silk worms that live near by. Some have even made a profitable life breeding silk spinners. &@&wSilk garments &band &wcontainers &bdrape across cold, stone tables. A small box sits on the counter.&*
+~
+0 0 0
+D1
+~
+~
+0 -1 2320
+D3
+~
+~
+0 -1 2310
+S
+#2320
+&@&bA &*&yStorage &@&bRoom&*~
+&@&wRaw silk &band half completed items lie stacked around the room waiting for completion.&*
+~
+0 0 0
+D3
+~
+~
+0 -1 2319
+D5
+~
+floor boards~
+16 2323 2363
+S
+#2321
+&@&bA &@&cK&lr&wi&cstallyn &bHouse&*~
+&@&bA grand house cut directly out of the rock has been built here. A Kristallyn family resides here. The walls glow with the same yellow plants as the rest of the caverns.&*
+~
+0 0 0
+D1
+~
+stone door~
+1 -1 2310
+D3
+~
+~
+0 -1 2322
+S
+#2322
+&@&bA Stone Sleeping Room&*~
+&@&bThis is where the family sleeps and dresses. Even though Kristallyns are made of stone they still have many customs of modesty.&*
+~
+0 0 0
+D1
+~
+~
+0 -1 2321
+S
+#2323
+&@&bCave &wof &rM&ye&gl&ld&mi&bn&rg&*~
+&@&bBeautiful sclupted stone figures surround the temple. Great carvings of spiders and crystal shaped pillars grace the glowing caverns. &rM&yu&cl&lt&mi&gc&yo&wl&ro&lr&ye&cd &wcrystals &bshine from the walls like &mf&*&ml&@&mo&*&mw&@&me&*&mr&@&ms&b.&*
+~
+0 16777216 0
+D3
+~
+~
+0 -1 2311
+S
+#2324
+&@&bStone &rG&ya&wr&ld&ge&yn&gs&*~
+&@&bBeautiful sclupted stone figures surround the temple. Great carvings of spiders and crystal shaped pillars grace the glowing caverns. &rM&yu&cl&lt&mi&gc&yo&wl&ro&lr&ye&cd &wcrystals &bshine from the walls like &mf&*&ml&@&mo&*&mw&@&me&*&mr&@&ms&b.&*
+~
+0 0 0
+D1
+~
+~
+0 -1 2311
+S
+#2325
+&@&wOffering Room&*~
+&*&cThis room is where Kristallyns leave their surplus for those who are less fortunate or newly formed.&*
+~
+0 1028 0
+D4
+~
+~
+0 -1 2311
+D5
+~
+~
+0 0 2379
+S
+#2326
+&@&cQ&wu&ca&wr&ct&wz &bSteps&*~
+&*&wCrystal steps enable you to navigate between levels of the cavern. They are bright and slick.&*
+~
+0 4 0
+D0
+~
+~
+0 -1 2311
+D5
+~
+~
+0 -1 2327
+S
+#2327
+&@&cQ&wu&ca&wr&ct&wz &bSteps&*~
+&*&wCrystal steps enable you to navigate between levels of the cavern. They are bright and slick.&*
+~
+0 4 0
+D4
+~
+~
+0 -1 2326
+D5
+~
+~
+0 -1 2328
+S
+#2328
+&@&cQ&wu&ca&wr&ct&wz &bSteps&*~
+&*&wCrystal steps enable you to navigate between levels of the cavern. They are bright and slick.&*
+~
+0 4 0
+D1
+~
+~
+0 -1 2329
+D4
+~
+~
+0 -1 2327
+S
+#2329
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2333
+D1
+~
+~
+0 -1 2330
+D2
+~
+~
+0 -1 2334
+D3
+~
+~
+0 -1 2328
+S
+#2330
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2335
+D1
+~
+~
+0 -1 2331
+D2
+~
+~
+0 -1 2336
+D3
+~
+~
+0 -1 2329
+S
+#2331
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2337
+D1
+~
+~
+0 -1 2332
+D2
+~
+~
+0 -1 2338
+D3
+~
+~
+0 -1 2330
+S
+#2332
+&@&cAn &@&bUnderground &cCity&*~
+&@&bAn underground city spread before you. Houses are cut staight into the rock. Huge stone doors slide open smoothly on their hinges. The &yyellow glow &wlights &bthe way and shines through the inhabitants of the city making them appear slightly &@&ggreen &bat times.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2339
+D1
+~
+~
+0 -1 2351
+D2
+~
+~
+0 -1 2340
+D3
+~
+~
+0 -1 2331
+S
+#2333
+&@&bA Stoney Alcove&*~
+&@&bA shallow alcove has been cut into the rock to form a semi-private room.&*
+~
+0 0 1
+D2
+~
+~
+0 -1 2329
+S
+#2334
+&@&bThe &yTalisman &bShop&*~
+&@&bMany ancient artifacts lie dusty on the stone shelves. Many of the things here are from much older generations of &@&cK&lr&wi&cstallyns&b. Some choice items however are from the &cm&my&cs&mt&ci&mc &bvisitors which once wandered into the caves.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 2329
+S
+#2335
+&@&bThe Rock &wShaman's &*&yCave&*~
+&@&bSome of the finest rocks found in all the caves are here. &@&cK&lr&wi&cstallyns &bfind many of them to have &@&rhealing &wpowers &band great beauty. Some even bring the powerful talisman rocks here to get &cspirit &bbreathed into them.&*
+~
+0 0 1
+D2
+~
+~
+0 -1 2330
+S
+#2336
+&@&bA Stoney Alcove&*~
+&@&bA shallow alcove has been cut into the rock to form a semi-private room.&*
+~
+0 0 1
+D0
+~
+~
+0 -1 2330
+S
+#2337
+&@&bA Stoney Alcove&*~
+&@&bA shallow alcove has been cut into the rock to form a semi-private room.&*
+~
+0 0 1
+D2
+~
+~
+0 -1 2331
+S
+#2338
+&@&bThe &cAlchemist's &gShop&*~
+&@&bMany herbs and potions are strewn haphazardly across the many stone tables and shelves. The scent of unique herbs, mosses and molds lies heavy in the air.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2331
+S
+#2339
+&@&bThe &@&cK&lr&wi&cstallyn &bSmith&*~
+&@&bElements mined from deep within the earth are forged by fire here to make fine jewelry and supplies for the Kristallyn people. A hot fire for melting metal and many grinding wheels for producing fine and smooth shaped crystals. 
+The &@&cK&lr&wi&cstallyns &bhave been hidden from the outside world so long they haven't had a need for many weapons, although, they do have written, in the texts, instructions for making incrediably strong crystal weapons. It is said one still exists for religious purposes.&*
+~
+0 0 0
+D2
+~
+~
+0 -1 2332
+S
+#2340
+&@&bA Stoney Alcove&*~
+&@&bA shallow alcove has been cut into the rock to form a semi-private room.&*
+~
+0 0 0
+D0
+~
+~
+0 -1 2332
+S
+#2341
+&@&bFalling Down a &lWell&b....&*~
+&*&lYou have fallen down a well! The bottom looms invisible, in the dark.&*
+~
+0 8193 0
+D5
+~
+~
+0 -1 2342
+S
+#2342
+&@&bFalling Down a &lWell&b....&*~
+&*&lYou have fallen down a well! The bottom looms invisible, in the dark.&*
+~
+0 8193 0
+D5
+~
+~
+0 -1 2343
+S
+#2343
+&@&bFalling Down a &lWell&b....&*~
+&*&lYou have fallen down a well! The bottom looms invisible, in the dark.&*
+~
+0 8193 0
+D5
+~
+~
+0 -1 2344
+S
+#2344
+&@&bThe Bottom of the &lWell&*~
+&*&lYou plunge into &@&lcold water&*&l! It is pitch black. The only escape seems to be to follow the river to its end.&*
+~
+0 8197 6
+D3
+~
+~
+0 -1 2345
+S
+#2345
+&@&lAn &bUnderground &lR&*&liver&*~
+&*&lA slow moving river wears a path through the mountain. It carries you along the dark caverns.&*
+~
+0 8193 6
+D2
+~
+~
+0 -1 2346
+S
+#2346
+&@&lAn &bUnderground &lR&*&liver&*~
+&*&lA slow moving river wears a path through the mountain. It carries you along the dark caverns.&*
+~
+0 8193 6
+D5
+~
+~
+0 -1 2347
+S
+#2347
+&@&cA &wDip &cin the &lRiver&*~
+&*&lYou are carried downward in the darkness. The river's pace quickens.&*
+~
+0 8193 6
+D1
+~
+~
+0 -1 2348
+S
+#2348
+&@&lAn &bUnderground &lR&*&liver&*~
+&@&lTo the east &ylight &lcan be seen. The river rushes you towards it.&*
+~
+0 8193 6
+D1
+~
+~
+0 -1 2349
+S
+#2349
+&@&lAn &bUnderground &lR&*&liver&*~
+&@&lTo the east &ylight &lcan be seen. The river rushes you towards it. You can see the &*&ymouth of the cave &@&lahead and wide swirling waters.&*
+~
+0 8193 6
+D1
+~
+~
+0 -1 2350
+S
+#2350
+&@&cC&lo&wn&lv&ce&wr&lg&ci&wn&cg &lWaters&*~
+&@&cTwo rivers meet in a swirl of &wwhitecapes &cand &lrapids&c. The sky opens above you as you rejoin the &@&yland of light&c.&*
+~
+0 8193 6
+D1
+~
+~
+0 0 12914
+S
+#2351
+&@&bDark &*&yand Winding &@&bCave&*~
+&@&bDarkness creeps through the cavern. The &@&ybright yellow glow &bfades to &*&yamber shadows&@&b.&*
+~
+0 5 0
+D3
+~
+~
+0 -1 2332
+D5
+~
+~
+0 -1 2352
+S
+#2352
+&@&bDescent&*~
+&@&bThe cavern steeply descends into darkness. The passage is narrow though so luckily you can feel your way along the cave walls.&*
+~
+0 1 0
+D4
+~
+~
+0 -1 2351
+D5
+~
+~
+0 -1 2353
+S
+#2353
+&@&bDescent&*~
+&@&bThe cavern steeply descends into darkness. The passage is narrow though so luckily you can feel your way along the cave walls.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 2354
+D4
+~
+~
+0 -1 2352
+S
+#2354
+&@&bDark &*&yand Winding &@&bCave&*~
+&@&bDarkness creeps through the cavern. The &@&ybright yellow glow &bfades to &*&yamber shadows&@&b.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 2353
+D5
+~
+~
+0 -1 2355
+S
+#2355
+&@&bDescent&*~
+&@&bThe cavern steeply descends into darkness. The passage is narrow though so luckily you can feel your way along the cave walls.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 2356
+D4
+~
+~
+0 -1 2354
+S
+#2356
+&@&bOpening to the &rG&ya&wr&rd&ye&ln&gs&*~
+&@&bDarkness opens into a &ywarm glow&b. A &wshining &ccrystal &rg&ya&wr&ld&ge&yn &bstands brilliant and immaculate deep within the earth. Intricately shaped &rr&*&ru&@&rb&*&ri&@&re&*&rs &@&bspring like &rroses &bfrom &gjade &bsculptures. &cCrystals &bof all colors lie in patterned rows all along the ground.&*
+~
+0 4 0
+D0
+~
+~
+0 -1 2355
+D2
+~
+~
+0 -1 2357
+S
+#2357
+&@&bA Rock &rG&ya&wr&ld&ge&yn&*~
+&@&bFinely sculpted &yc&go&ll&co&wr&me&rd &wcrystals &bhurl &rfiery &wbrilliance &bin all directions. &yYellow light shines &bthrough them bathing the &rg&ya&wr&ld&ge&yn &bin a multi-hued &ywarmth&b.&*
+~
+0 4 0
+D0
+~
+~
+0 -1 2356
+D1
+~
+~
+0 -1 2359
+D2
+~
+stone door~
+1 -1 2360
+D3
+~
+~
+0 -1 2358
+S
+#2358
+&@&bA Rock &rG&ya&wr&ld&ge&yn&*~
+&@&bFinely sculpted &yc&go&ll&co&wr&me&rd &wcrystals &bhurl &rfiery &wbrilliance &bin all directions. &yYellow light shines &bthrough them bathing the &rg&ya&wr&ld&ge&yn &bin a multi-hued &ywarmth&b.&*
+~
+0 0 0
+D1
+~
+~
+0 -1 2357
+D2
+~
+stone door~
+8 2343 2361
+S
+#2359
+&@&bA Rock &rG&ya&wr&ld&ge&yn&*~
+&@&bFinely sculpted &yc&go&ll&co&wr&me&rd &wcrystals &bhurl &rfiery &wbrilliance &bin all directions. &yYellow light shines &bthrough them bathing the &rg&ya&wr&ld&ge&yn &bin a multi-hued &ywarmth&b.&*
+~
+0 0 0
+D2
+~
+stone door~
+8 2343 2362
+D3
+~
+~
+0 -1 2357
+S
+#2360
+&@&bA Stone &*&yResidence&*~
+&@&bThis small home, connected to the &rg&ya&wr&ld&ge&yn&rs&b, belongs to one of the &@&cK&lr&wi&cstallyn &wO&lv&we&lr&ws&le&we&lr&b. Overseers are oldest and most revered members of Kristallyn society. They offer advice and guidance.&*
+~
+0 262180 0
+D0
+~
+stone door~
+1 -1 2357
+S
+#2361
+&@&bA Stone &*&yResidence&*~
+&@&bThis small home, connected to the &rg&ya&wr&ld&ge&yn&rs&b, belongs to one of the &@&cK&lr&wi&cstallyn &wO&lv&we&lr&ws&le&we&lr&b. Overseers are oldest and most revered members of Kristallyn society. They offer advice and guidance.&*
+~
+0 262180 0
+D0
+~
+stone door~
+8 2343 2358
+S
+#2362
+&@&bA Stone &*&yResidence&*~
+&@&bThis small home, connected to the &rg&ya&wr&ld&ge&yn&rs&b, belongs to one of the &@&cK&lr&wi&cstallyn &wO&lv&we&lr&ws&le&we&lr&b. Overseers are oldest and most revered members of Kristallyn society. They offer advice and guidance.&*
+~
+0 262180 0
+D0
+~
+stone door~
+8 2343 2359
+S
+#2363
+&@&bPitch Passage&*~
+&@&bA narrow hidden passage leads deeper into the mountain. A &*&yrope &@&bhangs down the passage it is tied to a ring at the entrance to the shaft.&*
+~
+0 2053 0
+D4
+~
+floor boards~
+16 2323 2320
+D5
+~
+~
+0 -1 2364
+E
+rope~
+A rope hangs down here. It has been fastened tightly to the top of the shaft and descends into darkness.~
+S
+#2364
+&@&bPitch Passage&*~
+&@&bA narrow hidden passage leads deeper into the mountain. A &*&yrope &@&bhangs down the passage it is tied to a ring at the entrance to the shaft.&*
+~
+0 2053 0
+D4
+~
+~
+0 -1 2363
+D5
+~
+~
+0 -1 2365
+S
+#2365
+&@&bPitch Passage&*~
+&@&bA narrow hidden passage leads deeper into the mountain. A &*&yrope &@&bhangs down the passage it is tied to a ring at the entrance to the shaft.&*
+~
+0 2049 0
+D4
+~
+~
+0 -1 2364
+D5
+~
+~
+0 -1 2366
+S
+#2366
+&@&bPitch Passage&*~
+&@&bA narrow hidden passage leads deeper into the mountain. A &*&yrope &@&bhangs down the passage it is tied to a ring at the entrance to the shaft.&*
+~
+0 2049 0
+D4
+~
+~
+0 -1 2365
+D5
+~
+~
+0 -1 2367
+S
+#2367
+&@&wS&*&wi&@&wl&*&wk &@&yTrade&*~
+&@&wS&*&wi&@&wl&*&wk &@&bharvesters work busily collecting silk from huge spiders and silk worms. Talented Kristallyn breeders have bred the spiders and worms for hundreds of years to be extremely large and produce mass ammounts of silk. It is hoisted to the surface, via ropes and baskets, directly to the tailor who makes clothes for those kristallyns who prefer not to do it themselves.&*
+~
+0 2053 0
+D1
+~
+~
+0 -1 2368
+D3
+~
+~
+0 -1 2373
+D4
+~
+~
+0 -1 2366
+S
+#2368
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D3
+~
+~
+0 -1 2367
+D5
+~
+~
+0 -1 2369
+S
+#2369
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 2370
+D4
+~
+~
+0 -1 2368
+S
+#2370
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 2371
+D3
+~
+~
+0 -1 2369
+S
+#2371
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 2370
+D5
+~
+~
+0 -1 2372
+S
+#2372
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D4
+~
+~
+0 -1 2371
+S
+#2373
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 2367
+D3
+~
+~
+0 -1 2374
+S
+#2374
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D1
+~
+~
+0 -1 2373
+D5
+~
+~
+0 -1 2375
+S
+#2375
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 2376
+D4
+~
+~
+0 -1 2374
+S
+#2376
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 2375
+D5
+~
+~
+0 -1 2377
+S
+#2377
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D2
+~
+~
+0 -1 2378
+D4
+~
+~
+0 -1 2376
+S
+#2378
+&@&bThe &gBreeding &*&yCaves&*~
+&@&bBreeders walk among the spiders and silkworms tending to their needs. The caves are dark and smell wet.&*
+~
+0 1 0
+D0
+~
+~
+0 -1 2377
+S
+#2379
+&@&bUnderground &wDivision &*&yChamber&*~
+&@&bThis is a chamber used for forming new &@&cK&lr&wi&cstallyns&b.
+When it is time for a &@&cK&lr&wi&cstallyn &bto divide he or she
+comes down here until the process, of splitting into
+two complete and identical halves, done. The two twin
+&@&cK&lr&wi&cstallyns &bhave shared memories and experiences. They
+quickly separate and leave from the caverns to form
+their own individual and unique experiences. After many
+years they may return to help the colony grow and prosper.&*
+
+&@&bThere is a portal here...
+Type &wNAV PORTAL&b to enter &@&rT&yw&wilig&ch&lt &wTemple&b.&*
+~
+0 0 0
+D4
+~
+~
+0 0 2325
+S
+#0
+
+
+#RESETS
+D 0 2314 1 1
+D 0 2308 3 1
+D 0 2316 3 1
+D 0 2317 3 1
+D 0 2309 1 1
+D 0 2318 1 1
+D 0 2321 1 1
+D 0 2310 3 1
+O 0 3134 100 2323
+O 0 2311 100 2324
+M 0 2303 1 2319
+G 0 2306 100
+G 0 2307 100
+G 0 2308 100
+G 0 2309 100
+M 0 2309 1 2311
+E 0 2313 1 16
+M 0 2311 1 2335
+G 0 2321 100
+G 0 2320 100
+G 0 2319 100
+O 0 2312 100 2320
+M 0 2313 1 2339
+M 0 2312 1 2338
+D 0 2360 0 1
+D 0 2357 2 1
+D 0 2361 0 1
+D 0 2358 2 1
+D 0 2362 0 1
+D 0 2359 2 1
+O 0 2322 100 2319
+M 0 2306 1 2358
+G 0 2327 100
+D 0 2363 4 2
+D 0 2320 5 2
+O 0 2324 100 2367
+P 0 2334 1 2324
+M 0 2314 6 2368
+M 0 2314 6 2369
+M 0 2314 6 2370
+M 0 2314 6 2371
+M 0 2314 6 2371
+M 0 2319 4 2372
+M 0 2305 2 2368
+M 0 2315 5 2378
+M 0 2305 2 2378
+M 0 2315 5 2377
+M 0 2315 5 2376
+M 0 2319 4 2376
+M 0 2315 5 2375
+M 0 2315 1 2374
+M 0 2302 1 2360
+E 0 2302 1 17
+G 0 2326 0
+M 0 2302 1 2361
+G 0 2326 100
+M 0 2308 1 2313
+O 0 2325 100 2340
+O 0 2328 100 2301
+O 0 2331 100 2320
+O 0 2332 100 2344
+O 0 2333 100 2375
+P 0 2323 1 2322
+M 0 2300 5 2307
+M 0 2300 5 2310
+M 0 2300 5 2329
+M 0 2300 5 2331
+M 0 2300 5 2332
+M 0 2301 3 2321
+M 0 2301 3 2315
+E 0 2303 1 1
+M 0 2301 3 2329
+M 0 2307 4 2317
+E 0 2305 1 14
+M 0 2307 4 2310
+M 0 2307 4 2336
+M 0 2307 4 2337
+M 0 2310 4 2321
+M 0 2310 4 2308
+M 0 2310 4 2319
+M 0 2310 4 2333
+E 0 2304 0 20
+M 0 2318 1 2347
+O 0 2341 1 2379
+O 0 87 1 2313
+O 0 90 1 2313
+M 0 2320 1 2334
+G 0 2314 0
+G 0 2315 0
+G 0 2316 0
+G 0 2317 0
+G 0 2318 0
+O 0 47 1 2325
+O 0 48 1 2325
+O 0 2342 1 2325
+M 0 2321 4 2348
+M 0 2322 1 2362
+M 0 2323 1 2361
+D 0 2362 0 2
+D 0 2361 0 2
+D 0 2358 2 2
+D 0 2359 2 2
+S
+
+
+#SHOPS
+2303 0 0 0 0 0 100 100 3 23
+2304 0 0 0 0 0 100 100 3 23
+2311 0 0 0 0 0 100 100 3 23
+2312 0 0 0 0 0 100 100 3 23
+2320 0 0 0 0 0 100 100 3 23
+0
+
+
+#SPECIALS
+M 2308 spec_cast_adept
+M 2309 spec_executioner
+M 2322 spec_bard
+M 2323 spec_necromancer
+S
+
+
+
+#$
+
